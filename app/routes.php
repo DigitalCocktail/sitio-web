@@ -11,7 +11,14 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
+Route::get('/', function() {
+	return View::make('inicio');
+});
+
+Route::get('/servicios', function() {
+	return View::make('servicios');
+});
+
+Route::get('/blog', function() {
+	return View::make('blog');
 });
