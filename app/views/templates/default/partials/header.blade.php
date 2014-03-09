@@ -8,7 +8,7 @@
 				<li>{{ HTML::link('/', 'Inicio') }}</li>
 				<li>{{ HTML::link('/servicios', 'Servicios') }}</li>
 				<li>{{ HTML::link('/blog', 'Blog') }}</li>
-				<li><a href="#">Contacto</a></li>
+				<li>{{ HTML::link('/contacto', 'Contacto') }}</li>
 			</ul>
 		</nav>
 	</header>

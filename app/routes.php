@@ -22,3 +22,7 @@ Route::get('/servicios', function() {
 Route::get('/blog', function() {
 	return View::make('blog');
 });
+
+Route::get('/contacto', function() {
+	return View::make('contacto');
+});
