@@ -19,10 +19,6 @@ Route::get('/servicios', function() {
 	return View::make('servicios');
 });
 
-Route::get('/blog', function() {
-	return View::make('blog');
-});
-
 Route::get('/contacto', function() {
 	return View::make('contacto');
 });
