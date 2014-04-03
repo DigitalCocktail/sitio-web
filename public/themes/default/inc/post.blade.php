@@ -4,4 +4,5 @@
 	<div class="content">
 		{{ $post->parsed_intro }}
 	</div>
+	<fb:comments-count expr:href='{{ url('/').'/blog/'.$post->slug }}'></fb:comments-count>
 </div>
