@@ -3,6 +3,12 @@
 	"description": "The Laravel Framework.",
 	"keywords": ["framework", "laravel"],
 	"license": "MIT",
+	"repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/DigitalCocktail/core"
+        }
+    ],	
 	"require": {
 		"laravel/framework": "4.1.*",
 		"wardrobe/core": "dev-master"
