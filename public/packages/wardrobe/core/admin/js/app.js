@@ -169,7 +169,7 @@ this["JST"]["post/list/templates/grid.html"] = function(obj) {
 obj || (obj = {});
 var __t, __p = '', __e = _.escape;
 with (obj) {
-__p += '<div class="filter">\n  <input type="text" class="filter" id="js-filter" name="filter" placeholder="Filtrar">\n  <select name="active" id="js-sort">\n    <option value="">Todo</option>\n    <option value="1">Activo</option>\n    <option value="0">Borrador</option>\n  </select>\n</div>\n<table class="table center-col">\n\t<thead>\n\t\t<tr>\n\t\t\t<th>' +
+__p += '<div class="filter">\n  <input type="text" class="filter" id="js-filter" name="filter" placeholder="Filter">\n  <select name="active" id="js-sort">\n    <option value="">Any Status</option>\n    <option value="1">Active</option>\n    <option value="0">Draft</option>\n  </select>\n</div>\n<table class="table center-col">\n\t<thead>\n\t\t<tr>\n\t\t\t<th>' +
 ((__t = ( Lang.post_title )) == null ? '' : __t) +
 '</th>\n\t\t\t<th>' +
 ((__t = ( Lang.post_status )) == null ? '' : __t) +
