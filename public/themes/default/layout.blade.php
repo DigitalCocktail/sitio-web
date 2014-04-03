@@ -1,29 +1,22 @@
 <!DOCTYPE html>
 <html lang="es">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<title>@yield('title')</title>
-		<link href='//fonts.googleapis.com/css?family=OFL+Sorts+Mill+Goudy+TT' rel='stylesheet' type='text/css'/>
-		<link href="{{ asset(theme_path('css/style.css')) }}" rel="stylesheet" media="screen">
-	</head>
-	<body>
-		<div class="container">
-			<header>
-				<h1><a href="{{ Wardrobe::route('/') }}">{{ site_title() }}</a></h1>
-				<nav>
-					<ul>
-						<li><a href="{{ Wardrobe::route('posts.archive') }}">Posts</a></li>
-						<li><a href="{{ Wardrobe::route('posts.rss') }}">RSS</a></li>
-					</ul>
-				</nav>
-			</header>
-			<div class="content">
-				@yield('content')
-			</div>
-			<footer>
-				<p>Powered by <a href="http://digitalcocktail.co">Digital Cockatil</a></p>
-			</footer>
-		</div>
-	</body>
+<head>
+	<meta charset="UTF-8">
+	<title>@yield('title')</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/es_ES/all.js#xfbml=1&appId=1477313795816778";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	
+	@include("templates/default/partials/header")
+		@yield("content")
+	@include("templates/default/partials/footer")	
+</body>
 </html>
