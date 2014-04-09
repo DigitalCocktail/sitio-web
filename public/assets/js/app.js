@@ -1,4 +1,9 @@
 $(function() {
+	
+	/* Start: Menú */
+	$(".menu").naver();
+	/* End: Menú */
+
 	/* Start: Animaciones Flip del Home */
 	$("#imgInvestigacion").hover(function(){
 		$(this).removeClass('animated flipInY');
