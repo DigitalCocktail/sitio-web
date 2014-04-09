@@ -1,6 +1,15 @@
 h1{margin:0}
+.bloque{margin-top:60px;padding:0 18px}
+.btn-success{padding:.75em 1.975em;font-size:1.4em;color:#fff;width:90%;margin-left:auto;margin-right:auto;margin-bottom:60px;text-align:center;}
+.btn-success a{color:#fff;}
+.btn-success a:hover{text-decoration:none}
 header .logo-contenedor{padding:1.125em;background:#9c3;}
 header .logo-contenedor a img{width:100%}
 header nav.menu{position:fixed;bottom:0}
-section article .destacado{padding:30px 18px;}
-section article .destacado h1{font-size:1.5em;line-height:1.6em}
+section article .destacado{padding:30px 18px;background:url("../images/bg-destacado.jpg");background-size:contain;}
+section article .destacado h1{font-size:1.5em;line-height:1.6em;color:#fff}
+section article .barra-horizontal .verde{width:33.3%;background:#9c3;height:5px}
+section article .barra-horizontal .azul{width:33.3%;background:#00afef;height:5px}
+section article .barra-horizontal .rojo{width:33.3%;background:#f00;height:5px}
+section article .investigacion h2,section article .planeacion h2,section article .ejecucion h2,section article .acompanamiento h2{text-transform:uppercase;color:#00afef;margin-bottom:30px}
+section article .investigacion figure,section article .planeacion figure,section article .ejecucion figure,section article .acompanamiento figure{margin-bottom:30px}
