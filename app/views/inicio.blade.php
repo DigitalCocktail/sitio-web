@@ -2,16 +2,21 @@
 @section("content")
 	<section>
 		<article>
-			<h1 class="text-center">Nos encargamos de crear mezclas ideales de servicios para brindarte soluciones y herramientas simples en la web para tu empresa a través de:</h1>
+			<div class="destacado">
+				<h1 class="textcenter">Nos encargamos de crear mezclas ideales de servicios para brindarte soluciones y herramientas simples en la web para tu empresa a través de:</h1>
+			</div>
 			<div class="investigacion">
-				<figure>
-					<img src="img/investigacion.png" alt="">
-				</figure>
 				<h2>Investigación</h2>
+				<figure id="imgInvestigacion">
+					<img src="http://lorempixel.com/200/200" alt="">
+				</figure>
+				<p id="textInvestigacion" style="display:none">
+					Nos tomamos el tiempo de conocer tu empresa, tus clientes y tu público para entender a fondo las necesidades que tienes
+				</p>
 			</div>
 			<div class="planeacion">
 				<figure>
-					<img src="img/planeacion.png" alt="">
+					<img src="http://lorempixel.com/200/200" alt="">
 				</figure>
 				<h2>Planeación</h2>
 			</div>
