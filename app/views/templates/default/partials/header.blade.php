@@ -1,11 +1,4 @@
 @section("header")
-	<div id="container">
-		<video width="100%" autoplay loop poster="bg.jpg">
-			<source src="{{url()}}/christmas_snow.ogv" type="video/ogg" />
-			<source src="{{url()}}/christmas_snow.webm" type="video/webm" />
-			<source src="{{url()}}/christmas_snow.mp4" type="video/mp4" />
-		</video> 
-	</div>
 	<header>
 		<div class="logo-contenedor">
 			<a href="http://www.digitalcocktail.co" class="logo"></a>
