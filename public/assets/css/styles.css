@@ -1,3 +1,6 @@
+h1{margin:0}
 header .logo-contenedor{padding:1.125em;background:#9c3;}
 header .logo-contenedor a img{width:100%}
 header nav.menu{position:fixed;bottom:0}
+section article .destacado{padding:30px 18px;}
+section article .destacado h1{font-size:1.5em;line-height:1.6em}
