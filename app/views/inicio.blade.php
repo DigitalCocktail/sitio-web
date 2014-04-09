@@ -1,5 +1,5 @@
 @extends('templates/default/layout')
-@section("content")
+@section("content")                  
 	<section>
 		<article>
 			<h1>Nos encargamos de crear mezclas ideales de servicios para brindarte soluciones y herramientas simples en la web para tu empresa a través de:</h1>
