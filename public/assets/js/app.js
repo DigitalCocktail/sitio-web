@@ -1,7 +1,13 @@
 $(function() {
 	
 	/* Start: Menú */
-	$(".menu").naver();
+	$(".menu").naver({
+		label: true,
+		labels: {
+			closed: 'Menú',
+			open: "Cerrar Menú"
+		}
+	});
 	/* End: Menú */
 
 	/* Start: Animaciones Flip del Home */
