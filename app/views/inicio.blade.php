@@ -47,8 +47,11 @@
 				</p>
 			</div>
 		</article>
-		<div class="btn-success bloque">
-			<a href="#" class="btn-tomar">¿Qué te preparamos?</a>
+		<div class="bloque">
+			<a href="#" class="btn-accion text-center">
+				<span class="accion">¿Qué te preparamos?</span>
+				<span class="texto-accion">Conoce acá todo lo que podemos hacer por tu negocio</span>
+			</a>
 		</div>
 	</section>
 @stop
