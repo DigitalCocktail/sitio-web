@@ -1,11 +1,13 @@
 h1{margin:0}
 .bloque{margin-top:60px;padding:0 18px}
-.btn-success{padding:.75em 1.975em;font-size:1.4em;color:#fff;width:90%;margin-left:auto;margin-right:auto;margin-bottom:60px;text-align:center;}
+.btn-success{padding:.75em 1.975em;font-size:1.4em;color:#fff;width:90%;margin-left:auto;margin-right:auto;margin-bottom:60px;text-align:center;display:block;}
 .btn-success a{color:#fff;}
 .btn-success a:hover{text-decoration:none}
 .barra-horizontal .verde{width:33.3%;background:#9c3;height:5px}
 .barra-horizontal .azul{width:33.3%;background:#00afef;height:5px}
 .barra-horizontal .rojo{width:33.3%;background:#f00;height:5px}
+a{color:#00afef;}
+a:hover{text-decoration:underline}
 header .logo-contenedor{padding:1.125em;background:#9c3;}
 header .logo-contenedor a img{width:100%}
 header nav.menu{position:fixed;bottom:0;padding:0;color:#fff;font-size:1.5em;background:#9c3;width:100%;margin-bottom:0;}
@@ -45,5 +47,5 @@ section article .acompanamiento figure{margin-bottom:30px}
 section div a.btn-accion{color:#fff;width:90%;margin-left:auto;margin-right:auto;margin-bottom:60px;background:#f00 url("../images/check.png") no-repeat left center;background-size:contain;padding:.75em 1.975em .75em 25%;display:block}
 section div a span{color:#fff;}
 section div a span.accion{font-size:1.4em;display:block;margin-bottom:.3em}
-section div a span.texto-accion{font-size:.75em;display:block;color:#ff9a9a}
-section div a:hover{text-decoration:none;background:#cb0000 url("../images/check.png") no-repeat left center;background-size:contain}
+section div a span.texto-accion{font-size:.75em;display:block;color:#ffd3d3}
+section div a:hover{text-decoration:none}
