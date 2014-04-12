@@ -17,7 +17,7 @@
 @yield("content") 
 @include("templates/default/partials/footer")
 <script src="//code.jquery.com/jquery-2.0.2.min.js"></script>
-{{ HTML::script('assets/js/jquery.fs.naver.js') }}
+{{ HTML::script('assets/js/bootstrap.min.js') }}
 {{ HTML::script('assets/js/app.js') }}
 </body>
 </html>
