@@ -3,14 +3,23 @@ h1{margin:0}
 .btn-success{padding:.75em 1.975em;font-size:1.4em;color:#fff;width:90%;margin-left:auto;margin-right:auto;margin-bottom:60px;text-align:center;}
 .btn-success a{color:#fff;}
 .btn-success a:hover{text-decoration:none}
+.barra-horizontal .verde{width:33.3%;background:#9c3;height:5px}
+.barra-horizontal .azul{width:33.3%;background:#00afef;height:5px}
+.barra-horizontal .rojo{width:33.3%;background:#f00;height:5px}
 header .logo-contenedor{padding:1.125em;background:#9c3;}
 header .logo-contenedor a img{width:100%}
 header nav.menu{position:fixed;bottom:0}
-section article .destacado{padding:30px 18px;background:url("../images/bg-destacado.jpg");background-size:contain;}
+footer{background:#d9d9d9;padding:30px 18px;}
+footer .correo{margin-bottom:30px}
+footer .redes-sociales{margin-bottom:30px;}
+footer .redes-sociales ul{margin:0;padding:0;}
+footer .redes-sociales ul li{list-style:none;display:inline-block;}
+footer .redes-sociales ul li a{width:54px;height:54px;display:block;text-indent:-9999px;margin:18px 24px 0 24px;}
+footer .redes-sociales ul li a.fb-icon{background:url("../images/sprite.png") no-repeat;background-position:-54px 0}
+footer .redes-sociales ul li a.tw-icon{background:url("../images/sprite.png") no-repeat;background-position:-54px -54px}
+footer .redes-sociales ul li a.gp-icon{background:url("../images/sprite.png") no-repeat;background-position:-54px -108px}
+section article .destacado{padding:30px 18px;background:url("../images/bg-destacado.jpg") no-repeat;background-size:cover;}
 section article .destacado h1{font-size:1.5em;line-height:1.6em;color:#fff}
-section article .barra-horizontal .verde{width:33.3%;background:#9c3;height:5px}
-section article .barra-horizontal .azul{width:33.3%;background:#00afef;height:5px}
-section article .barra-horizontal .rojo{width:33.3%;background:#f00;height:5px}
 section article .investigacion h2{text-transform:uppercase;color:#00afef;margin-bottom:30px}
 section article .investigacion figure{margin-bottom:30px}
 section article .investigacion #imgInvestigacion,section article .investigacion #textInvestigacion{-webkit-animation-delay:.3s;-moz-animation-delay:.3s;-ms-animation-delay:.3s;-o-animation-delay:.3s}

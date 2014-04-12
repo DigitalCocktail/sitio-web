@@ -1,13 +1,20 @@
 @section("footer")
-	<footer>
+	<div class="barra-horizontal">
+		<div class="verde pull-left"></div>
+		<div class="azul pull-left"></div>
+		<div class="rojo pull-left"></div>
+	</div>
+	<footer class="text-center">
 		<div class="correo">
-			<h4>Puedes escribirnos a <a href="mailto:encontacto@digitalcocktail.co">encontacto@digitalcocktail.co</a> - Medellín, Colombia</h4>
+			<h4>Puedes escribirnos a <a href="mailto:encontacto@digitalcocktail.co">encontacto@digitalcocktail.co</a> </h4>
+			<h4>Medellín, Colombia</h4>
 		</div>
 		<div class="redes-sociales">
 			<h4>También nos encuentas en</h4>
 			<ul>
-				<li class="fb-icon">Facebook</li>
-				<li class="gp-icon">Google Plus</li>
+				<li><a href="https://www.facebook.com/DigitalCocktail.co" class="fb-icon">Facebook</a></li>
+				<li><a href="https://twitter.com/dcocktailco" class="tw-icon">Twitter</a></li>
+				<li><a href="https://plus.google.com/116840393490728819745/" class="gp-icon">Google Plus</a></li>
 			</ul>
 		</div>
 	</footer>
