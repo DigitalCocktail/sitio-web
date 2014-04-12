@@ -17,7 +17,20 @@ h1
 		color #fff
 		&:hover
 			text-decoration: none
-
+.barra-horizontal
+	.verde
+		width 33.3%
+		background #99CC33
+		height: 5px
+	.azul
+		width 33.3%
+		background #00AFEF
+		height: 5px
+	.rojo
+		width 33.3%
+		background #FF0000
+		height: 5px
+/*Header y  footer*/
 header
 	.logo-contenedor
 		padding 1.125em
@@ -29,29 +42,48 @@ header
 		&.menu
 			position: fixed
 			bottom: 0
+footer
+	background: #d9d9d9
+	padding 30px 18px
+	.correo
+		margin-bottom 30px
+	.redes-sociales
+		margin-bottom: 30px
+		ul 
+			margin 0
+			padding 0
+			li 
+				list-style: none
+				display inline-block
+				a
+					width 54px
+					height 54px
+					display block
+					text-indent: -9999px
+					margin 18px 24px 0px 24px
+					&.fb-icon
+						background:  url(../images/sprite.png) no-repeat 
+						background-position -54px 0px
+					&.tw-icon
+						background:  url(../images/sprite.png) no-repeat 
+						background-position: -54px -54px
+					&.gp-icon
+						background:  url(../images/sprite.png) no-repeat 
+						background-position: -54px -108px
+
+
+/*Estilos del home*/
 section
 	article
 		.destacado
 			padding 30px 18px
-			background: url(../images/bg-destacado.jpg)
-			background-size contain
+			background: url(../images/bg-destacado.jpg) no-repeat
+			background-size cover
 			h1
 				font-size: 1.5em
 				line-height: 1.6em
 				color #fff
-		.barra-horizontal
-			.verde
-				width 33.3%
-				background #99CC33
-				height: 5px
-			.azul
-				width 33.3%
-				background #00AFEF
-				height: 5px
-			.rojo
-				width 33.3%
-				background #FF0000
-				height: 5px
+		
 		.investigacion
 			h2
 				text-transform: uppercase
