@@ -25,7 +25,7 @@
 					<img src="http://lorempixel.com/200/200" alt="">
 				</figure>
 				<p id="textPlaneacion">
-					Nos tomamos el tiempo de conocer tu empresa, tus clientes y tu público para entender a fondo las necesidades que tienes
+					Creamos y planeamos estrategias digitales basados en el estudio de tus necesidades.
 				</p>
 			</div>
 			<div class="ejecucion bloque text-center">
@@ -34,7 +34,7 @@
 					<img src="http://lorempixel.com/200/200" alt="">
 				</figure>
 				<p id="textEjecucion">
-					Nos tomamos el tiempo de conocer tu empresa, tus clientes y tu público para entender a fondo las necesidades que tienes
+					Desarrollamos experiencias de calidad pensadas para tu crecimiento empresarial
 				</p>
 			</div>
 			<div class="acompanamiento bloque text-center">
@@ -43,7 +43,7 @@
 					<img src="http://lorempixel.com/200/200" alt="">
 				</figure>
 				<p id="textAcompanamiento">
-					Nos tomamos el tiempo de conocer tu empresa, tus clientes y tu público para entender a fondo las necesidades que tienes
+					Tu proyecto irá de la mano de nuestra experiencia para que nunca te sientas solo
 				</p>
 			</div>
 		</article>
