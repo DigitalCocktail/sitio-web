@@ -46,6 +46,6 @@ section article .acompanamiento h2{text-transform:uppercase;color:#00afef;margin
 section article .acompanamiento figure{margin-bottom:30px}
 section div a.btn-accion{color:#fff;width:90%;margin-left:auto;margin-right:auto;margin-bottom:60px;background:#f00 url("../images/check.png") no-repeat left center;background-size:contain;padding:.75em 1.975em .75em 25%;display:block}
 section div a span{color:#fff;}
-section div a span.accion{font-size:1.4em;display:block;margin-bottom:.3em}
-section div a span.texto-accion{font-size:.75em;display:block;color:#ffd3d3}
+section div a span.accion{font-size:1.2em;display:block;margin-bottom:.3em}
+section div a span.texto-accion{font-size:.6em;display:block;color:#ffd3d3}
 section div a:hover{text-decoration:none}
