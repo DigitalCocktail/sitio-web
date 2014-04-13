@@ -4,6 +4,9 @@ h1
 .bloque
 	margin-top 60px
 	padding 0 18px
+.bloque-interno
+	margin-top 30px
+	padding 0 18px
 .btn-success
 	padding 0.75em 1.975em
 	font-size: 1.4em 
@@ -14,6 +17,7 @@ h1
 	margin-bottom 60px
 	text-align: center
 	display block
+	border none
 	a
 		color #fff
 		&:hover
@@ -35,6 +39,44 @@ a
 	color #00afef
 	&:hover
 		text-decoration underline
+
+/*Formularios*/
+form 
+	h3
+		text-align: left
+		font-weight 700
+		padding 0
+		margin-bottom 12px
+	label
+		width 100%
+		padding 18px
+		color #fff
+		background: #99cc33
+		display block
+		text-align: left
+		font-weight normal
+		margin 0
+		&.check-box
+			background none
+			display inline-block
+			width auto
+			padding 0
+			color #4d4d4d
+			input
+				width auto
+				margin: 5px 13px 5px 5px;
+				display: block;
+				float: left;
+	input
+		width 100%
+		padding 15px
+		text-align: left
+		margin-bottom: 24px
+	p 
+		text-align left
+		margin-top 12px
+
+
 /*Header y  footer*/
 header
 	.logo-contenedor
@@ -228,5 +270,32 @@ section
 					color #ffd3d3
 			&:hover
 				text-decoration none
+				
+/*Estilos de Servicios*/
+section
+	&.servicios
+		article
+			h1
+				color: #00AFEF
+			.btn-contacto
+				button
+					&.btn-success
+						width 70%
+			.compartir
+				margin-bottom 60px
+				ul
+					margin 0px
+					padding 0
+					list-style none
+					li
+						display inline-block
+						&.facebook
+							margin-right 40px
+				p 
+					margin-bottom 30px
+				
+
+
+
 				
 

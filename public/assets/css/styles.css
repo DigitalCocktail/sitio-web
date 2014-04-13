@@ -1,6 +1,7 @@
 h1{margin:0}
 .bloque{margin-top:60px;padding:0 18px}
-.btn-success{padding:.75em 1.975em;font-size:1.4em;color:#fff;width:90%;margin-left:auto;margin-right:auto;margin-bottom:60px;text-align:center;display:block;}
+.bloque-interno{margin-top:30px;padding:0 18px}
+.btn-success{padding:.75em 1.975em;font-size:1.4em;color:#fff;width:90%;margin-left:auto;margin-right:auto;margin-bottom:60px;text-align:center;display:block;border:none;}
 .btn-success a{color:#fff;}
 .btn-success a:hover{text-decoration:none}
 .barra-horizontal .verde{width:33.3%;background:#9c3;height:5px}
@@ -8,6 +9,12 @@ h1{margin:0}
 .barra-horizontal .rojo{width:33.3%;background:#f00;height:5px}
 a{color:#00afef;}
 a:hover{text-decoration:underline}
+form h3{text-align:left;font-weight:700;padding:0;margin-bottom:12px}
+form label{width:100%;padding:18px;color:#fff;background:#9c3;display:block;text-align:left;font-weight:normal;margin:0;}
+form label.check-box{background:none;display:inline-block;width:auto;padding:0;color:#4d4d4d;}
+form label.check-box input{width:auto;margin:5px 13px 5px 5px;display:block;float:left}
+form input{width:100%;padding:15px;text-align:left;margin-bottom:24px}
+form p{text-align:left;margin-top:12px}
 header .logo-contenedor{padding:1.125em;background:#9c3;}
 header .logo-contenedor a img{width:100%}
 header nav.menu{position:fixed;bottom:0;padding:0;color:#fff;font-size:1.5em;background:#9c3;width:100%;margin-bottom:0;z-index:10;}
@@ -49,3 +56,10 @@ section div a span{color:#fff;}
 section div a span.accion{font-size:1.2em;display:block;margin-bottom:.3em}
 section div a span.texto-accion{font-size:.6em;display:block;color:#ffd3d3}
 section div a:hover{text-decoration:none}
+section.servicios article h1{color:#00afef}
+section.servicios article .btn-contacto button.btn-success{width:70%}
+section.servicios article .compartir{margin-bottom:60px;}
+section.servicios article .compartir ul{margin:0;padding:0;list-style:none;}
+section.servicios article .compartir ul li{display:inline-block;}
+section.servicios article .compartir ul li.facebook{margin-right:40px}
+section.servicios article .compartir p{margin-bottom:30px}
