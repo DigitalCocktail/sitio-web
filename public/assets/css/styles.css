@@ -10,7 +10,7 @@ a{color:#00afef;}
 a:hover{text-decoration:underline}
 header .logo-contenedor{padding:1.125em;background:#9c3;}
 header .logo-contenedor a img{width:100%}
-header nav.menu{position:fixed;bottom:0;padding:0;color:#fff;font-size:1.5em;background:#9c3;width:100%;margin-bottom:0;}
+header nav.menu{position:fixed;bottom:0;padding:0;color:#fff;font-size:1.5em;background:#9c3;width:100%;margin-bottom:0;z-index:10;}
 header nav.menu .navbar-brand{color:#fff;font-size:1.2em;font-weight:500;margin-bottom:0;padding-top:20px;font-weight:500;}
 header nav.menu .navbar-brand:hover{text-decoration:none;color:#fff}
 header nav.menu .navbar-nav li a:hover,header nav.menu .navbar-nav li a:focus{color:#fff}
