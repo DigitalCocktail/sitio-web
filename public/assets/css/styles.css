@@ -58,6 +58,9 @@ section div a span.texto-accion{font-size:.6em;display:block;color:#ffd3d3}
 section div a:hover{text-decoration:none}
 section.servicios article h1{color:#00afef}
 section.servicios article .btn-contacto button.btn-success{width:70%}
+section.servicios article h2{font-size:1.5em}
+section.servicios article figure{width:75%;margin-right:auto;margin-left:auto;}
+section.servicios article figure img{width:100%}
 section.servicios article .compartir{margin-bottom:60px;}
 section.servicios article .compartir ul{margin:0;padding:0;list-style:none;}
 section.servicios article .compartir ul li{display:inline-block;}

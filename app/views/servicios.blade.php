@@ -4,7 +4,7 @@
 		<article class="estrategia-digital">
 			<h1 class="bloque">Estrategia digital</h1>
 			<figure class="img-servicios bloque-interno">
-				<img src="http://lorempixel.com/200/200" alt="Estrategia digital">
+				<img src="http://lorempixel.com/200/100" alt="Estrategia digital">
 			</figure>
 			<h2 class="bloque-interno"><strong>En saber elegir está la clave</strong></h2>
 			<div class="texto-servicios bloque-interno">
