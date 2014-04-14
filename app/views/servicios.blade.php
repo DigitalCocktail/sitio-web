@@ -76,7 +76,9 @@
 			</div>
 		</article><!-- Fin de estrategia digital -->
 	</section><!-- Fin del contenedor de los servicios -->
+	<div class="capa-opacidad"></div>
 	<div class="menu-servicios">
+		<div class="btn-cerrar"><a href="#">+<span>Servicios</span></a></div>
 		<ul>
 			<li><a href="#" class="ed">Estrategia Digital</a></li>
 			<li><a href="#" class="dw">Desarrollo web</a></li>
@@ -86,7 +88,7 @@
 			<li><a href="#" class="rs">Redes Sociales</a></li>
 			<li><a href="#" class="se">SEO</a></li>
 			<li><a href="#" class="po">Publicidad Online</a></li>
-			<li><a href="#" class="aw">Anañitica web</a></li>
+			<li><a href="#" class="aw">Analítica web</a></li>
 			<li><a href="#" class="an">Apps en la nube</a></li>
 		</ul>
 	</div><!-- fin de menu-servicios -->
