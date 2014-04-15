@@ -26,10 +26,15 @@
 						<label for="tel-servicios">Teléfono</label>
 						<input type="tel" id="tel-servicios" placeholder="Si lo consideras necesario">
 					</div>
-					<div class="recibirinfo-servicios">
-						<h3>Suscríbete</h3>
-						<label class="check-box"><input type="checkbox">Me gustaría recibir información de Digital Cocktail</label>
-						<p>Antes de suscribirte debes estar de acuerdo con nuestras <a href="#">Políticas de manejo de datos</a></p>
+					<div class="recibirinfo-servicios text-left">
+							<h3>Suscríbete</h3>
+							<label class="check-box"><input type="checkbox">Me gustaría recibir información de Digital Cocktail</label>
+							<div class="listas-correo">
+								<label class="check-box listas"><input type="checkbox">Eventos y actividades</label>
+								<label class="check-box listas"><input type="checkbox">Promociones</label>
+								<label class="check-box listas"><input type="checkbox">Últimos artículos del blog</label>
+							</div>
+							<p>Antes de suscribirte debes estar de acuerdo con nuestra <a href="#" target="_blank">Política de manejo de datos</a></p>
 					</div>
 					<div class="enviar-servicios bloque-interno">
 						<button class="btn-success" type="submit">Enviar</button>

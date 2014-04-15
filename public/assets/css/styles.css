@@ -15,6 +15,11 @@ form label.check-box{background:none;display:inline-block;width:auto;padding:0;c
 form label.check-box input{width:auto;margin:5px 13px 5px 5px;display:block;float:left}
 form input{width:100%;padding:15px;text-align:left;margin-bottom:24px}
 form p{text-align:left;margin-top:12px}
+form select{width:100%;padding:15px;text-align:left;margin-bottom:24px;background:url("../images/bg-select.jpg") no-repeat top right;background-size:contain;appearance:none;-webkit-appearance:none;-moz-appearance:none;}
+form select option{padding:5px}
+form textarea{width:100%;padding:15px;margin-bottom:24px}
+form .listas-correo{padding-left:30px;margin-top:10px;}
+form .listas-correo .listas{display:block;margin-bottom:10px;color:#a4a4a4}
 header .logo-contenedor{padding:1.125em;background:#9c3;}
 header .logo-contenedor a img{width:100%}
 header nav.menu{position:fixed;bottom:0;padding:0;color:#fff;font-size:1.5em;background:#9c3;width:100%;margin-bottom:0;z-index:10;}
@@ -74,3 +79,8 @@ section.servicios article .compartir p{margin-bottom:30px}
 .menu-servicios ul li{padding:0;list-style:none;}
 .menu-servicios ul li a{display:block;width:30%;padding:70px 5px 10px 5px;font-size:.8em;color:#767676;background:#fff url("http://lorempixel.com/45/45") no-repeat center;text-align:center;}
 .menu-servicios ul li a:hover,.menu-servicios ul li a:focus,.menu-servicios ul li a.active{background:#f00 url("http://lorempixel.com/45/45") no-repeat center;color:#fff;text-decoration:none}
+section .botones-contacto a{font-size:1em;display:block;float:left;color:#fff;background:#7fd7f7;width:50%;padding:1em;text-align:center;}
+section .botones-contacto a.active{background:#00afef}
+section .botones-contacto a.trabaja{padding:16px 0 16px 0}
+section article .contenedor-escribenos,section article .contenedor-trabaja{clear:both;}
+section article .contenedor-escribenos .texto p,section article .contenedor-trabaja .texto p{padding-top:20px;font-size:1.5em;text-align:center}
