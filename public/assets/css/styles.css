@@ -84,3 +84,7 @@ section .botones-contacto a.active{background:#00afef}
 section .botones-contacto a.trabaja{padding:16px 0 16px 0}
 section article .contenedor-escribenos,section article .contenedor-trabaja{clear:both;}
 section article .contenedor-escribenos .texto p,section article .contenedor-trabaja .texto p{padding-top:20px;font-size:1.5em;text-align:center}
+@media (min-width:768px){header{background:#9c3;overflow:auto;}
+header .logo-contenedor{width:30%;float:left;padding:.5em}
+header nav.menu{position:relative;float:right;width:70%;border:none}
+}
