@@ -12,13 +12,22 @@
 */
 
 Route::get('/', function() {
-	return View::make('inicio');
+	$data = [
+		'active' => 1
+	];
+	return View::make('inicio', $data);
 });
 
 Route::get('/servicios', function() {
-	return View::make('servicios');
+	$data = [
+		'active' => 2
+	];
+	return View::make('servicios', $data);
 });
 
 Route::get('/contacto', function() {
-	return View::make('contacto');
+	$data = [
+		'active' => 4
+	];	
+	return View::make('contacto', $data);
 });
