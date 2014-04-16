@@ -12,8 +12,8 @@
 				<p>Sentémonos a tomar algo y a crear la mezcla perfecta.</p>
 			</div>
 			<div class="btn-contacto bloque-interno">
-				<button type="button" class="btn-success">Me interesa</button>
-				<form role="Formulario">
+				<button id="btnShow" type="button" class="btn-success">Me interesa</button>
+				<form id="frm" role="Formulario">
 					<div class="nombre-servicios">
 						<label for="nombre-servicios">Nombre*</label>
 						<input type="text" id="nombre-servicios" placeholder="Mucho gusto, tú eres...">
@@ -28,11 +28,11 @@
 					</div>
 					<div class="recibirinfo-servicios text-left">
 							<h3>Suscríbete</h3>
-							<label class="check-box"><input type="checkbox">Me gustaría recibir información de Digital Cocktail</label>
+							<label class="check-box"><input type="checkbox" id="chkSuscripcion" checked>Me gustaría recibir información de Digital Cocktail</label>
 							<div class="listas-correo">
-								<label class="check-box listas"><input type="checkbox">Eventos y actividades</label>
-								<label class="check-box listas"><input type="checkbox">Promociones</label>
-								<label class="check-box listas"><input type="checkbox">Últimos artículos del blog</label>
+								<label class="check-box listas"><input type="checkbox" checked>Eventos y actividades</label>
+								<label class="check-box listas"><input type="checkbox" checked>Promociones</label>
+								<label class="check-box listas"><input type="checkbox" checked>Últimos artículos del blog</label>
 							</div>
 							<p>Antes de suscribirte debes estar de acuerdo con nuestra <a href="#" target="_blank">Política de manejo de datos</a></p>
 					</div>
