@@ -85,6 +85,34 @@ section .botones-contacto a.trabaja{padding:16px 0 16px 0}
 section article .contenedor-escribenos,section article .contenedor-trabaja{clear:both;}
 section article .contenedor-escribenos .texto p,section article .contenedor-trabaja .texto p{padding-top:20px;font-size:1.5em;text-align:center}
 @media (min-width:768px){header{background:#9c3;overflow:auto;}
-header .logo-contenedor{width:30%;float:left;padding:.5em}
-header nav.menu{position:relative;float:right;width:70%;border:none}
+header .logo-contenedor{width:300px;height:60px;float:left;padding:.5em}
+header nav.menu{position:relative;float:right;width:57%;border:none;}
+header nav.menu .container-fluid{padding-right:0;}
+header nav.menu .container-fluid .navbar-collapse ul li.active a{background:#fff;color:#4d4d4d;}
+header nav.menu .container-fluid .navbar-collapse ul li.active a:hover{background:#fff}
+header nav.menu .container-fluid .navbar-collapse ul li a{padding:19px 20px;font-size:.7em;}
+header nav.menu .container-fluid .navbar-collapse ul li a:hover{background:#89b62f}
+footer{margin-bottom:0;padding:6px 12px;}
+footer.text-center{text-align:left;}
+footer.text-center .correo{margin-bottom:0;}
+footer.text-center .correo h4{font-size:.8em}
+footer.text-center .redes-sociales{margin-bottom:0;text-align:right;}
+footer.text-center .redes-sociales h4{font-size:.8em;display:inline-block}
+footer.text-center .redes-sociales ul{margin-top:7px;display:inline-block;text-align:left;}
+footer.text-center .redes-sociales ul li a{margin:0 5px;width:24px;height:24px;}
+footer.text-center .redes-sociales ul li a.fb-icon{background:url("../images/sprite.png") no-repeat;background-position:0 -162px;}
+footer.text-center .redes-sociales ul li a.fb-icon:hover{background-position:-24px -162px}
+footer.text-center .redes-sociales ul li a.tw-icon{background:url("../images/sprite.png") no-repeat;background-position:0 -186px;}
+footer.text-center .redes-sociales ul li a.tw-icon:hover{background-position:-24px -186px}
+footer.text-center .redes-sociales ul li a.gp-icon{background:url("../images/sprite.png") no-repeat;background-position:0 -210px;}
+footer.text-center .redes-sociales ul li a.gp-icon:hover{background-position:-24px -210px}
+section article .destacado{background:none;}
+section article .destacado h1{color:#4d4d4d;font-size:1.8em}
+section article .investigacion,section article .planeacion,section article .ejecucion,section article .acompanamiento{margin-top:0;}
+section article .investigacion h2,section article .planeacion h2,section article .ejecucion h2,section article .acompanamiento h2{font-size:1em}
+section article .investigacion figure,section article .planeacion figure,section article .ejecucion figure,section article .acompanamiento figure{width:90%;margin:0 auto;}
+section article .investigacion figure img,section article .planeacion figure img,section article .ejecucion figure img,section article .acompanamiento figure img{width:100%}
+section article .investigacion p,section article .planeacion p,section article .ejecucion p,section article .acompanamiento p{margin-top:-125px;font-size:.9em;display:none}
+section div a.btn-success{color:#fff;width:500px;margin-left:auto;margin-right:auto;margin-bottom:60px;background:#f00 url("../images/check.png") no-repeat left center;background-size:contain;padding:.75em 1.975em .75em 7em;display:block;}
+section div a.btn-success span.texto-accion{font-size:.8em}
 }

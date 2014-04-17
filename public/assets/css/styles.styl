@@ -423,21 +423,120 @@ section
 					padding-top 20px
 					font-size: 1.5em
 					text-align: center
-/*Brackpoint 768 - 992*/
+/*Breackpoint 768 - 992*/
 @media (min-width:768px)
+	/*Header and footer*/
 	header
 		background: #9c3
 		overflow auto
 		.logo-contenedor
-			width 30%
+			width 300px
+			height 60px
 			float left
 			padding 0.5em
 		nav
 			&.menu
 				position relative
 				float right
-				width 70%
+				width 57%
 				border none
+				.container-fluid
+					padding-right: 0px
+					.navbar-collapse
+						ul
+							li
+								&.active
+									a
+										background #fff
+										color #4d4d4d
+										&:hover
+											background: #fff
+								a
+									padding 19px 20px 
+									font-size: 0.7em
+									&:hover
+										background  #89B62F
+	footer
+		margin-bottom: 0px
+		padding 6px 12px
+		&.text-center
+			text-align: left
+			.correo
+				margin-bottom: 0px
+				h4
+					font-size: 0.8em
+			.redes-sociales
+				margin-bottom: 0px
+				text-align: right
+				h4
+					font-size: 0.8em
+					display inline-block
+				ul
+					margin-top 7px
+					display inline-block
+					text-align: left
+					li
+						a
+							margin 0 5px
+							width 24px
+							height 24px
+							&.fb-icon
+								background:  url(../images/sprite.png) no-repeat 
+								background-position 0px -162px
+								&:hover
+									background-position -24px -162px
+							&.tw-icon
+								background:  url(../images/sprite.png) no-repeat 
+								background-position: 0px -186px
+								&:hover
+									background-position -24px -186px
+							&.gp-icon
+								background:  url(../images/sprite.png) no-repeat 
+								background-position: 0px -210px
+								&:hover
+									background-position -24px -210px
+	/*Home*/
+	section
+		article
+			.destacado
+				background: none
+				h1
+					color #4d4d4d
+					font-size: 1.8em
+			.investigacion
+			.planeacion
+			.ejecucion
+			.acompanamiento
+				margin-top 0px
+				h2
+					font-size: 1em
+				figure
+					width 90%
+					margin 0 auto
+					img
+						width 100%
+				p 
+					margin-top: -125px
+					font-size: 0.9em 
+					display none
+		div
+			a
+				&.btn-success
+					color #fff
+					width 500px
+					margin-left auto
+					margin-right auto
+					margin-bottom 60px
+					background: #ff0000 url(../images/check.png) no-repeat left center
+					background-size contain
+					padding 0.75em 1.975em 0.75em 7em
+					display block
+					span
+						&.texto-accion
+							font-size: 0.8em
+							
+				
+
 
 				
 	
