@@ -300,6 +300,8 @@ section
 section
 	&.servicios
 		article
+			position relative
+			z-index 1
 			h1
 				color: #00AFEF
 			.btn-contacto
@@ -334,50 +336,38 @@ section
 	top 0
 	z-index 11
 	display none
+.btn-cerrar
+	a
+		background-color:#00afef;
+		text-indent:1.31px;
+		display:inline-block;
+		color:#ffffff;
+		font-family:Arial;
+		font-size:45px;
+		font-weight:bold;
+		font-style:normal;
+		height:90px;
+		line-height:72px;
+		width:81px;
+		text-decoration:none;
+		text-align:center;
+		position absolute
+		left 0
+		top 35%
+		z-index 14
+		span
+			font-size: 0.4em;
+			display: block;
+			margin-top: -41px;
+			font-weight: normal;
 .menu-servicios
 	position fixed
 	top 0
-	width 100%
-	z-index 12
+	z-index 0
 	overflow-y auto
 	white-space nowrap
 	margin-left -30%
-	.btn-cerrar
-		a
-			background-color:#00afef;
-			-webkit-border-top-left-radius:0px;
-			-moz-border-radius-topleft:0px;
-			border-top-left-radius:0px;
-			-webkit-border-top-right-radius:0px;
-			-moz-border-radius-topright:0px;
-			border-top-right-radius:0px;
-			-webkit-border-bottom-right-radius:0px;
-			-moz-border-radius-bottomright:0px;
-			border-bottom-right-radius:0px;
-			-webkit-border-bottom-left-radius:0px;
-			-moz-border-radius-bottomleft:0px;
-			border-bottom-left-radius:0px;
-			text-indent:1.31px;
-			display:inline-block;
-			color:#ffffff;
-			font-family:Arial;
-			font-size:45px;
-			font-weight:bold;
-			font-style:normal;
-			height:90px;
-			line-height:72px;
-			width:81px;
-			text-decoration:none;
-			text-align:center;
-			position absolute
-			left 30%
-			top 11%
-			span
-				font-size: 0.4em;
-				display: block;
-				margin-top: -41px;
-				font-weight: normal;
-
+	width 30%
 	ul
 		margin 0
 		padding 0
@@ -386,7 +376,7 @@ section
 			list-style none
 			a
 				display block
-				width 30%
+				width 100%
 				padding 70px 5px 10px 5px
 				font-size 0.8em
 				color #767676

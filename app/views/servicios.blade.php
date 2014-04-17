@@ -82,8 +82,8 @@
 		</article><!-- Fin de estrategia digital -->
 	</section><!-- Fin del contenedor de los servicios -->
 	<div class="capa-opacidad"></div>
+	<div class="btn-cerrar"><a href="#">+<span>Servicios</span></a></div>
 	<div class="menu-servicios">
-		<div class="btn-cerrar"><a href="#">+<span>Servicios</span></a></div>
 		<ul>
 			<li><a href="#" class="ed">Estrategia Digital</a></li>
 			<li><a href="#" class="dw">Desarrollo web</a></li>
