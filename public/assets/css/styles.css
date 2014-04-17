@@ -86,7 +86,10 @@ section .botones-contacto a.trabaja{padding:16px 0 16px 0}
 section article .contenedor-escribenos,section article .contenedor-trabaja{clear:both;}
 section article .contenedor-escribenos .texto p,section article .contenedor-trabaja .texto p{padding-top:20px;font-size:1.5em;text-align:center}
 @media (min-width:768px){.bloque,.bloque-interno{padding:0}
-.btn-success{width:35% !important;font-size:1em;padding:.5em 1em;margin-right:0}
+.btn-success{width:35% !important;font-size:1em;padding:.5em 1em;margin-right:0;margin-bottom:30px}
+form label{width:30%;float:left;padding:10px;}
+form label.check-box{float:none}
+form input{width:70%;padding:8px;margin-bottom:12px}
 header{background:#9c3;overflow:auto;}
 header .logo-contenedor{width:300px;height:60px;float:left;padding:.5em}
 header nav.menu{position:relative;float:right;width:57%;border:none;}
