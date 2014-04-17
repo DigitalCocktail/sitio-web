@@ -19,10 +19,10 @@
 		    <!-- Collect the nav links, forms, and other content for toggling -->
 		   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		      <ul class="nav navbar-nav navbar-right text-center">
-		        <li class="active">{{ HTML::link('/', 'Inicio') }}</li>
-		        <li>{{ HTML::link('/servicios', 'Servicios') }}</li>
-		        <li>{{ HTML::link('/blog', 'Blog') }}</li>
-		        <li>{{ HTML::link('/contacto', 'Contacto') }}</li>
+		        <li @if($active == 1)class="active" @endif>{{ HTML::link('/', 'Inicio') }}</li>
+		        <li @if($active == 2)class="active" @endif>{{ HTML::link('/servicios', 'Servicios') }}</li>
+		        <li @if($active == 3)class="active" @endif>{{ HTML::link('/blog', 'Blog') }}</li>
+		        <li @if($active == 4)class="active" @endif>{{ HTML::link('/contacto', 'Contacto') }}</li>
 		      </ul>
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->

@@ -57,4 +57,49 @@ $(function() {
 		$(this).addClass('animated flipInY');			
 	});			
 	/* End: Animaciones Flip del Home */
+
+	/* Start: Menú Lateral Servicios Móvil */
+	var open = 0;
+	$(".btn-cerrar").click(function(){	
+		if(open == 0){
+			$(".menu-servicios").animate({
+				marginLeft: '0%',
+				zIndex: '13'
+			});
+			$(".capa-opacidad").show(1,'linear');
+			$(".btn-cerrar > a").html("x <span>Servicios</span>");
+			open = 1;
+		}
+		else{
+			$(".menu-servicios").animate({
+				marginLeft: '-30%',
+				zIndex: '12'
+			});
+			$(".capa-opacidad").hide(1,'linear');
+			$(".btn-cerrar > a").html("+ <span>Servicios</span>");
+			open = 0;
+		}
+	});
+	/* End: Menú Lateral Servicios Móvil */
+
+	/* Start: Formulario Servicios */
+	$("#frm").css('display','none');
+	$("#btnShow").click(function(){
+		$("#frm").css('display','block');
+		$("#frm").addClass('animated bounceInUp');
+	});
+	/* End: Formulario Servicios */
+
+	/* Start: Suscripción Boletín Servicios */
+	$("#chkSuscripcion").change(function(){
+		if($(this).is(":checked")){
+			$(".listas-correo").removeClass('animated bounceOutDown');
+			$(".listas-correo").addClass('animated bounceInUp');
+		}
+		else{
+			$(".listas-correo").removeClass('animated bounceInUp');
+			$(".listas-correo").addClass('animated bounceOutDown');
+		}
+	});
+	/* Start: Suscripción Boletín Servicios */
 });
