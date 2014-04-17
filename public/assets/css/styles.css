@@ -85,7 +85,9 @@ section .botones-contacto a.active{background:#00afef}
 section .botones-contacto a.trabaja{padding:16px 0 16px 0}
 section article .contenedor-escribenos,section article .contenedor-trabaja{clear:both;}
 section article .contenedor-escribenos .texto p,section article .contenedor-trabaja .texto p{padding-top:20px;font-size:1.5em;text-align:center}
-@media (min-width:768px){header{background:#9c3;overflow:auto;}
+@media (min-width:768px){.bloque,.bloque-interno{padding:0}
+.btn-success{width:35% !important;font-size:1em;padding:.5em 1em;margin-right:0}
+header{background:#9c3;overflow:auto;}
 header .logo-contenedor{width:300px;height:60px;float:left;padding:.5em}
 header nav.menu{position:relative;float:right;width:57%;border:none;}
 header nav.menu .container-fluid{padding-right:0;}
@@ -116,4 +118,9 @@ section article .investigacion figure img,section article .planeacion figure img
 section article .investigacion p,section article .planeacion p,section article .ejecucion p,section article .acompanamiento p{margin-top:-125px;font-size:.9em;display:none}
 section div a.btn-success{color:#fff;width:500px;margin-left:auto;margin-right:auto;margin-bottom:60px;background:#f00 url("../images/check.png") no-repeat left center;background-size:contain;padding:.75em 1.975em .75em 7em;display:block;}
 section div a.btn-success span.texto-accion{font-size:.8em}
+section.servicios h1,section.servicios h2,section.servicios p{text-align:left}
+section.servicios .right-content{margin-top:80px}
+section.servicios .compartir{margin:0;position:absolute;top:-6px;width:100%;}
+section.servicios .compartir p{float:left;font-size:.8em;}
+section.servicios .compartir p strong{font-weight:normal}
 }
