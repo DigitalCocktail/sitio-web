@@ -7,6 +7,7 @@ h1{margin:0}
 .barra-horizontal .verde{width:33.3%;background:#9c3;height:5px}
 .barra-horizontal .azul{width:33.3%;background:#00afef;height:5px}
 .barra-horizontal .rojo{width:33.3%;background:#f00;height:5px}
+.container{padding:0}
 a{color:#00afef;}
 a:hover{color:#00afef;text-decoration:underline}
 form{background:#f0f0f0;padding:18px;}
@@ -77,7 +78,7 @@ section.servicios article .compartir ul li.facebook{margin-right:40px}
 section.servicios article .compartir ul li.visible-xs{display:inline-block !important}
 section.servicios article .compartir p{margin-bottom:30px}
 .capa-opacidad{width:100%;height:100%;background:rgba(0,0,0,0.75);position:fixed;top:0;z-index:11;display:none}
-.btn-cerrar a{background-color:#00afef;text-indent:1.31px;display:inline-block;color:#fff;font-family:Arial;font-size:45px;font-weight:bold;font-style:normal;height:90px;line-height:72px;width:81px;text-decoration:none;text-align:center;position:absolute;left:0;top:35%;z-index:14;}
+.btn-cerrar a{background-color:#00afef;text-indent:1.31px;display:inline-block;color:#fff;font-family:Arial;font-size:45px;font-weight:bold;font-style:normal;height:90px;line-height:72px;width:81px;text-decoration:none;text-align:center;position:fixed;left:0;top:35%;z-index:14;}
 .btn-cerrar a span{font-size:.4em;display:block;margin-top:-41px;font-weight:normal}
 .menu-servicios{position:fixed;top:0;z-index:0;overflow-y:auto;white-space:nowrap;margin-left:-30%;width:30%;}
 .menu-servicios ul{margin:0;padding:0;}
@@ -130,6 +131,7 @@ section div a.btn-success{color:#fff;width:500px;margin-left:auto;margin-right:a
 section div a.btn-success span.texto-accion{font-size:.8em}
 section.servicios article h1,section.servicios article h2,section.servicios article p{text-align:left}
 section.servicios article .btn-contacto button.btn-success{width:35%}
+section.servicios article figure{margin-right:0;margin-left:0}
 section.servicios article .right-content{margin-top:80px}
 section.servicios article .compartir{margin:0;position:absolute;top:-6px;width:100%;}
 section.servicios article .compartir p{float:left;font-size:.8em;}
@@ -137,4 +139,17 @@ section.servicios article .compartir p strong{font-weight:normal}
 section.servicios article .compartir ul li.visible-xs{display:none !important}
 section article .formulario{background:#f0f0f0;margin-bottom:30px;}
 section article .formulario h3{margin-top:0}
+}@media (min-width:992px){header .logo-contenedor{width:370px;height:70px}
+header nav.menu .container-fluid .navbar-collapse ul li a{padding:24px 20px}
+footer{position:fixed;bottom:0;width:100%;margin:0;}
+footer.row{margin:0}
+section article .destacado{width:80%;margin:0 auto}
+section article .investigacion h2,section article .planeacion h2,section article .ejecucion h2,section article .acompanamiento h2{font-size:1.4em}
+.btn-cerrar{display:none}
+.menu-servicios{position:fixed;margin-left:0;top:initial;bottom:49px;width:100%;overflow-y:initial;white-space:initial;}
+.menu-servicios ul li{float:left;width:10%;}
+.menu-servicios ul li a{font-size:.7em;}
+.menu-servicios ul li a:hover{background:#e7e7e7;color:#767676}
+.menu-servicios ul li a.active{background:#f00;}
+.menu-servicios ul li a.active:hover{background:#f00;color:#fff}
 }

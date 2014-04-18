@@ -1,6 +1,6 @@
 @extends('templates/default/layout')
 @section("content")
-	<section class="servicios text-center">
+	<section class="servicios text-center container">
 		<article class="estrategia-digital">
 			<div class="row">
 				<div class="col-sm-5 left-content">
@@ -93,7 +93,7 @@
 	<div class="btn-cerrar"><a href="#">+<span>Servicios</span></a></div>
 	<div class="menu-servicios">
 		<ul>
-			<li><a href="#" class="ed">Estrategia Digital</a></li>
+			<li><a href="#" class="ed active">Estrategia Digital</a></li>
 			<li><a href="#" class="dw">Desarrollo web</a></li>
 			<li><a href="#" class="cd">Consultoría digital</a></li>
 			<li><a href="#" class="em">E-mail Marketing</a></li>
