@@ -18,6 +18,8 @@ h1
 	text-align: center
 	display block
 	border none
+	&:hover
+		text-decoration none
 	a
 		color #fff
 		&:hover
@@ -80,6 +82,9 @@ form
 	p 
 		text-align left
 		margin-top 12px
+		a 
+			&:hover
+				text-decoration underline
 	select
 		width 100%
 		padding 15px
@@ -276,6 +281,8 @@ section
 			figure
 				margin-bottom: 30px
 	div
+		&.btn-preparamos
+			margin-bottom: 60px
 		a
 			&.btn-accion
 				color #fff
@@ -287,6 +294,8 @@ section
 				background-size contain
 				padding 0.75em 1.975em 0.75em 25%
 				display block
+				&:hover
+					text-decoration none
 			span
 				color #fff
 				&.accion 
@@ -297,8 +306,7 @@ section
 					font-size: 0.6em
 					display block
 					color #ffd3d3
-			&:hover
-				text-decoration none
+			
 				
 /*Estilos de Servicios*/
 section
@@ -548,7 +556,7 @@ section
 					img
 						width 100%
 				p 
-					margin-top: -125px
+					margin-top: -99px
 					font-size: 0.9em 
 					display none
 		div
@@ -607,6 +615,19 @@ section
 					margin-top: 0px
 /*Breackpoint 992*/
 @media (min-width:992px)
+	/*Estilos globales*/
+	/*Formularios*/
+	form
+		label
+			width 32%
+		input
+			width 68%
+		select
+			width 68%
+		textarea
+			width 68%
+		.form-dc
+			font-size: 0.9em
 	/*Header y footer*/
 	header
 		.logo-contenedor
@@ -631,14 +652,22 @@ section
 		article
 			.destacado
 				width 80%
-				margin 0 auto
+				margin 3% auto 0 auto
 			.investigacion
 			.planeacion
 			.ejecucion
 			.acompanamiento
 				h2
 					font-size: 1.4em
+				p 
+					font-size: 1.2em
+					padding 12px
+					margin-top: -146px
 	/*Servicios*/
+	section
+		&.servicios
+			article
+				margin-top: 5%
 	.btn-cerrar
 		display none
 	.menu-servicios
@@ -663,6 +692,16 @@ section
 						&:hover
 							background: #ff0000
 							color #fff
+	/*Contacto*/
+	section
+		article
+			.contenedor-escribenos
+			.contenedor-trabaja
+				margin-bottom 60px
+				.texto
+					padding 18px
+					p 
+						text-align left
 
 
 							

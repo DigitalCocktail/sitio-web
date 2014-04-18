@@ -7,11 +7,11 @@
 				<a class="trabaja" href="#">Trabaja con nosotros</a>
 			</div>
 			<article class="container-fluid">
-				<div class="contenedor-escribenos">
-					<div class="texto bloque-interno">
+				<div class="contenedor-escribenos row">
+					<div class="texto bloque-interno col-md-6">
 						<p>En Digital Cocktail te escuchamos, te respondemos y generamos una conversacion real. ¿Qué nos quieres contar?</p>
 					</div>
-					<div class="formulario bloque-interno">
+					<div class="formulario bloque-interno col-md-6">
 						<form role="Formulario">
 							<div class="nombre-contacto">
 								<label for="nombre-contacto">Nombre <span class="obligatorio">*</span></label>
@@ -41,7 +41,7 @@
 								<label for="mensaje-contacto">Mensaje <span class="obligatorio">*</span></label>
 								<textarea name="mensaje" id="mensaje-contacto" cols="30" rows="10" placeholder="Somos todo oídos..."></textarea>
 							</div>
-							<div class="suscribete-contacto text-left">
+							<div class="suscribete-contacto text-left form-dc">
 								<h3>Suscríbete</h3>
 								<label class="check-box"><input type="checkbox">Me gustaría recibir información de Digital Cocktail</label>
 								<div class="listas-correo">
@@ -58,12 +58,12 @@
 					</div>
 				</div>
 			</article><!-- Fin de escribenos -->
-			<article>
-				<div class="contenedor-trabaja bloque-interno">
-					<div class="texto">
+			<article class="container-fluid">
+				<div class="contenedor-trabaja bloque-interno row">
+					<div class="texto col-md-6">
 						<p>En Digital Cocktail siempre estamos buscando nuevos miembros talentosos para el equipo. ¿Te gustaría ayudarnos a mezclar lo mejor de la web para nuestros clientes? </p>
 					</div>
-					<div class="formulario">
+					<div class="formulario col-md-6">
 						<form role="Formulario">
 							<div class="nombre-trabaja">
 								<label for="nombre-trabaja">Nombre <span class="obligatorio">*</span></label>
@@ -81,7 +81,7 @@
 								<label for="mensaje-trabaja">Cuéntanos un poco sobre ti <span class="obligatorio">*</span></label>
 								<textarea name="mensaje" id="mensaje-trabaja" cols="30" rows="10" placeholder="Somos todo oídos..."></textarea>
 							</div>
-							<div class="suscribete-trabaja text-left">
+							<div class="suscribete-trabaja text-left form-dc">
 								<h3>Suscríbete</h3>
 								<label class="check-box"><input type="checkbox">Me gustaría recibir información de Digital Cocktail</label>
 								<div class="listas-correo">

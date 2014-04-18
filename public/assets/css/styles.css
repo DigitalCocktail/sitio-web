@@ -2,6 +2,7 @@ h1{margin:0}
 .bloque{margin-top:60px;padding:0 18px}
 .bloque-interno{margin-top:30px;padding:0 18px}
 .btn-success{padding:.75em 1.975em;font-size:1.4em;color:#fff;width:90%;margin-left:auto;margin-right:auto;text-align:center;display:block;border:none;}
+.btn-success:hover{text-decoration:none}
 .btn-success a{color:#fff;}
 .btn-success a:hover{text-decoration:none}
 .barra-horizontal .verde{width:33.3%;background:#9c3;height:5px}
@@ -16,7 +17,8 @@ form label{width:100%;padding:18px;color:#fff;background:#9c3;display:block;text
 form label.check-box{background:none;display:inline-block;width:auto;padding:0;color:#4d4d4d;}
 form label.check-box input{width:auto;margin:5px 13px 5px 5px;display:block;float:left}
 form input{width:100%;padding:15px;text-align:left;margin-bottom:24px}
-form p{text-align:left;margin-top:12px}
+form p{text-align:left;margin-top:12px;}
+form p a:hover{text-decoration:underline}
 form select{width:100%;padding:15px;text-align:left;margin-bottom:24px;background:#fff url("../images/bg-select.jpg") no-repeat top right;background-size:contain;appearance:none;-webkit-appearance:none;-moz-appearance:none;}
 form select option{padding:5px}
 form textarea{width:100%;padding:15px;margin-bottom:24px}
@@ -58,11 +60,12 @@ section article .ejecucion #imgEjecucion,section article .ejecucion #textEjecuci
 section article .acompanamiento #imgAcompanamiento,section article .acompanamiento #textAcompanamiento{-webkit-animation-delay:.3s;-moz-animation-delay:.3s;-ms-animation-delay:.3s;-o-animation-delay:.3s}
 section article .acompanamiento h2{text-transform:uppercase;color:#00afef;margin-bottom:30px}
 section article .acompanamiento figure{margin-bottom:30px}
-section div a.btn-accion{color:#fff;width:90%;margin-left:auto;margin-right:auto;margin-bottom:60px;background:#f00 url("../images/check.png") no-repeat left center;background-size:contain;padding:.75em 1.975em .75em 25%;display:block}
+section div.btn-preparamos{margin-bottom:60px}
+section div a.btn-accion{color:#fff;width:90%;margin-left:auto;margin-right:auto;margin-bottom:60px;background:#f00 url("../images/check.png") no-repeat left center;background-size:contain;padding:.75em 1.975em .75em 25%;display:block;}
+section div a.btn-accion:hover{text-decoration:none}
 section div a span{color:#fff;}
 section div a span.accion{font-size:1.2em;display:block;margin-bottom:.3em}
 section div a span.texto-accion{font-size:.6em;display:block;color:#ffd3d3}
-section div a:hover{text-decoration:none}
 section.servicios article{position:relative;z-index:1;}
 section.servicios article h1{color:#00afef}
 section.servicios article .btn-contacto{margin-bottom:30px;}
@@ -126,7 +129,7 @@ section article .investigacion,section article .planeacion,section article .ejec
 section article .investigacion h2,section article .planeacion h2,section article .ejecucion h2,section article .acompanamiento h2{font-size:1em}
 section article .investigacion figure,section article .planeacion figure,section article .ejecucion figure,section article .acompanamiento figure{width:90%;margin:0 auto;}
 section article .investigacion figure img,section article .planeacion figure img,section article .ejecucion figure img,section article .acompanamiento figure img{width:100%}
-section article .investigacion p,section article .planeacion p,section article .ejecucion p,section article .acompanamiento p{margin-top:-125px;font-size:.9em;display:none}
+section article .investigacion p,section article .planeacion p,section article .ejecucion p,section article .acompanamiento p{margin-top:-99px;font-size:.9em;display:none}
 section div a.btn-success{color:#fff;width:500px;margin-left:auto;margin-right:auto;margin-bottom:60px;background:#f00 url("../images/check.png") no-repeat left center;background-size:contain;padding:.75em 1.975em .75em 7em;display:block;}
 section div a.btn-success span.texto-accion{font-size:.8em}
 section.servicios article h1,section.servicios article h2,section.servicios article p{text-align:left}
@@ -139,12 +142,19 @@ section.servicios article .compartir p strong{font-weight:normal}
 section.servicios article .compartir ul li.visible-xs{display:none !important}
 section article .formulario{background:#f0f0f0;margin-bottom:30px;}
 section article .formulario h3{margin-top:0}
-}@media (min-width:992px){header .logo-contenedor{width:370px;height:70px}
+}@media (min-width:992px){form label{width:32%}
+form input{width:68%}
+form select{width:68%}
+form textarea{width:68%}
+form .form-dc{font-size:.9em}
+header .logo-contenedor{width:370px;height:70px}
 header nav.menu .container-fluid .navbar-collapse ul li a{padding:24px 20px}
 footer{position:fixed;bottom:0;width:100%;margin:0;}
 footer.row{margin:0}
-section article .destacado{width:80%;margin:0 auto}
+section article .destacado{width:80%;margin:3% auto 0 auto}
 section article .investigacion h2,section article .planeacion h2,section article .ejecucion h2,section article .acompanamiento h2{font-size:1.4em}
+section article .investigacion p,section article .planeacion p,section article .ejecucion p,section article .acompanamiento p{font-size:1.2em;padding:12px;margin-top:-146px}
+section.servicios article{margin-top:5%}
 .btn-cerrar{display:none}
 .menu-servicios{position:fixed;margin-left:0;top:initial;bottom:49px;width:100%;overflow-y:initial;white-space:initial;}
 .menu-servicios ul li{float:left;width:10%;}
@@ -152,4 +162,7 @@ section article .investigacion h2,section article .planeacion h2,section article
 .menu-servicios ul li a:hover{background:#e7e7e7;color:#767676}
 .menu-servicios ul li a.active{background:#f00;}
 .menu-servicios ul li a.active:hover{background:#f00;color:#fff}
+section article .contenedor-escribenos,section article .contenedor-trabaja{margin-bottom:60px;}
+section article .contenedor-escribenos .texto,section article .contenedor-trabaja .texto{padding:18px;}
+section article .contenedor-escribenos .texto p,section article .contenedor-trabaja .texto p{text-align:left}
 }

@@ -30,7 +30,7 @@
 								<label for="tel-servicios">Teléfono</label>
 								<input type="tel" id="tel-servicios" placeholder="Si lo consideras necesario">
 							</div>
-							<div class="recibirinfo-servicios text-left">
+							<div class="recibirinfo-servicios text-left form-dc">
 									<h3>Suscríbete</h3>
 									<label class="check-box"><input type="checkbox" id="chkSuscripcion" checked>Me gustaría recibir información de Digital Cocktail</label>
 									<div class="listas-correo">
