@@ -6,7 +6,7 @@
 				<div class="col-sm-5 left-content">
 					<h1 class="bloque">Estrategia digital</h1>
 					<figure class="img-servicios bloque-interno">
-						<img src="http://lorempixel.com/200/100" alt="Estrategia digital">
+						{{ HTML::image("assets/images/desarrollo-web-digital-cocktail.jpg", "Estrategia Digital - Digital Cocktail") }}
 					</figure>
 				</div>
 				<div class="col-sm-7 right-content">
