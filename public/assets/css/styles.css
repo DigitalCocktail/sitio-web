@@ -154,7 +154,7 @@ form textarea{width:68%}
 form .form-dc{font-size:.9em}
 header .logo-contenedor{width:370px;height:70px}
 header nav.menu .container-fluid .navbar-collapse ul li a{padding:24px 20px}
-footer{position:fixed;bottom:0;width:100%;margin:0;}
+footer{position:fixed;bottom:0;width:100%;margin:0;z-index:2;}
 footer.row{margin:0}
 section article .destacado{width:80%;margin:3% auto 0 auto}
 section article .investigacion h2,section article .planeacion h2,section article .ejecucion h2,section article .acompanamiento h2{font-size:1.4em}
