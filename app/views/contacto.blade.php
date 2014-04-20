@@ -43,11 +43,11 @@
 							</div>
 							<div class="suscribete-contacto text-left form-dc">
 								<h3>Suscríbete</h3>
-								<label class="check-box"><input type="checkbox">Me gustaría recibir información de Digital Cocktail</label>
-								<div class="listas-correo">
-									<label class="check-box listas"><input type="checkbox">Eventos y actividades</label>
-									<label class="check-box listas"><input type="checkbox">Promociones</label>
-									<label class="check-box listas"><input type="checkbox">Últimos artículos del blog</label>
+								<label class="check-box"><input id="chkSuscripcionContacto" type="checkbox" checked>Me gustaría recibir información de Digital Cocktail</label>
+								<div id="listasCorreoContacto" class="listas-correo">
+									<label class="check-box listas"><input type="checkbox" checked>Eventos y actividades</label>
+									<label class="check-box listas"><input type="checkbox" checked>Promociones</label>
+									<label class="check-box listas"><input type="checkbox" checked>Últimos artículos del blog</label>
 								</div>
 								<p>Antes de suscribirte debes estar de acuerdo con nuestra <a href="#" target="_blank">Política de manejo de datos</a></p>
 							</div>
@@ -83,11 +83,11 @@
 							</div>
 							<div class="suscribete-trabaja text-left form-dc">
 								<h3>Suscríbete</h3>
-								<label class="check-box"><input type="checkbox">Me gustaría recibir información de Digital Cocktail</label>
-								<div class="listas-correo">
-									<label class="check-box listas"><input type="checkbox">Eventos y actividades</label>
-									<label class="check-box listas"><input type="checkbox">Promociones</label>
-									<label class="check-box listas"><input type="checkbox">Últimos artículos del blog</label>
+								<label class="check-box"><input id="chkSuscripcionTrabaja" type="checkbox" checked>Me gustaría recibir información de Digital Cocktail</label>
+								<div id="listasCorreoTrabaja" class="listas-correo">
+									<label class="check-box listas"><input type="checkbox" checked>Eventos y actividades</label>
+									<label class="check-box listas"><input type="checkbox" checked>Promociones</label>
+									<label class="check-box listas"><input type="checkbox" checked>Últimos artículos del blog</label>
 								</div>
 								<p>Antes de suscribirte debes estar de acuerdo con nuestra <a href="#" target="_blank">Política de manejo de datos</a></p>
 							</div>
