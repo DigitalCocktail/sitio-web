@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Digital Cocktail</title>
-	{{ HTML::script('assets/js/modernizr.min.js') }}
+	<!--{{ HTML::script('assets/js/modernizr.min.js') }}-->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	{{ HTML::style('assets/css/bootstrap.css', array('media' => 'screen')) }}
 	{{ HTML::style('assets/css/styles.css', array('media' => 'screen')) }}
