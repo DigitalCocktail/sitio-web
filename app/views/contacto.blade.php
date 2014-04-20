@@ -3,10 +3,10 @@
 	<section>
 		<div class="container">
 			<div class="botones-contacto bloque">
-				<a class="active" href="#">Escríbenos</a>
-				<a class="trabaja" href="#">Trabaja con nosotros</a>
+				<a id="btnEscribenos" class="active" href="#">Escríbenos</a>
+				<a id="btnTrabaja" class="trabaja" href="#">Trabaja con nosotros</a>
 			</div>
-			<article class="container-fluid">
+			<article id="frmContacto" class="container-fluid">
 				<div class="contenedor-escribenos row-fluid">
 					<div class="texto bloque-interno col-md-6">
 						<p>En Digital Cocktail te escuchamos, te respondemos y generamos una conversacion real. ¿Qué nos quieres contar?</p>
@@ -58,7 +58,7 @@
 					</div>
 				</div>
 			</article><!-- Fin de escribenos -->
-			<article class="container-fluid">
+			<article id="frmTrabaja" class="container-fluid">
 				<div class="contenedor-trabaja bloque-interno row-fluid">
 					<div class="texto col-md-6">
 						<p>En Digital Cocktail siempre estamos buscando nuevos miembros talentosos para el equipo. ¿Te gustaría ayudarnos a mezclar lo mejor de la web para nuestros clientes? </p>

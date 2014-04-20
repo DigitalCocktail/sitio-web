@@ -122,5 +122,32 @@ $(function() {
 			$(".listas-correo").hide('slow');
 		}
 	});
-	/* Start: Suscripción Boletín Servicios */
+	/* End: Suscripción Boletín Servicios */
+
+	/* Start: Interacción Contacto */
+	$("#btnTrabaja").click(function(){
+		$("#frmContacto").removeClass('animated fadeInRight');
+		$("#frmContacto").addClass('animated fadeOutLeft');
+		$("#frmContacto").css('display','none');
+		$("#frmTrabaja").css('display','block');
+		$("#frmTrabaja").removeClass('animated fadeOutLeft');
+		$("#frmTrabaja").addClass('animated fadeInRight');
+		$("#btnEscribenos").removeClass('active');
+		$("#btnEscribenos").addClass('trabaja');
+		$(this).removeClass("trabaja");
+		$(this).addClass("active");
+	});
+	$("#btnEscribenos").click(function(){
+		$("#frmTrabaja").removeClass('animated fadeInRight');
+		$("#frmTrabaja").addClass('animated fadeOutLeft');
+		$("#frmTrabaja").css('display','none');
+		$("#frmContacto").css('display','block');
+		$("#frmContacto").removeClass('animated fadeOutLeft');
+		$("#frmContacto").addClass('animated fadeInRight');
+		$("#btnTrabaja").removeClass('active');
+		$("#btnTrabaja").addClass('trabaja');
+		$(this).removeClass("trabaja");
+		$(this).addClass("active");
+	});	
+	/* End: Interacción Contacto */
 });
