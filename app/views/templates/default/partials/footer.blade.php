@@ -4,7 +4,7 @@
 		<div class="azul pull-left"></div>
 		<div class="rojo pull-left"></div>
 	</div>
-	<footer class="text-center row">
+	<footer class="text-center row-fluid">
 		<div class="correo col-sm-6">
 			<h4>Puedes escribirnos a <a href="mailto:encontacto@digitalcocktail.co">encontacto@digitalcocktail.co</a> - Medellín, Colombia</h4>
 		</div>

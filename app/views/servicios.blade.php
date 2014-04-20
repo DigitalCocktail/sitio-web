@@ -2,7 +2,7 @@
 @section("content")
 	<section class="servicios text-center container">
 		<article class="estrategia-digital">
-			<div class="row">
+			<div class="row-fluid">
 				<div class="col-sm-5 left-content">
 					<h1 class="bloque">Estrategia digital</h1>
 					<figure class="img-servicios bloque-interno">

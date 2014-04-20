@@ -10,7 +10,7 @@
 				<div class="azul pull-left"></div>
 				<div class="rojo pull-left"></div>
 			</div>
-			<div class="row">
+			<div class="row-fluid">
 				<div class="investigacion bloque text-center col-sm-3">
 					<h2>Investigación</h2>
 					<figure id="imgInvestigacion">
