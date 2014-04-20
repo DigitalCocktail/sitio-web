@@ -70,7 +70,7 @@ $(function() {
 				left: '30%'
 			});
 			$(".capa-opacidad").show(1,'linear');
-			$(".btn-cerrar > a").html("x <span>Servicios</span>");
+			$(".btn-cerrar > a").html("x <span>Cerrar</span>");
 			open = 1;
 		}
 		else{
