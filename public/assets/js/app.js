@@ -105,19 +105,21 @@ $(function() {
 	$("#frm").css('display','none');
 	$("#btnShow").click(function(){
 		$("#frm").css('display','block');
-		$("#frm").addClass('animated bounceInUp');
+		$("#frm").addClass('animated tada');
 	});
 	/* End: Formulario Servicios */
 
 	/* Start: Suscripción Boletín Servicios */
 	$("#chkSuscripcion").change(function(){
 		if($(this).is(":checked")){
-			$(".listas-correo").removeClass('animated bounceOutDown');
-			$(".listas-correo").addClass('animated bounceInUp');
+			$(".listas-correo").show('slow');
+			$(".listas-correo").removeClass('animated fadeOutLeft');
+			$(".listas-correo").addClass('animated fadeInLeft');
 		}
-		else{
-			$(".listas-correo").removeClass('animated bounceInUp');
-			$(".listas-correo").addClass('animated bounceOutDown');
+		else{			
+			$(".listas-correo").removeClass('animated fadeInLeft');
+			$(".listas-correo").addClass('animated fadeOutLeft');
+			$(".listas-correo").hide('slow');
 		}
 	});
 	/* Start: Suscripción Boletín Servicios */
