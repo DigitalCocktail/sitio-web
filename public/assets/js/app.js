@@ -66,6 +66,9 @@ $(function() {
 				marginLeft: '0%',
 				zIndex: '13'
 			});
+			$(".btn-cerrar > a").animate({
+				left: '30%'
+			});
 			$(".capa-opacidad").show(1,'linear');
 			$(".btn-cerrar > a").html("x <span>Servicios</span>");
 			open = 1;
@@ -75,10 +78,26 @@ $(function() {
 				marginLeft: '-30%',
 				zIndex: '12'
 			});
+			$(".btn-cerrar > a").animate({
+				left: '0%'
+			});			
 			$(".capa-opacidad").hide(1,'linear');
 			$(".btn-cerrar > a").html("+ <span>Servicios</span>");
 			open = 0;
 		}
+	});	
+
+	$(".capa-opacidad").click(function(){
+		$(".menu-servicios").animate({
+			marginLeft: '-30%',
+			zIndex: '12'
+		});
+		$(".btn-cerrar > a").animate({
+			left: '0%'
+		});			
+		$(".capa-opacidad").hide(1,'linear');
+		$(".btn-cerrar > a").html("+ <span>Servicios</span>");
+		open = 0;
 	});
 	/* End: Menú Lateral Servicios Móvil */
 
