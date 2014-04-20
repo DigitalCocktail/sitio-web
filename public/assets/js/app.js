@@ -149,5 +149,31 @@ $(function() {
 		$(this).removeClass("trabaja");
 		$(this).addClass("active");
 	});	
+
+	$("#chkSuscripcionTrabaja").change(function(){
+		if($(this).is(":checked")){
+			$("#listasCorreoTrabaja").show('slow');
+			$("#listasCorreoTrabaja").removeClass('animated fadeOutLeft');
+			$("#listasCorreoTrabaja").addClass('animated fadeInLeft');
+		}
+		else{			
+			$("#listasCorreoTrabaja").removeClass('animated fadeInLeft');
+			$("#listasCorreoTrabaja").addClass('animated fadeOutLeft');
+			$("#listasCorreoTrabaja").hide('slow');
+		}
+	});	
+
+	$("#chkSuscripcionContacto").change(function(){
+		if($(this).is(":checked")){
+			$("#listasCorreoContacto").show('slow');
+			$("#listasCorreoContacto").removeClass('animated fadeOutLeft');
+			$("#listasCorreoContacto").addClass('animated fadeInLeft');
+		}
+		else{			
+			$("#listasCorreoContacto").removeClass('animated fadeInLeft');
+			$("#listasCorreoContacto").addClass('animated fadeOutLeft');
+			$("#listasCorreoContacto").hide('slow');
+		}
+	});	
 	/* End: Interacción Contacto */
 });
