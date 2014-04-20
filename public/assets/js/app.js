@@ -105,6 +105,7 @@ $(function() {
 	$("#frm").css('display','none');
 	$("#btnShow").click(function(){
 		$("#frm").css('display','block');
+		$("html, body").animate({ scrollTop: $('#frm').offset().top }, 1000);
 		$("#frm").addClass('animated tada');
 	});
 	/* End: Formulario Servicios */
