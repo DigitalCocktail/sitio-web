@@ -146,7 +146,8 @@ section.servicios article .compartir p strong{font-weight:normal}
 section.servicios article .compartir ul li.visible-xs{display:none !important}
 section article .formulario{background:#f0f0f0;margin-bottom:30px;}
 section article .formulario h3{margin-top:0}
-}@media (min-width:992px){form label{width:32%}
+}@media (min-width:992px){form{margin-bottom:120px;}
+form label{width:32%}
 form input{width:68%}
 form select{width:68%}
 form textarea{width:68%}
@@ -160,7 +161,7 @@ section article .investigacion h2,section article .planeacion h2,section article
 section article .investigacion p,section article .planeacion p,section article .ejecucion p,section article .acompanamiento p{font-size:1.2em;padding:12px;margin-top:-146px}
 section.servicios article{margin-top:5%}
 .btn-cerrar{display:none}
-.menu-servicios{position:fixed;margin-left:0;top:initial;bottom:49px;width:100%;overflow-y:initial;white-space:initial;height:auto;}
+.menu-servicios{position:fixed;margin-left:0;top:initial;bottom:49px;width:100%;overflow-y:initial;white-space:initial;height:auto;z-index:5;}
 .menu-servicios ul li{float:left;width:10%;}
 .menu-servicios ul li a{font-size:.7em;}
 .menu-servicios ul li a:hover{background:#e7e7e7;color:#767676}
