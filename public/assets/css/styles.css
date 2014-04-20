@@ -46,7 +46,7 @@ footer .redes-sociales ul li a{width:54px;height:54px;display:block;text-indent:
 footer .redes-sociales ul li a.fb-icon{background:url("../images/sprite.png") no-repeat;background-position:-54px 0}
 footer .redes-sociales ul li a.tw-icon{background:url("../images/sprite.png") no-repeat;background-position:-54px -54px}
 footer .redes-sociales ul li a.gp-icon{background:url("../images/sprite.png") no-repeat;background-position:-54px -108px}
-section article.contenido{overflow:auto}
+section article.contenido{overflow:hidden}
 section article .destacado{padding:30px 18px;background:url("../images/bg-destacado.jpg") no-repeat;background-size:cover;}
 section article .destacado h1{font-size:1.5em;line-height:1.6em;color:#fff}
 section article .investigacion h2{text-transform:uppercase;color:#00afef;margin-bottom:30px}
@@ -157,7 +157,7 @@ section article .investigacion h2,section article .planeacion h2,section article
 section article .investigacion p,section article .planeacion p,section article .ejecucion p,section article .acompanamiento p{font-size:1.2em;padding:12px;margin-top:-146px}
 section.servicios article{margin-top:5%}
 .btn-cerrar{display:none}
-.menu-servicios{position:fixed;margin-left:0;top:initial;bottom:49px;width:100%;overflow-y:initial;white-space:initial;}
+.menu-servicios{position:fixed;margin-left:0;top:initial;bottom:49px;width:100%;overflow-y:initial;white-space:initial;height:auto;}
 .menu-servicios ul li{float:left;width:10%;}
 .menu-servicios ul li a{font-size:.7em;}
 .menu-servicios ul li a:hover{background:#e7e7e7;color:#767676}
