@@ -42,10 +42,11 @@ footer .correo{margin-bottom:30px}
 footer .redes-sociales{margin-bottom:30px;}
 footer .redes-sociales ul{margin:0;padding:0;}
 footer .redes-sociales ul li{list-style:none;display:inline-block;}
-footer .redes-sociales ul li a{width:54px;height:54px;display:block;text-indent:-9999px;margin:18px 24px 0 24px;}
+footer .redes-sociales ul li a{width:54px;height:54px;display:block;text-indent:-9999px;margin:18px 12px 0 12px;}
 footer .redes-sociales ul li a.fb-icon{background:url("../images/sprite.png") no-repeat;background-position:-54px 0}
 footer .redes-sociales ul li a.tw-icon{background:url("../images/sprite.png") no-repeat;background-position:-54px -54px}
 footer .redes-sociales ul li a.gp-icon{background:url("../images/sprite.png") no-repeat;background-position:-54px -108px}
+section article.contenido{overflow:auto}
 section article .destacado{padding:30px 18px;background:url("../images/bg-destacado.jpg") no-repeat;background-size:cover;}
 section article .destacado h1{font-size:1.5em;line-height:1.6em;color:#fff}
 section article .investigacion h2{text-transform:uppercase;color:#00afef;margin-bottom:30px}
@@ -60,7 +61,7 @@ section article .ejecucion #imgEjecucion,section article .ejecucion #textEjecuci
 section article .acompanamiento #imgAcompanamiento,section article .acompanamiento #textAcompanamiento{-webkit-animation-delay:.3s;-moz-animation-delay:.3s;-ms-animation-delay:.3s;-o-animation-delay:.3s}
 section article .acompanamiento h2{text-transform:uppercase;color:#00afef;margin-bottom:30px}
 section article .acompanamiento figure{margin-bottom:30px}
-section div.btn-preparamos{margin-bottom:60px}
+section div.btn-preparamos{margin-bottom:60px;clear:both}
 section div a.btn-accion{color:#fff;width:90%;margin-left:auto;margin-right:auto;margin-bottom:60px;background:#f00 url("../images/check.png") no-repeat left center;background-size:contain;padding:.75em 1.975em .75em 25%;display:block;}
 section div a.btn-accion:hover{text-decoration:none}
 section div a span{color:#fff;}

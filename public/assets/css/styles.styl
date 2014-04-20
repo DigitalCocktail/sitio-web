@@ -204,7 +204,7 @@ footer
 					height 54px
 					display block
 					text-indent: -9999px
-					margin 18px 24px 0px 24px
+					margin 18px 12px 0px 12px
 					&.fb-icon
 						background:  url(../images/sprite.png) no-repeat 
 						background-position -54px 0px
@@ -219,6 +219,8 @@ footer
 /*Estilos del home*/
 section
 	article
+		&.contenido
+			overflow auto
 		.destacado
 			padding 30px 18px
 			background: url(../images/bg-destacado.jpg) no-repeat
@@ -283,6 +285,7 @@ section
 	div
 		&.btn-preparamos
 			margin-bottom: 60px
+			clear both
 		a
 			&.btn-accion
 				color #fff

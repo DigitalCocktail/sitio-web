@@ -1,7 +1,7 @@
 @section("header")
 	<header>
 		<div class="logo-contenedor">
-			<a href="http://www.digitalcocktail.co" class="logo">{{ HTML::image("assets/images/logo-digital-cocktail-horizontal-blanco.png", "Logo Digital Cocktail") }}</a>
+			<a href="{{ url('/') }}" class="logo">{{ HTML::image("assets/images/logo-digital-cocktail-horizontal-blanco.png", "Logo Digital Cocktail") }}</a>
 		</div>
 		<nav class="navbar navbar-default menu" role="navigation">
 		  <div class="container-fluid">

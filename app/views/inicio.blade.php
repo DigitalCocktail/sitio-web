@@ -1,7 +1,7 @@
 @extends('templates/default/layout')
 @section("content")
 	<section class="container">
-		<article>
+		<article class="contenido">
 			<div class="destacado">
 				<h1 class="text-center">Nos encargamos de crear mezclas ideales de servicios para brindarte soluciones y herramientas simples en la web para tu empresa a través de:</h1>
 			</div>
@@ -50,7 +50,7 @@
 			</div>
 		</article>
 		<div class="bloque btn-preparamos">
-			<a href="#" class="btn-success text-center">
+			<a href="{{ url('/servicios') }}" class="btn-success text-center">
 				<span class="accion">¿Qué te preparamos?</span>
 				<span class="texto-accion">Conoce acá todo lo que podemos hacer por tu negocio</span>
 			</a>
