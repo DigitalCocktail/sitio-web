@@ -6,10 +6,10 @@
 
 @section('content')
 	<aside class="aside-blog">
-		<div class="buscador-aside">
+		<div class="buscador-aside bloque-interno">
 			<form role="formulario">
-				<input type="text" id="buscador-aside">	
-				<button type="submit">Buscar</button>				
+				<input class="buscador" type="text" id="buscador-aside" placeholder="¿Qué estás buscando?">	
+				<button class="btn-buscar" type="submit"></button>
 			</form>
 		</div>
 		<div class="etiquetas-aside">

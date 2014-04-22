@@ -16,7 +16,8 @@ form h3{text-align:left;font-weight:700;padding:0;margin-bottom:12px}
 form label{width:100%;padding:18px;color:#fff;background:#9c3;display:block;text-align:left;font-weight:normal;margin:0;}
 form label.check-box{background:none;display:inline-block;width:auto;padding:0;color:#4d4d4d;}
 form label.check-box input{width:auto;margin:5px 13px 5px 5px;display:block;float:left}
-form input{width:100%;padding:15px;text-align:left;margin-bottom:24px}
+form input{width:100%;padding:15px;text-align:left;margin-bottom:24px;}
+form input.buscador{width:80%;border:none;margin:0}
 form p{text-align:left;margin-top:12px;}
 form p a:hover{text-decoration:underline}
 form select{width:100%;padding:15px;text-align:left;margin-bottom:24px;background:#fff url("../images/bg-select.jpg") no-repeat top right;background-size:contain;appearance:none;-webkit-appearance:none;-moz-appearance:none;}
@@ -24,6 +25,7 @@ form select option{padding:5px}
 form textarea{width:100%;padding:15px;margin-bottom:24px}
 form .listas-correo{padding-left:30px;margin-top:10px;}
 form .listas-correo .listas{display:block;margin-bottom:10px;color:#a4a4a4}
+form button.btn-buscar{width:17%;height:52px;margin:0 0 0 -5px;vertical-align:top;border:none;background:#00afef url("../images/search-icon.png") no-repeat center;background-size:contain}
 #frmTrabaja{display:none}
 header .logo-contenedor{padding:1.125em;background:#9c3;}
 header .logo-contenedor a img{width:100%}
