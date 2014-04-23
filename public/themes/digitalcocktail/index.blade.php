@@ -7,10 +7,14 @@
 @section('content')
 	<aside class="aside-blog">
 		<div class="buscador-aside bloque-interno">
-			<form role="formulario">
-				<input class="buscador" type="text" id="buscador-aside" placeholder="¿Qué estás buscando?">	
+			{{ Form::open(['url'=>'archivo','role'=>'formulario', 'method' => 'GET']) }}
+				{{ Form::text('q', NULL, [
+					'class' => 'buscador',
+					'id' => 'buscador',
+					'placeholder' => '¿Qué estás buscando?'
+				]) }}
 				<button class="btn-buscar" type="submit"></button>
-			</form>
+			{{ Form::close() }}
 		</div>
 		<div class="etiquetas-aside">
 			<h3>Etiquetas</h3>
