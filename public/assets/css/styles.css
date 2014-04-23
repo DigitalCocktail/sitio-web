@@ -49,6 +49,8 @@ footer .redes-sociales ul li a{width:54px;height:54px;display:block;text-indent:
 footer .redes-sociales ul li a.fb-icon{background:url("../images/sprite.png") no-repeat;background-position:-54px 0}
 footer .redes-sociales ul li a.tw-icon{background:url("../images/sprite.png") no-repeat;background-position:-54px -54px}
 footer .redes-sociales ul li a.gp-icon{background:url("../images/sprite.png") no-repeat;background-position:-54px -108px}
+#video_background{display:none}
+#video_pattern{display:none}
 section article.contenido{overflow:hidden}
 section article .destacado{padding:30px 18px;background:url("../images/bg-destacado.jpg") no-repeat;background-size:cover;}
 section article .destacado h1{font-size:1.5em;line-height:1.6em;color:#fff}
@@ -154,13 +156,18 @@ form input{width:68%}
 form select{width:68%}
 form textarea{width:68%}
 form .form-dc{font-size:.9em}
+header{position:relative;z-index:2;}
 header .logo-contenedor{width:370px;height:70px}
 header nav.menu .container-fluid .navbar-collapse ul li a{padding:24px 20px}
-footer{position:fixed;bottom:0;width:100%;margin:0;z-index:2;}
+footer{position:fixed;bottom:0;width:100%;margin:0;z-index:4;}
 footer.row{margin:0}
-section article .destacado{width:80%;margin:3% auto 0 auto}
-section article .investigacion h2,section article .planeacion h2,section article .ejecucion h2,section article .acompanamiento h2{font-size:1.4em}
-section article .investigacion p,section article .planeacion p,section article .ejecucion p,section article .acompanamiento p{font-size:1.2em;padding:12px;margin-top:-146px}
+#video_background{position:fixed;bottom:0;right:0;min-width:100%;min-height:100%;width:auto;height:auto;z-index:-1000;overflow:hidden;display:block}
+#video_pattern{background-image:url("../images/pattern.png");position:fixed;opacity:.8;left:0;top:0;width:100%;height:100%;z-index:1;display:block}
+section{position:relative;z-index:3;}
+section article .destacado{width:80%;margin:3% auto 0 auto;}
+section article .destacado h1{color:#fff}
+section article .investigacion h2,section article .planeacion h2,section article .ejecucion h2,section article .acompanamiento h2{font-size:1.4em;color:#fff}
+section article .investigacion p,section article .planeacion p,section article .ejecucion p,section article .acompanamiento p{font-size:1.2em;padding:12px;margin-top:-146px;color:#fff}
 section.servicios article{margin-top:5%}
 .btn-cerrar{display:none}
 .menu-servicios{position:fixed;margin-left:0;top:initial;bottom:49px;width:100%;overflow-y:initial;white-space:initial;height:auto;z-index:5;}

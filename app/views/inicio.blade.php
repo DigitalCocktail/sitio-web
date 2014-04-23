@@ -1,5 +1,11 @@
 @extends('templates/default/layout')
 @section("content")
+	<video id="video_background" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0"> 
+		<source src="{{url("/")}}/assets/videos/splash7.webm" type="video/webm"> 
+		<source src="{{url("/")}}/assets/videos/splash7.ogv" type="video/ogv"> 
+		<source src="{{url("/")}}/assets/videos/splash7.mp4" type="video/mp4"> Video not supported 
+	</video>
+	<div id="video_pattern"></div>
 	<section class="container">
 		<article class="contenido">
 			<div class="destacado">
