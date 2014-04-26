@@ -1,8 +1,7 @@
 @extends('templates/default/layout')
 @section("content")
 	<video id="video_background" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0"> 
-		<source src="{{url("/")}}/assets/videos/TodosLosColores.webm" type="video/webm"> 
-		<source src="{{url("/")}}/assets/videos/TodosLosColores.mp4" type="video/mp4"> Video not supported 
+		<source src="{{url("/")}}/assets/videos/BGHomeDC.mp4" type="video/mp4"> Video not supported 
 	</video>
 	<div id="video_pattern"></div>
 	<section class="container">
