@@ -97,10 +97,10 @@
 					</figure>
 				</div>
 				<div class="col-sm-7 right-content">
-					<h2 class="bloque-interno"><strong>En saber elegir está la clave</strong></h2>
+					<h2 class="bloque-interno"><strong>Un espacio agradable para compartir con tus invitados…
+</strong></h2>
 					<div class="texto-servicios bloque-interno">
-						<p>Encontramos los ingredientes apropiados y la medida justa que necesitas para que tus proyectos tengan el mejor impacto web.</p>
-						<p>Sentémonos a tomar algo y a crear la mezcla perfecta.</p>
+						<p>Tu sitio web será impecable, eficaz y organizado. un lugar agradable y útil para tus visitantes y tu empresa,  y lo mejor, es que lo verán bien ¡desde cualquier dispositivo! </p>
 					</div>
 					<div class="btn-contacto bloque-interno">
 						<button id="btnShow" type="button" class="btn-success">Me interesa</button>
@@ -184,10 +184,10 @@
 					</figure>
 				</div>
 				<div class="col-sm-7 right-content">
-					<h2 class="bloque-interno"><strong>En saber elegir está la clave</strong></h2>
+					<h2 class="bloque-interno"><strong>La fiesta perfecta con la ayuda apropiada...
+</strong></h2>
 					<div class="texto-servicios bloque-interno">
-						<p>Encontramos los ingredientes apropiados y la medida justa que necesitas para que tus proyectos tengan el mejor impacto web.</p>
-						<p>Sentémonos a tomar algo y a crear la mezcla perfecta.</p>
+						<p>Realizamos un diagnóstico para encontrar justo lo que necesitas para que tus proyectos tengan la mejor presencia en la web, ¡déjanos acompañarte! encontremos el mejor camino para que incursiones en Internet de manera estratégica.</p>
 					</div>
 					<div class="btn-contacto bloque-interno">
 						<button type="button" class="btn-success btnShow">Me interesa</button>
@@ -271,10 +271,9 @@
 					</figure>
 				</div>
 				<div class="col-sm-7 right-content">
-					<h2 class="bloque-interno"><strong>En saber elegir está la clave</strong></h2>
+					<h2 class="bloque-interno"><strong>Que se enteren de tus novedades y te visiten…</strong></h2>
 					<div class="texto-servicios bloque-interno">
-						<p>Encontramos los ingredientes apropiados y la medida justa que necesitas para que tus proyectos tengan el mejor impacto web.</p>
-						<p>Sentémonos a tomar algo y a crear la mezcla perfecta.</p>
+						<p>Mantente en contacto con todos, cuéntales tus noticias más recientes, envíales invitaciones a las que no se puedan resistir y saca el mejor beneficio de ello.</p>
 					</div>
 					<div class="btn-contacto bloque-interno">
 						<button type="button" class="btn-success btnShow">Me interesa</button>
@@ -358,10 +357,10 @@
 					</figure>
 				</div>
 				<div class="col-sm-7 right-content">
-					<h2 class="bloque-interno"><strong>En saber elegir está la clave</strong></h2>
+					<h2 class="bloque-interno"><strong>Verte atractivo es cuestión de saberte expresar…
+</strong></h2>
 					<div class="texto-servicios bloque-interno">
-						<p>Encontramos los ingredientes apropiados y la medida justa que necesitas para que tus proyectos tengan el mejor impacto web.</p>
-						<p>Sentémonos a tomar algo y a crear la mezcla perfecta.</p>
+						<p>Lo que dices, lo que muestras, lo que compartes y como lo haces, es clave para comunicarte con los otros,  hazles llegar el mensaje que quieres y de la manera más acertada a través de medios digitales. </p>
 					</div>
 					<div class="btn-contacto bloque-interno">
 						<button type="button" class="btn-success btnShow">Me interesa</button>
@@ -445,10 +444,9 @@
 					</figure>
 				</div>
 				<div class="col-sm-7 right-content">
-					<h2 class="bloque-interno"><strong>En saber elegir está la clave</strong></h2>
+					<h2 class="bloque-interno"><strong>Te quieren por tu personalidad... </strong></h2>
 					<div class="texto-servicios bloque-interno">
-						<p>Encontramos los ingredientes apropiados y la medida justa que necesitas para que tus proyectos tengan el mejor impacto web.</p>
-						<p>Sentémonos a tomar algo y a crear la mezcla perfecta.</p>
+						<p>Tus redes sociales son la vía más efectiva y rápida para interactuar con tu público, crea lazos con ellos y alcanza logros efectivos para tu marca. </p>
 					</div>
 					<div class="btn-contacto bloque-interno">
 						<button type="button" class="btn-success btnShow">Me interesa</button>
@@ -532,10 +530,9 @@
 					</figure>
 				</div>
 				<div class="col-sm-7 right-content">
-					<h2 class="bloque-interno"><strong>En saber elegir está la clave</strong></h2>
+					<h2 class="bloque-interno"><strong>Serás el más buscado de la fiesta…</strong></h2>
 					<div class="texto-servicios bloque-interno">
-						<p>Encontramos los ingredientes apropiados y la medida justa que necesitas para que tus proyectos tengan el mejor impacto web.</p>
-						<p>Sentémonos a tomar algo y a crear la mezcla perfecta.</p>
+						<p>Tus productos y servicios estarán listos para ser encontrados en la web, mejorarás tu popularidad en buscadores como Google, y cuando alguien necesite algo que tú le puedes ofrecer, más personas te encontrarán. </p>
 					</div>
 					<div class="btn-contacto bloque-interno">
 						<button type="button" class="btn-success btnShow">Me interesa</button>
@@ -619,10 +616,10 @@
 					</figure>
 				</div>
 				<div class="col-sm-7 right-content">
-					<h2 class="bloque-interno"><strong>En saber elegir está la clave</strong></h2>
+					<h2 class="bloque-interno"><strong>Una mezcla muy rentable... </strong></h2>
 					<div class="texto-servicios bloque-interno">
-						<p>Encontramos los ingredientes apropiados y la medida justa que necesitas para que tus proyectos tengan el mejor impacto web.</p>
-						<p>Sentémonos a tomar algo y a crear la mezcla perfecta.</p>
+						<p>Una campaña de publicidad en medios digitales que abra el camino para mejorar el retorno de tu inversión, pautar en diferentes espacios online hará que más personas conozcan tu empresa o proyecto y mejorar tus ventas. </p>
+						<p>¡Es momento de mezclar! </p>
 					</div>
 					<div class="btn-contacto bloque-interno">
 						<button type="button" class="btn-success btnShow">Me interesa</button>
@@ -706,10 +703,9 @@
 					</figure>
 				</div>
 				<div class="col-sm-7 right-content">
-					<h2 class="bloque-interno"><strong>En saber elegir está la clave</strong></h2>
+					<h2 class="bloque-interno"><strong>Todo en su justa medida…</strong></h2>
 					<div class="texto-servicios bloque-interno">
-						<p>Encontramos los ingredientes apropiados y la medida justa que necesitas para que tus proyectos tengan el mejor impacto web.</p>
-						<p>Sentémonos a tomar algo y a crear la mezcla perfecta.</p>
+						<p>Saber interpretar las métricas de tu empresa te llevará por el camino que quieres, así tus estrategias serán efectivas, potencializa tu redes sociales, sitio web, publicidad online... Recuerda que es importante tener claro cuál es la medida justa para alcanzar lo que necesitas</p>
 					</div>
 					<div class="btn-contacto bloque-interno">
 						<button type="button" class="btn-success btnShow">Me interesa</button>
@@ -793,10 +789,9 @@
 					</figure>
 				</div>
 				<div class="col-sm-7 right-content">
-					<h2 class="bloque-interno"><strong>En saber elegir está la clave</strong></h2>
+					<h2 class="bloque-interno"><strong>Lo importante no es sólo lo que va por fuera…</strong></h2>
 					<div class="texto-servicios bloque-interno">
-						<p>Encontramos los ingredientes apropiados y la medida justa que necesitas para que tus proyectos tengan el mejor impacto web.</p>
-						<p>Sentémonos a tomar algo y a crear la mezcla perfecta.</p>
+						<p>Detrás de una gran estrategia hay un grupo de aplicaciones en la nube que te facilita todo, desde la gestión de tus proyectos hasta el manejo de las relaciones con tus clientes, además, podrás acceder a todo desde cualquier lugar a través de Internet ¡Encontremos juntos lo que necesita tu empresa! </p>
 					</div>
 					<div class="btn-contacto bloque-interno">
 						<button type="button" class="btn-success btnShow">Me interesa</button>
@@ -885,7 +880,7 @@
 			<li><a href="#seo" class="se">SEO</a></li>
 			<li><a href="#publicidad-online" class="po">Publicidad Online</a></li>
 			<li><a href="#analitica-web" class="aw">Analítica web</a></li>
-			<li><a href="#apps-en-la-nube" class="an">Apps en la nube</a></li>
+			<li><a href="#apps-nube" class="an">Apps en la nube</a></li>
 		</ul>
 	</div><!-- fin de menu-servicios -->
 @stop
