@@ -8,7 +8,6 @@
 	{{ HTML::style('assets/css/bootstrap.css', array('media' => 'screen')) }}
 	{{ HTML::style('assets/css/styles.css', array('media' => 'screen')) }}
 	{{ HTML::style('assets/css/animate.css', array('media' => 'screen')) }}
-	{{ HTML::style('assets/css/jquery.fs.naver.css', array('media' => 'screen')) }}
 
 	<link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
 </head>
