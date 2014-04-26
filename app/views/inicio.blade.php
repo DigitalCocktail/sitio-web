@@ -55,7 +55,7 @@
 			</div>
 		</article>
 		<div class="bloque btn-preparamos">
-			<a href="{{ url('/servicios') }}" class="btn-success text-center">
+			<a href="{{ url('/servicios#estrategia-digital') }}" class="btn-success text-center">
 				<span class="accion">¿Qué te preparamos?</span>
 				<span class="texto-accion">Conoce acá todo lo que podemos hacer por tu negocio</span>
 			</a>

@@ -101,15 +101,6 @@ $(function() {
 	});
 	/* End: Menú Lateral Servicios Móvil */
 
-	/* Start: Formulario Servicios */
-	$("#frm").css('display','none');
-	$("#btnShow").click(function(){
-		$("#frm").css('display','block');
-		$("html, body").animate({ scrollTop: $('#frm').offset().top }, 1000);
-		$("#frm").addClass('animated tada');
-	});
-	/* End: Formulario Servicios */
-
 	/* Start: Suscripción Boletín Servicios */
 	$("#chkSuscripcion").change(function(){
 		if($(this).is(":checked")){
@@ -177,4 +168,17 @@ $(function() {
 		}
 	});	
 	/* End: Interacción Contacto */
+
+	/* Start: Servicios */
+	var hash = window.location.hash.slice(1);
+
+	/* End: Servicios */
+	
+	/* Start: Formulario Servicios */
+	$(".btnShow").click(function(){
+		$("#frm-" + hash).css('display','block');
+		$("html, body").animate({ scrollTop: $('#frm').offset().top }, 1000);
+		$("#frm-" + hash).addClass('animated tada');
+	});
+	/* End: Formulario Servicios */	
 });
