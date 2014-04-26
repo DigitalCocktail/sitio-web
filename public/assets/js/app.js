@@ -171,7 +171,83 @@ $(function() {
 
 	/* Start: Servicios */
 	var hash = window.location.hash.slice(1);
+	if(hash == ""){
+		hash = "estrategia-digital";
+	}
+	$("." + hash).addClass('mostrar animated fadeInDown');
+	$('.ed').click(function(){
+		ocultar();
+		$(".estrategia-digital").addClass('mostrar animated fadeInDown');
+		$(this).addClass('active');
+	});
+	$('.dw').click(function(){
+		ocultar(hash);
+		$(".desarrollo-web").addClass('mostrar animated fadeInDown');
+		$(this).addClass('active');
+	});	
+	$('.cd').click(function(){
+		ocultar(hash);
+		$(".consultoria-digital").addClass('mostrar animated fadeInDown');
+		$(this).addClass('active');
+	});		
+	$('.em').click(function(){
+		ocultar(hash);
+		$(".email-marketing").addClass('mostrar animated fadeInDown');
+		$(this).addClass('active');
+	});
+	$('.con').click(function(){
+		ocultar(hash);
+		$(".contenidos").addClass('mostrar animated fadeInDown');
+		$(this).addClass('active');
+	});
+	$('.rs').click(function(){
+		ocultar(hash);
+		$(".redes-sociales").addClass('mostrar animated fadeInDown');
+		$(this).addClass('active');
+	});
+	$('.se').click(function(){
+		ocultar(hash);
+		$(".redes-sociales").addClass('mostrar animated fadeInDown');
+		$(this).addClass('active');
+	});
+	$('.po').click(function(){
+		ocultar(hash);
+		$(".publicidad-online").addClass('mostrar animated fadeInDown');
+		$(this).addClass('active');
+	});
+	$('.aw').click(function(){
+		ocultar(hash);
+		$(".analitica-web").addClass('mostrar animated fadeInDown');
+		$(this).addClass('active');
+	});					
+	$('.an').click(function(){
+		ocultar(hash);
+		$(".apps-nube").addClass('mostrar animated fadeInDown');
+		$(this).addClass('active');
+	});	
 
+	function ocultar(){
+		$(".estrategia-digital").removeClass('mostrar animated fadeInDown');
+		$(".ed").removeClass('active');
+		$(".desarrollo-web").removeClass('mostrar animated fadeInDown');
+		$(".dw").removeClass('active');
+		$(".consultoria-digital").removeClass('mostrar animated fadeInDown');
+		$(".cd").removeClass('active');	
+		$(".email-marketing").removeClass('mostrar animated fadeInDown');
+		$(".em").removeClass('active');
+		$(".contenidos").removeClass('mostrar animated fadeInDown');
+		$(".con").removeClass('active');
+		$(".redes-sociales").removeClass('mostrar animated fadeInDown');
+		$(".rs").removeClass('active');
+		$(".seo").removeClass('mostrar animated fadeInDown');
+		$(".se").removeClass('active');
+		$(".publicidad-online").removeClass('mostrar animated fadeInDown');
+		$(".po").removeClass('active');	
+		$(".analitica-web").removeClass('mostrar animated fadeInDown');
+		$(".aw").removeClass('active');
+		$(".apps-nube").removeClass('mostrar animated fadeInDown');
+		$(".an").removeClass('active');						
+	}
 	/* End: Servicios */
 	
 	/* Start: Formulario Servicios */

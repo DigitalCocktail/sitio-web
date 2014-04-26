@@ -104,7 +104,7 @@
 					</div>
 					<div class="btn-contacto bloque-interno">
 						<button id="btnShow" type="button" class="btn-success">Me interesa</button>
-						<form id="frm" role="Formulario">
+						<form id="frm-desarrollo-web" role="Formulario">
 							<div class="nombre-servicios">
 								<label for="nombre-servicios">Nombre*</label>
 								<input type="text" id="nombre-servicios" placeholder="Mucho gusto, tú eres...">
@@ -190,8 +190,8 @@
 						<p>Sentémonos a tomar algo y a crear la mezcla perfecta.</p>
 					</div>
 					<div class="btn-contacto bloque-interno">
-						<button id="btnShow" type="button" class="btn-success">Me interesa</button>
-						<form id="frm" role="Formulario">
+						<button type="button" class="btn-success btnShow">Me interesa</button>
+						<form id="frm-consultoria-digital" role="Formulario">
 							<div class="nombre-servicios">
 								<label for="nombre-servicios">Nombre*</label>
 								<input type="text" id="nombre-servicios" placeholder="Mucho gusto, tú eres...">
@@ -277,8 +277,8 @@
 						<p>Sentémonos a tomar algo y a crear la mezcla perfecta.</p>
 					</div>
 					<div class="btn-contacto bloque-interno">
-						<button id="btnShow" type="button" class="btn-success">Me interesa</button>
-						<form id="frm" role="Formulario">
+						<button type="button" class="btn-success btnShow">Me interesa</button>
+						<form id="frm-email-marketing" role="Formulario">
 							<div class="nombre-servicios">
 								<label for="nombre-servicios">Nombre*</label>
 								<input type="text" id="nombre-servicios" placeholder="Mucho gusto, tú eres...">
@@ -364,8 +364,8 @@
 						<p>Sentémonos a tomar algo y a crear la mezcla perfecta.</p>
 					</div>
 					<div class="btn-contacto bloque-interno">
-						<button id="btnShow" type="button" class="btn-success">Me interesa</button>
-						<form id="frm" role="Formulario">
+						<button type="button" class="btn-success btnShow">Me interesa</button>
+						<form id="frm-contenidos" role="Formulario">
 							<div class="nombre-servicios">
 								<label for="nombre-servicios">Nombre*</label>
 								<input type="text" id="nombre-servicios" placeholder="Mucho gusto, tú eres...">
@@ -451,8 +451,8 @@
 						<p>Sentémonos a tomar algo y a crear la mezcla perfecta.</p>
 					</div>
 					<div class="btn-contacto bloque-interno">
-						<button id="btnShow" type="button" class="btn-success">Me interesa</button>
-						<form id="frm" role="Formulario">
+						<button type="button" class="btn-success btnShow">Me interesa</button>
+						<form id="frm-redes-sociales" role="Formulario">
 							<div class="nombre-servicios">
 								<label for="nombre-servicios">Nombre*</label>
 								<input type="text" id="nombre-servicios" placeholder="Mucho gusto, tú eres...">
@@ -538,8 +538,8 @@
 						<p>Sentémonos a tomar algo y a crear la mezcla perfecta.</p>
 					</div>
 					<div class="btn-contacto bloque-interno">
-						<button id="btnShow" type="button" class="btn-success">Me interesa</button>
-						<form id="frm" role="Formulario">
+						<button type="button" class="btn-success btnShow">Me interesa</button>
+						<form id="frm-seo" role="Formulario">
 							<div class="nombre-servicios">
 								<label for="nombre-servicios">Nombre*</label>
 								<input type="text" id="nombre-servicios" placeholder="Mucho gusto, tú eres...">
@@ -625,8 +625,8 @@
 						<p>Sentémonos a tomar algo y a crear la mezcla perfecta.</p>
 					</div>
 					<div class="btn-contacto bloque-interno">
-						<button id="btnShow" type="button" class="btn-success">Me interesa</button>
-						<form id="frm" role="Formulario">
+						<button type="button" class="btn-success btnShow">Me interesa</button>
+						<form id="frm-publicidad-online" role="Formulario">
 							<div class="nombre-servicios">
 								<label for="nombre-servicios">Nombre*</label>
 								<input type="text" id="nombre-servicios" placeholder="Mucho gusto, tú eres...">
@@ -712,8 +712,8 @@
 						<p>Sentémonos a tomar algo y a crear la mezcla perfecta.</p>
 					</div>
 					<div class="btn-contacto bloque-interno">
-						<button id="btnShow" type="button" class="btn-success">Me interesa</button>
-						<form id="frm" role="Formulario">
+						<button type="button" class="btn-success btnShow">Me interesa</button>
+						<form id="frm-analitica-web" role="Formulario">
 							<div class="nombre-servicios">
 								<label for="nombre-servicios">Nombre*</label>
 								<input type="text" id="nombre-servicios" placeholder="Mucho gusto, tú eres...">
@@ -799,8 +799,8 @@
 						<p>Sentémonos a tomar algo y a crear la mezcla perfecta.</p>
 					</div>
 					<div class="btn-contacto bloque-interno">
-						<button id="btnShow" type="button" class="btn-success">Me interesa</button>
-						<form id="frm" role="Formulario">
+						<button type="button" class="btn-success btnShow">Me interesa</button>
+						<form id="frm-apps-nube" role="Formulario">
 							<div class="nombre-servicios">
 								<label for="nombre-servicios">Nombre*</label>
 								<input type="text" id="nombre-servicios" placeholder="Mucho gusto, tú eres...">
