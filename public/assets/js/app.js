@@ -171,10 +171,40 @@ $(function() {
 
 	/* Start: Servicios */
 	var hash = window.location.hash.slice(1);
+	var cl = 'ed';
 	if(hash == ""){
 		hash = "estrategia-digital";
 	}
+	else if(hash == 'desarrollo-web'){
+		cl = 'dw';
+	}
+	else if(hash == 'consultoria-digital'){
+		cl = 'cd';
+	}
+	else if(hash == 'email-marketing'){
+		cl = 'em';
+	}
+	else if(hash == 'contenidos'){
+		cl = 'con';
+	}
+	else if(hash == 'redes-sociales'){
+		cl = 'rs';
+	}
+	else if(hash == 'seo'){
+		cl = 'se';
+	}
+	else if(hash == 'publicidad-online'){
+		cl = 'po';
+	}
+	else if(hash == 'analitica-web'){
+		cl = 'aw';
+	}
+	else {
+		cl = 'an';
+	}
+	ocultar();
 	$("." + hash).addClass('mostrar animated fadeInDown');
+	$("." + cl).addClass('active');
 	$('.ed').click(function(){
 		ocultar();
 		$(".estrategia-digital").addClass('mostrar animated fadeInDown');
@@ -207,7 +237,7 @@ $(function() {
 	});
 	$('.se').click(function(){
 		ocultar(hash);
-		$(".redes-sociales").addClass('mostrar animated fadeInDown');
+		$(".seo").addClass('mostrar animated fadeInDown');
 		$(this).addClass('active');
 	});
 	$('.po').click(function(){
