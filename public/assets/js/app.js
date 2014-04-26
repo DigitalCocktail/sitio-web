@@ -209,51 +209,61 @@ $(function() {
 		ocultar();
 		$(".estrategia-digital").addClass('mostrar animated fadeInDown');
 		$(this).addClass('active');
+		cerrarMenu();
 	});
 	$('.dw').click(function(){
 		ocultar(hash);
 		$(".desarrollo-web").addClass('mostrar animated fadeInDown');
 		$(this).addClass('active');
+		cerrarMenu();
 	});	
 	$('.cd').click(function(){
 		ocultar(hash);
 		$(".consultoria-digital").addClass('mostrar animated fadeInDown');
 		$(this).addClass('active');
+		cerrarMenu();
 	});		
 	$('.em').click(function(){
 		ocultar(hash);
 		$(".email-marketing").addClass('mostrar animated fadeInDown');
 		$(this).addClass('active');
+		cerrarMenu();
 	});
 	$('.con').click(function(){
 		ocultar(hash);
 		$(".contenidos").addClass('mostrar animated fadeInDown');
 		$(this).addClass('active');
+		cerrarMenu();
 	});
 	$('.rs').click(function(){
 		ocultar(hash);
 		$(".redes-sociales").addClass('mostrar animated fadeInDown');
 		$(this).addClass('active');
+		cerrarMenu();
 	});
 	$('.se').click(function(){
 		ocultar(hash);
 		$(".seo").addClass('mostrar animated fadeInDown');
 		$(this).addClass('active');
+		cerrarMenu();
 	});
 	$('.po').click(function(){
 		ocultar(hash);
 		$(".publicidad-online").addClass('mostrar animated fadeInDown');
 		$(this).addClass('active');
+		cerrarMenu();
 	});
 	$('.aw').click(function(){
 		ocultar(hash);
 		$(".analitica-web").addClass('mostrar animated fadeInDown');
 		$(this).addClass('active');
+		cerrarMenu();
 	});					
 	$('.an').click(function(){
 		ocultar(hash);
 		$(".apps-nube").addClass('mostrar animated fadeInDown');
 		$(this).addClass('active');
+		cerrarMenu();
 	});	
 
 	function ocultar(){
@@ -278,6 +288,19 @@ $(function() {
 		$(".apps-nube").removeClass('mostrar animated fadeInDown');
 		$(".an").removeClass('active');						
 	}
+
+	function cerrarMenu(){
+		$(".menu-servicios").animate({
+			marginLeft: '-30%',
+			zIndex: '12'
+		});
+		$(".btn-cerrar > a").animate({
+			left: '0%'
+		});			
+		$(".capa-opacidad").hide(1,'linear');
+		$(".btn-cerrar > a").html("+ <span>Servicios</span>");
+		open = 0;
+	};
 	/* End: Servicios */
 	
 	/* Start: Formulario Servicios */
