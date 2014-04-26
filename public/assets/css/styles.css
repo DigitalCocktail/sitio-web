@@ -5,6 +5,7 @@ h1{margin:0}
 .btn-success:hover{text-decoration:none}
 .btn-success a{color:#fff;}
 .btn-success a:hover{text-decoration:none}
+.mostar{display:block}
 .barra-horizontal .verde{width:33.3%;background:#9c3;height:5px}
 .barra-horizontal .azul{width:33.3%;background:#00afef;height:5px}
 .barra-horizontal .rojo{width:33.3%;background:#f00;height:5px}
@@ -163,7 +164,7 @@ header nav.menu .container-fluid .navbar-collapse ul li a{padding:24px 20px}
 footer{position:fixed;bottom:0;width:100%;margin:0;z-index:4;}
 footer.row{margin:0}
 #video_background{position:fixed;bottom:0;right:0;min-width:100%;min-height:100%;width:auto;height:auto;z-index:-1000;overflow:hidden;display:block}
-#video_pattern{background-image:url("../images/pattern.png");position:fixed;opacity:.8;left:0;top:0;width:100%;height:100%;z-index:1;display:block}
+#video_pattern{background-image:url("../images/pattern.png");position:fixed;left:0;top:0;width:100%;height:100%;z-index:1;display:block}
 section{position:relative;z-index:3;}
 section article .destacado{width:85%;margin:1% auto 0 auto;}
 section article .destacado h1{color:#fff;text-shadow:1px 1px 4px rgba(0,0,0,0.63)}
