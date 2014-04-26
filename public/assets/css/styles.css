@@ -5,7 +5,7 @@ h1{margin:0}
 .btn-success:hover{text-decoration:none}
 .btn-success a{color:#fff;}
 .btn-success a:hover{text-decoration:none}
-.mostar{display:block}
+.mostrar{display:block !important}
 .barra-horizontal .verde{width:33.3%;background:#9c3;height:5px}
 .barra-horizontal .azul{width:33.3%;background:#00afef;height:5px}
 .barra-horizontal .rojo{width:33.3%;background:#f00;height:5px}
