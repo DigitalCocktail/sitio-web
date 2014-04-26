@@ -74,30 +74,12 @@ $(function() {
 			open = 1;
 		}
 		else{
-			$(".menu-servicios").animate({
-				marginLeft: '-30%',
-				zIndex: '12'
-			});
-			$(".btn-cerrar > a").animate({
-				left: '0%'
-			});			
-			$(".capa-opacidad").hide(1,'linear');
-			$(".btn-cerrar > a").html("+ <span>Servicios</span>");
-			open = 0;
+			cerrarMenu();
 		}
 	});	
 
 	$(".capa-opacidad").click(function(){
-		$(".menu-servicios").animate({
-			marginLeft: '-30%',
-			zIndex: '12'
-		});
-		$(".btn-cerrar > a").animate({
-			left: '0%'
-		});			
-		$(".capa-opacidad").hide(1,'linear');
-		$(".btn-cerrar > a").html("+ <span>Servicios</span>");
-		open = 0;
+		cerrarMenu();
 	});
 	/* End: Menú Lateral Servicios Móvil */
 
@@ -290,10 +272,18 @@ $(function() {
 	}
 
 	function cerrarMenu(){
-		$(".menu-servicios").animate({
-			marginLeft: '-30%',
-			zIndex: '12'
-		});
+		if (Modernizr.mq('(max-width: 991px)')){
+			$(".menu-servicios").animate({
+				marginLeft: '-30%',
+				zIndex: '12'
+			});
+		}
+		else{
+			$(".menu-servicios").animate({
+				zIndex: '12'
+			});
+		}
+
 		$(".btn-cerrar > a").animate({
 			left: '0%'
 		});			
