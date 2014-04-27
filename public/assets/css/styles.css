@@ -99,7 +99,7 @@ section.servicios article .compartir p{margin-bottom:30px}
 .menu-servicios ul li a{display:block;width:100%;padding:70px 5px 10px 5px;font-size:.8em;color:#767676;background:#fff;text-align:center;}
 .menu-servicios ul li a:hover,.menu-servicios ul li a:focus,.menu-servicios ul li a.active{background:#f00;color:#fff;text-decoration:none}
 section.blog .buscador-aside-movil{padding:0}
-section.blog aside.aside-blog{background:#f0f0f0;padding:18px;}
+section.blog aside.aside-blog{background:#f0f0f0;padding:18px;margin:0 0 30px 0;}
 section.blog aside.aside-blog h3{font-weight:700;color:#767676;margin:0 0 18px 0}
 section.blog aside.aside-blog .buscador-aside{display:none}
 section.blog aside.aside-blog .etiquetas-aside{padding-bottom:18px;border-bottom:2px solid #a4a4a4;margin:0 0 30px 0;}
@@ -121,7 +121,8 @@ section.blog article.entradilla-post footer.metadatos .leer-mas-articulos a{disp
 section.blog article.entradilla-post footer.metadatos .leer-mas-articulos a:hover{background:#d60000;text-decoration:none}
 section.blog article.post-completo{padding:130px 18px 0 18px;position:relative;}
 section.blog article.post-completo header h1{color:#00afef;line-height:1.3em}
-section.blog article.post-completo p{line-height:1.6em}
+section.blog article.post-completo p{line-height:1.6em;}
+section.blog article.post-completo p:first-of-type{font-size:1.2em;font-style:italic;padding:0 0 0 18px;border-left:#d9d9d9 8px solid;line-height:1.85em}
 section.blog article.post-completo footer{position:absolute;top:30px;width:93%;}
 section.blog article.post-completo footer.metadatos{padding:0;overflow:auto;margin-bottom:60px;}
 section.blog article.post-completo footer.metadatos .leer-mas-articulos,section.blog article.post-completo footer.metadatos .comentarios{display:none}
@@ -129,6 +130,13 @@ section.blog article.post-completo footer.metadatos .fecha .dia{font-size:3em;di
 section.blog article.post-completo footer.metadatos .fecha .mes{display:block;margin:12px 0 0 65px}
 section.blog article.post-completo footer.metadatos .fecha .ano{display:block;margin:0 0 0 65px}
 section.blog article.post-completo footer.metadatos .autor{margin-top:23px}
+section.blog article.post-completo .compartir{margin:18px 0;}
+section.blog article.post-completo .compartir ul{margin:0;padding:0;list-style:none;}
+section.blog article.post-completo .compartir ul li{display:inline-block;}
+section.blog article.post-completo .compartir ul li.facebook{margin-right:40px}
+section.blog article.post-completo .compartir ul li.visible-xs{display:inline-block !important}
+section.blog article.post-completo .compartir p{margin-bottom:30px}
+section.blog article.post-completo #fbcomments,section.blog article.post-completo .fb-comments,section.blog article.post-completo #feedback_0ICpVWcPKaHuGTfKi,section.blog article.post-completo .fb-comments span,section.blog article.post-completo .fb_iframe_widget,section.blog article.post-completo .fb_iframe_widget[style],section.blog article.post-completo .fb_iframe_widget iframe[style],section.blog article.post-completo #fbcomments iframe[style]{width:100% !important}
 section.blog .ver-mas-blog{padding:0 18px;text-align:center;margin:0 0 60px 0;}
 section.blog .ver-mas-blog .btn-info{width:100%;font-size:1.3em}
 section .botones-contacto a{font-size:1em;display:block;float:left;color:#64c1e2;background:#a9e4fa;width:50%;padding:16px 0 16px 0;text-align:center;}
