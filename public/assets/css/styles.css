@@ -119,6 +119,16 @@ section.blog article.entradilla-post footer.metadatos .fecha .mes{display:block;
 section.blog article.entradilla-post footer.metadatos .fecha .ano{display:block;margin:0 0 0 65px}
 section.blog article.entradilla-post footer.metadatos .leer-mas-articulos a{display:block;text-align:center;color:#fff;background:#f00;padding:23px;margin-right:-14px;}
 section.blog article.entradilla-post footer.metadatos .leer-mas-articulos a:hover{background:#d60000;text-decoration:none}
+section.blog article.post-completo{padding:130px 18px 0 18px;position:relative;}
+section.blog article.post-completo header h1{color:#00afef;line-height:1.3em}
+section.blog article.post-completo p{line-height:1.6em}
+section.blog article.post-completo footer{position:absolute;top:30px;width:93%;}
+section.blog article.post-completo footer.metadatos{padding:0;overflow:auto;margin-bottom:60px;}
+section.blog article.post-completo footer.metadatos .leer-mas-articulos,section.blog article.post-completo footer.metadatos .comentarios{display:none}
+section.blog article.post-completo footer.metadatos .fecha .dia{font-size:3em;display:block;float:left}
+section.blog article.post-completo footer.metadatos .fecha .mes{display:block;margin:12px 0 0 65px}
+section.blog article.post-completo footer.metadatos .fecha .ano{display:block;margin:0 0 0 65px}
+section.blog article.post-completo footer.metadatos .autor{margin-top:23px}
 section.blog .ver-mas-blog{padding:0 18px;text-align:center;margin:0 0 60px 0;}
 section.blog .ver-mas-blog .btn-info{width:100%;font-size:1.3em}
 section .botones-contacto a{font-size:1em;display:block;float:left;color:#64c1e2;background:#a9e4fa;width:50%;padding:16px 0 16px 0;text-align:center;}

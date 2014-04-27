@@ -9,27 +9,7 @@
 @stop
 
 @section('content')
-	<aside class="aside-blog">
-		<div class="buscador-aside">
-			<form role="formulario">
-				<input type="text" id="buscador-aside">	
-				<button type="submit">Buscar</button>				
-			</form>
-		</div>
-		<div class="etiquetas-aside">
-			<h3>Etiquetas</h3>
-			<a href="#" class="etiqueta">web</a>
-			<a href="#" class="etiqueta">web</a>
-			<a href="#" class="etiqueta">web</a>
-		</div>
-		<div class="suscribete-aside">
-			<h3>Suscríbete y recibe los últimos artículos en tu correo</h3>
-			<label for="mail-suscripcion"><input type="checkbox">Antes de suscribirte debes estar de acuerdo con nuestra <a href="#">Política de manejo de datos</a></label>
-			<input type="mail" id="mail-suscripcion" placeholder="Ingresa tu correo">
-			<button type="submit">Evniar</button>
-		</div>
-	</aside><!-- Fin del aside -->
-	<article>
+	<article class="post-completo">
 		<header class="articulo-header">
 			<h1>{{ $post->title }}</h1>
 		</header>
@@ -80,8 +60,50 @@
 			    po.src = 'https://apis.google.com/js/platform.js';
 			    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
 			  })();
-			</script>		
+			</script>
+		<footer class="metadatos row-fluid">
+		<div class="fecha col-xs-6">
+			<span class="dia">{{ date("d", strtotime($post->publish_date)) }}</span>
+			<span class="mes">{{ date("M", strtotime($post->publish_date)) }}</span>
+			<span class="ano">{{ date("Y", strtotime($post->publish_date)) }}</span>
+		</div>
+		<div class="autor col-xs-6">
+			<p><span>Por</span> {{ $post->user->first_name }} {{ $post->user->last_name }}</p>
+		</div>
+		<div class="comentarios">5</div>
+		<div class="leer-mas-articulos col-xs-6"><a href="{{ url('blog/'.$post->slug) }}" class="btn-leer-mas">Leer más</a></div>
+	</footer>		
 		<div class="fb-comments" data-href="{{ url('/').'/blog/'.$post->slug }}" data-numposts="10" data-colorscheme="light"></div>			
 	</article>
+	<aside class="aside-blog">
+		<div class="buscador-aside">
+			<form role="formulario">
+				<input type="text" id="buscador-aside">	
+				<button type="submit">Buscar</button>				
+			</form>
+		</div>
+		<div class="etiquetas-aside">
+			<h3>Etiquetas</h3>
+			<a href="#" class="etiqueta">web</a>
+			<a href="#" class="etiqueta">web</a>
+			<a href="#" class="etiqueta">web</a>
+		</div>
+		<div class="suscribete-aside text-left form-dc">
+			<h3>Suscríbete y recibe los últimos artículos en tu correo</h3>
+			<form role="Formulario">
+				<label class="check-box"><input id="chkSuscripcionContacto" type="checkbox" checked>Me gustaría recibir información de Digital Cocktail</label>
+				<div id="listasCorreoContacto" class="listas-correo">
+					<label class="check-box listas"><input type="checkbox" checked>Eventos y actividades</label>
+					<label class="check-box listas"><input type="checkbox" checked>Promociones</label>
+					<label class="check-box listas"><input type="checkbox" checked>Últimos artículos del blog</label>
+				</div>
+				<p>Antes de suscribirte debes estar de acuerdo con nuestra <a href="#" target="_blank">Política de manejo de datos</a></p>
+				<div class="campo-correo">
+					<input class="ingrese-correo" type="mail" id="mail-suscripcion" placeholder="Ingresa tu correo">
+					<button type="submit" class=""></button>
+				</div>
+			</form>
+		</div>
+	</aside><!-- Fin del aside -->
 @stop
 
