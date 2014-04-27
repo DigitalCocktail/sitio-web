@@ -17,9 +17,6 @@
 
 	<section class="blog">
 		@yield('content')
-		<div class="ver-mas-blog">
-			<a href="#" class="btn-ver-mas-blog">Ver más articulos</a>
-		</div><!-- Fin botón Ver más artículos -->
 	</section><!-- Fin del contenedor de los articulos - blog -->
 
 @include("templates/default/partials/footer")

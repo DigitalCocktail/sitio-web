@@ -5,6 +5,8 @@ h1{margin:0}
 .btn-success:hover{text-decoration:none}
 .btn-success a{color:#fff;}
 .btn-success a:hover{text-decoration:none}
+.btn-info{padding:18px;display:block;}
+.btn-info:hover{text-decoration:none}
 .mostrar{display:block !important}
 .barra-horizontal .verde{width:33.3%;background:#9c3;height:5px}
 .barra-horizontal .azul{width:33.3%;background:#00afef;height:5px}
@@ -96,6 +98,29 @@ section.servicios article .compartir p{margin-bottom:30px}
 .menu-servicios ul li{padding:0;list-style:none;}
 .menu-servicios ul li a{display:block;width:100%;padding:70px 5px 10px 5px;font-size:.8em;color:#767676;background:#fff;text-align:center;}
 .menu-servicios ul li a:hover,.menu-servicios ul li a:focus,.menu-servicios ul li a.active{background:#f00;color:#fff;text-decoration:none}
+section.blog .buscador-aside-movil{padding:0}
+section.blog aside.aside-blog{background:#f0f0f0;padding:18px;}
+section.blog aside.aside-blog h3{font-weight:700;color:#767676;margin:0 0 18px 0}
+section.blog aside.aside-blog .buscador-aside{display:none}
+section.blog aside.aside-blog .etiquetas-aside{padding-bottom:18px;border-bottom:2px solid #a4a4a4;margin:0 0 30px 0;}
+section.blog aside.aside-blog .etiquetas-aside a.etiqueta{padding:6px 12px;display:inline-block;background:#00afef;color:#fff;margin-right:6px;margin-bottom:12px}
+section.blog aside.aside-blog .etiquetas-aside a:hover{background:#0092c7;text-decoration:none}
+section.blog aside.aside-blog .suscribete-aside form{padding:0;}
+section.blog aside.aside-blog .suscribete-aside form .campo-correo{margin:18px 0 0 0;}
+section.blog aside.aside-blog .suscribete-aside form .campo-correo input.ingrese-correo{width:80%;border:none;margin:0}
+section.blog aside.aside-blog .suscribete-aside form .campo-correo button{width:17%;height:52px;margin:0 0 0 -5px;vertical-align:top;border:none;background:#00afef url("../images/send-icon.png") no-repeat center;background-size:contain}
+section.blog article.entradilla-post header h1{line-height:1.3em}
+section.blog article.entradilla-post figure{width:100%}
+section.blog article.entradilla-post p{line-height:1.6em}
+section.blog article.entradilla-post footer.metadatos{padding:0;overflow:auto;margin-bottom:60px;}
+section.blog article.entradilla-post footer.metadatos .autor,section.blog article.entradilla-post footer.metadatos .comentarios{display:none}
+section.blog article.entradilla-post footer.metadatos .fecha .dia{font-size:3em;display:block;float:left}
+section.blog article.entradilla-post footer.metadatos .fecha .mes{display:block;margin:12px 0 0 65px}
+section.blog article.entradilla-post footer.metadatos .fecha .ano{display:block;margin:0 0 0 65px}
+section.blog article.entradilla-post footer.metadatos .leer-mas-articulos a{display:block;text-align:center;color:#fff;background:#f00;padding:23px;margin-right:-14px;}
+section.blog article.entradilla-post footer.metadatos .leer-mas-articulos a:hover{background:#d60000;text-decoration:none}
+section.blog .ver-mas-blog{padding:0 18px;text-align:center;margin:0 0 60px 0;}
+section.blog .ver-mas-blog .btn-info{width:100%;font-size:1.3em}
 section .botones-contacto a{font-size:1em;display:block;float:left;color:#64c1e2;background:#a9e4fa;width:50%;padding:16px 0 16px 0;text-align:center;}
 section .botones-contacto a:hover{background:#7fd7f7;text-decoration:none;color:#fff}
 section .botones-contacto a.active{background:#00afef;color:#fff}
