@@ -468,6 +468,7 @@ section
 			&.aside-blog
 				background #f0f0f0
 				padding 18px
+				margin 0 0 30px 0
 				h3
 					font-weight 700
 					color #767676
@@ -545,6 +546,61 @@ section
 								&:hover
 									background #d60000
 									text-decoration none
+			&.post-completo
+				padding 130px 18px 0 18px
+				position relative
+				header
+					h1
+						color #00afef
+						line-height: 1.3em
+				p 
+					line-height: 1.6em
+					&:first-of-type
+						font-size: 1.2em;
+						font-style: italic;
+						padding: 0 0 0 18px;
+						border-left: #d9d9d9 8px solid;
+						line-height: 1.85em;
+				footer
+					position absolute
+					top 30px
+					width 93%
+					&.metadatos
+						padding 0
+						overflow auto 
+						margin-bottom: 60px
+						.leer-mas-articulos, .comentarios
+							display none
+						.fecha
+							.dia
+								font-size 3em
+								display block
+								float left
+							.mes
+								display block
+								margin 12px 0 0 65px
+							.ano 
+								display block
+								margin 0 0 0 65px
+						.autor
+							margin-top 23px
+				.compartir
+					margin 18px 0
+					ul
+						margin 0px
+						padding 0
+						list-style none
+						li
+							display inline-block
+							&.facebook
+								margin-right 40px
+							&.visible-xs
+								display inline-block !important
+					p 
+						margin-bottom 30px
+				#fbcomments, .fb-comments, #feedback_0ICpVWcPKaHuGTfKi, .fb-comments span, .fb_iframe_widget, .fb_iframe_widget[style], .fb_iframe_widget iframe[style], #fbcomments iframe[style] 
+					width: 100% !important;
+
 		.ver-mas-blog
 			padding 0 18px
 			text-align: center

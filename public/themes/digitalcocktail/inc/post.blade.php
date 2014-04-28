@@ -11,7 +11,7 @@
 			<span class="ano">{{ date("Y", strtotime($post->publish_date)) }}</span>
 		</div>
 		<div class="autor">
-			<p><span>Por</span> {{ $post->user->first_name }} {{ $post->user->last_name }}</p>
+			<span>Por {{ $post->user->first_name }} {{ $post->user->last_name }}</span>
 		</div>
 		<div class="comentarios">5</div>
 		<div class="leer-mas-articulos col-xs-6"><a href="{{ url('blog/'.$post->slug) }}" class="btn-leer-mas">Leer más</a></div>
