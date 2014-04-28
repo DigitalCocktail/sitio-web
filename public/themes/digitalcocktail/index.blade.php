@@ -15,7 +15,7 @@
 			<button class="btn-buscar" type="submit"></button>
 		{{ Form::close() }}
 	</div>
-	<section class="home">
+	<section class="home col-sm-9 col-sm-push-3">
 		@foreach ($posts as $post)
 			@include(theme_view('inc.post'))
 		@endforeach
@@ -25,7 +25,7 @@
 			<a href="#" class="btn-ver-mas-blog btn-info">Ver más articulos</a>
 		</div><!-- Fin botón Ver más artículos -->
 	</section>
-	<aside class="aside-blog">
+	<aside class="aside-blog col-sm-3 col-sm-pull-9">
 		<div class="buscador-aside bloque-interno">
 			{{ Form::open(['url'=>'archivo','role'=>'formulario', 'method' => 'GET']) }}
 				{{ Form::text('q', NULL, [
