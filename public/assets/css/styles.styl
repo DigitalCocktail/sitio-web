@@ -821,12 +821,17 @@ section
 	/*Blog*/
 	section
 		&.blog
+			padding 0 18px
+			position relative
 			.buscador-aside-movil
 				display none
 			aside
-				&.aside-blog
+				&.aside-post
+					padding-top: 105px
 					font-size: 12px
+				&.aside-blog
 					margin 30px 0 0 0
+					font-size: 12px
 					.buscador-aside
 						display block
 						margin 0 0 18px 0
@@ -865,13 +870,35 @@ section
 									background-size contain
 									width 60px
 									text-align: center
+				&.post-completo
+					padding-top 30px
+					header
+						background: #fff
+					.compartir
+						ul
+							li
+								&.visible-xs
+									display none !important
+								
+					footer
+						&.metadatos
+							width 30%
+							left -32%
+							z-index 3
+							font-size 12px
+							background: none
+							border-bottom: 2px solid #a4a4a4;
+							padding-bottom: 18px
+							top 35px
+							.autor
+								margin-top: 12px
+							.fecha
+								.mes
+									margin 10px 0 0 45px
+								.ano 
+									margin 0 0 0 45px
 			.ver-mas-blog
 				padding 0
-									
-						
-						
-								
-					
 	/*Contacto*/
 	section
 		article
@@ -997,6 +1024,7 @@ section
 						&:hover
 							background: #ff0000
 							color #fff
+	/*Blog*/
 	/*Contacto*/
 	section
 		article

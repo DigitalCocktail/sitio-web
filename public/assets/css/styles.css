@@ -193,8 +193,10 @@ section.servicios article .compartir{margin:0;position:absolute;top:-6px;width:1
 section.servicios article .compartir p{float:left;font-size:.8em;}
 section.servicios article .compartir p strong{font-weight:normal}
 section.servicios article .compartir ul li.visible-xs{display:none !important}
+section.blog{padding:0 18px;position:relative;}
 section.blog .buscador-aside-movil{display:none}
-section.blog aside.aside-blog{font-size:12px;margin:30px 0 0 0;}
+section.blog aside.aside-post{padding-top:105px;font-size:12px}
+section.blog aside.aside-blog{margin:30px 0 0 0;font-size:12px;}
 section.blog aside.aside-blog .buscador-aside{display:block;margin:0 0 18px 0;border-bottom:2px solid #a4a4a4;padding:0 0 18px 0;}
 section.blog aside.aside-blog .buscador-aside form{padding:0;}
 section.blog aside.aside-blog .buscador-aside form input.buscador{width:80%}
@@ -204,6 +206,13 @@ section.blog aside.aside-blog .suscribete-aside form .campo-correo button{width:
 section.blog article.entradilla-post header{background:#fff}
 section.blog article.entradilla-post footer.metadatos .comentarios{display:block;}
 section.blog article.entradilla-post footer.metadatos .comentarios span{display:block;color:#fff;padding:20px 0 23px 0;background:url("../images/comentario-icon.png") no-repeat left center;background-size:contain;width:60px;text-align:center}
+section.blog article.post-completo{padding-top:30px;}
+section.blog article.post-completo header{background:#fff}
+section.blog article.post-completo .compartir ul li.visible-xs{display:none !important}
+section.blog article.post-completo footer.metadatos{width:30%;left:-32%;z-index:3;font-size:12px;background:none;border-bottom:2px solid #a4a4a4;padding-bottom:18px;top:35px;}
+section.blog article.post-completo footer.metadatos .autor{margin-top:12px}
+section.blog article.post-completo footer.metadatos .fecha .mes{margin:10px 0 0 45px}
+section.blog article.post-completo footer.metadatos .fecha .ano{margin:0 0 0 45px}
 section.blog .ver-mas-blog{padding:0}
 section article .formulario{background:#f0f0f0;margin-bottom:30px;}
 section article .formulario h3{margin-top:0}

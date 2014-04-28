@@ -37,7 +37,7 @@
 			{{ Form::close() }}
 		</div>
 		<div class="etiquetas-aside">
-			<h3>Etiquetas</h3>
+			<h3>Etiquetas del blog</h3>
 			<a href="#" class="etiqueta">web</a>
 			<a href="#" class="etiqueta">web</a>
 			<a href="#" class="etiqueta">web</a>
