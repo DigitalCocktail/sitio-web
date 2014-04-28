@@ -202,6 +202,8 @@ section.blog aside.aside-blog .buscador-aside form button.btn-buscar{width:20%;h
 section.blog aside.aside-blog h3{font-size:1.5em}
 section.blog aside.aside-blog .suscribete-aside form .campo-correo button{width:20%;height:33px}
 section.blog article.entradilla-post header{background:#fff}
+section.blog article.entradilla-post footer.metadatos .comentarios{display:block;}
+section.blog article.entradilla-post footer.metadatos .comentarios span{display:block;color:#fff;padding:20px 0 23px 0;background:url("../images/comentario-icon.png") no-repeat left center;background-size:contain;width:60px;text-align:center}
 section.blog .ver-mas-blog{padding:0}
 section article .formulario{background:#f0f0f0;margin-bottom:30px;}
 section article .formulario h3{margin-top:0}
