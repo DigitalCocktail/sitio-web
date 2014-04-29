@@ -522,6 +522,7 @@ section
 						padding 0
 						overflow auto 
 						margin-bottom: 60px
+						color #767676
 						.autor, .comentarios
 							display none
 						.fecha
@@ -565,6 +566,7 @@ section
 					position absolute
 					top 30px
 					width 93%
+					color #767676
 					&.metadatos
 						padding 0
 						overflow auto 
@@ -865,7 +867,7 @@ section
 								span
 									display block
 									color #fff
-									padding 20px 0 23px 0
+									padding 20px 7px 23px 0
 									background: url(../images/comentario-icon.png) no-repeat left center
 									background-size contain
 									width 60px
@@ -1025,6 +1027,38 @@ section
 							background: #ff0000
 							color #fff
 	/*Blog*/
+	section
+		&.blog
+			width 93%
+			margin 0 auto
+			aside
+				&.aside-blog
+					font-size: 14px
+					form
+						margin 0
+			article
+				&.post-completo
+					margin-bottom: 90px
+					footer
+						&.metadatos
+							bottom initial
+				&.entradilla-post
+					footer
+						&.metadatos
+							position initial
+							font-size: 14px
+							.autor
+								display block
+								margin-top: 20px
+							.fecha
+								.ano, .mes
+									margin-left 55px
+							.leer-mas-articulos
+								a 
+									padding 21px
+			.ver-mas-blog
+				margin 0 0 90px 0
+					
 	/*Contacto*/
 	section
 		article
@@ -1035,7 +1069,11 @@ section
 					padding 18px
 					p 
 						text-align left
-
+/*Breackpoint 1200*/
+@media (min-width:1200px)
+	section
+		&.blog
+			width 1170px
 
 							
 				
