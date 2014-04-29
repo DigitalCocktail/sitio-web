@@ -15,7 +15,7 @@
 @include(theme_view("inc.facebookcomments"))
 @include("templates/default/partials/header")
 
-	<section class="blog">
+	<section class="blog row-fluid">
 		@yield('content')
 	</section><!-- Fin del contenedor de los articulos - blog -->
 

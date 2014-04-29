@@ -9,7 +9,7 @@
 @stop
 
 @section('content')
-	<article class="post-completo">
+	<article class="post-completo col-sm-9 col-sm-push-3">
 		<header class="articulo-header">
 			<h1>{{ $post->title }}</h1>
 		</header>
@@ -104,16 +104,11 @@
 		</div>
 		<div class="comentarios">5</div>
 		<div class="leer-mas-articulos col-xs-6"><a href="{{ url('blog/'.$post->slug) }}" class="btn-leer-mas">Leer más</a></div>
-	</footer>		
+		</footer>		
 		<div class="fb-comments" data-href="{{ url('/').'/blog/'.$post->slug }}" data-numposts="10" data-colorscheme="light"></div>			
 	</article>
-	<aside class="aside-blog">
-		<div class="buscador-aside">
-			<form role="formulario">
-				<input type="text" id="buscador-aside">	
-				<button type="submit">Buscar</button>				
-			</form>
-		</div>
+	<aside class="aside-blog aside-post col-sm-3 col-sm-pull-9">
+		
 		<div class="etiquetas-aside">
 			<h3>Etiquetas</h3>
 			<a href="#" class="etiqueta">web</a>

@@ -711,6 +711,7 @@ section
 		margin-bottom: 0px
 		padding 6px 12px
 		overflow auto
+		clear both
 		&.text-center
 			text-align: left
 			.correo
@@ -817,6 +818,87 @@ section
 						li
 							&.visible-xs
 								display none !important
+	/*Blog*/
+	section
+		&.blog
+			padding 0 18px
+			position relative
+			.buscador-aside-movil
+				display none
+			aside
+				&.aside-post
+					padding-top: 105px
+					font-size: 12px
+				&.aside-blog
+					margin 30px 0 0 0
+					font-size: 12px
+					.buscador-aside
+						display block
+						margin 0 0 18px 0
+						border-bottom: 2px solid #a4a4a4
+						padding 0 0 18px 0
+						form
+							padding 0
+							input
+								&.buscador
+									width 80%
+							button
+								&.btn-buscar
+									width 20%
+									height 34px
+					h3
+						font-size: 1.5em
+					.suscribete-aside
+						form
+							.campo-correo
+								button
+									width 20%
+									height 33px
+			article
+				&.entradilla-post
+					header
+						background: #fff
+					footer
+						&.metadatos
+							.comentarios
+								display block
+								span
+									display block
+									color #fff
+									padding 20px 0 23px 0
+									background: url(../images/comentario-icon.png) no-repeat left center
+									background-size contain
+									width 60px
+									text-align: center
+				&.post-completo
+					padding-top 30px
+					header
+						background: #fff
+					.compartir
+						ul
+							li
+								&.visible-xs
+									display none !important
+								
+					footer
+						&.metadatos
+							width 30%
+							left -32%
+							z-index 3
+							font-size 12px
+							background: none
+							border-bottom: 2px solid #a4a4a4;
+							padding-bottom: 18px
+							top 35px
+							.autor
+								margin-top: 12px
+							.fecha
+								.mes
+									margin 10px 0 0 45px
+								.ano 
+									margin 0 0 0 45px
+			.ver-mas-blog
+				padding 0
 	/*Contacto*/
 	section
 		article
@@ -942,6 +1024,7 @@ section
 						&:hover
 							background: #ff0000
 							color #fff
+	/*Blog*/
 	/*Contacto*/
 	section
 		article
