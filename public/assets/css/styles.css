@@ -112,7 +112,7 @@ section.blog aside.aside-blog .suscribete-aside form .campo-correo button{width:
 section.blog article.entradilla-post header h1{line-height:1.3em}
 section.blog article.entradilla-post figure{width:100%}
 section.blog article.entradilla-post p{line-height:1.6em}
-section.blog article.entradilla-post footer.metadatos{padding:0;overflow:auto;margin-bottom:60px;}
+section.blog article.entradilla-post footer.metadatos{padding:0;overflow:auto;margin-bottom:60px;color:#767676;}
 section.blog article.entradilla-post footer.metadatos .autor,section.blog article.entradilla-post footer.metadatos .comentarios{display:none}
 section.blog article.entradilla-post footer.metadatos .fecha .dia{font-size:3em;display:block;float:left}
 section.blog article.entradilla-post footer.metadatos .fecha .mes{display:block;margin:12px 0 0 65px}
@@ -123,7 +123,7 @@ section.blog article.post-completo{padding:130px 18px 0 18px;position:relative;}
 section.blog article.post-completo header h1{color:#00afef;line-height:1.3em}
 section.blog article.post-completo p{line-height:1.6em;}
 section.blog article.post-completo p:first-of-type{font-size:1.2em;font-style:italic;padding:0 0 0 18px;border-left:#d9d9d9 8px solid;line-height:1.85em}
-section.blog article.post-completo footer{position:absolute;top:30px;width:93%;}
+section.blog article.post-completo footer{position:absolute;top:30px;width:93%;color:#767676;}
 section.blog article.post-completo footer.metadatos{padding:0;overflow:auto;margin-bottom:60px;}
 section.blog article.post-completo footer.metadatos .leer-mas-articulos,section.blog article.post-completo footer.metadatos .comentarios{display:none}
 section.blog article.post-completo footer.metadatos .fecha .dia{font-size:3em;display:block;float:left}
@@ -205,7 +205,7 @@ section.blog aside.aside-blog h3{font-size:1.5em}
 section.blog aside.aside-blog .suscribete-aside form .campo-correo button{width:20%;height:33px}
 section.blog article.entradilla-post header{background:#fff}
 section.blog article.entradilla-post footer.metadatos .comentarios{display:block;}
-section.blog article.entradilla-post footer.metadatos .comentarios span{display:block;color:#fff;padding:20px 0 23px 0;background:url("../images/comentario-icon.png") no-repeat left center;background-size:contain;width:60px;text-align:center}
+section.blog article.entradilla-post footer.metadatos .comentarios span{display:block;color:#fff;padding:20px 7px 23px 0;background:url("../images/comentario-icon.png") no-repeat left center;background-size:contain;width:60px;text-align:center}
 section.blog article.post-completo{padding-top:30px;}
 section.blog article.post-completo header{background:#fff}
 section.blog article.post-completo .compartir ul li.visible-xs{display:none !important}
@@ -243,7 +243,18 @@ section.servicios article{margin-top:2%}
 .menu-servicios ul li a:hover{background:#e7e7e7;color:#767676}
 .menu-servicios ul li a.active{background:#f00;}
 .menu-servicios ul li a.active:hover{background:#f00;color:#fff}
+section.blog{width:93%;margin:0 auto;}
+section.blog aside.aside-blog{font-size:14px;}
+section.blog aside.aside-blog form{margin:0}
+section.blog article.post-completo{margin-bottom:90px;}
+section.blog article.post-completo footer.metadatos{bottom:initial}
+section.blog article.entradilla-post footer.metadatos{position:initial;font-size:14px;}
+section.blog article.entradilla-post footer.metadatos .autor{display:block;margin-top:20px}
+section.blog article.entradilla-post footer.metadatos .fecha .ano,section.blog article.entradilla-post footer.metadatos .fecha .mes{margin-left:55px}
+section.blog article.entradilla-post footer.metadatos .leer-mas-articulos a{padding:21px}
+section.blog .ver-mas-blog{margin:0 0 90px 0}
 section article .contenedor-escribenos,section article .contenedor-trabaja{margin-bottom:60px;}
 section article .contenedor-escribenos .texto,section article .contenedor-trabaja .texto{padding:18px;}
 section article .contenedor-escribenos .texto p,section article .contenedor-trabaja .texto p{text-align:left}
+}@media (min-width:1200px){section.blog{width:1170px}
 }
