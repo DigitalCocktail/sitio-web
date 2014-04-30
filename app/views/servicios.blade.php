@@ -267,7 +267,7 @@
 				<div class="col-sm-5 left-content">
 					<h1 class="bloque">E-mail Marketing</h1>
 					<figure class="img-servicios bloque-interno">
-						{{ HTML::image("assets/images/desarrollo-web-digital-cocktail.jpg", "Estrategia Digital - Digital Cocktail") }}
+						{{ HTML::image("assets/images/email-marketing-digital-cocktail.jpg", "E-mail Marketing - Digital Cocktail") }}
 					</figure>
 				</div>
 				<div class="col-sm-7 right-content">
