@@ -4,7 +4,7 @@
 		<source src="{{url("/")}}/assets/videos/BGHomeDC.mp4" type="video/mp4"> Video not supported 
 	</video>
 	<div id="video_pattern"></div>
-	<section class="container">
+	<section class="container home">
 		<article class="contenido">
 			<div class="destacado">
 				<h1 class="text-center">Nos encargamos de crear mezclas ideales de servicios para brindarte soluciones y herramientas simples en la web para tu empresa a través de:</h1>
@@ -14,7 +14,7 @@
 				<div class="azul pull-left"></div>
 				<div class="rojo pull-left"></div>
 			</div>
-			<div class="row-fluid">
+			<div class="row-fluid procesos">
 				<div class="investigacion bloque text-center col-sm-3">
 					<h2>Investigación</h2>
 					<figure id="imgInvestigacion">
@@ -52,12 +52,12 @@
 					</p>
 				</div>
 			</div>
-		</article>
-		<div class="bloque btn-preparamos">
+			<div class="bloque btn-preparamos">
 			<a href="{{ url('/servicios') }}" class="btn-success text-center">
 				<span class="accion">¿Qué te preparamos?</span>
 				<span class="texto-accion">Conoce acá todo lo que podemos hacer por tu negocio</span>
 			</a>
 		</div>
+		</article>
 	</section>
 @stop

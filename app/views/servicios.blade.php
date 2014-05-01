@@ -1,7 +1,7 @@
 @extends('templates/default/layout')
 @section("content")
 	<section class="servicios text-center container">
-		<article class="estrategia-digital">
+		<article class="estrategia-digital centrar-vertical">
 			<div class="row-fluid">
 				<div class="col-sm-5 left-content">
 					<h1 class="bloque">Estrategia digital</h1>
@@ -88,7 +88,7 @@
 				</div>
 			</div>
 		</article><!-- Fin de estrategia digital -->
-		<article class="desarrollo-web">
+		<article class="desarrollo-web centrar-vertical">
 			<div class="row-fluid">
 				<div class="col-sm-5 left-content">
 					<h1 class="bloque">Desarrollo web</h1>
@@ -175,7 +175,7 @@
 				</div>
 			</div>
 		</article><!-- Fin de Desarrollo Web -->	
-		<article class="consultoria-digital">
+		<article class="consultoria-digital centrar-vertical">
 			<div class="row-fluid">
 				<div class="col-sm-5 left-content">
 					<h1 class="bloque">Consultoría Digital</h1>
@@ -262,12 +262,12 @@
 				</div>
 			</div>
 		</article><!-- Fin de Consultoría Digital -->
-		<article class="email-marketing">
+		<article class="email-marketing centrar-vertical">
 			<div class="row-fluid">
 				<div class="col-sm-5 left-content">
 					<h1 class="bloque">E-mail Marketing</h1>
 					<figure class="img-servicios bloque-interno">
-						{{ HTML::image("assets/images/desarrollo-web-digital-cocktail.jpg", "Estrategia Digital - Digital Cocktail") }}
+						{{ HTML::image("assets/images/email-marketing-digital-cocktail.jpg", "E-mail Marketing - Digital Cocktail") }}
 					</figure>
 				</div>
 				<div class="col-sm-7 right-content">
@@ -348,7 +348,7 @@
 				</div>
 			</div>
 		</article><!-- Fin de E-mail Marketing -->
-		<article class="contenidos">
+		<article class="contenidos centrar-vertical">
 			<div class="row-fluid">
 				<div class="col-sm-5 left-content">
 					<h1 class="bloque">Contenidos Digitales</h1>
@@ -435,7 +435,7 @@
 				</div>
 			</div>
 		</article><!-- Fin de Contenidos -->
-		<article class="redes-sociales">
+		<article class="redes-sociales centrar-vertical">
 			<div class="row-fluid">
 				<div class="col-sm-5 left-content">
 					<h1 class="bloque">Redes Sociales</h1>
@@ -521,7 +521,7 @@
 				</div>
 			</div>
 		</article><!-- Fin de Redes Sociales -->
-		<article class="seo">
+		<article class="seo centrar-vertical">
 			<div class="row-fluid">
 				<div class="col-sm-5 left-content">
 					<h1 class="bloque">SEO</h1>
@@ -607,7 +607,7 @@
 				</div>
 			</div>
 		</article><!-- Fin de SEO -->
-		<article class="publicidad-online">
+		<article class="publicidad-online centrar-vertical">
 			<div class="row-fluid">
 				<div class="col-sm-5 left-content">
 					<h1 class="bloque">Publicidad Online</h1>
@@ -694,7 +694,7 @@
 				</div>
 			</div>
 		</article><!-- Fin de Publicidad Online -->
-		<article class="analitica-web">
+		<article class="analitica-web centrar-vertical">
 			<div class="row-fluid">
 				<div class="col-sm-5 left-content">
 					<h1 class="bloque">Analítica Web</h1>
@@ -780,7 +780,7 @@
 				</div>
 			</div>
 		</article><!-- Fin de Analítica Web -->	
-		<article class="apps-nube">
+		<article class="apps-nube centrar-vertical">
 			<div class="row-fluid">
 				<div class="col-sm-5 left-content">
 					<h1 class="bloque">Apps en la Nube</h1>
