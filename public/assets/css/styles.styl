@@ -753,6 +753,8 @@ section
 	/*Home*/
 	section
 		article
+			.procesos
+				overflow hidden
 			.destacado
 				background: none
 				h1
@@ -912,6 +914,9 @@ section
 /*Breackpoint 992*/
 @media (min-width:992px)
 	/*Estilos globales*/
+	html, body
+		height 100%
+		width 100%
 	/*Formularios*/
 	form
 		margin-bottom: 120px
@@ -971,10 +976,20 @@ section
 	section
 		position relative
 		z-index 3
+		height 83%
 		article
+			&.contenido
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				height: 530px;
+				margin: auto;
 			.destacado
 				width 85%
 				margin 1% auto 0 auto
+				padding: 2% 18px
 				h1
 					color #fff
 					text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.63);
@@ -998,8 +1013,23 @@ section
 	/*Servicios*/
 	section
 		&.servicios
+			position relative
+			height 77%
 			article
 				margin-top: 2%
+				&.centrar-vertical
+					position: absolute;
+					top: 0;
+					right: 0;
+					bottom: 0;
+					margin: auto;
+					left: 0;
+					height: 55%;
+				.right-content
+					margin 25px 0 0 0
+			h1
+				&.bloque 
+					margin 0
 	.btn-cerrar
 		display none
 	.menu-servicios
