@@ -59,14 +59,10 @@ section article .destacado{padding:30px 18px;background:url("../images/bg-destac
 section article .destacado h1{font-size:1.5em;line-height:1.6em;color:#fff}
 section article .investigacion h2{text-transform:uppercase;color:#00afef;margin-bottom:30px}
 section article .investigacion figure{margin-bottom:30px}
-section article .investigacion #imgInvestigacion,section article .investigacion #textInvestigacion{-webkit-animation-delay:.3s;-moz-animation-delay:.3s;-ms-animation-delay:.3s;-o-animation-delay:.3s}
 section article .planeacion h2{text-transform:uppercase;color:#00afef;margin-bottom:30px}
 section article .planeacion figure{margin-bottom:30px}
-section article .planeacion #imgPlaneacion,section article .planeacion #textPlaneacion{-webkit-animation-delay:.3s;-moz-animation-delay:.3s;-ms-animation-delay:.3s;-o-animation-delay:.3s}
 section article .ejecucion h2{text-transform:uppercase;color:#00afef;margin-bottom:30px}
 section article .ejecucion figure{margin-bottom:30px}
-section article .ejecucion #imgEjecucion,section article .ejecucion #textEjecucion{-webkit-animation-delay:.3s;-moz-animation-delay:.3s;-ms-animation-delay:.3s;-o-animation-delay:.3s}
-section article .acompanamiento #imgAcompanamiento,section article .acompanamiento #textAcompanamiento{-webkit-animation-delay:.3s;-moz-animation-delay:.3s;-ms-animation-delay:.3s;-o-animation-delay:.3s}
 section article .acompanamiento h2{text-transform:uppercase;color:#00afef;margin-bottom:30px}
 section article .acompanamiento figure{margin-bottom:30px}
 section div.btn-preparamos{margin-bottom:60px;clear:both}
@@ -179,6 +175,10 @@ footer.text-center .redes-sociales ul li a.gp-icon:hover{background-position:-24
 section article .procesos{overflow:hidden}
 section article .destacado{background:none;}
 section article .destacado h1{color:#4d4d4d;font-size:1.8em}
+section article .investigacion #imgInvestigacion,section article .investigacion #textInvestigacion{-webkit-animation-delay:.3s;-moz-animation-delay:.3s;-ms-animation-delay:.3s;-o-animation-delay:.3s}
+section article .planeacion #imgPlaneacion,section article .planeacion #textPlaneacion{-webkit-animation-delay:.3s;-moz-animation-delay:.3s;-ms-animation-delay:.3s;-o-animation-delay:.3s}
+section article .ejecucion #imgEjecucion,section article .ejecucion #textEjecucion{-webkit-animation-delay:.3s;-moz-animation-delay:.3s;-ms-animation-delay:.3s;-o-animation-delay:.3s}
+section article .acompanamiento #imgAcompanamiento,section article .acompanamiento #textAcompanamiento{-webkit-animation-delay:.3s;-moz-animation-delay:.3s;-ms-animation-delay:.3s;-o-animation-delay:.3s}
 section article .investigacion,section article .planeacion,section article .ejecucion,section article .acompanamiento{margin-top:0;}
 section article .investigacion h2,section article .planeacion h2,section article .ejecucion h2,section article .acompanamiento h2{font-size:1em}
 section article .investigacion figure,section article .planeacion figure,section article .ejecucion figure,section article .acompanamiento figure{width:90%;margin:0 auto;}
