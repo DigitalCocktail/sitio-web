@@ -103,7 +103,7 @@
 						<p>Tu sitio web será impecable, eficaz y organizado. un lugar agradable y útil para tus visitantes y tu empresa,  y lo mejor, es que lo verán bien ¡desde cualquier dispositivo! </p>
 					</div>
 					<div class="btn-contacto bloque-interno">
-						<button id="btnShow" type="button" class="btn-success">Me interesa</button>
+						<button id="btnShow" type="button" class="btn-success btnShow">Me interesa</button>
 						<form id="frm-desarrollo-web" role="Formulario">
 							<div class="nombre-servicios">
 								<label for="nombre-servicios">Nombre*</label>

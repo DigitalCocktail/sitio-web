@@ -154,35 +154,51 @@ $(function() {
 	/* Start: Servicios */
 	var hash = window.location.hash.slice(1);
 	var cl = 'ed';
+	var h = 'estrategia-digital';
 	if(hash == ""){
 		hash = "estrategia-digital";
+		cl = 'ed';
+		h = 'estrategia-digital';
 	}
+	else if(hash == "estrategia-digital"){
+		cl = 'ed';
+		h = 'estrategia-digital';
+	}	
 	else if(hash == 'desarrollo-web'){
 		cl = 'dw';
+		h = 'desarrollo-web';
 	}
 	else if(hash == 'consultoria-digital'){
 		cl = 'cd';
+		h = 'consultoria-digital';
 	}
 	else if(hash == 'email-marketing'){
 		cl = 'em';
+		h = 'email-marketing';
 	}
 	else if(hash == 'contenidos'){
 		cl = 'con';
+		h = 'contenidos';
 	}
 	else if(hash == 'redes-sociales'){
 		cl = 'rs';
+		h = 'redes-sociales';
 	}
 	else if(hash == 'seo'){
 		cl = 'se';
+		h = 'seo';
 	}
 	else if(hash == 'publicidad-online'){
 		cl = 'po';
+		h = 'publicidad-online';
 	}
 	else if(hash == 'analitica-web'){
 		cl = 'aw';
+		h = 'analitica-web';
 	}
-	else {
+	else if(hash == 'apps-nube'){
 		cl = 'an';
+		h = 'apps-nube';
 	}
 	ocultar();
 	$("." + hash).addClass('mostrar animated fadeInDown');
@@ -190,60 +206,70 @@ $(function() {
 	$('.ed').click(function(){
 		ocultar();
 		$(".estrategia-digital").addClass('mostrar animated fadeInDown');
+		h = "estrategia-digital";
 		$(this).addClass('active');
 		cerrarMenu();
 	});
 	$('.dw').click(function(){
 		ocultar(hash);
 		$(".desarrollo-web").addClass('mostrar animated fadeInDown');
+		h = "desarrollo-web";
 		$(this).addClass('active');
 		cerrarMenu();
 	});	
 	$('.cd').click(function(){
 		ocultar(hash);
 		$(".consultoria-digital").addClass('mostrar animated fadeInDown');
+		h = "consultoria-digital";
 		$(this).addClass('active');
 		cerrarMenu();
 	});		
 	$('.em').click(function(){
 		ocultar(hash);
 		$(".email-marketing").addClass('mostrar animated fadeInDown');
+		h = "email-marketing";
 		$(this).addClass('active');
 		cerrarMenu();
 	});
 	$('.con').click(function(){
 		ocultar(hash);
 		$(".contenidos").addClass('mostrar animated fadeInDown');
+		h = "contenidos";
 		$(this).addClass('active');
 		cerrarMenu();
 	});
 	$('.rs').click(function(){
 		ocultar(hash);
 		$(".redes-sociales").addClass('mostrar animated fadeInDown');
+		h = "redes-sociales";
 		$(this).addClass('active');
 		cerrarMenu();
 	});
 	$('.se').click(function(){
 		ocultar(hash);
 		$(".seo").addClass('mostrar animated fadeInDown');
+		h = "seo";
 		$(this).addClass('active');
 		cerrarMenu();
 	});
 	$('.po').click(function(){
 		ocultar(hash);
 		$(".publicidad-online").addClass('mostrar animated fadeInDown');
+		h = "publicidad-online";
 		$(this).addClass('active');
 		cerrarMenu();
 	});
 	$('.aw').click(function(){
 		ocultar(hash);
 		$(".analitica-web").addClass('mostrar animated fadeInDown');
+		h = "analitica-web";
 		$(this).addClass('active');
 		cerrarMenu();
 	});					
 	$('.an').click(function(){
 		ocultar(hash);
 		$(".apps-nube").addClass('mostrar animated fadeInDown');
+		h = "apps-nube";
 		$(this).addClass('active');
 		cerrarMenu();
 	});	
@@ -295,9 +321,9 @@ $(function() {
 	
 	/* Start: Formulario Servicios */
 	$(".btnShow").click(function(){
-		$("#frm-" + hash).css('display','block');
-		$("html, body").animate({ scrollTop: $('#frm').offset().top }, 1000);
-		$("#frm-" + hash).addClass('animated tada');
+		$("#frm-" + h).css('display','block');
+		$("html, body").animate({ scrollTop: $("#frm-" + h).offset().top }, 1000);
+		$("#frm-" + h).addClass('animated tada');
 	});
 	/* End: Formulario Servicios */	
 });

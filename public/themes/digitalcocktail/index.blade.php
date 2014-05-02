@@ -6,12 +6,12 @@
 
 @section('content')
 	<div class="buscador-aside-movil bloque-interno">
-		{{ Form::open(['url'=>'archivo','role'=>'formulario', 'method' => 'GET']) }}
-			{{ Form::text('q', NULL, [
+		{{ Form::open(array('url'=>'archivo','role'=>'formulario', 'method' => 'GET')) }}
+			{{ Form::text('q', NULL, array(
 				'class' => 'buscador',
 				'id' => 'buscador',
 				'placeholder' => '¿Qué estás buscando?'
-			]) }}
+			)) }}
 			<button class="btn-buscar" type="submit"></button>
 		{{ Form::close() }}
 	</div>
@@ -27,12 +27,12 @@
 	</section>
 	<aside class="aside-blog col-sm-3 col-sm-pull-9">
 		<div class="buscador-aside bloque-interno">
-			{{ Form::open(['url'=>'archivo','role'=>'formulario', 'method' => 'GET']) }}
-				{{ Form::text('q', NULL, [
+			{{ Form::open(array('url'=>'archivo','role'=>'formulario', 'method' => 'GET')) }}
+				{{ Form::text('q', NULL, array(
 					'class' => 'buscador',
 					'id' => 'buscador',
 					'placeholder' => '¿Qué estás buscando?'
-				]) }}
+				)) }}
 				<button class="btn-buscar" type="submit"></button>
 			{{ Form::close() }}
 		</div>
