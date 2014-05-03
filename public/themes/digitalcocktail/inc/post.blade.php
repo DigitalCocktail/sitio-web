@@ -13,7 +13,11 @@
 		<div class="autor col-md-3">
 			<span>Por {{ $post->user->first_name }} {{ $post->user->last_name }}</span>
 		</div>
-		<div class="comentarios col-sm-4 col-md-3"><span>0</span></div>
+		<div class="comentarios col-sm-4 col-md-3">
+			<span>
+				<fb:comments-count expr:href='{{ url("blog/".$post->slug) }}'></fb:comments-count>
+			</span>
+		</div>
 		<div class="leer-mas-articulos col-xs-6 col-sm-4 col-md-3"><a href="{{ url('blog/'.$post->slug) }}" class="btn-leer-mas">Leer más</a></div>
 	</footer>
 </article><!-- Fin artículo -->

@@ -53,7 +53,6 @@
 			</ul>
 		</div><!-- Fin de Compartir -->		
 		{{ $post->parsed_content }}
-		@include(theme_view('inc.tags'))
 		<div class="compartir">
 			<ul>
 				<li class="twitter visible-xs">
@@ -111,9 +110,7 @@
 		
 		<div class="etiquetas-aside">
 			<h3>Etiquetas</h3>
-			<a href="#" class="etiqueta">web</a>
-			<a href="#" class="etiqueta">web</a>
-			<a href="#" class="etiqueta">web</a>
+			@include(theme_view('inc.tags'))
 		</div>
 		<div class="suscribete-aside text-left form-dc">
 			<h3>Suscríbete y recibe los últimos artículos en tu correo</h3>

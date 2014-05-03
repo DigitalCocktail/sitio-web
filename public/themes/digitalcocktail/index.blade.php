@@ -38,13 +38,11 @@
 		</div>
 		<div class="etiquetas-aside">
 			<h3>Etiquetas del blog</h3>
-			<a href="#" class="etiqueta">web</a>
-			<a href="#" class="etiqueta">web</a>
-			<a href="#" class="etiqueta">web</a>
-			<a href="#" class="etiqueta">Estrategia digital</a>
-			<a href="#" class="etiqueta">Desarrollo web</a>
-			<a href="#" class="etiqueta">Aplicaciones en la nube</a>
-			<a href="#" class="etiqueta">Redes sociales</a>
+			@foreach (Wardrobe::tags() as $item)
+				@if ($item['tag'] != "")
+					<a href="{{ Wardrobe::route('posts.tags', $item['tag']) }}" class="etiqueta">{{ $item['tag'] }}</a>
+				@endif
+			@endforeach
 		</div>
 		<!-- <div class="suscribete-aside">
 			<h3>Suscríbete y recibe los últimos artículos en tu correo</h3>
