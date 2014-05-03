@@ -8,6 +8,10 @@
 {{ $post->title }}
 @stop
 
+@section('description')
+{{ trim(substr($post->content, 0, 156)) }}
+@stop
+
 @section('content')
 	<article class="post-completo col-sm-9 col-sm-push-3">
 		<header class="articulo-header">
