@@ -14,9 +14,7 @@
 			<span>Por {{ $post->user->first_name }} {{ $post->user->last_name }}</span>
 		</div>
 		<div class="comentarios col-sm-4 col-md-3">
-			<span>
-				<fb:comments-count expr:href='{{ url("blog/".$post->slug) }}'></fb:comments-count>
-			</span>
+				<fb:comments-count href='{{ url("blog/".$post->slug) }}'/></fb:comments-count>
 		</div>
 		<div class="leer-mas-articulos col-xs-6 col-sm-4 col-md-3"><a href="{{ url('blog/'.$post->slug) }}" class="btn-leer-mas">Leer más</a></div>
 	</footer>
