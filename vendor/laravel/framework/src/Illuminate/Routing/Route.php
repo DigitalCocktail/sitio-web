@@ -687,7 +687,7 @@ class Route {
 	 */
 	public function httpOnly()
 	{
-		return in_array('http', $this->action, true);
+		return in_array('http', $this->action);
 	}
 
 	/**
@@ -707,7 +707,7 @@ class Route {
 	 */
 	public function secure()
 	{
-		return in_array('https', $this->action, true);
+		return in_array('https', $this->action);
 	}
 
 	/**
