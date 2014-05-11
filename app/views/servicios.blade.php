@@ -17,26 +17,26 @@
 					</div>
 					<div class="btn-contacto bloque-interno">
 						<button type="button" class="btn-success btnShow">Me interesa</button>
-						<form id="frm-estrategia-digital" role="Formulario">
+						<form id="frm-estrategia-digital" role="Formulario" novalidate>
 							<div class="nombre-servicios">
-								<label for="nombre-servicios">Nombre*</label>
-								<input type="text" id="nombre-servicios" placeholder="Mucho gusto, tú eres...">
+								<label for="ed-nombre-servicios">Nombre*</label>
+								<input type="text" id="ed-nombre-servicios" placeholder="Mucho gusto, tú eres...">
 							</div>
 							<div class="email-servicios">
-								<label for="email-servicios">E-mail*</label>
-								<input type="email" id="email-servicios" placeholder="Para seguir en contacto">
+								<label for="ed-email-servicios">E-mail*</label>
+								<input type="email" id="ed-email-servicios" placeholder="Para seguir en contacto">
 							</div>
 							<div class="tel-servicios">
-								<label for="tel-servicios">Teléfono</label>
-								<input type="tel" id="tel-servicios" placeholder="Si lo consideras necesario">
+								<label for="ed-tel-servicios">Teléfono</label>
+								<input type="tel" id="ed-tel-servicios" placeholder="Si lo consideras necesario">
 							</div>
 							<div class="recibirinfo-servicios text-left form-dc">
 									<h3>Suscríbete</h3>
-									<label class="check-box"><input type="checkbox" id="chkSuscripcion" checked>Me gustaría recibir información de Digital Cocktail</label>
+									<label class="check-box"><input type="checkbox" id="ed-suscribirse" class="chkSuscripcion" checked>Me gustaría recibir información de Digital Cocktail</label>
 									<div class="listas-correo">
-										<label class="check-box listas"><input type="checkbox" checked>Eventos y actividades</label>
-										<label class="check-box listas"><input type="checkbox" checked>Promociones</label>
-										<label class="check-box listas"><input type="checkbox" checked>Últimos artículos del blog</label>
+										<label class="check-box listas"><input type="checkbox" id="ed-eventos" checked>Eventos y actividades</label>
+										<label class="check-box listas"><input type="checkbox" id="ed-promociones" checked>Promociones</label>
+										<label class="check-box listas"><input type="checkbox" id="ed-blog" checked>Últimos artículos del blog</label>
 									</div>
 									<p>Antes de suscribirte debes estar de acuerdo con nuestra <a href="#" target="_blank">Política de manejo de datos</a></p>
 							</div>
@@ -97,8 +97,7 @@
 					</figure>
 				</div>
 				<div class="col-sm-7 right-content">
-					<h2 class="bloque-interno"><strong>Un espacio agradable para compartir con tus invitados…
-</strong></h2>
+					<h2 class="bloque-interno"><strong>Un espacio agradable para compartir con tus invitados…</strong></h2>
 					<div class="texto-servicios bloque-interno">
 						<p>Tu sitio web será impecable, eficaz y organizado. un lugar agradable y útil para tus visitantes y tu empresa,  y lo mejor, es que lo verán bien ¡desde cualquier dispositivo! </p>
 					</div>
@@ -106,24 +105,24 @@
 						<button id="btnShow" type="button" class="btn-success btnShow">Me interesa</button>
 						<form id="frm-desarrollo-web" role="Formulario">
 							<div class="nombre-servicios">
-								<label for="nombre-servicios">Nombre*</label>
-								<input type="text" id="nombre-servicios" placeholder="Mucho gusto, tú eres...">
+								<label for="dw-nombre-servicios">Nombre*</label>
+								<input type="text" id="dw-nombre-servicios" placeholder="Mucho gusto, tú eres...">
 							</div>
 							<div class="email-servicios">
-								<label for="email-servicios">E-mail*</label>
-								<input type="email" id="email-servicios" placeholder="Para seguir en contacto">
+								<label for="dw-email-servicios">E-mail*</label>
+								<input type="email" id="dw-email-servicios" placeholder="Para seguir en contacto">
 							</div>
 							<div class="tel-servicios">
-								<label for="tel-servicios">Teléfono</label>
-								<input type="tel" id="tel-servicios" placeholder="Si lo consideras necesario">
+								<label for="dw-tel-servicios">Teléfono</label>
+								<input type="tel" id="dw-tel-servicios" placeholder="Si lo consideras necesario">
 							</div>
 							<div class="recibirinfo-servicios text-left form-dc">
 									<h3>Suscríbete</h3>
-									<label class="check-box"><input type="checkbox" id="chkSuscripcion" checked>Me gustaría recibir información de Digital Cocktail</label>
+									<label class="check-box"><input type="checkbox" class="chkSuscripcion" id="dw-suscribirse" checked>Me gustaría recibir información de Digital Cocktail</label>
 									<div class="listas-correo">
-										<label class="check-box listas"><input type="checkbox" checked>Eventos y actividades</label>
-										<label class="check-box listas"><input type="checkbox" checked>Promociones</label>
-										<label class="check-box listas"><input type="checkbox" checked>Últimos artículos del blog</label>
+										<label class="check-box listas"><input type="checkbox" id="dw-eventos" checked>Eventos y actividades</label>
+										<label class="check-box listas"><input type="checkbox" id="dw-promociones" checked>Promociones</label>
+										<label class="check-box listas"><input type="checkbox" id="dw-blog" checked>Últimos artículos del blog</label>
 									</div>
 									<p>Antes de suscribirte debes estar de acuerdo con nuestra <a href="#" target="_blank">Política de manejo de datos</a></p>
 							</div>
@@ -184,8 +183,7 @@
 					</figure>
 				</div>
 				<div class="col-sm-7 right-content">
-					<h2 class="bloque-interno"><strong>La fiesta perfecta con la ayuda apropiada...
-</strong></h2>
+					<h2 class="bloque-interno"><strong>La fiesta perfecta con la ayuda apropiada...</strong></h2>
 					<div class="texto-servicios bloque-interno">
 						<p>Realizamos un diagnóstico para encontrar justo lo que necesitas para que tus proyectos tengan la mejor presencia en la web, ¡déjanos acompañarte! encontremos el mejor camino para que incursiones en Internet de manera estratégica.</p>
 					</div>
@@ -193,24 +191,24 @@
 						<button type="button" class="btn-success btnShow">Me interesa</button>
 						<form id="frm-consultoria-digital" role="Formulario">
 							<div class="nombre-servicios">
-								<label for="nombre-servicios">Nombre*</label>
-								<input type="text" id="nombre-servicios" placeholder="Mucho gusto, tú eres...">
+								<label for="cd-nombre-servicios">Nombre*</label>
+								<input type="text" id="cd-nombre-servicios" placeholder="Mucho gusto, tú eres...">
 							</div>
 							<div class="email-servicios">
-								<label for="email-servicios">E-mail*</label>
-								<input type="email" id="email-servicios" placeholder="Para seguir en contacto">
+								<label for="cd-email-servicios">E-mail*</label>
+								<input type="email" id="cd-email-servicios" placeholder="Para seguir en contacto">
 							</div>
 							<div class="tel-servicios">
-								<label for="tel-servicios">Teléfono</label>
-								<input type="tel" id="tel-servicios" placeholder="Si lo consideras necesario">
+								<label for="cd-tel-servicios">Teléfono</label>
+								<input type="tel" id="cd-tel-servicios" placeholder="Si lo consideras necesario">
 							</div>
 							<div class="recibirinfo-servicios text-left form-dc">
 									<h3>Suscríbete</h3>
-									<label class="check-box"><input type="checkbox" id="chkSuscripcion" checked>Me gustaría recibir información de Digital Cocktail</label>
+									<label class="check-box"><input type="checkbox" class="chkSuscripcion" id="cd-suscribirse" checked>Me gustaría recibir información de Digital Cocktail</label>
 									<div class="listas-correo">
-										<label class="check-box listas"><input type="checkbox" checked>Eventos y actividades</label>
-										<label class="check-box listas"><input type="checkbox" checked>Promociones</label>
-										<label class="check-box listas"><input type="checkbox" checked>Últimos artículos del blog</label>
+										<label class="check-box listas"><input type="checkbox" id="cd-eventos" checked>Eventos y actividades</label>
+										<label class="check-box listas"><input type="checkbox" id="cd-promociones" checked>Promociones</label>
+										<label class="check-box listas"><input type="checkbox" id="cd-blog" checked>Últimos artículos del blog</label>
 									</div>
 									<p>Antes de suscribirte debes estar de acuerdo con nuestra <a href="#" target="_blank">Política de manejo de datos</a></p>
 							</div>
@@ -279,24 +277,24 @@
 						<button type="button" class="btn-success btnShow">Me interesa</button>
 						<form id="frm-email-marketing" role="Formulario">
 							<div class="nombre-servicios">
-								<label for="nombre-servicios">Nombre*</label>
-								<input type="text" id="nombre-servicios" placeholder="Mucho gusto, tú eres...">
+								<label for="em-nombre-servicios">Nombre*</label>
+								<input type="text" id="em-nombre-servicios" placeholder="Mucho gusto, tú eres...">
 							</div>
 							<div class="email-servicios">
-								<label for="email-servicios">E-mail*</label>
-								<input type="email" id="email-servicios" placeholder="Para seguir en contacto">
+								<label for="em-email-servicios">E-mail*</label>
+								<input type="email" id="em-email-servicios" placeholder="Para seguir en contacto">
 							</div>
 							<div class="tel-servicios">
-								<label for="tel-servicios">Teléfono</label>
-								<input type="tel" id="tel-servicios" placeholder="Si lo consideras necesario">
+								<label for="em-tel-servicios">Teléfono</label>
+								<input type="tel" id="em-tel-servicios" placeholder="Si lo consideras necesario">
 							</div>
 							<div class="recibirinfo-servicios text-left form-dc">
 									<h3>Suscríbete</h3>
-									<label class="check-box"><input type="checkbox" id="chkSuscripcion" checked>Me gustaría recibir información de Digital Cocktail</label>
+									<label class="check-box"><input type="checkbox" class="chkSuscripcion" id="em-suscribirse" checked>Me gustaría recibir información de Digital Cocktail</label>
 									<div class="listas-correo">
-										<label class="check-box listas"><input type="checkbox" checked>Eventos y actividades</label>
-										<label class="check-box listas"><input type="checkbox" checked>Promociones</label>
-										<label class="check-box listas"><input type="checkbox" checked>Últimos artículos del blog</label>
+										<label class="check-box listas"><input type="checkbox" id="em-eventos" checked>Eventos y actividades</label>
+										<label class="check-box listas"><input type="checkbox" id="em-promociones" checked>Promociones</label>
+										<label class="check-box listas"><input type="checkbox" id="em-blog" checked>Últimos artículos del blog</label>
 									</div>
 									<p>Antes de suscribirte debes estar de acuerdo con nuestra <a href="#" target="_blank">Política de manejo de datos</a></p>
 							</div>
@@ -357,8 +355,7 @@
 					</figure>
 				</div>
 				<div class="col-sm-7 right-content">
-					<h2 class="bloque-interno"><strong>Verte atractivo es cuestión de saberte expresar…
-</strong></h2>
+					<h2 class="bloque-interno"><strong>Verte atractivo es cuestión de saberte expresar…</strong></h2>
 					<div class="texto-servicios bloque-interno">
 						<p>Lo que dices, lo que muestras, lo que compartes y como lo haces, es clave para comunicarte con los otros,  hazles llegar el mensaje que quieres y de la manera más acertada a través de medios digitales. </p>
 					</div>
@@ -366,24 +363,24 @@
 						<button type="button" class="btn-success btnShow">Me interesa</button>
 						<form id="frm-contenidos" role="Formulario">
 							<div class="nombre-servicios">
-								<label for="nombre-servicios">Nombre*</label>
-								<input type="text" id="nombre-servicios" placeholder="Mucho gusto, tú eres...">
+								<label for="co-nombre-servicios">Nombre*</label>
+								<input type="text" id="co-nombre-servicios" placeholder="Mucho gusto, tú eres...">
 							</div>
 							<div class="email-servicios">
-								<label for="email-servicios">E-mail*</label>
-								<input type="email" id="email-servicios" placeholder="Para seguir en contacto">
+								<label for="co-email-servicios">E-mail*</label>
+								<input type="email" id="co-email-servicios" placeholder="Para seguir en contacto">
 							</div>
 							<div class="tel-servicios">
-								<label for="tel-servicios">Teléfono</label>
-								<input type="tel" id="tel-servicios" placeholder="Si lo consideras necesario">
+								<label for="co-tel-servicios">Teléfono</label>
+								<input type="tel" id="co-tel-servicios" placeholder="Si lo consideras necesario">
 							</div>
 							<div class="recibirinfo-servicios text-left form-dc">
 									<h3>Suscríbete</h3>
-									<label class="check-box"><input type="checkbox" id="chkSuscripcion" checked>Me gustaría recibir información de Digital Cocktail</label>
+									<label class="check-box"><input type="checkbox" class="chkSuscripcion" id="co-suscribirse" checked>Me gustaría recibir información de Digital Cocktail</label>
 									<div class="listas-correo">
-										<label class="check-box listas"><input type="checkbox" checked>Eventos y actividades</label>
-										<label class="check-box listas"><input type="checkbox" checked>Promociones</label>
-										<label class="check-box listas"><input type="checkbox" checked>Últimos artículos del blog</label>
+										<label class="check-box listas"><input type="checkbox" id="co-eventos" checked>Eventos y actividades</label>
+										<label class="check-box listas"><input type="checkbox" id="co-promociones" checked>Promociones</label>
+										<label class="check-box listas"><input type="checkbox" id="co-blog" checked>Últimos artículos del blog</label>
 									</div>
 									<p>Antes de suscribirte debes estar de acuerdo con nuestra <a href="#" target="_blank">Política de manejo de datos</a></p>
 							</div>
@@ -444,7 +441,7 @@
 					</figure>
 				</div>
 				<div class="col-sm-7 right-content">
-					<h2 class="bloque-interno"><strong>Te quieren por tu personalidad... </strong></h2>
+					<h2 class="bloque-interno"><strong>Te quieren por tu personalidad...</strong></h2>
 					<div class="texto-servicios bloque-interno">
 						<p>Tus redes sociales son la vía más efectiva y rápida para interactuar con tu público, crea lazos con ellos y alcanza logros efectivos para tu marca. </p>
 					</div>
@@ -452,24 +449,24 @@
 						<button type="button" class="btn-success btnShow">Me interesa</button>
 						<form id="frm-redes-sociales" role="Formulario">
 							<div class="nombre-servicios">
-								<label for="nombre-servicios">Nombre*</label>
-								<input type="text" id="nombre-servicios" placeholder="Mucho gusto, tú eres...">
+								<label for="rs-nombre-servicios">Nombre*</label>
+								<input type="text" id="rs-nombre-servicios" placeholder="Mucho gusto, tú eres...">
 							</div>
 							<div class="email-servicios">
-								<label for="email-servicios">E-mail*</label>
-								<input type="email" id="email-servicios" placeholder="Para seguir en contacto">
+								<label for="rs-email-servicios">E-mail*</label>
+								<input type="email" id="rs-email-servicios" placeholder="Para seguir en contacto">
 							</div>
 							<div class="tel-servicios">
-								<label for="tel-servicios">Teléfono</label>
-								<input type="tel" id="tel-servicios" placeholder="Si lo consideras necesario">
+								<label for="rs-tel-servicios">Teléfono</label>
+								<input type="tel" id="rs-tel-servicios" placeholder="Si lo consideras necesario">
 							</div>
 							<div class="recibirinfo-servicios text-left form-dc">
 									<h3>Suscríbete</h3>
-									<label class="check-box"><input type="checkbox" id="chkSuscripcion" checked>Me gustaría recibir información de Digital Cocktail</label>
+									<label class="check-box"><input type="checkbox" class="chkSuscripcion" id="rs-suscribirse" checked>Me gustaría recibir información de Digital Cocktail</label>
 									<div class="listas-correo">
-										<label class="check-box listas"><input type="checkbox" checked>Eventos y actividades</label>
-										<label class="check-box listas"><input type="checkbox" checked>Promociones</label>
-										<label class="check-box listas"><input type="checkbox" checked>Últimos artículos del blog</label>
+										<label class="check-box listas"><input type="checkbox" id="rs-eventos" checked>Eventos y actividades</label>
+										<label class="check-box listas"><input type="checkbox" id="rs-promociones" checked>Promociones</label>
+										<label class="check-box listas"><input type="checkbox" id="rs-blog" checked>Últimos artículos del blog</label>
 									</div>
 									<p>Antes de suscribirte debes estar de acuerdo con nuestra <a href="#" target="_blank">Política de manejo de datos</a></p>
 							</div>
@@ -538,24 +535,24 @@
 						<button type="button" class="btn-success btnShow">Me interesa</button>
 						<form id="frm-seo" role="Formulario">
 							<div class="nombre-servicios">
-								<label for="nombre-servicios">Nombre*</label>
-								<input type="text" id="nombre-servicios" placeholder="Mucho gusto, tú eres...">
+								<label for="se-nombre-servicios">Nombre*</label>
+								<input type="text" id="se-nombre-servicios" placeholder="Mucho gusto, tú eres...">
 							</div>
 							<div class="email-servicios">
-								<label for="email-servicios">E-mail*</label>
-								<input type="email" id="email-servicios" placeholder="Para seguir en contacto">
+								<label for="se-email-servicios">E-mail*</label>
+								<input type="email" id="se-email-servicios" placeholder="Para seguir en contacto">
 							</div>
 							<div class="tel-servicios">
-								<label for="tel-servicios">Teléfono</label>
-								<input type="tel" id="tel-servicios" placeholder="Si lo consideras necesario">
+								<label for="se-tel-servicios">Teléfono</label>
+								<input type="tel" id="se-tel-servicios" placeholder="Si lo consideras necesario">
 							</div>
 							<div class="recibirinfo-servicios text-left form-dc">
 									<h3>Suscríbete</h3>
-									<label class="check-box"><input type="checkbox" id="chkSuscripcion" checked>Me gustaría recibir información de Digital Cocktail</label>
+									<label class="check-box"><input type="checkbox" class="chkSuscripcion" id="se-suscribirse" checked>Me gustaría recibir información de Digital Cocktail</label>
 									<div class="listas-correo">
-										<label class="check-box listas"><input type="checkbox" checked>Eventos y actividades</label>
-										<label class="check-box listas"><input type="checkbox" checked>Promociones</label>
-										<label class="check-box listas"><input type="checkbox" checked>Últimos artículos del blog</label>
+										<label class="check-box listas"><input type="checkbox" id="se-eventos" checked>Eventos y actividades</label>
+										<label class="check-box listas"><input type="checkbox" id="se-promociones" checked>Promociones</label>
+										<label class="check-box listas"><input type="checkbox" id="se-blog" checked>Últimos artículos del blog</label>
 									</div>
 									<p>Antes de suscribirte debes estar de acuerdo con nuestra <a href="#" target="_blank">Política de manejo de datos</a></p>
 							</div>
@@ -625,24 +622,24 @@
 						<button type="button" class="btn-success btnShow">Me interesa</button>
 						<form id="frm-publicidad-online" role="Formulario">
 							<div class="nombre-servicios">
-								<label for="nombre-servicios">Nombre*</label>
-								<input type="text" id="nombre-servicios" placeholder="Mucho gusto, tú eres...">
+								<label for="po-nombre-servicios">Nombre*</label>
+								<input type="text" id="po-nombre-servicios" placeholder="Mucho gusto, tú eres...">
 							</div>
 							<div class="email-servicios">
-								<label for="email-servicios">E-mail*</label>
-								<input type="email" id="email-servicios" placeholder="Para seguir en contacto">
+								<label for="po-email-servicios">E-mail*</label>
+								<input type="email" id="po-email-servicios" placeholder="Para seguir en contacto">
 							</div>
 							<div class="tel-servicios">
-								<label for="tel-servicios">Teléfono</label>
-								<input type="tel" id="tel-servicios" placeholder="Si lo consideras necesario">
+								<label for="po-tel-servicios">Teléfono</label>
+								<input type="tel" id="po-tel-servicios" placeholder="Si lo consideras necesario">
 							</div>
 							<div class="recibirinfo-servicios text-left form-dc">
 									<h3>Suscríbete</h3>
-									<label class="check-box"><input type="checkbox" id="chkSuscripcion" checked>Me gustaría recibir información de Digital Cocktail</label>
+									<label class="check-box"><input type="checkbox" class="chkSuscripcion" id="po-suscribirse" checked>Me gustaría recibir información de Digital Cocktail</label>
 									<div class="listas-correo">
-										<label class="check-box listas"><input type="checkbox" checked>Eventos y actividades</label>
-										<label class="check-box listas"><input type="checkbox" checked>Promociones</label>
-										<label class="check-box listas"><input type="checkbox" checked>Últimos artículos del blog</label>
+										<label class="check-box listas"><input type="checkbox" id="po-eventos" checked>Eventos y actividades</label>
+										<label class="check-box listas"><input type="checkbox" id="po-promociones" checked>Promociones</label>
+										<label class="check-box listas"><input type="checkbox" id="po-blog" checked>Últimos artículos del blog</label>
 									</div>
 									<p>Antes de suscribirte debes estar de acuerdo con nuestra <a href="#" target="_blank">Política de manejo de datos</a></p>
 							</div>
@@ -711,24 +708,24 @@
 						<button type="button" class="btn-success btnShow">Me interesa</button>
 						<form id="frm-analitica-web" role="Formulario">
 							<div class="nombre-servicios">
-								<label for="nombre-servicios">Nombre*</label>
-								<input type="text" id="nombre-servicios" placeholder="Mucho gusto, tú eres...">
+								<label for="aw-nombre-servicios">Nombre*</label>
+								<input type="text" id="aw-nombre-servicios" placeholder="Mucho gusto, tú eres...">
 							</div>
 							<div class="email-servicios">
-								<label for="email-servicios">E-mail*</label>
-								<input type="email" id="email-servicios" placeholder="Para seguir en contacto">
+								<label for="aw-email-servicios">E-mail*</label>
+								<input type="email" id="aw-email-servicios" placeholder="Para seguir en contacto">
 							</div>
 							<div class="tel-servicios">
-								<label for="tel-servicios">Teléfono</label>
-								<input type="tel" id="tel-servicios" placeholder="Si lo consideras necesario">
+								<label for="aw-tel-servicios">Teléfono</label>
+								<input type="tel" id="aw-tel-servicios" placeholder="Si lo consideras necesario">
 							</div>
 							<div class="recibirinfo-servicios text-left form-dc">
 									<h3>Suscríbete</h3>
-									<label class="check-box"><input type="checkbox" id="chkSuscripcion" checked>Me gustaría recibir información de Digital Cocktail</label>
+									<label class="check-box"><input type="checkbox" class="chkSuscripcion" id="aw-suscribirse" checked>Me gustaría recibir información de Digital Cocktail</label>
 									<div class="listas-correo">
-										<label class="check-box listas"><input type="checkbox" checked>Eventos y actividades</label>
-										<label class="check-box listas"><input type="checkbox" checked>Promociones</label>
-										<label class="check-box listas"><input type="checkbox" checked>Últimos artículos del blog</label>
+										<label class="check-box listas"><input type="checkbox" id="aw-eventos" checked>Eventos y actividades</label>
+										<label class="check-box listas"><input type="checkbox" id="aw-promociones" checked>Promociones</label>
+										<label class="check-box listas"><input type="checkbox" id="aw-blog" checked>Últimos artículos del blog</label>
 									</div>
 									<p>Antes de suscribirte debes estar de acuerdo con nuestra <a href="#" target="_blank">Política de manejo de datos</a></p>
 							</div>
@@ -797,24 +794,24 @@
 						<button type="button" class="btn-success btnShow">Me interesa</button>
 						<form id="frm-apps-nube" role="Formulario">
 							<div class="nombre-servicios">
-								<label for="nombre-servicios">Nombre*</label>
-								<input type="text" id="nombre-servicios" placeholder="Mucho gusto, tú eres...">
+								<label for="an-nombre-servicios">Nombre*</label>
+								<input type="text" id="an-nombre-servicios" placeholder="Mucho gusto, tú eres...">
 							</div>
 							<div class="email-servicios">
-								<label for="email-servicios">E-mail*</label>
-								<input type="email" id="email-servicios" placeholder="Para seguir en contacto">
+								<label for="an-email-servicios">E-mail*</label>
+								<input type="email" id="an-email-servicios" placeholder="Para seguir en contacto">
 							</div>
 							<div class="tel-servicios">
-								<label for="tel-servicios">Teléfono</label>
-								<input type="tel" id="tel-servicios" placeholder="Si lo consideras necesario">
+								<label for="an-tel-servicios">Teléfono</label>
+								<input type="tel" id="an-tel-servicios" placeholder="Si lo consideras necesario">
 							</div>
 							<div class="recibirinfo-servicios text-left form-dc">
 									<h3>Suscríbete</h3>
-									<label class="check-box"><input type="checkbox" id="chkSuscripcion" checked>Me gustaría recibir información de Digital Cocktail</label>
+									<label class="check-box"><input type="checkbox" class="chkSuscripcion" id="an-suscribirse" checked>Me gustaría recibir información de Digital Cocktail</label>
 									<div class="listas-correo">
-										<label class="check-box listas"><input type="checkbox" checked>Eventos y actividades</label>
-										<label class="check-box listas"><input type="checkbox" checked>Promociones</label>
-										<label class="check-box listas"><input type="checkbox" checked>Últimos artículos del blog</label>
+										<label class="check-box listas"><input type="checkbox" id="an-eventos" checked>Eventos y actividades</label>
+										<label class="check-box listas"><input type="checkbox" id="an-promociones" checked>Promociones</label>
+										<label class="check-box listas"><input type="checkbox" id="an-blog" checked>Últimos artículos del blog</label>
 									</div>
 									<p>Antes de suscribirte debes estar de acuerdo con nuestra <a href="#" target="_blank">Política de manejo de datos</a></p>
 							</div>
@@ -883,4 +880,7 @@
 			<li><a href="#apps-nube" class="an">Apps en la nube</a></li>
 		</ul>
 	</div><!-- fin de menu-servicios -->
+	<script type="text/javascript">
+	var rutaContactarServicio = "{{ URL::route('contacto/servicios') }}";
+	</script>
 @stop

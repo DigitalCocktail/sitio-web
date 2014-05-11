@@ -31,3 +31,8 @@ Route::get('/contacto', function() {
 	);	
 	return View::make('contacto', $data);
 });
+
+Route::post("/contactar/servicio", array(
+	"as" => "contacto/servicios",
+	"uses" => "ContactoController@contactoServicios"
+));

@@ -84,7 +84,7 @@ $(function() {
 	/* End: Menú Lateral Servicios Móvil */
 
 	/* Start: Suscripción Boletín Servicios */
-	$("#chkSuscripcion").change(function(){
+	$(".chkSuscripcion").change(function(){
 		if($(this).is(":checked")){
 			$(".listas-correo").show('slow');
 			$(".listas-correo").removeClass('animated fadeOutLeft');
@@ -274,7 +274,14 @@ $(function() {
 		cerrarMenu();
 	});	
 
+	function resetSuscripcion(){
+		$(".chkSuscripcion").prop('checked',true);
+		$(".listas-correo").removeClass('animated fadeOutLeft');
+		$(".listas-correo").show('slow');
+	}
+
 	function ocultar(){
+		resetSuscripcion();
 		$(".estrategia-digital").removeClass('mostrar animated fadeInDown');
 		$(".ed").removeClass('active');
 		$(".desarrollo-web").removeClass('mostrar animated fadeInDown');
@@ -294,7 +301,7 @@ $(function() {
 		$(".analitica-web").removeClass('mostrar animated fadeInDown');
 		$(".aw").removeClass('active');
 		$(".apps-nube").removeClass('mostrar animated fadeInDown');
-		$(".an").removeClass('active');						
+		$(".an").removeClass('active');
 	}
 
 	function cerrarMenu(){
@@ -325,5 +332,460 @@ $(function() {
 		$("html, body").animate({ scrollTop: $("#frm-" + h).offset().top }, 1000);
 		$("#frm-" + h).addClass('animated tada');
 	});
+
+	$("#frm-estrategia-digital").submit(function(e){
+		e.preventDefault();
+		$nombre = $("#ed-nombre-servicios");
+		$email = $("#ed-email-servicios");
+		$telefono = $("#ed-tel-servicios");
+		$suscribirse = $("#ed-suscribirse");
+		$eventos = $("#ed-eventos");
+		$promociones = $("#ed-promociones");
+		$blog = $("#ed-blog");
+		datos = "nombre="+$nombre.val()+"&email="+$email.val()+"&telefono="+$telefono.val()+"&suscribirse="+$suscribirse.val()+"&eventos="+$eventos.val()+"&promociones="+$promociones.val()+"&blog="+$blog.val()+"&s=ed";
+		error = 0;
+		if(isEmpty($nombre.val())){
+			error ++;
+			$nombre.addClass('has-error');
+		}
+		else{
+			$nombre.removeClass('has-error');
+		}
+		if(isEmpty($email.val())){
+	    	$email.addClass("has-error");
+	      	error++;
+		}
+		else if(isEmail($email.val())){
+	    	$email.addClass("has-error");
+	      	error++;					
+		}
+		else {
+			$email.removeClass("has-error");
+		}		
+		if(error == 0){
+			cargando();
+			$.ajax({
+				type: "POST",
+				dataType: 'json',
+				data: datos,
+				url: rutaContactarServicio,
+				success: function(result){
+					alert("Contactado");
+				}
+			});
+		}
+	});
+
+	$("#frm-desarrollo-web").submit(function(e){
+		e.preventDefault();
+		$nombre = $("#dw-nombre-servicios");
+		$email = $("#dw-email-servicios");
+		$telefono = $("#dw-tel-servicios");
+		$suscribirse = $("#dw-suscribirse");
+		$eventos = $("#dw-eventos");
+		$promociones = $("#dw-promociones");
+		$blog = $("#dw-blog");
+		datos = "nombre="+$nombre.val()+"&email="+$email.val()+"&telefono="+$telefono.val()+"&suscribirse="+$suscribirse.val()+"&eventos="+$eventos.val()+"&promociones="+$promociones.val()+"&blog="+$blog.val()+"&s=dw";
+		error = 0;
+		if(isEmpty($nombre.val())){
+			error ++;
+			$nombre.addClass('has-error');
+		}
+		else{
+			$nombre.removeClass('has-error');
+		}
+		if(isEmpty($email.val())){
+	    	$email.addClass("has-error");
+	      	error++;
+		}
+		else if(isEmail($email.val())){
+	    	$email.addClass("has-error");
+	      	error++;					
+		}
+		else {
+			$email.removeClass("has-error");
+		}		
+		if(error == 0){
+			$.ajax({
+				type: "POST",
+				dataType: 'json',
+				data: datos,
+				url: rutaContactarServicio,
+				success: function(result){
+					alert("Contactado");
+				}
+			});
+		}
+	});
+
+	$("#frm-consultoria-digital").submit(function(e){
+		e.preventDefault();
+		$nombre = $("#cd-nombre-servicios");
+		$email = $("#cd-email-servicios");
+		$telefono = $("#cd-tel-servicios");
+		$suscribirse = $("#cd-suscribirse");
+		$eventos = $("#cd-eventos");
+		$promociones = $("#cd-promociones");
+		$blog = $("#cd-blog");
+		datos = "nombre="+$nombre.val()+"&email="+$email.val()+"&telefono="+$telefono.val()+"&suscribirse="+$suscribirse.val()+"&eventos="+$eventos.val()+"&promociones="+$promociones.val()+"&blog="+$blog.val()+"&s=cd";
+		error = 0;
+		if(isEmpty($nombre.val())){
+			error ++;
+			$nombre.addClass('has-error');
+		}
+		else{
+			$nombre.removeClass('has-error');
+		}
+		if(isEmpty($email.val())){
+	    	$email.addClass("has-error");
+	      	error++;
+		}
+		else if(isEmail($email.val())){
+	    	$email.addClass("has-error");
+	      	error++;					
+		}
+		else {
+			$email.removeClass("has-error");
+		}		
+		if(error == 0){
+			$.ajax({
+				type: "POST",
+				dataType: 'json',
+				data: datos,
+				url: rutaContactarServicio,
+				success: function(result){
+					alert("Contactado");
+				}
+			});
+		}
+	});
+
+	$("#frm-email-marketing").submit(function(e){
+		e.preventDefault();
+		$nombre = $("#em-nombre-servicios");
+		$email = $("#em-email-servicios");
+		$telefono = $("#em-tel-servicios");
+		$suscribirse = $("#em-suscribirse");
+		$eventos = $("#em-eventos");
+		$promociones = $("#em-promociones");
+		$blog = $("#em-blog");
+		datos = "nombre="+$nombre.val()+"&email="+$email.val()+"&telefono="+$telefono.val()+"&suscribirse="+$suscribirse.val()+"&eventos="+$eventos.val()+"&promociones="+$promociones.val()+"&blog="+$blog.val()+"&s=em";
+		error = 0;
+		if(isEmpty($nombre.val())){
+			error ++;
+			$nombre.addClass('has-error');
+		}
+		else{
+			$nombre.removeClass('has-error');
+		}
+		if(isEmpty($email.val())){
+	    	$email.addClass("has-error");
+	      	error++;
+		}
+		else if(isEmail($email.val())){
+	    	$email.addClass("has-error");
+	      	error++;					
+		}
+		else {
+			$email.removeClass("has-error");
+		}		
+		if(error == 0){
+			$.ajax({
+				type: "POST",
+				dataType: 'json',
+				data: datos,
+				url: rutaContactarServicio,
+				success: function(result){
+					alert("Contactado");
+				}
+			});
+		}
+	});
+
+	$("#frm-contenidos").submit(function(e){
+		e.preventDefault();
+		$nombre = $("#co-nombre-servicios");
+		$email = $("#co-email-servicios");
+		$telefono = $("#co-tel-servicios");
+		$suscribirse = $("#co-suscribirse");
+		$eventos = $("#co-eventos");
+		$promociones = $("#co-promociones");
+		$blog = $("#co-blog");
+		datos = "nombre="+$nombre.val()+"&email="+$email.val()+"&telefono="+$telefono.val()+"&suscribirse="+$suscribirse.val()+"&eventos="+$eventos.val()+"&promociones="+$promociones.val()+"&blog="+$blog.val()+"&s=co";
+		error = 0;
+		if(isEmpty($nombre.val())){
+			error ++;
+			$nombre.addClass('has-error');
+		}
+		else{
+			$nombre.removeClass('has-error');
+		}
+		if(isEmpty($email.val())){
+	    	$email.addClass("has-error");
+	      	error++;
+		}
+		else if(isEmail($email.val())){
+	    	$email.addClass("has-error");
+	      	error++;					
+		}
+		else {
+			$email.removeClass("has-error");
+		}		
+		if(error == 0){
+			$.ajax({
+				type: "POST",
+				dataType: 'json',
+				data: datos,
+				url: rutaContactarServicio,
+				success: function(result){
+					alert("Contactado");
+				}
+			});
+		}
+	});
+
+	$("#frm-redes-sociales").submit(function(e){
+		e.preventDefault();
+		$nombre = $("#rs-nombre-servicios");
+		$email = $("#rs-email-servicios");
+		$telefono = $("#rs-tel-servicios");
+		$suscribirse = $("#rs-suscribirse");
+		$eventos = $("#rs-eventos");
+		$promociones = $("#rs-promociones");
+		$blog = $("#rs-blog");
+		datos = "nombre="+$nombre.val()+"&email="+$email.val()+"&telefono="+$telefono.val()+"&suscribirse="+$suscribirse.val()+"&eventos="+$eventos.val()+"&promociones="+$promociones.val()+"&blog="+$blog.val()+"&s=rs";
+		error = 0;
+		if(isEmpty($nombre.val())){
+			error ++;
+			$nombre.addClass('has-error');
+		}
+		else{
+			$nombre.removeClass('has-error');
+		}
+		if(isEmpty($email.val())){
+	    	$email.addClass("has-error");
+	      	error++;
+		}
+		else if(isEmail($email.val())){
+	    	$email.addClass("has-error");
+	      	error++;					
+		}
+		else {
+			$email.removeClass("has-error");
+		}	
+		if(error == 0){
+			$.ajax({
+				type: "POST",
+				dataType: 'json',
+				data: datos,
+				url: rutaContactarServicio,
+				success: function(result){
+					alert("Contactado");
+				}
+			});
+		}
+	});
+
+	$("#frm-seo").submit(function(e){
+		e.preventDefault();
+		$nombre = $("#se-nombre-servicios");
+		$email = $("#se-email-servicios");
+		$telefono = $("#se-tel-servicios");
+		$suscribirse = $("#se-suscribirse");
+		$eventos = $("#se-eventos");
+		$promociones = $("#se-promociones");
+		$blog = $("#se-blog");
+		datos = "nombre="+$nombre.val()+"&email="+$email.val()+"&telefono="+$telefono.val()+"&suscribirse="+$suscribirse.val()+"&eventos="+$eventos.val()+"&promociones="+$promociones.val()+"&blog="+$blog.val()+"&s=se";
+		error = 0;
+		if(isEmpty($nombre.val())){
+			error ++;
+			$nombre.addClass('has-error');
+		}
+		else{
+			$nombre.removeClass('has-error');
+		}
+		if(isEmpty($email.val())){
+	    	$email.addClass("has-error");
+	      	error++;
+		}
+		else if(isEmail($email.val())){
+	    	$email.addClass("has-error");
+	      	error++;					
+		}
+		else {
+			$email.removeClass("has-error");
+		}	
+		if(error == 0){
+			$.ajax({
+				type: "POST",
+				dataType: 'json',
+				data: datos,
+				url: rutaContactarServicio,
+				success: function(result){
+					alert("Contactado");
+				}
+			});
+		}
+	});
+
+	$("#frm-publicidad-online").submit(function(e){
+		e.preventDefault();
+		$nombre = $("#po-nombre-servicios");
+		$email = $("#po-email-servicios");
+		$telefono = $("#po-tel-servicios");
+		$suscribirse = $("#po-suscribirse");
+		$eventos = $("#po-eventos");
+		$promociones = $("#po-promociones");
+		$blog = $("#po-blog");
+		datos = "nombre="+$nombre.val()+"&email="+$email.val()+"&telefono="+$telefono.val()+"&suscribirse="+$suscribirse.val()+"&eventos="+$eventos.val()+"&promociones="+$promociones.val()+"&blog="+$blog.val()+"&s=po";
+		error = 0;
+		if(isEmpty($nombre.val())){
+			error ++;
+			$nombre.addClass('has-error');
+		}
+		else{
+			$nombre.removeClass('has-error');
+		}
+		if(isEmpty($email.val())){
+	    	$email.addClass("has-error");
+	      	error++;
+		}
+		else if(isEmail($email.val())){
+	    	$email.addClass("has-error");
+	      	error++;					
+		}
+		else {
+			$email.removeClass("has-error");
+		}	
+		if(error == 0){
+			$.ajax({
+				type: "POST",
+				dataType: 'json',
+				data: datos,
+				url: rutaContactarServicio,
+				success: function(result){
+					alert("Contactado");
+				}
+			});
+		}
+	});
+
+	$("#frm-analitica-web").submit(function(e){
+		e.preventDefault();
+		$nombre = $("#aw-nombre-servicios");
+		$email = $("#aw-email-servicios");
+		$telefono = $("#aw-tel-servicios");
+		$suscribirse = $("#aw-suscribirse");
+		$eventos = $("#aw-eventos");
+		$promociones = $("#aw-promociones");
+		$blog = $("#aw-blog");
+		datos = "nombre="+$nombre.val()+"&email="+$email.val()+"&telefono="+$telefono.val()+"&suscribirse="+$suscribirse.val()+"&eventos="+$eventos.val()+"&promociones="+$promociones.val()+"&blog="+$blog.val()+"&s=aw";
+		error = 0;
+		if(isEmpty($nombre.val())){
+			error ++;
+			$nombre.addClass('has-error');
+		}
+		else{
+			$nombre.removeClass('has-error');
+		}
+		if(isEmpty($email.val())){
+	    	$email.addClass("has-error");
+	      	error++;
+		}
+		else if(isEmail($email.val())){
+	    	$email.addClass("has-error");
+	      	error++;					
+		}
+		else {
+			$email.removeClass("has-error");
+		}	
+		if(error == 0){
+			$.ajax({
+				type: "POST",
+				dataType: 'json',
+				data: datos,
+				url: rutaContactarServicio,
+				success: function(result){
+					alert("Contactado");
+				}
+			});
+		}
+	});
+
+	$("#frm-apps-nube").submit(function(e){
+		e.preventDefault();
+		$nombre = $("#an-nombre-servicios");
+		$email = $("#an-email-servicios");
+		$telefono = $("#an-tel-servicios");
+		$suscribirse = $("#an-suscribirse");
+		$eventos = $("#an-eventos");
+		$promociones = $("#an-promociones");
+		$blog = $("#an-blog");
+		datos = "nombre="+$nombre.val()+"&email="+$email.val()+"&telefono="+$telefono.val()+"&suscribirse="+$suscribirse.val()+"&eventos="+$eventos.val()+"&promociones="+$promociones.val()+"&blog="+$blog.val()+"&s=an";
+		error = 0;
+		if(isEmpty($nombre.val())){
+			error ++;
+			$nombre.addClass('has-error');
+		}
+		else{
+			$nombre.removeClass('has-error');
+		}
+		if(isEmpty($email.val())){
+	    	$email.addClass("has-error");
+	      	error++;
+		}
+		else if(isEmail($email.val())){
+	    	$email.addClass("has-error");
+	      	error++;					
+		}
+		else {
+			$email.removeClass("has-error");
+		}	
+		if(error == 0){
+			$.ajax({
+				type: "POST",
+				dataType: 'json',
+				data: datos,
+				url: rutaContactarServicio,
+				success: function(result){
+					alert("Contactado");
+				}
+			});
+		}
+	});
 	/* End: Formulario Servicios */	
+
+	/* Funciones útiles */
+	function isEmpty (mixed_var) {
+	  var undef, key, i, len;
+	  var emptyValues = [undef, null, false, 0, "", "0"];
+
+	  for (i = 0, len = emptyValues.length; i < len; i++) {
+	    if (mixed_var === emptyValues[i]) {
+	      return true;
+	    }
+	  }
+
+	  if (typeof mixed_var === "object") {
+	    for (key in mixed_var) {
+	      // TODO: should we check for own properties only?
+	      //if (mixed_var.hasOwnProperty(key)) {
+	      return false;
+	      //}
+	    }
+	    return true;
+	  }
+
+	  return false;
+	}
+
+	function isEmail(valor){
+		// creamos nuestra regla con expresiones regulares.
+		var filter = /[\w-\.]{3,}@([\w-]{2,}\.)*([\w-]{2,}\.)[\w-]{2,4}/;
+		// utilizamos test para comprobar si el parametro valor cumple la regla
+		if(filter.test(valor))
+			return false;
+		else
+			return true;
+	}
 });

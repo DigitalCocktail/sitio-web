@@ -11,7 +11,8 @@
     ],	
 	"require": {
 		"laravel/framework": "4.1.*",
-		"wardrobe/core": "dev-master"
+		"wardrobe/core": "dev-master",
+		"bogardo/mailgun": "dev-master"
 	},
 	"autoload": {
 		"classmap": [
@@ -20,7 +21,8 @@
 			"app/models",
 			"app/database/migrations",
 			"app/database/seeds",
-			"app/tests/TestCase.php"
+			"app/tests/TestCase.php",
+			"app/helpers"
 		]
 	},
 	"scripts": {
