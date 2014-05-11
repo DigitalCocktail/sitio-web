@@ -363,14 +363,14 @@ $(function() {
 			$email.removeClass("has-error");
 		}		
 		if(error == 0){
-			cargando();
+			cargando('#ed', '#frm-estrategia-digital');
 			$.ajax({
 				type: "POST",
 				dataType: 'json',
 				data: datos,
 				url: rutaContactarServicio,
 				success: function(result){
-					alert("Contactado");
+					success('#ed');
 				}
 			});
 		}
@@ -406,13 +406,14 @@ $(function() {
 			$email.removeClass("has-error");
 		}		
 		if(error == 0){
+			cargando('#dw', '#frm-desarrollo-web');
 			$.ajax({
 				type: "POST",
 				dataType: 'json',
 				data: datos,
 				url: rutaContactarServicio,
 				success: function(result){
-					alert("Contactado");
+					success('#dw');
 				}
 			});
 		}
@@ -448,13 +449,14 @@ $(function() {
 			$email.removeClass("has-error");
 		}		
 		if(error == 0){
+			cargando('#cd', '#frm-consultoria-digital');
 			$.ajax({
 				type: "POST",
 				dataType: 'json',
 				data: datos,
 				url: rutaContactarServicio,
 				success: function(result){
-					alert("Contactado");
+					success('#cd');
 				}
 			});
 		}
@@ -490,13 +492,14 @@ $(function() {
 			$email.removeClass("has-error");
 		}		
 		if(error == 0){
+			cargando('#em', '#frm-email-marketing');
 			$.ajax({
 				type: "POST",
 				dataType: 'json',
 				data: datos,
 				url: rutaContactarServicio,
 				success: function(result){
-					alert("Contactado");
+					success('#em');
 				}
 			});
 		}
@@ -532,13 +535,14 @@ $(function() {
 			$email.removeClass("has-error");
 		}		
 		if(error == 0){
+			cargando('#co', '#frm-contenidos');
 			$.ajax({
 				type: "POST",
 				dataType: 'json',
 				data: datos,
 				url: rutaContactarServicio,
 				success: function(result){
-					alert("Contactado");
+					success('#co');
 				}
 			});
 		}
@@ -574,13 +578,14 @@ $(function() {
 			$email.removeClass("has-error");
 		}	
 		if(error == 0){
+			cargando('#rs', '#frm-redes-sociales');
 			$.ajax({
 				type: "POST",
 				dataType: 'json',
 				data: datos,
 				url: rutaContactarServicio,
 				success: function(result){
-					alert("Contactado");
+					success('#rs');
 				}
 			});
 		}
@@ -616,13 +621,14 @@ $(function() {
 			$email.removeClass("has-error");
 		}	
 		if(error == 0){
+			cargando('#se', '#frm-seo');
 			$.ajax({
 				type: "POST",
 				dataType: 'json',
 				data: datos,
 				url: rutaContactarServicio,
 				success: function(result){
-					alert("Contactado");
+					success('#se');
 				}
 			});
 		}
@@ -658,13 +664,14 @@ $(function() {
 			$email.removeClass("has-error");
 		}	
 		if(error == 0){
+			cargando('#po', '#frm-publicidad-online');
 			$.ajax({
 				type: "POST",
 				dataType: 'json',
 				data: datos,
 				url: rutaContactarServicio,
 				success: function(result){
-					alert("Contactado");
+					success('#po');
 				}
 			});
 		}
@@ -700,13 +707,14 @@ $(function() {
 			$email.removeClass("has-error");
 		}	
 		if(error == 0){
+			cargando('#aw', '#frm-analitica-web');
 			$.ajax({
 				type: "POST",
 				dataType: 'json',
 				data: datos,
 				url: rutaContactarServicio,
 				success: function(result){
-					alert("Contactado");
+					success('#aw');
 				}
 			});
 		}
@@ -742,13 +750,14 @@ $(function() {
 			$email.removeClass("has-error");
 		}	
 		if(error == 0){
+			cargando('#an', '#frm-apps-nube');
 			$.ajax({
 				type: "POST",
 				dataType: 'json',
 				data: datos,
 				url: rutaContactarServicio,
 				success: function(result){
-					alert("Contactado");
+					success('#an');
 				}
 			});
 		}
@@ -787,5 +796,19 @@ $(function() {
 			return false;
 		else
 			return true;
+	}
+
+	function cargando(slug, frm){
+		$frm = $(frm);
+		$frm.hide();
+		$cargando = $(slug + "-cargando");
+		$cargando.show();
+	}
+
+	function success(slug){
+		$cargando = $(slug + "-cargando");
+		$cargando.hide();		
+		$success = $(slug + "-success");
+		$success.show();		
 	}
 });

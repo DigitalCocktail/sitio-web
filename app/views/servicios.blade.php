@@ -44,6 +44,17 @@
 								<button class="btn-success" type="submit">Enviar</button>
 							</div>
 						</form>
+						<div id="ed-cargando" class="oculto">
+							<div class="spinner">
+							  <div class="cube1"></div>
+							  <div class="cube2"></div>
+							</div>						
+							<h2>Enviando...</h2>
+							<p class="subtitulo">pronto estarás enterado de nuestras novedades</p>
+						</div>
+						<div id="ed-success" class="oculto">					
+							<h2>Envío Exitoso</h2>
+						</div>												
 					</div><!-- Fin del botón de contacto -->
 					<div class="compartir bloque">
 						<p><strong>Comparte</strong></p>
@@ -130,6 +141,17 @@
 								<button class="btn-success" type="submit">Enviar</button>
 							</div>
 						</form>
+						<div id="dw-cargando" class="oculto">
+							<div class="spinner">
+							  <div class="cube1"></div>
+							  <div class="cube2"></div>
+							</div>						
+							<h2>Enviando...</h2>
+							<p class="subtitulo">pronto estarás enterado de nuestras novedades</p>
+						</div>
+						<div id="dw-success" class="oculto">					
+							<h2>Envío Exitoso</h2>
+						</div>						
 					</div><!-- Fin del botón de contacto -->
 					<div class="compartir bloque">
 						<p><strong>Comparte</strong></p>
@@ -216,6 +238,17 @@
 								<button class="btn-success" type="submit">Enviar</button>
 							</div>
 						</form>
+						<div id="cd-cargando" class="oculto">
+							<div class="spinner">
+							  <div class="cube1"></div>
+							  <div class="cube2"></div>
+							</div>						
+							<h2>Enviando...</h2>
+							<p class="subtitulo">pronto estarás enterado de nuestras novedades</p>
+						</div>
+						<div id="cd-success" class="oculto">					
+							<h2>Envío Exitoso</h2>
+						</div>						
 					</div><!-- Fin del botón de contacto -->
 					<div class="compartir bloque">
 						<p><strong>Comparte</strong></p>
@@ -302,6 +335,17 @@
 								<button class="btn-success" type="submit">Enviar</button>
 							</div>
 						</form>
+						<div id="em-cargando" class="oculto">
+							<div class="spinner">
+							  <div class="cube1"></div>
+							  <div class="cube2"></div>
+							</div>						
+							<h2>Enviando...</h2>
+							<p class="subtitulo">pronto estarás enterado de nuestras novedades</p>
+						</div>
+						<div id="em-success" class="oculto">					
+							<h2>Envío Exitoso</h2>
+						</div>						
 					</div><!-- Fin del botón de contacto -->
 					<div class="compartir bloque">
 						<p><strong>Comparte</strong></p>
@@ -388,6 +432,17 @@
 								<button class="btn-success" type="submit">Enviar</button>
 							</div>
 						</form>
+						<div id="co-cargando" class="oculto">
+							<div class="spinner">
+							  <div class="cube1"></div>
+							  <div class="cube2"></div>
+							</div>						
+							<h2>Enviando...</h2>
+							<p class="subtitulo">pronto estarás enterado de nuestras novedades</p>
+						</div>
+						<div id="co-success" class="oculto">					
+							<h2>Envío Exitoso</h2>
+						</div>						
 					</div><!-- Fin del botón de contacto -->
 					<div class="compartir bloque">
 						<p><strong>Comparte</strong></p>
@@ -474,6 +529,17 @@
 								<button class="btn-success" type="submit">Enviar</button>
 							</div>
 						</form>
+						<div id="rs-cargando" class="oculto">
+							<div class="spinner">
+							  <div class="cube1"></div>
+							  <div class="cube2"></div>
+							</div>						
+							<h2>Enviando...</h2>
+							<p class="subtitulo">pronto estarás enterado de nuestras novedades</p>
+						</div>
+						<div id="rs-success" class="oculto">					
+							<h2>Envío Exitoso</h2>
+						</div>						
 					</div><!-- Fin del botón de contacto -->
 					<div class="compartir bloque">
 						<p><strong>Comparte</strong></p>
@@ -560,6 +626,17 @@
 								<button class="btn-success" type="submit">Enviar</button>
 							</div>
 						</form>
+						<div id="se-cargando" class="oculto">
+							<div class="spinner">
+							  <div class="cube1"></div>
+							  <div class="cube2"></div>
+							</div>						
+							<h2>Enviando...</h2>
+							<p class="subtitulo">pronto estarás enterado de nuestras novedades</p>
+						</div>
+						<div id="se-success" class="oculto">					
+							<h2>Envío Exitoso</h2>
+						</div>						
 					</div><!-- Fin del botón de contacto -->
 					<div class="compartir bloque">
 						<p><strong>Comparte</strong></p>
@@ -647,6 +724,17 @@
 								<button class="btn-success" type="submit">Enviar</button>
 							</div>
 						</form>
+						<div id="po-cargando" class="oculto">
+							<div class="spinner">
+							  <div class="cube1"></div>
+							  <div class="cube2"></div>
+							</div>						
+							<h2>Enviando...</h2>
+							<p class="subtitulo">pronto estarás enterado de nuestras novedades</p>
+						</div>
+						<div id="po-success" class="oculto">					
+							<h2>Envío Exitoso</h2>
+						</div>						
 					</div><!-- Fin del botón de contacto -->
 					<div class="compartir bloque">
 						<p><strong>Comparte</strong></p>
@@ -733,6 +821,17 @@
 								<button class="btn-success" type="submit">Enviar</button>
 							</div>
 						</form>
+						<div id="aw-cargando" class="oculto">
+							<div class="spinner">
+							  <div class="cube1"></div>
+							  <div class="cube2"></div>
+							</div>						
+							<h2>Enviando...</h2>
+							<p class="subtitulo">pronto estarás enterado de nuestras novedades</p>
+						</div>
+						<div id="aw-success" class="oculto">					
+							<h2>Envío Exitoso</h2>
+						</div>						
 					</div><!-- Fin del botón de contacto -->
 					<div class="compartir bloque">
 						<p><strong>Comparte</strong></p>
@@ -819,6 +918,17 @@
 								<button class="btn-success" type="submit">Enviar</button>
 							</div>
 						</form>
+						<div id="an-cargando" class="oculto">
+							<div class="spinner">
+							  <div class="cube1"></div>
+							  <div class="cube2"></div>
+							</div>						
+							<h2>Enviando...</h2>
+							<p class="subtitulo">pronto estarás enterado de nuestras novedades</p>
+						</div>
+						<div id="an-success" class="oculto">					
+							<h2>Envío Exitoso</h2>
+						</div>						
 					</div><!-- Fin del botón de contacto -->
 					<div class="compartir bloque">
 						<p><strong>Comparte</strong></p>
