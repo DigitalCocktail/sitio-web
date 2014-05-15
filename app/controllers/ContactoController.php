@@ -21,9 +21,25 @@ class ContactoController extends BaseController {
 			'telefono' => Input::get('telefono'),
 			'servicio' => $servicio
 		);
-		$emailUsuario = Mail::send('emails.contacto', $data, function($message) use ($data) {
-		    $message->to($data['to'], $data['nameTo'])->subject($data['subject']);
-		});		
+
+		$html = View::make("emails.contacto", $data)->render();		
+
+		$payload = array(
+		    'message' => array(
+		        'subject' => $data['subject'],
+		        'html' => $html,
+		        'from_email' => 'encontacto@digitalcocktail.co',
+		        'to' => array(
+		        			array(
+		        				'email' => $data['to'],
+		        				'name'  => $data['nameTo']
+		        			)
+		        )
+		    )
+		);
+
+		$emailUsuario = Mandrill::request('messages/send', $payload);	
+
 		$r = new stdClass;
 		$r->response = "success";
 		return json_encode($r);

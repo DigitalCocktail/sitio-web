@@ -11,7 +11,8 @@
     ],	
 	"require": {
 		"laravel/framework": "4.1.25",
-		"wardrobe/core": "dev-master"
+		"wardrobe/core": "dev-master",
+		"doxxon/laravel-mandrill-request": "dev-master"
 	},
 	"autoload": {
 		"classmap": [

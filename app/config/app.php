@@ -107,6 +107,7 @@ return array(
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 		'Wardrobe\Core\WardrobeServiceProvider',
+		'Doxxon\LaravelMandrillRequest\LaravelMandrillRequestServiceProvider',
 
 	),
 
@@ -174,6 +175,7 @@ return array(
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
 		'Wardrobe'		  => 'Wardrobe\Core\Facades\WardrobeFacade',
+		'Mandrill'        => 'Doxxon\LaravelMandrillRequest\Facades\MandrillRequest',		
 
 	),
 

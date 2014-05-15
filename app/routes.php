@@ -36,3 +36,14 @@ Route::post("/contactar/servicio", array(
 	"as" => "contacto/servicios",
 	"uses" => "ContactoController@contactoServicios"
 ));
+
+Route::get('/prueba', function(){
+	$response = Mandrill::request('messages/send', array(
+	    'message' => array(
+	        'html' => 'Body of the message.',
+	        'subject' => 'Subject of the message.',
+	        'from_email' => 'monkey@somewhere.com',
+	        'to' => array(array('email'=>'belmars@gmail.com')),
+	    ),
+	));
+});
