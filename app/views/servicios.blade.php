@@ -6,7 +6,7 @@
 				<div class="col-sm-5 left-content">
 					<h1 class="bloque">Estrategia digital</h1>
 					<figure class="img-servicios bloque-interno">
-						{{ HTML::image("assets/images/desarrollo-web-digital-cocktail.jpg", "Estrategia Digital - Digital Cocktail") }}
+						{{ HTML::image("assets/images/estrategia-digital-cocktail.jpg", "Estrategia Digital - Digital Cocktail") }}
 					</figure>
 				</div>
 				<div class="col-sm-7 right-content">
@@ -201,7 +201,7 @@
 				<div class="col-sm-5 left-content">
 					<h1 class="bloque">Consultoría Digital</h1>
 					<figure class="img-servicios bloque-interno">
-						{{ HTML::image("assets/images/desarrollo-web-digital-cocktail.jpg", "Estrategia Digital - Digital Cocktail") }}
+						{{ HTML::image("assets/images/consultoria-digital-cocktail.jpg", "Consultoría Digital - Digital Cocktail") }}
 					</figure>
 				</div>
 				<div class="col-sm-7 right-content">
@@ -492,7 +492,7 @@
 				<div class="col-sm-5 left-content">
 					<h1 class="bloque">Redes Sociales</h1>
 					<figure class="img-servicios bloque-interno">
-						{{ HTML::image("assets/images/desarrollo-web-digital-cocktail.jpg", "Estrategia Digital - Digital Cocktail") }}
+						{{ HTML::image("assets/images/redes-sociales-digital-cocktail.jpg", "Estrategias redes sociales - Digital Cocktail") }}
 					</figure>
 				</div>
 				<div class="col-sm-7 right-content">
@@ -589,7 +589,7 @@
 				<div class="col-sm-5 left-content">
 					<h1 class="bloque">SEO</h1>
 					<figure class="img-servicios bloque-interno">
-						{{ HTML::image("assets/images/desarrollo-web-digital-cocktail.jpg", "Estrategia Digital - Digital Cocktail") }}
+						{{ HTML::image("assets/images/seo-digital-cocktail.jpg", "SEO - Digital Cocktail") }}
 					</figure>
 				</div>
 				<div class="col-sm-7 right-content">
@@ -686,7 +686,7 @@
 				<div class="col-sm-5 left-content">
 					<h1 class="bloque">Publicidad Online</h1>
 					<figure class="img-servicios bloque-interno">
-						{{ HTML::image("assets/images/desarrollo-web-digital-cocktail.jpg", "Estrategia Digital - Digital Cocktail") }}
+						{{ HTML::image("assets/images/publicidad-online-digital-cocktail.jpg", "Publicidad Online - Digital Cocktail") }}
 					</figure>
 				</div>
 				<div class="col-sm-7 right-content">
@@ -784,7 +784,7 @@
 				<div class="col-sm-5 left-content">
 					<h1 class="bloque">Analítica Web</h1>
 					<figure class="img-servicios bloque-interno">
-						{{ HTML::image("assets/images/desarrollo-web-digital-cocktail.jpg", "Estrategia Digital - Digital Cocktail") }}
+						{{ HTML::image("assets/images/metricas-analitica-digital-cocktail.jpg", "Métricas y analítica web - Digital Cocktail") }}
 					</figure>
 				</div>
 				<div class="col-sm-7 right-content">
@@ -881,7 +881,7 @@
 				<div class="col-sm-5 left-content">
 					<h1 class="bloque">Apps en la Nube</h1>
 					<figure class="img-servicios bloque-interno">
-						{{ HTML::image("assets/images/desarrollo-web-digital-cocktail.jpg", "Estrategia Digital - Digital Cocktail") }}
+						{{ HTML::image("assets/images/apps-nube-digital-cocktail.jpg", "Aplicaciones en la nube - Digital Cocktail") }}
 					</figure>
 				</div>
 				<div class="col-sm-7 right-content">
