@@ -18,7 +18,7 @@
 				<div class="investigacion bloque text-center col-sm-3">
 					<h2>Investigación</h2>
 					<figure id="imgInvestigacion">
-						<img src="http://lorempixel.com/200/120" alt="">
+						{{ HTML::image("assets/images/investigacion.png", "Intensos procesos de investigación - Digital Cocktail") }}
 					</figure>
 					<p id="textInvestigacion">
 						Nos tomamos el tiempo de conocer tu empresa, tus clientes y tu público para entender a fondo las necesidades que tienes
@@ -27,7 +27,7 @@
 				<div class="planeacion bloque text-center col-sm-3">
 					<h2>Planeación</h2>
 					<figure id="imgPlaneacion">
-						<img src="http://lorempixel.com/200/120" alt="">
+						{{ HTML::image("assets/images/planeacion.png", "El factor más importante de nuestros procesos - Digital Cocktail") }}
 					</figure>
 					<p id="textPlaneacion">
 						Creamos y planeamos estrategias digitales basados en el estudio de tus necesidades.
@@ -36,7 +36,7 @@
 				<div class="ejecucion bloque text-center col-sm-3">
 					<h2>Ejecución</h2>
 					<figure id="imgEjecucion">
-						<img src="http://lorempixel.com/200/120" alt="">
+						{{ HTML::image("assets/images/ejecucion.png", "Nos esforzamos por sentirnos orgullosos de todos nuestros trabajos - Digital Cocktail") }}
 					</figure>
 					<p id="textEjecucion">
 						Desarrollamos experiencias de calidad pensadas para tu crecimiento empresarial
@@ -45,7 +45,7 @@
 				<div class="acompanamiento bloque text-center col-sm-3">
 					<h2>Acompañamiento</h2>
 					<figure id="imgAcompanamiento">
-						<img src="http://lorempixel.com/200/120" alt="">
+						{{ HTML::image("assets/images/aconpanamiento.png", "Nos encanta compartir nuestro conocimiento durante el proceso - Digital Cocktail") }}
 					</figure>
 					<p id="textAcompanamiento">
 						Tu proyecto irá de la mano de nuestra experiencia para que nunca te sientas solo
