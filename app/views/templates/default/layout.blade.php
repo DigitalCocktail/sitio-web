@@ -66,11 +66,22 @@
 	</style>
 </head>
 <body>
-@include("templates/default/partials/header") 
-@yield("content") 
-@include("templates/default/partials/footer")
-<script src="//code.jquery.com/jquery-2.0.2.min.js"></script>
-{{ HTML::script('assets/js/bootstrap.min.js') }}
-{{ HTML::script('assets/js/app.js') }}
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/es_ES/all.js#xfbml=1&appId=1477313795816778";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>	
+	@include("templates/default/partials/header") 
+	@yield("content") 
+	@include("templates/default/partials/footer")
+	<script src="//code.jquery.com/jquery-2.0.2.min.js"></script>
+	{{ HTML::script('assets/js/bootstrap.min.js') }}
+	{{ HTML::script('assets/js/app.js') }}
+	<script type="text/javascript" src="https://apis.google.com/js/platform.js">
+	  {lang: 'es-419'}
+	</script>	
 </body>
 </html>

@@ -61,39 +61,27 @@
 						<ul>
 							<li class="twitter visible-xs">
 								<!-- Twitter -->
-								<a href="https://twitter.com/share" class="twitter-share-button" data-lang="es">Twittear</a>
+								<a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ url('/') }}/servicios#estrategia-digital" data-via="DCocktailco" data-lang="es" data-count="vertical">Twittear</a>
 								<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 							</li>
-							<li class="twitter hidden-xs">Twitter</li><!-- Botón de compartir para tabletas y PC -->
+							<li class="twitter hidden-xs">
+								<a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ url('/') }}/servicios#estrategia-digital" data-via="DCocktailco" data-lang="es">Twittear</a>
+								<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>							
+							</li><!-- Botón de compartir para tabletas y PC -->
 							<li class="facebook visible-xs">
-									<!-- Facebook -->
-								<div id="fb-root"></div>
-								<script>(function(d, s, id) {
-								  var js, fjs = d.getElementsByTagName(s)[0];
-								  if (d.getElementById(id)) return;
-								  js = d.createElement(s); js.id = id;
-								  js.src = "//connect.facebook.net/es_ES/all.js#xfbml=1&appId=1477313795816778";
-								  fjs.parentNode.insertBefore(js, fjs);
-								}(document, 'script', 'facebook-jssdk'));</script>			
-								<div class="fb-like" data-href="http://digitalcocktail.co" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div>
+								<!-- Facebook -->		
+								<div class="fb-like" data-href="{{ url('/') }}/servicios#estrategia-digital" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div>
 							</li>
-							<li class="facebook hidden-xs">Facebook</li><!-- Botón de compartir para tabletas y PC -->
+							<li class="facebook hidden-xs">
+								<div class="fb-share-button" data-href="{{ url('/') }}/servicios#estrategia-digital" data-type="button_count"></div>		
+							</li><!-- Botón de compartir para tabletas y PC -->
 							<li class="google visible-xs">
 								<!-- Google Plus -->
-								<div class="g-plusone" data-size="tall"></div>
-
-								<!-- Place this tag after the last +1 button tag. -->
-								<script type="text/javascript">
-								  window.___gcfg = {lang: 'es-419'};
-
-								  (function() {
-								    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-								    po.src = 'https://apis.google.com/js/platform.js';
-								    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-								  })();
-								</script>
+								<div class="g-plusone" data-size="tall" data-href="{{ url('/') }}/servicios#estrategia-digital"></div>
 							</li>
-							<li class="google hidden-xs">Google+</li><!-- Botón de compartir para tabletas y PC -->
+							<li class="google hidden-xs">
+								<div class="g-plusone" data-size="medium" data-href="{{ url('/') }}/servicios#estrategia-digital"></div>								
+							</li><!-- Botón de compartir para tabletas y PC -->
 						</ul>
 					</div><!-- Fin de Compartir -->
 				</div>
@@ -158,39 +146,27 @@
 						<ul>
 							<li class="twitter visible-xs">
 								<!-- Twitter -->
-								<a href="https://twitter.com/share" class="twitter-share-button" data-lang="es">Twittear</a>
+								<a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ url('/') }}/servicios#desarrollo-web" data-via="DCocktailco" data-lang="es" data-count="vertical">Twittear</a>
 								<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 							</li>
-							<li class="twitter hidden-xs">Twitter</li><!-- Botón de compartir para tabletas y PC -->
+							<li class="twitter hidden-xs">
+								<a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ url('/') }}/servicios#desarrollo-web" data-via="DCocktailco" data-lang="es">Twittear</a>
+								<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>							
+							</li><!-- Botón de compartir para tabletas y PC -->
 							<li class="facebook visible-xs">
-									<!-- Facebook -->
-								<div id="fb-root"></div>
-								<script>(function(d, s, id) {
-								  var js, fjs = d.getElementsByTagName(s)[0];
-								  if (d.getElementById(id)) return;
-								  js = d.createElement(s); js.id = id;
-								  js.src = "//connect.facebook.net/es_ES/all.js#xfbml=1&appId=1477313795816778";
-								  fjs.parentNode.insertBefore(js, fjs);
-								}(document, 'script', 'facebook-jssdk'));</script>			
-								<div class="fb-like" data-href="http://digitalcocktail.co" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div>
+								<!-- Facebook -->		
+								<div class="fb-like" data-href="{{ url('/') }}/servicios#desarrollo-web" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div>
 							</li>
-							<li class="facebook hidden-xs">Facebook</li><!-- Botón de compartir para tabletas y PC -->
+							<li class="facebook hidden-xs">
+								<div class="fb-share-button" data-href="{{ url('/') }}/servicios#desarrollo-web" data-type="button_count"></div>		
+							</li><!-- Botón de compartir para tabletas y PC -->
 							<li class="google visible-xs">
 								<!-- Google Plus -->
-								<div class="g-plusone" data-size="tall"></div>
-
-								<!-- Place this tag after the last +1 button tag. -->
-								<script type="text/javascript">
-								  window.___gcfg = {lang: 'es-419'};
-
-								  (function() {
-								    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-								    po.src = 'https://apis.google.com/js/platform.js';
-								    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-								  })();
-								</script>
+								<div class="g-plusone" data-size="tall" data-href="{{ url('/') }}/servicios#desarrollo-web"></div>
 							</li>
-							<li class="google hidden-xs">Google+</li><!-- Botón de compartir para tabletas y PC -->
+							<li class="google hidden-xs">
+								<div class="g-plusone" data-size="medium" data-href="{{ url('/') }}/servicios#desarrollo-web"></div>								
+							</li><!-- Botón de compartir para tabletas y PC -->
 						</ul>
 					</div><!-- Fin de Compartir -->
 				</div>
@@ -255,39 +231,27 @@
 						<ul>
 							<li class="twitter visible-xs">
 								<!-- Twitter -->
-								<a href="https://twitter.com/share" class="twitter-share-button" data-lang="es">Twittear</a>
+								<a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ url('/') }}/servicios#consultoria-digital" data-via="DCocktailco" data-lang="es" data-count="vertical">Twittear</a>
 								<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 							</li>
-							<li class="twitter hidden-xs">Twitter</li><!-- Botón de compartir para tabletas y PC -->
+							<li class="twitter hidden-xs">
+								<a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ url('/') }}/servicios#consultoria-digital" data-via="DCocktailco" data-lang="es">Twittear</a>
+								<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>							
+							</li><!-- Botón de compartir para tabletas y PC -->
 							<li class="facebook visible-xs">
-									<!-- Facebook -->
-								<div id="fb-root"></div>
-								<script>(function(d, s, id) {
-								  var js, fjs = d.getElementsByTagName(s)[0];
-								  if (d.getElementById(id)) return;
-								  js = d.createElement(s); js.id = id;
-								  js.src = "//connect.facebook.net/es_ES/all.js#xfbml=1&appId=1477313795816778";
-								  fjs.parentNode.insertBefore(js, fjs);
-								}(document, 'script', 'facebook-jssdk'));</script>			
-								<div class="fb-like" data-href="http://digitalcocktail.co" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div>
+								<!-- Facebook -->		
+								<div class="fb-like" data-href="{{ url('/') }}/servicios#consultoria-digital" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div>
 							</li>
-							<li class="facebook hidden-xs">Facebook</li><!-- Botón de compartir para tabletas y PC -->
+							<li class="facebook hidden-xs">
+								<div class="fb-share-button" data-href="{{ url('/') }}/servicios#consultoria-digital" data-type="button_count"></div>		
+							</li><!-- Botón de compartir para tabletas y PC -->
 							<li class="google visible-xs">
 								<!-- Google Plus -->
-								<div class="g-plusone" data-size="tall"></div>
-
-								<!-- Place this tag after the last +1 button tag. -->
-								<script type="text/javascript">
-								  window.___gcfg = {lang: 'es-419'};
-
-								  (function() {
-								    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-								    po.src = 'https://apis.google.com/js/platform.js';
-								    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-								  })();
-								</script>
+								<div class="g-plusone" data-size="tall" data-href="{{ url('/') }}/servicios#consultoria-digital"></div>
 							</li>
-							<li class="google hidden-xs">Google+</li><!-- Botón de compartir para tabletas y PC -->
+							<li class="google hidden-xs">
+								<div class="g-plusone" data-size="medium" data-href="{{ url('/') }}/servicios#consultoria-digital"></div>								
+							</li><!-- Botón de compartir para tabletas y PC -->
 						</ul>
 					</div><!-- Fin de Compartir -->
 				</div>
@@ -352,39 +316,27 @@
 						<ul>
 							<li class="twitter visible-xs">
 								<!-- Twitter -->
-								<a href="https://twitter.com/share" class="twitter-share-button" data-lang="es">Twittear</a>
+								<a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ url('/') }}/servicios#email-marketing" data-via="DCocktailco" data-lang="es" data-count="vertical">Twittear</a>
 								<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 							</li>
-							<li class="twitter hidden-xs">Twitter</li><!-- Botón de compartir para tabletas y PC -->
+							<li class="twitter hidden-xs">
+								<a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ url('/') }}/servicios#email-marketing" data-via="DCocktailco" data-lang="es">Twittear</a>
+								<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>							
+							</li><!-- Botón de compartir para tabletas y PC -->
 							<li class="facebook visible-xs">
-									<!-- Facebook -->
-								<div id="fb-root"></div>
-								<script>(function(d, s, id) {
-								  var js, fjs = d.getElementsByTagName(s)[0];
-								  if (d.getElementById(id)) return;
-								  js = d.createElement(s); js.id = id;
-								  js.src = "//connect.facebook.net/es_ES/all.js#xfbml=1&appId=1477313795816778";
-								  fjs.parentNode.insertBefore(js, fjs);
-								}(document, 'script', 'facebook-jssdk'));</script>			
-								<div class="fb-like" data-href="http://digitalcocktail.co" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div>
+								<!-- Facebook -->		
+								<div class="fb-like" data-href="{{ url('/') }}/servicios#email-marketing" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div>
 							</li>
-							<li class="facebook hidden-xs">Facebook</li><!-- Botón de compartir para tabletas y PC -->
+							<li class="facebook hidden-xs">
+								<div class="fb-share-button" data-href="{{ url('/') }}/servicios#email-marketing" data-type="button_count"></div>		
+							</li><!-- Botón de compartir para tabletas y PC -->
 							<li class="google visible-xs">
 								<!-- Google Plus -->
-								<div class="g-plusone" data-size="tall"></div>
-
-								<!-- Place this tag after the last +1 button tag. -->
-								<script type="text/javascript">
-								  window.___gcfg = {lang: 'es-419'};
-
-								  (function() {
-								    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-								    po.src = 'https://apis.google.com/js/platform.js';
-								    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-								  })();
-								</script>
+								<div class="g-plusone" data-size="tall" data-href="{{ url('/') }}/servicios#email-marketing"></div>
 							</li>
-							<li class="google hidden-xs">Google+</li><!-- Botón de compartir para tabletas y PC -->
+							<li class="google hidden-xs">
+								<div class="g-plusone" data-size="medium" data-href="{{ url('/') }}/servicios#email-marketing"></div>								
+							</li><!-- Botón de compartir para tabletas y PC -->
 						</ul>
 					</div><!-- Fin de Compartir -->
 				</div>
@@ -449,39 +401,27 @@
 						<ul>
 							<li class="twitter visible-xs">
 								<!-- Twitter -->
-								<a href="https://twitter.com/share" class="twitter-share-button" data-lang="es">Twittear</a>
+								<a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ url('/') }}/servicios#contenidos" data-via="DCocktailco" data-lang="es" data-count="vertical">Twittear</a>
 								<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 							</li>
-							<li class="twitter hidden-xs">Twitter</li><!-- Botón de compartir para tabletas y PC -->
+							<li class="twitter hidden-xs">
+								<a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ url('/') }}/servicios#contenidos" data-via="DCocktailco" data-lang="es">Twittear</a>
+								<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>							
+							</li><!-- Botón de compartir para tabletas y PC -->
 							<li class="facebook visible-xs">
-									<!-- Facebook -->
-								<div id="fb-root"></div>
-								<script>(function(d, s, id) {
-								  var js, fjs = d.getElementsByTagName(s)[0];
-								  if (d.getElementById(id)) return;
-								  js = d.createElement(s); js.id = id;
-								  js.src = "//connect.facebook.net/es_ES/all.js#xfbml=1&appId=1477313795816778";
-								  fjs.parentNode.insertBefore(js, fjs);
-								}(document, 'script', 'facebook-jssdk'));</script>			
-								<div class="fb-like" data-href="http://digitalcocktail.co" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div>
+								<!-- Facebook -->		
+								<div class="fb-like" data-href="{{ url('/') }}/servicios#contenidos" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div>
 							</li>
-							<li class="facebook hidden-xs">Facebook</li><!-- Botón de compartir para tabletas y PC -->
+							<li class="facebook hidden-xs">
+								<div class="fb-share-button" data-href="{{ url('/') }}/servicios#contenidos" data-type="button_count"></div>		
+							</li><!-- Botón de compartir para tabletas y PC -->
 							<li class="google visible-xs">
 								<!-- Google Plus -->
-								<div class="g-plusone" data-size="tall"></div>
-
-								<!-- Place this tag after the last +1 button tag. -->
-								<script type="text/javascript">
-								  window.___gcfg = {lang: 'es-419'};
-
-								  (function() {
-								    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-								    po.src = 'https://apis.google.com/js/platform.js';
-								    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-								  })();
-								</script>
+								<div class="g-plusone" data-size="tall" data-href="{{ url('/') }}/servicios#contenidos"></div>
 							</li>
-							<li class="google hidden-xs">Google+</li><!-- Botón de compartir para tabletas y PC -->
+							<li class="google hidden-xs">
+								<div class="g-plusone" data-size="medium" data-href="{{ url('/') }}/servicios#contenidos"></div>								
+							</li><!-- Botón de compartir para tabletas y PC -->
 						</ul>
 					</div><!-- Fin de Compartir -->
 				</div>
@@ -546,39 +486,27 @@
 						<ul>
 							<li class="twitter visible-xs">
 								<!-- Twitter -->
-								<a href="https://twitter.com/share" class="twitter-share-button" data-lang="es">Twittear</a>
+								<a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ url('/') }}/servicios#redes-sociales" data-via="DCocktailco" data-lang="es" data-count="vertical">Twittear</a>
 								<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 							</li>
-							<li class="twitter hidden-xs">Twitter</li><!-- Botón de compartir para tabletas y PC -->
+							<li class="twitter hidden-xs">
+								<a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ url('/') }}/servicios#redes-sociales" data-via="DCocktailco" data-lang="es">Twittear</a>
+								<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>							
+							</li><!-- Botón de compartir para tabletas y PC -->
 							<li class="facebook visible-xs">
-									<!-- Facebook -->
-								<div id="fb-root"></div>
-								<script>(function(d, s, id) {
-								  var js, fjs = d.getElementsByTagName(s)[0];
-								  if (d.getElementById(id)) return;
-								  js = d.createElement(s); js.id = id;
-								  js.src = "//connect.facebook.net/es_ES/all.js#xfbml=1&appId=1477313795816778";
-								  fjs.parentNode.insertBefore(js, fjs);
-								}(document, 'script', 'facebook-jssdk'));</script>			
-								<div class="fb-like" data-href="http://digitalcocktail.co" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div>
+								<!-- Facebook -->		
+								<div class="fb-like" data-href="{{ url('/') }}/servicios#redes-sociales" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div>
 							</li>
-							<li class="facebook hidden-xs">Facebook</li><!-- Botón de compartir para tabletas y PC -->
+							<li class="facebook hidden-xs">
+								<div class="fb-share-button" data-href="{{ url('/') }}/servicios#redes-sociales" data-type="button_count"></div>		
+							</li><!-- Botón de compartir para tabletas y PC -->
 							<li class="google visible-xs">
 								<!-- Google Plus -->
-								<div class="g-plusone" data-size="tall"></div>
-
-								<!-- Place this tag after the last +1 button tag. -->
-								<script type="text/javascript">
-								  window.___gcfg = {lang: 'es-419'};
-
-								  (function() {
-								    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-								    po.src = 'https://apis.google.com/js/platform.js';
-								    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-								  })();
-								</script>
+								<div class="g-plusone" data-size="tall" data-href="{{ url('/') }}/servicios#redes-sociales"></div>
 							</li>
-							<li class="google hidden-xs">Google+</li><!-- Botón de compartir para tabletas y PC -->
+							<li class="google hidden-xs">
+								<div class="g-plusone" data-size="medium" data-href="{{ url('/') }}/servicios#redes-sociales"></div>								
+							</li><!-- Botón de compartir para tabletas y PC -->
 						</ul>
 					</div><!-- Fin de Compartir -->
 				</div>
@@ -643,39 +571,27 @@
 						<ul>
 							<li class="twitter visible-xs">
 								<!-- Twitter -->
-								<a href="https://twitter.com/share" class="twitter-share-button" data-lang="es">Twittear</a>
+								<a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ url('/') }}/servicios#seo" data-via="DCocktailco" data-lang="es" data-count="vertical">Twittear</a>
 								<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 							</li>
-							<li class="twitter hidden-xs">Twitter</li><!-- Botón de compartir para tabletas y PC -->
+							<li class="twitter hidden-xs">
+								<a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ url('/') }}/servicios#seo" data-via="DCocktailco" data-lang="es">Twittear</a>
+								<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>							
+							</li><!-- Botón de compartir para tabletas y PC -->
 							<li class="facebook visible-xs">
-									<!-- Facebook -->
-								<div id="fb-root"></div>
-								<script>(function(d, s, id) {
-								  var js, fjs = d.getElementsByTagName(s)[0];
-								  if (d.getElementById(id)) return;
-								  js = d.createElement(s); js.id = id;
-								  js.src = "//connect.facebook.net/es_ES/all.js#xfbml=1&appId=1477313795816778";
-								  fjs.parentNode.insertBefore(js, fjs);
-								}(document, 'script', 'facebook-jssdk'));</script>			
-								<div class="fb-like" data-href="http://digitalcocktail.co" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div>
+								<!-- Facebook -->		
+								<div class="fb-like" data-href="{{ url('/') }}/servicios#seo" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div>
 							</li>
-							<li class="facebook hidden-xs">Facebook</li><!-- Botón de compartir para tabletas y PC -->
+							<li class="facebook hidden-xs">
+								<div class="fb-share-button" data-href="{{ url('/') }}/servicios#seo" data-type="button_count"></div>		
+							</li><!-- Botón de compartir para tabletas y PC -->
 							<li class="google visible-xs">
 								<!-- Google Plus -->
-								<div class="g-plusone" data-size="tall"></div>
-
-								<!-- Place this tag after the last +1 button tag. -->
-								<script type="text/javascript">
-								  window.___gcfg = {lang: 'es-419'};
-
-								  (function() {
-								    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-								    po.src = 'https://apis.google.com/js/platform.js';
-								    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-								  })();
-								</script>
+								<div class="g-plusone" data-size="tall" data-href="{{ url('/') }}/servicios#seo"></div>
 							</li>
-							<li class="google hidden-xs">Google+</li><!-- Botón de compartir para tabletas y PC -->
+							<li class="google hidden-xs">
+								<div class="g-plusone" data-size="medium" data-href="{{ url('/') }}/servicios#seo"></div>								
+							</li><!-- Botón de compartir para tabletas y PC -->
 						</ul>
 					</div><!-- Fin de Compartir -->
 				</div>
@@ -741,39 +657,27 @@
 						<ul>
 							<li class="twitter visible-xs">
 								<!-- Twitter -->
-								<a href="https://twitter.com/share" class="twitter-share-button" data-lang="es">Twittear</a>
+								<a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ url('/') }}/servicios#publicidad-online" data-via="DCocktailco" data-lang="es" data-count="vertical">Twittear</a>
 								<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 							</li>
-							<li class="twitter hidden-xs">Twitter</li><!-- Botón de compartir para tabletas y PC -->
+							<li class="twitter hidden-xs">
+								<a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ url('/') }}/servicios#publicidad-online" data-via="DCocktailco" data-lang="es">Twittear</a>
+								<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>							
+							</li><!-- Botón de compartir para tabletas y PC -->
 							<li class="facebook visible-xs">
-									<!-- Facebook -->
-								<div id="fb-root"></div>
-								<script>(function(d, s, id) {
-								  var js, fjs = d.getElementsByTagName(s)[0];
-								  if (d.getElementById(id)) return;
-								  js = d.createElement(s); js.id = id;
-								  js.src = "//connect.facebook.net/es_ES/all.js#xfbml=1&appId=1477313795816778";
-								  fjs.parentNode.insertBefore(js, fjs);
-								}(document, 'script', 'facebook-jssdk'));</script>			
-								<div class="fb-like" data-href="http://digitalcocktail.co" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div>
+								<!-- Facebook -->		
+								<div class="fb-like" data-href="{{ url('/') }}/servicios#publicidad-online" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div>
 							</li>
-							<li class="facebook hidden-xs">Facebook</li><!-- Botón de compartir para tabletas y PC -->
+							<li class="facebook hidden-xs">
+								<div class="fb-share-button" data-href="{{ url('/') }}/servicios#publicidad-online" data-type="button_count"></div>		
+							</li><!-- Botón de compartir para tabletas y PC -->
 							<li class="google visible-xs">
 								<!-- Google Plus -->
-								<div class="g-plusone" data-size="tall"></div>
-
-								<!-- Place this tag after the last +1 button tag. -->
-								<script type="text/javascript">
-								  window.___gcfg = {lang: 'es-419'};
-
-								  (function() {
-								    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-								    po.src = 'https://apis.google.com/js/platform.js';
-								    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-								  })();
-								</script>
+								<div class="g-plusone" data-size="tall" data-href="{{ url('/') }}/servicios#publicidad-online"></div>
 							</li>
-							<li class="google hidden-xs">Google+</li><!-- Botón de compartir para tabletas y PC -->
+							<li class="google hidden-xs">
+								<div class="g-plusone" data-size="medium" data-href="{{ url('/') }}/servicios#publicidad-online"></div>								
+							</li><!-- Botón de compartir para tabletas y PC -->
 						</ul>
 					</div><!-- Fin de Compartir -->
 				</div>
@@ -838,39 +742,27 @@
 						<ul>
 							<li class="twitter visible-xs">
 								<!-- Twitter -->
-								<a href="https://twitter.com/share" class="twitter-share-button" data-lang="es">Twittear</a>
+								<a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ url('/') }}/servicios#analitica-web" data-via="DCocktailco" data-lang="es" data-count="vertical">Twittear</a>
 								<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 							</li>
-							<li class="twitter hidden-xs">Twitter</li><!-- Botón de compartir para tabletas y PC -->
+							<li class="twitter hidden-xs">
+								<a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ url('/') }}/servicios#analitica-web" data-via="DCocktailco" data-lang="es">Twittear</a>
+								<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>							
+							</li><!-- Botón de compartir para tabletas y PC -->
 							<li class="facebook visible-xs">
-									<!-- Facebook -->
-								<div id="fb-root"></div>
-								<script>(function(d, s, id) {
-								  var js, fjs = d.getElementsByTagName(s)[0];
-								  if (d.getElementById(id)) return;
-								  js = d.createElement(s); js.id = id;
-								  js.src = "//connect.facebook.net/es_ES/all.js#xfbml=1&appId=1477313795816778";
-								  fjs.parentNode.insertBefore(js, fjs);
-								}(document, 'script', 'facebook-jssdk'));</script>			
-								<div class="fb-like" data-href="http://digitalcocktail.co" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div>
+								<!-- Facebook -->		
+								<div class="fb-like" data-href="{{ url('/') }}/servicios#analitica-web" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div>
 							</li>
-							<li class="facebook hidden-xs">Facebook</li><!-- Botón de compartir para tabletas y PC -->
+							<li class="facebook hidden-xs">
+								<div class="fb-share-button" data-href="{{ url('/') }}/servicios#analitica-web" data-type="button_count"></div>		
+							</li><!-- Botón de compartir para tabletas y PC -->
 							<li class="google visible-xs">
 								<!-- Google Plus -->
-								<div class="g-plusone" data-size="tall"></div>
-
-								<!-- Place this tag after the last +1 button tag. -->
-								<script type="text/javascript">
-								  window.___gcfg = {lang: 'es-419'};
-
-								  (function() {
-								    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-								    po.src = 'https://apis.google.com/js/platform.js';
-								    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-								  })();
-								</script>
+								<div class="g-plusone" data-size="tall" data-href="{{ url('/') }}/servicios#analitica-web"></div>
 							</li>
-							<li class="google hidden-xs">Google+</li><!-- Botón de compartir para tabletas y PC -->
+							<li class="google hidden-xs">
+								<div class="g-plusone" data-size="medium" data-href="{{ url('/') }}/servicios#analitica-web"></div>								
+							</li><!-- Botón de compartir para tabletas y PC -->
 						</ul>
 					</div><!-- Fin de Compartir -->
 				</div>
@@ -935,39 +827,27 @@
 						<ul>
 							<li class="twitter visible-xs">
 								<!-- Twitter -->
-								<a href="https://twitter.com/share" class="twitter-share-button" data-lang="es">Twittear</a>
+								<a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ url('/') }}/servicios#apps-nube" data-via="DCocktailco" data-lang="es" data-count="vertical">Twittear</a>
 								<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 							</li>
-							<li class="twitter hidden-xs">Twitter</li><!-- Botón de compartir para tabletas y PC -->
+							<li class="twitter hidden-xs">
+								<a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ url('/') }}/servicios#apps-nube" data-via="DCocktailco" data-lang="es">Twittear</a>
+								<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>							
+							</li><!-- Botón de compartir para tabletas y PC -->
 							<li class="facebook visible-xs">
-									<!-- Facebook -->
-								<div id="fb-root"></div>
-								<script>(function(d, s, id) {
-								  var js, fjs = d.getElementsByTagName(s)[0];
-								  if (d.getElementById(id)) return;
-								  js = d.createElement(s); js.id = id;
-								  js.src = "//connect.facebook.net/es_ES/all.js#xfbml=1&appId=1477313795816778";
-								  fjs.parentNode.insertBefore(js, fjs);
-								}(document, 'script', 'facebook-jssdk'));</script>			
-								<div class="fb-like" data-href="http://digitalcocktail.co" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div>
+								<!-- Facebook -->		
+								<div class="fb-like" data-href="{{ url('/') }}/servicios#apps-nube" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div>
 							</li>
-							<li class="facebook hidden-xs">Facebook</li><!-- Botón de compartir para tabletas y PC -->
+							<li class="facebook hidden-xs">
+								<div class="fb-share-button" data-href="{{ url('/') }}/servicios#apps-nube" data-type="button_count"></div>		
+							</li><!-- Botón de compartir para tabletas y PC -->
 							<li class="google visible-xs">
 								<!-- Google Plus -->
-								<div class="g-plusone" data-size="tall"></div>
-
-								<!-- Place this tag after the last +1 button tag. -->
-								<script type="text/javascript">
-								  window.___gcfg = {lang: 'es-419'};
-
-								  (function() {
-								    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-								    po.src = 'https://apis.google.com/js/platform.js';
-								    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-								  })();
-								</script>
+								<div class="g-plusone" data-size="tall" data-href="{{ url('/') }}/servicios#apps-nube"></div>
 							</li>
-							<li class="google hidden-xs">Google+</li><!-- Botón de compartir para tabletas y PC -->
+							<li class="google hidden-xs">
+								<div class="g-plusone" data-size="medium" data-href="{{ url('/') }}/servicios#apps-nube"></div>								
+							</li><!-- Botón de compartir para tabletas y PC -->
 						</ul>
 					</div><!-- Fin de Compartir -->
 				</div>
