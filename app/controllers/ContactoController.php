@@ -29,6 +29,7 @@ class ContactoController extends BaseController {
 		        'subject' => $data['subject'],
 		        'html' => $html,
 		        'from_email' => 'encontacto@digitalcocktail.co',
+		        'from_name' => 'Digital Cocktail',
 		        'to' => array(
 		        			array(
 		        				'email' => $data['to'],
@@ -38,10 +39,34 @@ class ContactoController extends BaseController {
 		    )
 		);
 
-		$emailUsuario = Mandrill::request('messages/send', $payload);	
+		$dcHtml = View::make("emails.encontacto", $data)->render();		
 
+		$mailData = array(
+		    'message' => array(
+		        'subject' => $data['nameTo'] . " Requiere " . $servicio,
+		        'html' => $dcHtml,
+		        'from_email' => 'sistema@digitalcocktail.co',
+		        'from_name' => 'Digital Cocktail',
+		        'to' => array(
+		        			array(
+		        				'email' => 'encontacto@digitalcocktail.co',
+		        				'name'  => 'Contacto Digital Cocktail'
+		        			)
+		        )
+		    )
+		);		
+
+		$emailUsuario = Mandrill::request('messages/send', $payload);	
+		$emailDc = Mandrill::request('messages/send', $mailData);
+		
 		$r = new stdClass;
-		$r->response = "success";
+		if($emailUsuario && $emailDc){
+			$r->response = "success";
+		}
+		else {
+			$r->response = "fail";
+		}		
+		
 		return json_encode($r);
 	}
 

@@ -24,5 +24,8 @@
 <script src="//code.jquery.com/jquery-2.0.2.min.js"></script>
 {{ HTML::script('assets/js/bootstrap.min.js') }}
 {{ HTML::script('assets/js/app.js') }}
+<script type="text/javascript" src="https://apis.google.com/js/platform.js">
+  {lang: 'es-419'}
+</script>	
 </body>
 </html>
