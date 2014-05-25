@@ -82,8 +82,7 @@ section.servicios article figure{width:98%;margin-right:auto;margin-left:auto;}
 section.servicios article figure img{width:100%}
 section.servicios article .compartir{margin-bottom:60px;}
 section.servicios article .compartir ul{margin:0;padding:0;list-style:none;}
-section.servicios article .compartir ul li{display:inline-block;}
-section.servicios article .compartir ul li.facebook{margin-right:40px}
+section.servicios article .compartir ul li{display:inline-block;margin:0 15px;vertical-align:top;}
 section.servicios article .compartir ul li.visible-xs{display:inline-block !important}
 section.servicios article .compartir p{margin-bottom:30px}
 .capa-opacidad{width:100%;height:100%;background:rgba(0,0,0,0.75);position:fixed;top:0;z-index:11;display:none}
@@ -230,8 +229,12 @@ section.servicios article h1,section.servicios article h2,section.servicios arti
 section.servicios article .btn-contacto button.btn-success{width:35%}
 section.servicios article figure{margin-right:0;margin-left:0}
 section.servicios article .right-content{margin-top:80px}
-section.servicios article .compartir{margin:0;position:absolute;top:-6px;width:100%;}
-section.servicios article .compartir p{float:left;font-size:.8em;}
+section.servicios article .compartir{margin:0;position:absolute;top:-6px;width:100%;text-align:right;}
+section.servicios article .compartir ul li{margin:0 5px;}
+section.servicios article .compartir ul li.twitter iframe{width:90px !important}
+section.servicios article .compartir ul li.texto-compartir{color:#a4a4a4;font-size:.9em}
+section.servicios article .compartir ul li.facebook{margin-top:-2px}
+section.servicios article .compartir p{float:left;font-size:.8em;color:#a4a4a4;}
 section.servicios article .compartir p strong{font-weight:normal}
 section.servicios article .compartir ul li.visible-xs{display:none !important}
 section.blog{padding:0 18px;position:relative;}
@@ -278,7 +281,7 @@ section article .destacado h1{color:#fff;text-shadow:1px 1px 4px rgba(0,0,0,0.63
 section article .investigacion h2,section article .planeacion h2,section article .ejecucion h2,section article .acompanamiento h2{font-size:1.4em;color:#fff;text-shadow:1px 1px 4px rgba(0,0,0,0.63)}
 section article .investigacion p,section article .planeacion p,section article .ejecucion p,section article .acompanamiento p{font-size:1.2em;padding:12px;margin-top:-146px;color:#fff;text-shadow:1px 1px 4px rgba(0,0,0,0.63)}
 section .btn-preparamos{margin-top:3%;margin-bottom:0}
-section.servicios{position:relative;height:77%;}
+section.servicios{position:relative;height:65%;}
 section.servicios article{margin-top:2%;}
 section.servicios article.centrar-vertical{position:absolute;top:0;right:0;bottom:0;margin:auto;left:0;height:55%}
 section.servicios article .right-content{margin:25px 0 0 0}

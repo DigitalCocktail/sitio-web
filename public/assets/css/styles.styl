@@ -366,8 +366,8 @@ section
 					list-style none
 					li
 						display inline-block
-						&.facebook
-							margin-right 40px
+						margin 0 15px
+						vertical-align top
 						&.visible-xs
 							display inline-block !important
 				p 
@@ -923,9 +923,22 @@ section
 					position absolute
 					top -6px
 					width 100%
+					text-align: right
+					ul
+						li
+							margin 0 5px
+							&.twitter
+								iframe
+									width 90px !important
+							&.texto-compartir
+								color #a4a4a4
+								font-size: 0.9em
+							&.facebook
+								margin-top: -2px
 					p 
 						float left
 						font-size: 0.8em
+						color #a4a4a4
 						strong
 							font-weight normal
 					ul
@@ -1124,7 +1137,7 @@ section
 	section
 		&.servicios
 			position relative
-			height 77%
+			height 65%
 			article
 				margin-top: 2%
 				&.centrar-vertical

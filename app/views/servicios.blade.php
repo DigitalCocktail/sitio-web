@@ -57,8 +57,11 @@
 						</div>												
 					</div><!-- Fin del botón de contacto -->
 					<div class="compartir bloque">
-						<p><strong>Comparte</strong></p>
+						<p class="visible-xs"><strong>Comparte</strong></p>
 						<ul>
+							<li class="texto-compartir hidden-xs">
+								Comparte
+							</li>
 							<li class="twitter visible-xs">
 								<!-- Twitter -->
 								<a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ url('/') }}/servicios#estrategia-digital" data-via="DCocktailco" data-lang="es" data-count="vertical">Twittear</a>
@@ -142,8 +145,11 @@
 						</div>						
 					</div><!-- Fin del botón de contacto -->
 					<div class="compartir bloque">
-						<p><strong>Comparte</strong></p>
+						<p class="visible-xs"><strong>Comparte</strong></p>
 						<ul>
+							<li class="texto-compartir hidden-xs">
+								Comparte
+							</li>
 							<li class="twitter visible-xs">
 								<!-- Twitter -->
 								<a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ url('/') }}/servicios#desarrollo-web" data-via="DCocktailco" data-lang="es" data-count="vertical">Twittear</a>
@@ -227,8 +233,11 @@
 						</div>						
 					</div><!-- Fin del botón de contacto -->
 					<div class="compartir bloque">
-						<p><strong>Comparte</strong></p>
+						<p class="visible-xs"><strong>Comparte</strong></p>
 						<ul>
+							<li class="texto-compartir hidden-xs">
+								Comparte
+							</li>
 							<li class="twitter visible-xs">
 								<!-- Twitter -->
 								<a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ url('/') }}/servicios#consultoria-digital" data-via="DCocktailco" data-lang="es" data-count="vertical">Twittear</a>
@@ -312,8 +321,11 @@
 						</div>						
 					</div><!-- Fin del botón de contacto -->
 					<div class="compartir bloque">
-						<p><strong>Comparte</strong></p>
+						<p class="visible-xs"><strong>Comparte</strong></p>
 						<ul>
+							<li class="texto-compartir hidden-xs">
+								Comparte
+							</li>
 							<li class="twitter visible-xs">
 								<!-- Twitter -->
 								<a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ url('/') }}/servicios#email-marketing" data-via="DCocktailco" data-lang="es" data-count="vertical">Twittear</a>
@@ -397,8 +409,11 @@
 						</div>						
 					</div><!-- Fin del botón de contacto -->
 					<div class="compartir bloque">
-						<p><strong>Comparte</strong></p>
+						<p class="visible-xs"><strong>Comparte</strong></p>
 						<ul>
+							<li class="texto-compartir hidden-xs">
+								Comparte
+							</li>
 							<li class="twitter visible-xs">
 								<!-- Twitter -->
 								<a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ url('/') }}/servicios#contenidos" data-via="DCocktailco" data-lang="es" data-count="vertical">Twittear</a>
@@ -482,8 +497,11 @@
 						</div>						
 					</div><!-- Fin del botón de contacto -->
 					<div class="compartir bloque">
-						<p><strong>Comparte</strong></p>
+						<p class="visible-xs"><strong>Comparte</strong></p>
 						<ul>
+							<li class="texto-compartir hidden-xs">
+								Comparte
+							</li>
 							<li class="twitter visible-xs">
 								<!-- Twitter -->
 								<a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ url('/') }}/servicios#redes-sociales" data-via="DCocktailco" data-lang="es" data-count="vertical">Twittear</a>
@@ -567,8 +585,11 @@
 						</div>						
 					</div><!-- Fin del botón de contacto -->
 					<div class="compartir bloque">
-						<p><strong>Comparte</strong></p>
+						<p class="visible-xs"><strong>Comparte</strong></p>
 						<ul>
+							<li class="texto-compartir hidden-xs">
+								Comparte
+							</li>
 							<li class="twitter visible-xs">
 								<!-- Twitter -->
 								<a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ url('/') }}/servicios#seo" data-via="DCocktailco" data-lang="es" data-count="vertical">Twittear</a>
@@ -653,8 +674,11 @@
 						</div>						
 					</div><!-- Fin del botón de contacto -->
 					<div class="compartir bloque">
-						<p><strong>Comparte</strong></p>
+						<p class="visible-xs"><strong>Comparte</strong></p>
 						<ul>
+							<li class="texto-compartir hidden-xs">
+								Comparte
+							</li>
 							<li class="twitter visible-xs">
 								<!-- Twitter -->
 								<a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ url('/') }}/servicios#publicidad-online" data-via="DCocktailco" data-lang="es" data-count="vertical">Twittear</a>
@@ -738,8 +762,11 @@
 						</div>						
 					</div><!-- Fin del botón de contacto -->
 					<div class="compartir bloque">
-						<p><strong>Comparte</strong></p>
+						<p class="visible-xs"><strong>Comparte</strong></p>
 						<ul>
+							<li class="texto-compartir hidden-xs">
+								Comparte
+							</li>
 							<li class="twitter visible-xs">
 								<!-- Twitter -->
 								<a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ url('/') }}/servicios#analitica-web" data-via="DCocktailco" data-lang="es" data-count="vertical">Twittear</a>
@@ -823,8 +850,11 @@
 						</div>						
 					</div><!-- Fin del botón de contacto -->
 					<div class="compartir bloque">
-						<p><strong>Comparte</strong></p>
+						<p class="visible-xs"><strong>Comparte</strong></p>
 						<ul>
+							<li class="texto-compartir hidden-xs">
+								Comparte
+							</li>
 							<li class="twitter visible-xs">
 								<!-- Twitter -->
 								<a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ url('/') }}/servicios#apps-nube" data-via="DCocktailco" data-lang="es" data-count="vertical">Twittear</a>
