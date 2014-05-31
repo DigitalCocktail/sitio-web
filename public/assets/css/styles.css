@@ -44,7 +44,8 @@ header nav.menu .navbar-collapse{border:0;}
 header nav.menu .navbar-collapse ul li a{color:#fff}
 header nav.menu .navbar-collapse ul li.active a{color:#fff;background-color:#89b62f}
 footer{background:#d9d9d9;padding:30px 18px;margin-bottom:30px;}
-footer .correo{margin-bottom:30px}
+footer .correo{margin-bottom:30px;}
+footer .correo h4{line-height:1.5em}
 footer .redes-sociales{margin-bottom:30px;}
 footer .redes-sociales ul{margin:0;padding:0;}
 footer .redes-sociales ul li{list-style:none;display:inline-block;}
@@ -180,8 +181,10 @@ section .botones-contacto a.active{background:#00afef;color:#fff}
 section .botones-contacto a.trabaja{padding:16px 0 16px 0}
 section .formulario-contacto,section .formulario-trabaja{clear:both}
 section article .contenedor-escribenos,section article .contenedor-trabaja{clear:both;}
-section article .contenedor-escribenos .texto p,section article .contenedor-trabaja .texto p{padding-top:20px;font-size:1.5em;text-align:center}
-@media (min-width:768px){.bloque,.bloque-interno{padding:0}
+section article .contenedor-escribenos .texto p,section article .contenedor-trabaja .texto p{padding-top:20px;font-size:1.5em;text-align:center;}
+section article .contenedor-escribenos .texto p.contacto-directo,section article .contenedor-trabaja .texto p.contacto-directo{font-size:1em;color:#a4a4a4}
+@media (min-width:768px){.bg-990{background:url("../images/bg-tablet.jpg") no-repeat center top;background-size:cover;-moz-background-size:cover;-webkit-background-size:cover;-o-background-size:cover;width:100%;height:100%;position:absolute;z-index:-10}
+.bloque,.bloque-interno{padding:0}
 .btn-success{width:35%;font-size:1em;padding:.5em 1em;margin-right:0}
 form label{width:30%;float:left;padding:10px;}
 form label.check-box{float:none}
@@ -213,16 +216,16 @@ footer.text-center .redes-sociales ul li a.gp-icon{background:url("../images/spr
 footer.text-center .redes-sociales ul li a.gp-icon:hover{background-position:-24px -210px}
 section article .procesos{overflow:hidden}
 section article .destacado{background:none;}
-section article .destacado h1{color:#4d4d4d;font-size:1.8em}
+section article .destacado h1{color:#fff;text-shadow:1px 1px 4px rgba(0,0,0,0.63)}
 section article .investigacion #imgInvestigacion,section article .investigacion #textInvestigacion{-webkit-animation-delay:.3s;-moz-animation-delay:.3s;-ms-animation-delay:.3s;-o-animation-delay:.3s}
 section article .planeacion #imgPlaneacion,section article .planeacion #textPlaneacion{-webkit-animation-delay:.3s;-moz-animation-delay:.3s;-ms-animation-delay:.3s;-o-animation-delay:.3s}
 section article .ejecucion #imgEjecucion,section article .ejecucion #textEjecucion{-webkit-animation-delay:.3s;-moz-animation-delay:.3s;-ms-animation-delay:.3s;-o-animation-delay:.3s}
 section article .acompanamiento #imgAcompanamiento,section article .acompanamiento #textAcompanamiento{-webkit-animation-delay:.3s;-moz-animation-delay:.3s;-ms-animation-delay:.3s;-o-animation-delay:.3s}
 section article .investigacion,section article .planeacion,section article .ejecucion,section article .acompanamiento{margin-top:0;}
-section article .investigacion h2,section article .planeacion h2,section article .ejecucion h2,section article .acompanamiento h2{font-size:1em}
+section article .investigacion h2,section article .planeacion h2,section article .ejecucion h2,section article .acompanamiento h2{font-size:1em;color:#fff;text-shadow:1px 1px 4px rgba(0,0,0,0.63)}
 section article .investigacion figure,section article .planeacion figure,section article .ejecucion figure,section article .acompanamiento figure{width:90%;margin:0 auto;}
 section article .investigacion figure img,section article .planeacion figure img,section article .ejecucion figure img,section article .acompanamiento figure img{width:100%}
-section article .investigacion p,section article .planeacion p,section article .ejecucion p,section article .acompanamiento p{margin-top:-99px;font-size:.9em;display:none}
+section article .investigacion p,section article .planeacion p,section article .ejecucion p,section article .acompanamiento p{margin-top:-115px;font-size:.9em;display:none;padding:12px;color:#fff;text-shadow:1px 1px 4px rgba(0,0,0,0.63)}
 section div a.btn-success{color:#fff;width:500px;margin-left:auto;margin-right:auto;margin-bottom:60px;background:#f00 url("../images/check.png") no-repeat left center;background-size:contain;padding:.75em 1.975em .75em 7em;display:block;}
 section div a.btn-success span.texto-accion{font-size:.8em}
 section.servicios article h1,section.servicios article h2,section.servicios article p{text-align:left}

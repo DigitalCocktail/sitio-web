@@ -5,10 +5,10 @@
 		<div class="rojo pull-left"></div>
 	</div>
 	<footer class="text-center row-fluid">
-		<div class="correo col-sm-6">
-			<h4>Puedes escribirnos a <a href="mailto:encontacto@digitalcocktail.co">encontacto@digitalcocktail.co</a> - Medellín, Colombia</h4>
+		<div class="correo col-sm-7">
+			<h4>Puedes escribirnos a <a href="mailto:encontacto@digitalcocktail.co">encontacto@digitalcocktail.co</a> o llamarnos al 319 247 75 45 - Medellín, Colombia</h4>
 		</div>
-		<div class="redes-sociales col-sm-6">
+		<div class="redes-sociales col-sm-5">
 			<h4>También nos encuentas en:</h4>
 			<ul>
 				<li><a href="https://www.facebook.com/DigitalCocktail.co" target="_blank" class="fb-icon">Facebook</a></li>
