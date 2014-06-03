@@ -10,6 +10,7 @@
 				<div class="contenedor-escribenos row-fluid">
 					<div class="texto bloque-interno col-md-6">
 						<p>En Digital Cocktail te escuchamos, te respondemos y generamos una conversacion real. ¿Qué nos quieres contar?</p>
+						<p class="contacto-directo">Si deseas, puedes contactarnos directame al 319 247 75 45, o al correo <a href="mailto:encontacto@digitalcocktail.co">encontacto@digitalcocktail.co</a></p>
 					</div>
 					<div class="formulario bloque-interno col-md-6">
 						<form role="Formulario">

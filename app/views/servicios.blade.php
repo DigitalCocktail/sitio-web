@@ -10,10 +10,10 @@
 					</figure>
 				</div>
 				<div class="col-sm-7 right-content">
-					<h2 class="bloque-interno"><strong>En saber elegir está la clave</strong></h2>
+					<h2 class="bloque-interno"><strong>La mezcla perfecta</strong></h2>
 					<div class="texto-servicios bloque-interno">
-						<p>Encontramos los ingredientes apropiados y la medida justa que necesitas para que tus proyectos tengan el mejor impacto web.</p>
-						<p>Sentémonos a tomar algo y a crear la mezcla perfecta.</p>
+						<p>En saber elegir está la clave. Encontramos los ingredientes apropiados y la medida justa que necesitas para que tus proyectos tengan el mejor impacto. </p>
+						<p>¡Sentémonos a tomar algo y a crear!</p>
 					</div>
 					<div class="btn-contacto bloque-interno">
 						<button type="button" class="btn-success btnShow">Me interesa</button>
@@ -99,9 +99,10 @@
 					</figure>
 				</div>
 				<div class="col-sm-7 right-content">
-					<h2 class="bloque-interno"><strong>Un espacio agradable para compartir con tus invitados…</strong></h2>
+					<h2 class="bloque-interno"><strong>Todos los tamaños de pantalla</strong></h2>
 					<div class="texto-servicios bloque-interno">
-						<p>Tu sitio web será impecable, eficaz y organizado. un lugar agradable y útil para tus visitantes y tu empresa,  y lo mejor, es que lo verán bien ¡desde cualquier dispositivo! </p>
+						<p>Un espacio agradable para compartir con tus invitados. Tu sitio web será impecable, eficaz y organizado; crearemos un lugar agradable y útil para tus visitantes y tu empresa.</p>
+						<p>¡Verán bien tu sitio desde cualquier dispositivo!</p>
 					</div>
 					<div class="btn-contacto bloque-interno">
 						<button id="btnShow" type="button" class="btn-success btnShow">Me interesa</button>
@@ -187,9 +188,10 @@
 					</figure>
 				</div>
 				<div class="col-sm-7 right-content">
-					<h2 class="bloque-interno"><strong>La fiesta perfecta con la ayuda apropiada...</strong></h2>
+					<h2 class="bloque-interno"><strong>Nuestro conocimiento para ti</strong></h2>
 					<div class="texto-servicios bloque-interno">
-						<p>Realizamos un diagnóstico para encontrar justo lo que necesitas para que tus proyectos tengan la mejor presencia en la web, ¡déjanos acompañarte! encontremos el mejor camino para que incursiones en Internet de manera estratégica.</p>
+						<p>La fiesta perfecta con la ayuda apropiada. Realizamos un diagnóstico para encontrar justo lo que necesitas para que tus proyectos tengan la mejor presencia en la web. Encontraremos el mejor camino para que incursiones en Internet de manera estratégica.</p>
+						<p>¡Déjanos acompañarte!</p>
 					</div>
 					<div class="btn-contacto bloque-interno">
 						<button type="button" class="btn-success btnShow">Me interesa</button>
@@ -275,9 +277,10 @@
 					</figure>
 				</div>
 				<div class="col-sm-7 right-content">
-					<h2 class="bloque-interno"><strong>Que se enteren de tus novedades y te visiten…</strong></h2>
+					<h2 class="bloque-interno"><strong>Filtra tus clientes para una comunicación efectiva</strong></h2>
 					<div class="texto-servicios bloque-interno">
-						<p>Mantente en contacto con todos, cuéntales tus noticias más recientes, envíales invitaciones a las que no se puedan resistir y saca el mejor beneficio de ello.</p>
+						<p>Que se enteren de tus novedades y te visiten. Mantente en contacto con todos, cuéntales tus noticias más recientes, envíales invitaciones a las que no se puedan resistir.</p>
+						<p>¡Saquemos el mejor beneficio!</p>
 					</div>
 					<div class="btn-contacto bloque-interno">
 						<button type="button" class="btn-success btnShow">Me interesa</button>
@@ -363,9 +366,10 @@
 					</figure>
 				</div>
 				<div class="col-sm-7 right-content">
-					<h2 class="bloque-interno"><strong>Verte atractivo es cuestión de saberte expresar…</strong></h2>
+					<h2 class="bloque-interno"><strong>Tu imagen siempre fresca y vigente</strong></h2>
 					<div class="texto-servicios bloque-interno">
-						<p>Lo que dices, lo que muestras, lo que compartes y como lo haces, es clave para comunicarte con los otros,  hazles llegar el mensaje que quieres y de la manera más acertada a través de medios digitales. </p>
+						<p>Verte atractivo es cuestión de saberte expresar. Lo que dices, lo que muestras, lo que compartes y cómo lo haces, es clave para comunicarte con los otros. Hazles llegar el mensaje que quieres y de la manera más acertada a través de medios digitales. </p>
+						<p>¡Pensamos y creados tus contenidos para la web!</p>
 					</div>
 					<div class="btn-contacto bloque-interno">
 						<button type="button" class="btn-success btnShow">Me interesa</button>
@@ -451,9 +455,10 @@
 					</figure>
 				</div>
 				<div class="col-sm-7 right-content">
-					<h2 class="bloque-interno"><strong>Te quieren por tu personalidad...</strong></h2>
+					<h2 class="bloque-interno"><strong>La dosis perfecta en cada red social</strong></h2>
 					<div class="texto-servicios bloque-interno">
-						<p>Tus redes sociales son la vía más efectiva y rápida para interactuar con tu público, crea lazos con ellos y alcanza logros efectivos para tu marca. </p>
+						<p>Te quieren por tu personalidad. Tus redes sociales son la vía más efectiva y rápida para interactuar con tu público, crear lazos con él y alcanzar logros efectivos para tu marca. </p>
+						<p>¡Nosotros te ayudamos, no los hagas esperar!</p>
 					</div>
 					<div class="btn-contacto bloque-interno">
 						<button type="button" class="btn-success btnShow">Me interesa</button>
@@ -539,9 +544,10 @@
 					</figure>
 				</div>
 				<div class="col-sm-7 right-content">
-					<h2 class="bloque-interno"><strong>Serás el más buscado de la fiesta…</strong></h2>
+					<h2 class="bloque-interno"><strong>Tu contenido moldeado para buscadores</strong></h2>
 					<div class="texto-servicios bloque-interno">
-						<p>Tus productos y servicios estarán listos para ser encontrados en la web, mejorarás tu popularidad en buscadores como Google, y cuando alguien necesite algo que tú le puedes ofrecer, más personas te encontrarán. </p>
+						<p>Serás el más buscado de la fiesta.Tus productos y servicios estarán listos para ser encontrados en la web, mejorarás tu popularidad en buscadores como Google, y cuando alguien necesite algo que tú le puedes ofrecer llegará más fácil a ti.</p>
+						<p>¡Más personas te encontrarán! </p>
 					</div>
 					<div class="btn-contacto bloque-interno">
 						<button type="button" class="btn-success btnShow">Me interesa</button>
@@ -627,9 +633,9 @@
 					</figure>
 				</div>
 				<div class="col-sm-7 right-content">
-					<h2 class="bloque-interno"><strong>Una mezcla muy rentable... </strong></h2>
+					<h2 class="bloque-interno"><strong>Mixtura de lo mejor de la publicidad digital</strong></h2>
 					<div class="texto-servicios bloque-interno">
-						<p>Una campaña de publicidad en medios digitales que abra el camino para mejorar el retorno de tu inversión, pautar en diferentes espacios online hará que más personas conozcan tu empresa o proyecto y mejorar tus ventas. </p>
+						<p>Una mezcla muy rentable. Creamos campañas de publicidad en medios digitales que abrirán el camino para mejorar el retorno de tu inversión. Pautar en diferentes espacios online hará que más personas conozcan tu empresa o proyecto y alcances tus metas. </p>
 						<p>¡Es momento de mezclar! </p>
 					</div>
 					<div class="btn-contacto bloque-interno">
@@ -716,9 +722,10 @@
 					</figure>
 				</div>
 				<div class="col-sm-7 right-content">
-					<h2 class="bloque-interno"><strong>Todo en su justa medida…</strong></h2>
+					<h2 class="bloque-interno"><strong>La medida ideal de lo que haces</strong></h2>
 					<div class="texto-servicios bloque-interno">
-						<p>Saber interpretar las métricas de tu empresa te llevará por el camino que quieres, así tus estrategias serán efectivas, potencializa tu redes sociales, sitio web, publicidad online... Recuerda que es importante tener claro cuál es la medida justa para alcanzar lo que necesitas</p>
+						<p>Todo en su justa medida. Saber interpretar las métricas de tu empresa te llevará por el camino que quieres; así, tus estrategias serán efectivas, sacarás el potencial a tus redes sociales, sitio web y publicidad online. Recuerda que es importante tener claro cuál es la medida justa para alcanzar lo que necesitas.</p>
+						<p>¡Analicemos cuál es el mejor camino!</p>
 					</div>
 					<div class="btn-contacto bloque-interno">
 						<button type="button" class="btn-success btnShow">Me interesa</button>
@@ -804,9 +811,10 @@
 					</figure>
 				</div>
 				<div class="col-sm-7 right-content">
-					<h2 class="bloque-interno"><strong>Lo importante no es sólo lo que va por fuera…</strong></h2>
+					<h2 class="bloque-interno"><strong>Una base sólida para gestionar tus proyectos</strong></h2>
 					<div class="texto-servicios bloque-interno">
-						<p>Detrás de una gran estrategia hay un grupo de aplicaciones en la nube que te facilita todo, desde la gestión de tus proyectos hasta el manejo de las relaciones con tus clientes, además, podrás acceder a todo desde cualquier lugar a través de Internet ¡Encontremos juntos lo que necesita tu empresa! </p>
+						<p>Lo importante no es solo lo que va por fuera. Detrás de una gran estrategia hay un grupo de aplicaciones en la nube que te facilita todo, desde la gestión de tus proyectos hasta el manejo de las relaciones con tus clientes; además, podrás acceder a todo desde cualquier lugar a través de Internet.</p>
+						<p>¡Encontremos juntos soluciones a tus necesidades! </p>
 					</div>
 					<div class="btn-contacto bloque-interno">
 						<button type="button" class="btn-success btnShow">Me interesa</button>
