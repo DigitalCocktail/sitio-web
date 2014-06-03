@@ -338,11 +338,11 @@ $(function() {
 		$nombre = $("#ed-nombre-servicios");
 		$email = $("#ed-email-servicios");
 		$telefono = $("#ed-tel-servicios");
-		$suscribirse = $("#ed-suscribirse");
-		$eventos = $("#ed-eventos");
-		$promociones = $("#ed-promociones");
-		$blog = $("#ed-blog");
-		datos = "nombre="+$nombre.val()+"&email="+$email.val()+"&telefono="+$telefono.val()+"&suscribirse="+$suscribirse.val()+"&eventos="+$eventos.val()+"&promociones="+$promociones.val()+"&blog="+$blog.val()+"&s=ed";
+		var suscribirse = ($("#ed-suscribirse").is(':checked'))? 1 : 0;
+		var eventos = ($("#ed-eventos").is(':checked'))? 1 : 0;
+		var promociones = ($("#ed-promociones").is(':checked'))? 1 : 0;
+		var blog = ($("#ed-blog").is(':checked'))? 1 : 0;
+		datos = "nombre="+$nombre.val()+"&email="+$email.val()+"&telefono="+$telefono.val()+"&suscribirse="+suscribirse+"&eventos="+eventos+"&promociones="+promociones+"&blog="+blog+"&s=ed";
 		error = 0;
 		if(isEmpty($nombre.val())){
 			error ++;
@@ -381,11 +381,11 @@ $(function() {
 		$nombre = $("#dw-nombre-servicios");
 		$email = $("#dw-email-servicios");
 		$telefono = $("#dw-tel-servicios");
-		$suscribirse = $("#dw-suscribirse");
-		$eventos = $("#dw-eventos");
-		$promociones = $("#dw-promociones");
-		$blog = $("#dw-blog");
-		datos = "nombre="+$nombre.val()+"&email="+$email.val()+"&telefono="+$telefono.val()+"&suscribirse="+$suscribirse.val()+"&eventos="+$eventos.val()+"&promociones="+$promociones.val()+"&blog="+$blog.val()+"&s=dw";
+		var suscribirse = ($("#dw-suscribirse").is(':checked'))? 1 : 0;
+		var eventos = ($("#dw-eventos").is(':checked'))? 1 : 0;
+		var promociones = ($("#dw-promociones").is(':checked'))? 1 : 0;
+		var blog = ($("#dw-blog").is(':checked'))? 1 : 0;
+		datos = "nombre="+$nombre.val()+"&email="+$email.val()+"&telefono="+$telefono.val()+"&suscribirse="+suscribirse+"&eventos="+eventos+"&promociones="+promociones+"&blog="+blog+"&s=dw";
 		error = 0;
 		if(isEmpty($nombre.val())){
 			error ++;
@@ -424,11 +424,11 @@ $(function() {
 		$nombre = $("#cd-nombre-servicios");
 		$email = $("#cd-email-servicios");
 		$telefono = $("#cd-tel-servicios");
-		$suscribirse = $("#cd-suscribirse");
-		$eventos = $("#cd-eventos");
-		$promociones = $("#cd-promociones");
-		$blog = $("#cd-blog");
-		datos = "nombre="+$nombre.val()+"&email="+$email.val()+"&telefono="+$telefono.val()+"&suscribirse="+$suscribirse.val()+"&eventos="+$eventos.val()+"&promociones="+$promociones.val()+"&blog="+$blog.val()+"&s=cd";
+		var suscribirse = ($("#cd-suscribirse").is(':checked'))? 1 : 0;
+		var eventos = ($("#cd-eventos").is(':checked'))? 1 : 0;
+		var promociones = ($("#cd-promociones").is(':checked'))? 1 : 0;
+		var blog = ($("#cd-blog").is(':checked'))? 1 : 0;
+		datos = "nombre="+$nombre.val()+"&email="+$email.val()+"&telefono="+$telefono.val()+"&suscribirse="+suscribirse+"&eventos="+eventos+"&promociones="+promociones+"&blog="+blog+"&s=cd";
 		error = 0;
 		if(isEmpty($nombre.val())){
 			error ++;
@@ -467,11 +467,11 @@ $(function() {
 		$nombre = $("#em-nombre-servicios");
 		$email = $("#em-email-servicios");
 		$telefono = $("#em-tel-servicios");
-		$suscribirse = $("#em-suscribirse");
-		$eventos = $("#em-eventos");
-		$promociones = $("#em-promociones");
-		$blog = $("#em-blog");
-		datos = "nombre="+$nombre.val()+"&email="+$email.val()+"&telefono="+$telefono.val()+"&suscribirse="+$suscribirse.val()+"&eventos="+$eventos.val()+"&promociones="+$promociones.val()+"&blog="+$blog.val()+"&s=em";
+		var suscribirse = ($("#em-suscribirse").is(':checked'))? 1 : 0;
+		var eventos = ($("#em-eventos").is(':checked'))? 1 : 0;
+		var promociones = ($("#em-promociones").is(':checked'))? 1 : 0;
+		var blog = ($("#em-blog").is(':checked'))? 1 : 0;
+		datos = "nombre="+$nombre.val()+"&email="+$email.val()+"&telefono="+$telefono.val()+"&suscribirse="+suscribirse+"&eventos="+eventos+"&promociones="+promociones+"&blog="+blog+"&s=em";
 		error = 0;
 		if(isEmpty($nombre.val())){
 			error ++;
@@ -510,11 +510,11 @@ $(function() {
 		$nombre = $("#co-nombre-servicios");
 		$email = $("#co-email-servicios");
 		$telefono = $("#co-tel-servicios");
-		$suscribirse = $("#co-suscribirse");
-		$eventos = $("#co-eventos");
-		$promociones = $("#co-promociones");
-		$blog = $("#co-blog");
-		datos = "nombre="+$nombre.val()+"&email="+$email.val()+"&telefono="+$telefono.val()+"&suscribirse="+$suscribirse.val()+"&eventos="+$eventos.val()+"&promociones="+$promociones.val()+"&blog="+$blog.val()+"&s=co";
+		var suscribirse = ($("#co-suscribirse").is(':checked'))? 1 : 0;
+		var eventos = ($("#co-eventos").is(':checked'))? 1 : 0;
+		var promociones = ($("#co-promociones").is(':checked'))? 1 : 0;
+		var blog = ($("#co-blog").is(':checked'))? 1 : 0;
+		datos = "nombre="+$nombre.val()+"&email="+$email.val()+"&telefono="+$telefono.val()+"&suscribirse="+suscribirse+"&eventos="+eventos+"&promociones="+promociones+"&blog="+blog+"&s=co";
 		error = 0;
 		if(isEmpty($nombre.val())){
 			error ++;
@@ -553,11 +553,11 @@ $(function() {
 		$nombre = $("#rs-nombre-servicios");
 		$email = $("#rs-email-servicios");
 		$telefono = $("#rs-tel-servicios");
-		$suscribirse = $("#rs-suscribirse");
-		$eventos = $("#rs-eventos");
-		$promociones = $("#rs-promociones");
-		$blog = $("#rs-blog");
-		datos = "nombre="+$nombre.val()+"&email="+$email.val()+"&telefono="+$telefono.val()+"&suscribirse="+$suscribirse.val()+"&eventos="+$eventos.val()+"&promociones="+$promociones.val()+"&blog="+$blog.val()+"&s=rs";
+		var suscribirse = ($("#rs-suscribirse").is(':checked'))? 1 : 0;
+		var eventos = ($("#rs-eventos").is(':checked'))? 1 : 0;
+		var promociones = ($("#rs-promociones").is(':checked'))? 1 : 0;
+		var blog = ($("#rs-blog").is(':checked'))? 1 : 0;
+		datos = "nombre="+$nombre.val()+"&email="+$email.val()+"&telefono="+$telefono.val()+"&suscribirse="+suscribirse+"&eventos="+eventos+"&promociones="+promociones+"&blog="+blog+"&s=rs";
 		error = 0;
 		if(isEmpty($nombre.val())){
 			error ++;
@@ -596,11 +596,11 @@ $(function() {
 		$nombre = $("#se-nombre-servicios");
 		$email = $("#se-email-servicios");
 		$telefono = $("#se-tel-servicios");
-		$suscribirse = $("#se-suscribirse");
-		$eventos = $("#se-eventos");
-		$promociones = $("#se-promociones");
-		$blog = $("#se-blog");
-		datos = "nombre="+$nombre.val()+"&email="+$email.val()+"&telefono="+$telefono.val()+"&suscribirse="+$suscribirse.val()+"&eventos="+$eventos.val()+"&promociones="+$promociones.val()+"&blog="+$blog.val()+"&s=se";
+		var suscribirse = ($("#se-suscribirse").is(':checked'))? 1 : 0;
+		var eventos = ($("#se-eventos").is(':checked'))? 1 : 0;
+		var promociones = ($("#se-promociones").is(':checked'))? 1 : 0;
+		var blog = ($("#se-blog").is(':checked'))? 1 : 0;
+		datos = "nombre="+$nombre.val()+"&email="+$email.val()+"&telefono="+$telefono.val()+"&suscribirse="+suscribirse+"&eventos="+eventos+"&promociones="+promociones+"&blog="+blog+"&s=se";
 		error = 0;
 		if(isEmpty($nombre.val())){
 			error ++;
@@ -639,11 +639,11 @@ $(function() {
 		$nombre = $("#po-nombre-servicios");
 		$email = $("#po-email-servicios");
 		$telefono = $("#po-tel-servicios");
-		$suscribirse = $("#po-suscribirse");
-		$eventos = $("#po-eventos");
-		$promociones = $("#po-promociones");
-		$blog = $("#po-blog");
-		datos = "nombre="+$nombre.val()+"&email="+$email.val()+"&telefono="+$telefono.val()+"&suscribirse="+$suscribirse.val()+"&eventos="+$eventos.val()+"&promociones="+$promociones.val()+"&blog="+$blog.val()+"&s=po";
+		var suscribirse = ($("#po-suscribirse").is(':checked'))? 1 : 0;
+		var eventos = ($("#po-eventos").is(':checked'))? 1 : 0;
+		var promociones = ($("#po-promociones").is(':checked'))? 1 : 0;
+		var blog = ($("#po-blog").is(':checked'))? 1 : 0;
+		datos = "nombre="+$nombre.val()+"&email="+$email.val()+"&telefono="+$telefono.val()+"&suscribirse="+suscribirse+"&eventos="+eventos+"&promociones="+promociones+"&blog="+blog+"&s=po";
 		error = 0;
 		if(isEmpty($nombre.val())){
 			error ++;
@@ -682,11 +682,11 @@ $(function() {
 		$nombre = $("#aw-nombre-servicios");
 		$email = $("#aw-email-servicios");
 		$telefono = $("#aw-tel-servicios");
-		$suscribirse = $("#aw-suscribirse");
-		$eventos = $("#aw-eventos");
-		$promociones = $("#aw-promociones");
-		$blog = $("#aw-blog");
-		datos = "nombre="+$nombre.val()+"&email="+$email.val()+"&telefono="+$telefono.val()+"&suscribirse="+$suscribirse.val()+"&eventos="+$eventos.val()+"&promociones="+$promociones.val()+"&blog="+$blog.val()+"&s=aw";
+		var suscribirse = ($("#aw-suscribirse").is(':checked'))? 1 : 0;
+		var eventos = ($("#aw-eventos").is(':checked'))? 1 : 0;
+		var promociones = ($("#aw-promociones").is(':checked'))? 1 : 0;
+		var blog = ($("#aw-blog").is(':checked'))? 1 : 0;
+		datos = "nombre="+$nombre.val()+"&email="+$email.val()+"&telefono="+$telefono.val()+"&suscribirse="+suscribirse+"&eventos="+eventos+"&promociones="+promociones+"&blog="+blog+"&s=aw";
 		error = 0;
 		if(isEmpty($nombre.val())){
 			error ++;
@@ -725,11 +725,11 @@ $(function() {
 		$nombre = $("#an-nombre-servicios");
 		$email = $("#an-email-servicios");
 		$telefono = $("#an-tel-servicios");
-		$suscribirse = $("#an-suscribirse");
-		$eventos = $("#an-eventos");
-		$promociones = $("#an-promociones");
-		$blog = $("#an-blog");
-		datos = "nombre="+$nombre.val()+"&email="+$email.val()+"&telefono="+$telefono.val()+"&suscribirse="+$suscribirse.val()+"&eventos="+$eventos.val()+"&promociones="+$promociones.val()+"&blog="+$blog.val()+"&s=an";
+		var suscribirse = ($("#an-suscribirse").is(':checked'))? 1 : 0;
+		var eventos = ($("#an-eventos").is(':checked'))? 1 : 0;
+		var promociones = ($("#an-promociones").is(':checked'))? 1 : 0;
+		var blog = ($("#an-blog").is(':checked'))? 1 : 0;
+		datos = "nombre="+$nombre.val()+"&email="+$email.val()+"&telefono="+$telefono.val()+"&suscribirse="+suscribirse+"&eventos="+eventos+"&promociones="+promociones+"&blog="+blog+"&s=an";
 		error = 0;
 		if(isEmpty($nombre.val())){
 			error ++;

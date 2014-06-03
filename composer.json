@@ -12,7 +12,8 @@
 	"require": {
 		"laravel/framework": "4.1.25",
 		"wardrobe/core": "dev-master",
-		"doxxon/laravel-mandrill-request": "dev-master"
+		"doxxon/laravel-mandrill-request": "dev-master",
+		"podio/podio-php": "dev-master"
 	},
 	"autoload": {
 		"classmap": [

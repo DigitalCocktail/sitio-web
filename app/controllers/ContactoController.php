@@ -14,6 +14,49 @@ class ContactoController extends BaseController {
 
 	public function contactoServicios(){
 		$servicio = Util::getServicio(Input::get('s'));
+		$suscribirse = Input::get('suscribirse');
+		$blog = Input::get('blog');
+		$eventos = Input::get('eventos');
+		$promociones = Input::get('promociones');
+
+		if($suscribirse){
+			$client_id = 'suscriptores';
+			$client_secret = 'HSNxIGo14NB8rTjaFPOMeGkGMXgD71pJkuGick2U6y6XvcUuBXswmT4rJX6cs4w9';
+			// Setup client
+			Podio::setup($client_id, $client_secret);
+
+			Podio::setup($client_id, $client_secret);
+			// Obtain access token
+			$username = 'belmar.santanilla@digitalcocktail.co';
+			$password = 'CNBDGFAA880519$';
+			Podio::authenticate('password', array('username' => $username, 'password' => $password));
+			
+			if($blog){
+				PodioItem::create(8264446, array('fields' => array(
+					"nombre" => Input::get('nombre'),
+					"correo-electronico" => Input::get('email'),
+					'telefono' => Input::get('telefono'),
+					"estado" => 1
+				)));
+			}
+			if($eventos){
+				PodioItem::create(8264537, array('fields' => array(
+					"nombre" => Input::get('nombre'),
+					"correo-electronico" => Input::get('email'),
+					'telefono' => Input::get('telefono'),
+					"estado" => 1
+				)));
+			}	
+			if($promociones){
+				PodioItem::create(8264562, array('fields' => array(
+					"nombre" => Input::get('nombre'),
+					"correo-electronico" => Input::get('email'),
+					'telefono' => Input::get('telefono'),
+					"estado" => 1
+				)));
+			}					
+		}
+
 		$data = array(
 			'subject' => 'Contacto ' . $servicio,
 			'to' => Input::get('email'),
@@ -68,6 +111,26 @@ class ContactoController extends BaseController {
 		}		
 		
 		return json_encode($r);
+	}
+
+	public function createItemPodio($data){
+
+		$client_id = 'lista-blog';
+		$client_secret = 'e6DYbhCb22kkcl9FWVmwuQO6rlq4OyK94HM4q2Gb5I6drdqTrdfQ265XqKyPQLOg';
+		// Setup client
+		Podio::setup($client_id, $client_secret);
+
+		Podio::setup($client_id, $client_secret);
+		// Obtain access token
+		$username = 'belmar.santanilla@digitalcocktail.co';
+		$password = 'CNBDGFAA880519$';
+		Podio::authenticate('password', array('username' => $username, 'password' => $password));
+		
+		PodioItem::create(8264446, array('fields' => array(
+			"nombre" => $data['nombre'],
+			"correo-electronico" => "belmar@digitalcocktail.co",
+			"estado" => 1
+		)));		
 	}
 
 }
