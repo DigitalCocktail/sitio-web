@@ -78,7 +78,7 @@ return array(
     | Set this to the number of posts you want per page.
     |
     */
-    'per_page' => 1,
+    'per_page' => 10,
 
     /*
     |--------------------------------------------------------------------------

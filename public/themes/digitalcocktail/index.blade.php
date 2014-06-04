@@ -52,20 +52,34 @@
 		</div> -->
 		<div class="suscribete-aside text-left form-dc">
 			<h3>Suscríbete y recibe los últimos artículos en tu correo</h3>
-			<form role="Formulario">
+			<form id="frm-suscribir" role="Formulario">
 				<label class="check-box"><input id="chkSuscripcionContacto" type="checkbox" checked>Me gustaría recibir información de Digital Cocktail</label>
 				<div id="listasCorreoContacto" class="listas-correo">
-					<label class="check-box listas"><input type="checkbox" checked>Eventos y actividades</label>
-					<label class="check-box listas"><input type="checkbox" checked>Promociones</label>
-					<label class="check-box listas"><input type="checkbox" checked>Últimos artículos del blog</label>
+					<label class="check-box listas"><input type="checkbox" id="eventos" checked>Eventos y actividades</label>
+					<label class="check-box listas"><input type="checkbox" id="promociones" checked>Promociones</label>
+					<label class="check-box listas"><input type="checkbox" id="blog" checked>Últimos artículos del blog</label>
 				</div>
-				<p>Antes de suscribirte debes estar de acuerdo con nuestra <a href="#" target="_blank">Política de manejo de datos</a></p>
+				<p>Al de suscribirte indicas estar de acuerdo con nuestra <a href="#" target="_blank">Política de manejo de datos</a></p>
 				<div class="campo-correo">
 					<input class="ingrese-correo" type="mail" id="mail-suscripcion" placeholder="Ingresa tu correo">
 					<button type="submit" class=""></button>
 				</div>
 			</form>
+			<div id="cargando" class="oculto">
+				<div class="spinner">
+				  <div class="cube1"></div>
+				  <div class="cube2"></div>
+				</div>						
+				<h2>Enviando...</h2>
+				<p class="subtitulo">pronto estarás enterado de nuestras novedades</p>
+			</div>
+			<div id="success" class="oculto">					
+				<h2>Envío Exitoso</h2>
+			</div>				
 		</div>
 
 	</aside><!-- Fin del aside -->
+	<script type="text/javascript">
+	var rutaSuscribirse = "{{ URL::route('contacto/suscribirse') }}";
+	</script>	
 @stop

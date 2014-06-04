@@ -86,6 +86,9 @@ $(function() {
 	/* Start: Suscripción Boletín Servicios */
 	$(".chkSuscripcion").change(function(){
 		if($(this).is(":checked")){
+			$("#" + cl + "-eventos").prop('checked', true);
+			$("#" + cl + "-promociones").prop('checked', true);
+			$("#" + cl + "-blog").prop('checked', true);			
 			$(".listas-correo").show('slow');
 			$(".listas-correo").removeClass('animated fadeOutLeft');
 			$(".listas-correo").addClass('animated fadeInLeft');
@@ -139,6 +142,9 @@ $(function() {
 
 	$("#chkSuscripcionContacto").change(function(){
 		if($(this).is(":checked")){
+			$("#eventos").prop('checked', true);
+			$("#promociones").prop('checked', true);
+			$("#blog").prop('checked', true);
 			$("#listasCorreoContacto").show('slow');
 			$("#listasCorreoContacto").removeClass('animated fadeOutLeft');
 			$("#listasCorreoContacto").addClass('animated fadeInLeft');
@@ -177,7 +183,7 @@ $(function() {
 		h = 'email-marketing';
 	}
 	else if(hash == 'contenidos'){
-		cl = 'con';
+		cl = 'co';
 		h = 'contenidos';
 	}
 	else if(hash == 'redes-sociales'){
@@ -209,6 +215,7 @@ $(function() {
 		h = "estrategia-digital";
 		$(this).addClass('active');
 		cerrarMenu();
+		cl = 'ed';
 	});
 	$('.dw').click(function(){
 		ocultar(hash);
@@ -216,6 +223,7 @@ $(function() {
 		h = "desarrollo-web";
 		$(this).addClass('active');
 		cerrarMenu();
+		cl = 'dw';
 	});	
 	$('.cd').click(function(){
 		ocultar(hash);
@@ -223,6 +231,7 @@ $(function() {
 		h = "consultoria-digital";
 		$(this).addClass('active');
 		cerrarMenu();
+		cl = 'cd';
 	});		
 	$('.em').click(function(){
 		ocultar(hash);
@@ -230,6 +239,7 @@ $(function() {
 		h = "email-marketing";
 		$(this).addClass('active');
 		cerrarMenu();
+		cl = 'em';
 	});
 	$('.con').click(function(){
 		ocultar(hash);
@@ -237,6 +247,7 @@ $(function() {
 		h = "contenidos";
 		$(this).addClass('active');
 		cerrarMenu();
+		cl = 'co';
 	});
 	$('.rs').click(function(){
 		ocultar(hash);
@@ -244,6 +255,7 @@ $(function() {
 		h = "redes-sociales";
 		$(this).addClass('active');
 		cerrarMenu();
+		cl = 'rs';
 	});
 	$('.se').click(function(){
 		ocultar(hash);
@@ -251,6 +263,7 @@ $(function() {
 		h = "seo";
 		$(this).addClass('active');
 		cerrarMenu();
+		cl = 'se';
 	});
 	$('.po').click(function(){
 		ocultar(hash);
@@ -258,6 +271,7 @@ $(function() {
 		h = "publicidad-online";
 		$(this).addClass('active');
 		cerrarMenu();
+		cl = 'po';
 	});
 	$('.aw').click(function(){
 		ocultar(hash);
@@ -265,6 +279,7 @@ $(function() {
 		h = "analitica-web";
 		$(this).addClass('active');
 		cerrarMenu();
+		cl = 'aw';
 	});					
 	$('.an').click(function(){
 		ocultar(hash);
@@ -272,6 +287,7 @@ $(function() {
 		h = "apps-nube";
 		$(this).addClass('active');
 		cerrarMenu();
+		cl = 'an';
 	});	
 
 	function resetSuscripcion(){
@@ -376,6 +392,19 @@ $(function() {
 		}
 	});
 
+	$("#frm-estrategia-digital").change(function(){
+		selected = [];
+		$('#listas-correo-ed input:checked').each(function() {
+	    	selected.push($(this).attr('name'));
+		});
+		if(selected.length <= 0){
+			$("#ed-suscribirse").prop('checked', false);
+			$("#listas-correo-ed").removeClass('animated fadeInLeft');
+			$("#listas-correo-ed").addClass('animated fadeOutLeft');
+			$("#listas-correo-ed").hide('slow');
+		}
+	});
+
 	$("#frm-desarrollo-web").submit(function(e){
 		e.preventDefault();
 		$nombre = $("#dw-nombre-servicios");
@@ -416,6 +445,19 @@ $(function() {
 					success('#dw');
 				}
 			});
+		}
+	});
+
+	$("#frm-desarrollo-web").change(function(){
+		selected = [];
+		$('#listas-correo-dw input:checked').each(function() {
+	    	selected.push($(this).attr('name'));
+		});
+		if(selected.length <= 0){
+			$("#dw-suscribirse").prop('checked', false);
+			$("#listas-correo-dw").removeClass('animated fadeInLeft');
+			$("#listas-correo-dw").addClass('animated fadeOutLeft');
+			$("#listas-correo-dw").hide('slow');
 		}
 	});
 
@@ -462,6 +504,19 @@ $(function() {
 		}
 	});
 
+	$("#frm-consultoria-digital").change(function(){
+		selected = [];
+		$('#listas-correo-cd input:checked').each(function() {
+	    	selected.push($(this).attr('name'));
+		});
+		if(selected.length <= 0){
+			$("#cd-suscribirse").prop('checked', false);
+			$("#listas-correo-cd").removeClass('animated fadeInLeft');
+			$("#listas-correo-cd").addClass('animated fadeOutLeft');
+			$("#listas-correo-cd").hide('slow');
+		}
+	});
+
 	$("#frm-email-marketing").submit(function(e){
 		e.preventDefault();
 		$nombre = $("#em-nombre-servicios");
@@ -502,6 +557,19 @@ $(function() {
 					success('#em');
 				}
 			});
+		}
+	});
+
+	$("#frm-email-marketing").change(function(){
+		selected = [];
+		$('#listas-correo-em input:checked').each(function() {
+	    	selected.push($(this).attr('name'));
+		});
+		if(selected.length <= 0){
+			$("#em-suscribirse").prop('checked', false);
+			$("#listas-correo-em").removeClass('animated fadeInLeft');
+			$("#listas-correo-em").addClass('animated fadeOutLeft');
+			$("#listas-correo-em").hide('slow');
 		}
 	});
 
@@ -548,6 +616,19 @@ $(function() {
 		}
 	});
 
+	$("#frm-contenidos").change(function(){
+		selected = [];
+		$('#listas-correo-co input:checked').each(function() {
+	    	selected.push($(this).attr('name'));
+		});
+		if(selected.length <= 0){
+			$("#co-suscribirse").prop('checked', false);
+			$("#listas-correo-co").removeClass('animated fadeInLeft');
+			$("#listas-correo-co").addClass('animated fadeOutLeft');
+			$("#listas-correo-co").hide('slow');
+		}
+	});
+
 	$("#frm-redes-sociales").submit(function(e){
 		e.preventDefault();
 		$nombre = $("#rs-nombre-servicios");
@@ -588,6 +669,19 @@ $(function() {
 					success('#rs');
 				}
 			});
+		}
+	});
+
+	$("#frm-redes-sociales").change(function(){
+		selected = [];
+		$('#listas-correo-rs input:checked').each(function() {
+	    	selected.push($(this).attr('name'));
+		});
+		if(selected.length <= 0){
+			$("#rs-suscribirse").prop('checked', false);
+			$("#listas-correo-rs").removeClass('animated fadeInLeft');
+			$("#listas-correo-rs").addClass('animated fadeOutLeft');
+			$("#listas-correo-rs").hide('slow');
 		}
 	});
 
@@ -634,6 +728,19 @@ $(function() {
 		}
 	});
 
+	$("#frm-seo").change(function(){
+		selected = [];
+		$('#listas-correo-se input:checked').each(function() {
+	    	selected.push($(this).attr('name'));
+		});
+		if(selected.length <= 0){
+			$("#se-suscribirse").prop('checked', false);
+			$("#listas-correo-se").removeClass('animated fadeInLeft');
+			$("#listas-correo-se").addClass('animated fadeOutLeft');
+			$("#listas-correo-se").hide('slow');
+		}
+	});
+
 	$("#frm-publicidad-online").submit(function(e){
 		e.preventDefault();
 		$nombre = $("#po-nombre-servicios");
@@ -674,6 +781,19 @@ $(function() {
 					success('#po');
 				}
 			});
+		}
+	});
+
+	$("#frm-publicidad-online").change(function(){
+		selected = [];
+		$('#listas-correo-po input:checked').each(function() {
+	    	selected.push($(this).attr('name'));
+		});
+		if(selected.length <= 0){
+			$("#po-suscribirse").prop('checked', false);
+			$("#listas-correo-po").removeClass('animated fadeInLeft');
+			$("#listas-correo-po").addClass('animated fadeOutLeft');
+			$("#listas-correo-po").hide('slow');
 		}
 	});
 
@@ -720,6 +840,19 @@ $(function() {
 		}
 	});
 
+	$("#frm-analitica-web").change(function(){
+		selected = [];
+		$('#listas-correo-aw input:checked').each(function() {
+	    	selected.push($(this).attr('name'));
+		});
+		if(selected.length <= 0){
+			$("#aw-suscribirse").prop('checked', false);
+			$("#listas-correo-aw").removeClass('animated fadeInLeft');
+			$("#listas-correo-aw").addClass('animated fadeOutLeft');
+			$("#listas-correo-aw").hide('slow');
+		}
+	});
+
 	$("#frm-apps-nube").submit(function(e){
 		e.preventDefault();
 		$nombre = $("#an-nombre-servicios");
@@ -762,7 +895,72 @@ $(function() {
 			});
 		}
 	});
+
+	$("#frm-apps-nube").change(function(){
+		selected = [];
+		$('#listas-correo-an input:checked').each(function() {
+	    	selected.push($(this).attr('name'));
+		});
+		if(selected.length <= 0){
+			$("#an-suscribirse").prop('checked', false);
+			$("#listas-correo-an").removeClass('animated fadeInLeft');
+			$("#listas-correo-an").addClass('animated fadeOutLeft');
+			$("#listas-correo-an").hide('slow');
+		}
+	});
+
 	/* End: Formulario Servicios */	
+
+	/* Start: Fomulario de Suscripción */
+	$("#frm-suscribir").change(function(){
+		var selected = [];
+		$('.listas-correo input:checked').each(function() {
+	    	selected.push($(this).attr('name'));
+		});
+		if(selected.length <= 0){
+			$("#chkSuscripcionContacto").prop('checked', false);
+			$("#listasCorreoContacto").removeClass('animated fadeInLeft');
+			$("#listasCorreoContacto").addClass('animated fadeOutLeft');
+			$("#listasCorreoContacto").hide('slow');
+		}
+	});
+
+	$("#frm-suscribir").submit(function(e){
+		e.preventDefault();
+		$(this).hide();
+		$("#cargando").show();
+		$email = $("#mail-suscripcion");
+		var suscribirse = ($("#chkSuscripcionContacto").is(':checked'))? 1 : 0;
+		var eventos = ($("#eventos").is(':checked'))? 1 : 0;
+		var promociones = ($("#promociones").is(':checked'))? 1 : 0;
+		var blog = ($("#blog").is(':checked'))? 1 : 0;
+		datos = "email="+$email.val()+"&suscribirse="+suscribirse+"&eventos="+eventos+"&promociones="+promociones+"&blog="+blog;
+		error = 0;
+		if(isEmpty($email.val())){
+	    	$email.addClass("has-error");
+	      	error++;
+		}
+		else if(isEmail($email.val())){
+	    	$email.addClass("has-error");
+	      	error++;					
+		}
+		else {
+			$email.removeClass("has-error");
+		}	
+		if(error == 0){
+			$.ajax({
+				type: "POST",
+				dataType: 'json',
+				data: datos,
+				url: rutaSuscribirse,
+				success: function(result){
+					$("#cargando").hide();
+					$("#success").show();
+				}
+			});
+		}
+	});	
+	/* End: Formulario de Suscriptición */
 
 	/* Funciones útiles */
 	function isEmpty (mixed_var) {

@@ -33,7 +33,7 @@
 							<div class="recibirinfo-servicios text-left form-dc">
 									<h3>Suscríbete</h3>
 									<label class="check-box"><input type="checkbox" id="ed-suscribirse" class="chkSuscripcion" checked>Me gustaría recibir información de Digital Cocktail</label>
-									<div class="listas-correo">
+									<div class="listas-correo" id="listas-correo-ed">
 										<label class="check-box listas"><input type="checkbox" id="ed-eventos" checked>Eventos y actividades</label>
 										<label class="check-box listas"><input type="checkbox" id="ed-promociones" checked>Promociones</label>
 										<label class="check-box listas"><input type="checkbox" id="ed-blog" checked>Últimos artículos del blog</label>
@@ -122,7 +122,7 @@
 							<div class="recibirinfo-servicios text-left form-dc">
 									<h3>Suscríbete</h3>
 									<label class="check-box"><input type="checkbox" class="chkSuscripcion" id="dw-suscribirse" checked>Me gustaría recibir información de Digital Cocktail</label>
-									<div class="listas-correo">
+									<div class="listas-correo" id="listas-correo-dw">
 										<label class="check-box listas"><input type="checkbox" id="dw-eventos" checked>Eventos y actividades</label>
 										<label class="check-box listas"><input type="checkbox" id="dw-promociones" checked>Promociones</label>
 										<label class="check-box listas"><input type="checkbox" id="dw-blog" checked>Últimos artículos del blog</label>
@@ -211,7 +211,7 @@
 							<div class="recibirinfo-servicios text-left form-dc">
 									<h3>Suscríbete</h3>
 									<label class="check-box"><input type="checkbox" class="chkSuscripcion" id="cd-suscribirse" checked>Me gustaría recibir información de Digital Cocktail</label>
-									<div class="listas-correo">
+									<div class="listas-correo" id="listas-correo-cd">
 										<label class="check-box listas"><input type="checkbox" id="cd-eventos" checked>Eventos y actividades</label>
 										<label class="check-box listas"><input type="checkbox" id="cd-promociones" checked>Promociones</label>
 										<label class="check-box listas"><input type="checkbox" id="cd-blog" checked>Últimos artículos del blog</label>
@@ -300,7 +300,7 @@
 							<div class="recibirinfo-servicios text-left form-dc">
 									<h3>Suscríbete</h3>
 									<label class="check-box"><input type="checkbox" class="chkSuscripcion" id="em-suscribirse" checked>Me gustaría recibir información de Digital Cocktail</label>
-									<div class="listas-correo">
+									<div class="listas-correo" id="listas-correo-em">
 										<label class="check-box listas"><input type="checkbox" id="em-eventos" checked>Eventos y actividades</label>
 										<label class="check-box listas"><input type="checkbox" id="em-promociones" checked>Promociones</label>
 										<label class="check-box listas"><input type="checkbox" id="em-blog" checked>Últimos artículos del blog</label>
@@ -389,7 +389,7 @@
 							<div class="recibirinfo-servicios text-left form-dc">
 									<h3>Suscríbete</h3>
 									<label class="check-box"><input type="checkbox" class="chkSuscripcion" id="co-suscribirse" checked>Me gustaría recibir información de Digital Cocktail</label>
-									<div class="listas-correo">
+									<div class="listas-correo" id="listas-correo-co">
 										<label class="check-box listas"><input type="checkbox" id="co-eventos" checked>Eventos y actividades</label>
 										<label class="check-box listas"><input type="checkbox" id="co-promociones" checked>Promociones</label>
 										<label class="check-box listas"><input type="checkbox" id="co-blog" checked>Últimos artículos del blog</label>
@@ -478,7 +478,7 @@
 							<div class="recibirinfo-servicios text-left form-dc">
 									<h3>Suscríbete</h3>
 									<label class="check-box"><input type="checkbox" class="chkSuscripcion" id="rs-suscribirse" checked>Me gustaría recibir información de Digital Cocktail</label>
-									<div class="listas-correo">
+									<div class="listas-correo" id="listas-correo-rs">
 										<label class="check-box listas"><input type="checkbox" id="rs-eventos" checked>Eventos y actividades</label>
 										<label class="check-box listas"><input type="checkbox" id="rs-promociones" checked>Promociones</label>
 										<label class="check-box listas"><input type="checkbox" id="rs-blog" checked>Últimos artículos del blog</label>
@@ -567,7 +567,7 @@
 							<div class="recibirinfo-servicios text-left form-dc">
 									<h3>Suscríbete</h3>
 									<label class="check-box"><input type="checkbox" class="chkSuscripcion" id="se-suscribirse" checked>Me gustaría recibir información de Digital Cocktail</label>
-									<div class="listas-correo">
+									<div class="listas-correo" id="listas-correo-se">
 										<label class="check-box listas"><input type="checkbox" id="se-eventos" checked>Eventos y actividades</label>
 										<label class="check-box listas"><input type="checkbox" id="se-promociones" checked>Promociones</label>
 										<label class="check-box listas"><input type="checkbox" id="se-blog" checked>Últimos artículos del blog</label>
@@ -656,7 +656,7 @@
 							<div class="recibirinfo-servicios text-left form-dc">
 									<h3>Suscríbete</h3>
 									<label class="check-box"><input type="checkbox" class="chkSuscripcion" id="po-suscribirse" checked>Me gustaría recibir información de Digital Cocktail</label>
-									<div class="listas-correo">
+									<div class="listas-correo" id="listas-correo-po">
 										<label class="check-box listas"><input type="checkbox" id="po-eventos" checked>Eventos y actividades</label>
 										<label class="check-box listas"><input type="checkbox" id="po-promociones" checked>Promociones</label>
 										<label class="check-box listas"><input type="checkbox" id="po-blog" checked>Últimos artículos del blog</label>
@@ -745,7 +745,7 @@
 							<div class="recibirinfo-servicios text-left form-dc">
 									<h3>Suscríbete</h3>
 									<label class="check-box"><input type="checkbox" class="chkSuscripcion" id="aw-suscribirse" checked>Me gustaría recibir información de Digital Cocktail</label>
-									<div class="listas-correo">
+									<div class="listas-correo" id="listas-correo-aw">
 										<label class="check-box listas"><input type="checkbox" id="aw-eventos" checked>Eventos y actividades</label>
 										<label class="check-box listas"><input type="checkbox" id="aw-promociones" checked>Promociones</label>
 										<label class="check-box listas"><input type="checkbox" id="aw-blog" checked>Últimos artículos del blog</label>
@@ -834,7 +834,7 @@
 							<div class="recibirinfo-servicios text-left form-dc">
 									<h3>Suscríbete</h3>
 									<label class="check-box"><input type="checkbox" class="chkSuscripcion" id="an-suscribirse" checked>Me gustaría recibir información de Digital Cocktail</label>
-									<div class="listas-correo">
+									<div class="listas-correo" id="listas-correo-an">
 										<label class="check-box listas"><input type="checkbox" id="an-eventos" checked>Eventos y actividades</label>
 										<label class="check-box listas"><input type="checkbox" id="an-promociones" checked>Promociones</label>
 										<label class="check-box listas"><input type="checkbox" id="an-blog" checked>Últimos artículos del blog</label>
