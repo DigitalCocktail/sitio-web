@@ -44,7 +44,7 @@
 								<button class="btn-success" type="submit">Enviar</button>
 							</div>
 						</form>
-						<div id="ed-cargando" class="oculto">
+						<div id="ed-cargando" class="oculto cargando">
 							<div class="spinner">
 							  <div class="cube1"></div>
 							  <div class="cube2"></div>
@@ -133,7 +133,7 @@
 								<button class="btn-success" type="submit">Enviar</button>
 							</div>
 						</form>
-						<div id="dw-cargando" class="oculto">
+						<div id="dw-cargando" class="oculto cargando">
 							<div class="spinner">
 							  <div class="cube1"></div>
 							  <div class="cube2"></div>
@@ -222,7 +222,7 @@
 								<button class="btn-success" type="submit">Enviar</button>
 							</div>
 						</form>
-						<div id="cd-cargando" class="oculto">
+						<div id="cd-cargando" class="oculto cargando">
 							<div class="spinner">
 							  <div class="cube1"></div>
 							  <div class="cube2"></div>
@@ -311,7 +311,7 @@
 								<button class="btn-success" type="submit">Enviar</button>
 							</div>
 						</form>
-						<div id="em-cargando" class="oculto">
+						<div id="em-cargando" class="oculto cargando">
 							<div class="spinner">
 							  <div class="cube1"></div>
 							  <div class="cube2"></div>
@@ -400,7 +400,7 @@
 								<button class="btn-success" type="submit">Enviar</button>
 							</div>
 						</form>
-						<div id="co-cargando" class="oculto">
+						<div id="co-cargando" class="oculto cargando">
 							<div class="spinner">
 							  <div class="cube1"></div>
 							  <div class="cube2"></div>
@@ -489,7 +489,7 @@
 								<button class="btn-success" type="submit">Enviar</button>
 							</div>
 						</form>
-						<div id="rs-cargando" class="oculto">
+						<div id="rs-cargando" class="oculto cargando">
 							<div class="spinner">
 							  <div class="cube1"></div>
 							  <div class="cube2"></div>
@@ -578,7 +578,7 @@
 								<button class="btn-success" type="submit">Enviar</button>
 							</div>
 						</form>
-						<div id="se-cargando" class="oculto">
+						<div id="se-cargando" class="oculto cargando">
 							<div class="spinner">
 							  <div class="cube1"></div>
 							  <div class="cube2"></div>
@@ -667,7 +667,7 @@
 								<button class="btn-success" type="submit">Enviar</button>
 							</div>
 						</form>
-						<div id="po-cargando" class="oculto">
+						<div id="po-cargando" class="oculto cargando">
 							<div class="spinner">
 							  <div class="cube1"></div>
 							  <div class="cube2"></div>
@@ -756,7 +756,7 @@
 								<button class="btn-success" type="submit">Enviar</button>
 							</div>
 						</form>
-						<div id="aw-cargando" class="oculto">
+						<div id="aw-cargando" class="oculto cargando">
 							<div class="spinner">
 							  <div class="cube1"></div>
 							  <div class="cube2"></div>
@@ -845,7 +845,7 @@
 								<button class="btn-success" type="submit">Enviar</button>
 							</div>
 						</form>
-						<div id="an-cargando" class="oculto">
+						<div id="an-cargando" class="oculto cargando">
 							<div class="spinner">
 							  <div class="cube1"></div>
 							  <div class="cube2"></div>

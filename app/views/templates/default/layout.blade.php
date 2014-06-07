@@ -15,7 +15,7 @@
 		display: none;
 	}
 	.spinner {
-	  margin: 100px auto;
+	  margin: 40px auto;
 	  width: 32px;
 	  height: 32px;
 	  position: relative;
