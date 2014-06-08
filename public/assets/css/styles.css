@@ -48,13 +48,13 @@ header nav.menu .navbar-collapse ul li.active a{color:#fff;background-color:#89b
 footer{background:#d9d9d9;padding:30px 18px;margin-bottom:30px;}
 footer .correo{margin-bottom:30px;}
 footer .correo h4{line-height:1.5em}
-footer .redes-sociales{margin-bottom:30px;}
-footer .redes-sociales ul{margin:0;padding:0;}
-footer .redes-sociales ul li{list-style:none;display:inline-block;}
-footer .redes-sociales ul li a{width:54px;height:54px;display:block;text-indent:-9999px;margin:18px 12px 0 12px;}
-footer .redes-sociales ul li a.fb-icon{background:url("../images/sprite.png") no-repeat;background-position:-54px 0}
-footer .redes-sociales ul li a.tw-icon{background:url("../images/sprite.png") no-repeat;background-position:-54px -54px}
-footer .redes-sociales ul li a.gp-icon{background:url("../images/sprite.png") no-repeat;background-position:-54px -108px}
+footer .rs-footer{margin-bottom:30px;}
+footer .rs-footer ul{margin:0;padding:0;}
+footer .rs-footer ul li{list-style:none;display:inline-block;}
+footer .rs-footer ul li a{width:54px;height:54px;display:block;text-indent:-9999px;margin:18px 12px 0 12px;}
+footer .rs-footer ul li a.fb-icon{background:url("../images/sprite.png") no-repeat;background-position:-54px 0}
+footer .rs-footer ul li a.tw-icon{background:url("../images/sprite.png") no-repeat;background-position:-54px -54px}
+footer .rs-footer ul li a.gp-icon{background:url("../images/sprite.png") no-repeat;background-position:-54px -108px}
 #video_background{display:none}
 #video_pattern{display:none}
 section article.contenido{overflow:hidden}
@@ -210,16 +210,16 @@ footer{margin-bottom:0;padding:6px 12px;overflow:auto;clear:both;}
 footer.text-center{text-align:left;}
 footer.text-center .correo{margin-bottom:0;}
 footer.text-center .correo h4{font-size:.8em}
-footer.text-center .redes-sociales{margin-bottom:0;text-align:right;}
-footer.text-center .redes-sociales h4{font-size:.8em;display:inline-block}
-footer.text-center .redes-sociales ul{margin-top:7px;display:inline-block;text-align:left;}
-footer.text-center .redes-sociales ul li a{margin:0 5px;width:24px;height:24px;}
-footer.text-center .redes-sociales ul li a.fb-icon{background:url("../images/sprite.png") no-repeat;background-position:0 -162px;}
-footer.text-center .redes-sociales ul li a.fb-icon:hover{background-position:-24px -162px}
-footer.text-center .redes-sociales ul li a.tw-icon{background:url("../images/sprite.png") no-repeat;background-position:0 -186px;}
-footer.text-center .redes-sociales ul li a.tw-icon:hover{background-position:-24px -186px}
-footer.text-center .redes-sociales ul li a.gp-icon{background:url("../images/sprite.png") no-repeat;background-position:0 -210px;}
-footer.text-center .redes-sociales ul li a.gp-icon:hover{background-position:-24px -210px}
+footer.text-center .rs-footer{margin-bottom:0;text-align:right;}
+footer.text-center .rs-footer h4{font-size:.8em;display:inline-block}
+footer.text-center .rs-footer ul{margin-top:7px;display:inline-block;text-align:left;}
+footer.text-center .rs-footer ul li a{margin:0 5px;width:24px;height:24px;}
+footer.text-center .rs-footer ul li a.fb-icon{background:url("../images/sprite.png") no-repeat;background-position:0 -162px;}
+footer.text-center .rs-footer ul li a.fb-icon:hover{background-position:-24px -162px}
+footer.text-center .rs-footer ul li a.tw-icon{background:url("../images/sprite.png") no-repeat;background-position:0 -186px;}
+footer.text-center .rs-footer ul li a.tw-icon:hover{background-position:-24px -186px}
+footer.text-center .rs-footer ul li a.gp-icon{background:url("../images/sprite.png") no-repeat;background-position:0 -210px;}
+footer.text-center .rs-footer ul li a.gp-icon:hover{background-position:-24px -210px}
 section article .procesos{overflow:hidden}
 section article .destacado{background:none;}
 section article .destacado h1{color:#fff;text-shadow:1px 1px 4px rgba(0,0,0,0.63)}
