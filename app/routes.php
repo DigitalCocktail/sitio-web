@@ -18,16 +18,86 @@ Route::get('/', function() {
 	return View::make('inicio', $data);
 });
 
-Route::get('/servicios', function() {
+Route::get('/conocenos', function() {
 	$data = array(
 		'active' => 2
+	);	
+	return View::make('conocenos', $data);
+});
+
+Route::get('/servicios/estrategia-digital', function() {
+	$data = array(
+		'active' => 3
 	);
-	return View::make('servicios', $data);
+	return View::make('servicios.estrategia-digital', $data);
+});
+
+Route::get('/servicios/desarrollo-web', function() {
+	$data = array(
+		'active' => 3
+	);
+	return View::make('servicios.desarrollo-web', $data);
+});
+
+Route::get('/servicios/consultoria-digital', function() {
+	$data = array(
+		'active' => 3
+	);
+	return View::make('servicios.consultoria-digital', $data);
+});
+
+Route::get('/servicios/email-marketing', function() {
+	$data = array(
+		'active' => 3
+	);
+	return View::make('servicios.email-marketing', $data);
+});
+
+Route::get('/servicios/contenidos-digitales', function() {
+	$data = array(
+		'active' => 3
+	);
+	return View::make('servicios.contenidos-digitales', $data);
+});
+
+Route::get('/servicios/redes-sociales', function() {
+	$data = array(
+		'active' => 3
+	);
+	return View::make('servicios.redes-sociales', $data);
+});
+
+Route::get('/servicios/seo', function() {
+	$data = array(
+		'active' => 3
+	);
+	return View::make('servicios.seo', $data);
+});
+
+Route::get('/servicios/publicidad-online', function() {
+	$data = array(
+		'active' => 3
+	);
+	return View::make('servicios.publicidad-online', $data);
+});
+
+Route::get('/servicios/analitica-web', function() {
+	$data = array(
+		'active' => 3
+	);
+	return View::make('servicios.analitica-web', $data);
+});
+
+Route::get('/servicios/apps-nube', function() {
+	$data = array(
+		'active' => 3
+	);
+	return View::make('servicios.apps-nube', $data);
 });
 
 Route::get('/contacto', function() {
 	$data = array(
-		'active' => 4
+		'active' => 5
 	);	
 	return View::make('contacto', $data);
 });
