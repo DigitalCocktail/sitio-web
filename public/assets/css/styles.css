@@ -73,6 +73,10 @@ section div a.btn-accion:hover{text-decoration:none}
 section div a span{color:#fff;}
 section div a span.accion{font-size:1.2em;display:block;margin-bottom:.3em}
 section div a span.texto-accion{font-size:.6em;display:block;color:#ffd3d3}
+.conocenos{text-align:center;}
+.conocenos h1{color:#00afef;margin:0 0 20px 0}
+.conocenos figure{width:98%;margin:0 auto 20px auto;}
+.conocenos figure img{width:100%}
 section.servicios article{position:relative;z-index:1;}
 section.servicios article.estrategia-digital,section.servicios article.desarrollo-web,section.servicios article.consultoria-digital,section.servicios article.email-marketing,section.servicios article.contenidos,section.servicios article.redes-sociales,section.servicios article.seo,section.servicios article.publicidad-online,section.servicios article.analitica-web,section.servicios article.apps-nube{display:none}
 section.servicios article h1{color:#00afef}
@@ -229,6 +233,10 @@ section article .investigacion figure img,section article .planeacion figure img
 section article .investigacion p,section article .planeacion p,section article .ejecucion p,section article .acompanamiento p{margin-top:-115px;font-size:.9em;display:none;padding:12px;color:#fff;text-shadow:1px 1px 4px rgba(0,0,0,0.63)}
 section div a.btn-success{color:#fff;width:500px;margin-left:auto;margin-right:auto;margin-bottom:60px;background:#f00 url("../images/check.png") no-repeat left center;background-size:contain;padding:.75em 1.975em .75em 7em;display:block;}
 section div a.btn-success span.texto-accion{font-size:.8em}
+.conocenos{text-align:left;padding:0 18px;}
+.conocenos h1{margin:0}
+.conocenos figure{width:50%;margin:0 auto 0 auto}
+.conocenos .btn-preparamos{margin-bottom:100px}
 section.servicios article h1,section.servicios article h2,section.servicios article p{text-align:left}
 section.servicios article .btn-contacto button.btn-success{width:35%}
 section.servicios article figure{margin-right:0;margin-left:0}
@@ -241,8 +249,8 @@ section.servicios article .compartir ul li.facebook{margin-top:-2px}
 section.servicios article .compartir p{float:left;font-size:.8em;color:#a4a4a4;}
 section.servicios article .compartir p strong{font-weight:normal}
 section.servicios article .compartir ul li.visible-xs{display:none !important}
+.buscador-aside-movil{display:none}
 section.blog{padding:0 18px;position:relative;}
-section.blog .buscador-aside-movil{display:none}
 section.blog aside.aside-post{padding-top:105px;font-size:12px}
 section.blog aside.aside-blog{margin:30px 0 0 0;font-size:12px;}
 section.blog aside.aside-blog .buscador-aside{display:block;margin:0 0 18px 0;border-bottom:2px solid #a4a4a4;padding:0 0 18px 0;}
