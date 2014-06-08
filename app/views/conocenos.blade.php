@@ -16,11 +16,11 @@
 			<figure class="img-servicios bloque-interno">
 				{{ HTML::image("assets/images/conocenos.jpg", "Conoce a Digital Cocktail") }}
 			</figure>
-			<p>Que bueno que estás aquí, en esta agencia digital nos encantan las visitas, sentarnos a conversar y escuchar tus planes. Creemos que el mejor camino para que tu empresa o proyecto incursione en Internet es saber tus necesidades a fondo; nos tomamos el tiempo de conocerte.</p>
+			<p>Que bueno que estás aquí, en esta agencia digital nos encantan las visitas, sentarnos a conversar y escuchar tus planes. Creemos que el mejor camino para que tu empresa o proyecto incursione en Internet es saber tus necesidades a fondo; nos tomamos el tiempo de conocerte. </p>
 
-			<p>En Digital Cocktail mezclamos lo mejor de la web para brindarte soluciones profesionales, de alta calidad a precios asequibles. Por medio de la investigación, planeación, ejecución y acompañamiento creamos experiencias pensadas para tu crecimiento empresarial.</p>
+			<p>En Digital Cocktail mezclamos lo mejor de la web para brindarte soluciones profesionales, de alta calidad a precios asequibles. Por medio de la investigación, planeación, ejecución y acompañamiento creamos estrategias digitales pensadas para tu crecimiento empresarial.</p>
 
-			<p>Tenemos muchas cosas para ofrecerte, bienvenido a nuestro espacio</p>
+			<p>Tenemos muchas cosas para ofrecerte, bienvenido a nuestro espacio.</p>
 			<div class="bloque btn-preparamos">
 				<a href="{{ url('/servicios/estrategia-digital') }}" class="btn-success text-center">
 					<span class="accion"> ¿Qué te preparamos?</span>
