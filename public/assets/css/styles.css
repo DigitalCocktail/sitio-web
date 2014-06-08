@@ -239,7 +239,6 @@ section div a.btn-success span.texto-accion{font-size:.8em}
 .conocenos figure{width:50%;margin:0 auto 0 auto}
 .conocenos .btn-preparamos{margin-bottom:100px}
 section.servicios article h1,section.servicios article h2,section.servicios article p{text-align:left}
-section.servicios article .btn-contacto{margin-bottom:200px;}
 section.servicios article .btn-contacto button.btn-success{width:35%}
 section.servicios article figure{margin-right:0;margin-left:0}
 section.servicios article .right-content{margin-top:80px}
@@ -297,6 +296,7 @@ section article .investigacion p,section article .planeacion p,section article .
 section .btn-preparamos{margin-top:3%;margin-bottom:0}
 section.servicios{position:relative;height:65%;}
 section.servicios article{margin-top:2%;}
+section.servicios article .btn-contacto{margin-bottom:200px}
 section.servicios article.centrar-vertical{position:absolute;top:0;right:0;bottom:0;margin:auto;left:0;height:55%}
 section.servicios article .right-content{margin:25px 0 0 0}
 section.servicios h1.bloque{margin:0}
