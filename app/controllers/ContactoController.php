@@ -53,10 +53,11 @@ class ContactoController extends BaseController {
 			'to' => Input::get('email'),
 			'nameTo' => Input::get('nombre'),
 			'telefono' => Input::get('telefono'),
-			'servicio' => ""
+			'servicio' => Input::get('interes'),
+			'mensaje' => Input::get('mensaje')
 		);
 
-		$html = View::make("emails.contacto", $data)->render();		
+		$html = View::make("emails.contactar", $data)->render();		
 
 		$payload = array(
 		    'message' => array(
@@ -77,7 +78,7 @@ class ContactoController extends BaseController {
 
 		$mailData = array(
 		    'message' => array(
-		        'subject' => $data['nameTo'] . " Requiere ",
+		        'subject' => $data['nameTo'] . " " . Input::get('interes'),
 		        'html' => $dcHtml,
 		        'from_email' => 'sistema@digitalcocktail.co',
 		        'from_name' => 'Digital Cocktail',
