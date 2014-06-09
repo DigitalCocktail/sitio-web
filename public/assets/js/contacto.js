@@ -74,13 +74,13 @@ $(function() {
 		e.preventDefault();
 		$nombre = $("#nombre-contacto");
 		$email = $("#correo-contacto");
-		$interes = $("#interesa-contacto");
+		$interes = $("#interesa-contacto :selected");
 		$mensaje = $("#mensaje-contacto");
 		var suscribirse = ($("#chkSuscripcionContacto").is(':checked'))? 1 : 0;
 		var eventos = ($("#eventos").is(':checked'))? 1 : 0;
 		var promociones = ($("#promociones").is(':checked'))? 1 : 0;
 		var blog = ($("#blog").is(':checked'))? 1 : 0;
-		datos = "nombre="+$nombre.val()+"&email="+$email.val()+"&interes="+$interes.val()+"&mensaje="+$mensaje.val()+"&suscribirse="+suscribirse+"&eventos="+eventos+"&promociones="+promociones+"&blog="+blog;
+		datos = "nombre="+$nombre.val()+"&email="+$email.val()+"&interes="+$interes.text()+"&mensaje="+$mensaje.val()+"&suscribirse="+suscribirse+"&eventos="+eventos+"&promociones="+promociones+"&blog="+blog;
 		error = 0;
 		if(isEmpty($nombre.val())){
 			error ++;
