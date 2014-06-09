@@ -110,8 +110,8 @@ Creamos campañas de publicidad en medios digitales que abrirán el camino para 
 			<li><a href="{{url('/servicios/contenidos-digitales')}}" class="con">Contenidos</a></li>
 			<li><a href="{{url('/servicios/redes-sociales')}}" class="rs">Redes sociales</a></li>
 			<li><a href="{{url('/servicios/seo')}}" class="se">SEO</a></li>
-			<li><a href="{{url('/servicios/publicidad-online')}}" class="po">Publicidad online</a></li>
-			<li><a href="{{url('/servicios/analitica-web')}}" class="aw active">Analítica web</a></li>
+			<li><a href="{{url('/servicios/publicidad-online')}}" class="po active">Publicidad online</a></li>
+			<li><a href="{{url('/servicios/analitica-web')}}" class="aw">Analítica web</a></li>
 			<li><a href="{{url('/servicios/apps-nube')}}" class="an">Apps en la nube</a></li>
 	</div><!-- fin de menu-servicios -->
 	<script type="text/javascript">

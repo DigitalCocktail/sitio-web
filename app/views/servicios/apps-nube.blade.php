@@ -111,8 +111,8 @@ Te ayudamos a gestionar tus proyectos con servicios en la nube que te facilitar�
 			<li><a href="{{url('/servicios/redes-sociales')}}" class="rs">Redes sociales</a></li>
 			<li><a href="{{url('/servicios/seo')}}" class="se">SEO</a></li>
 			<li><a href="{{url('/servicios/publicidad-online')}}" class="po">Publicidad online</a></li>
-			<li><a href="{{url('/servicios/analitica-web')}}" class="aw active">Analítica web</a></li>
-			<li><a href="{{url('/servicios/apps-nube')}}" class="an">Apps en la nube</a></li>
+			<li><a href="{{url('/servicios/analitica-web')}}" class="aw">Analítica web</a></li>
+			<li><a href="{{url('/servicios/apps-nube')}}" class="an active">Apps en la nube</a></li>
 		</ul>
 	</div><!-- fin de menu-servicios -->
 	<script type="text/javascript">

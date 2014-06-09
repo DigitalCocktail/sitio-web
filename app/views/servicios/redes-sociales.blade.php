@@ -108,10 +108,10 @@ Las redes sociales de tu empresa son la vía más efectiva y rápida para intera
 			<li><a href="{{url('/servicios/consultoria-digital')}}" class="cd">Consultoría digital</a></li>
 			<li><a href="{{url('/servicios/email-marketing')}}" class="em">E-mail marketing</a></li>
 			<li><a href="{{url('/servicios/contenidos-digitales')}}" class="con">Contenidos</a></li>
-			<li><a href="{{url('/servicios/redes-sociales')}}" class="rs">Redes sociales</a></li>
+			<li><a href="{{url('/servicios/redes-sociales')}}" class="rs active">Redes sociales</a></li>
 			<li><a href="{{url('/servicios/seo')}}" class="se">SEO</a></li>
 			<li><a href="{{url('/servicios/publicidad-online')}}" class="po">Publicidad online</a></li>
-			<li><a href="{{url('/servicios/analitica-web')}}" class="aw active">Analítica web</a></li>
+			<li><a href="{{url('/servicios/analitica-web')}}" class="aw">Analítica web</a></li>
 			<li><a href="{{url('/servicios/apps-nube')}}" class="an">Apps en la nube</a></li>
 		</ul>
 	</div><!-- fin de menu-servicios -->

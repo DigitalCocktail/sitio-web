@@ -18,7 +18,7 @@ Queremos estar en contacto contigo. Si tienes alguna duda, sugerencia o simpleme
 				<div class="contenedor-escribenos row-fluid">
 					<div class="texto bloque-interno col-md-6">
 						<p>En Digital Cocktail nos encanta estar en contacto contigo. Si tienes alguna duda, sugerencia o simplemente nos quieres compartir tus ideas, no dudes en contactarnos, te responderemos pronto, ¿qué nos quieres contar?</p>
-						<p class="contacto-directo">Si deseas, también puedes contactarnos en los teléfonos <strong>319 2477545</strong> ó <strong>301 2424166</strong>, y en el correo<a href="mailto:encontacto@digitalcocktail.co">encontacto@digitalcocktail.co</a></p>
+						<p class="contacto-directo">Si deseas, también puedes contactarnos en los teléfonos <strong>319 2477545</strong> ó <strong>301 2424166</strong>, y en el correo <a href="mailto:encontacto@digitalcocktail.co">encontacto@digitalcocktail.co</a></p>
 					</div>
 					<div class="formulario bloque-interno col-md-6">
 						<form id="frm-contacto" role="Formulario">
