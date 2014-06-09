@@ -90,4 +90,7 @@ Creamos estrategias digitales pensadas para tu crecimiento empresarial, brindamo
 		</div>
 		</aside><!-- Fin del aside -->
 	</section><!-- Fin del contenedor de los articulos - blog -->
+	<script type="text/javascript">
+   	var rutaSuscribirse = "{{ URL::route('contacto/suscribirse') }}";
+   	</script>
 @stop
