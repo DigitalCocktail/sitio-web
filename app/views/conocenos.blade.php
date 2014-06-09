@@ -1,10 +1,16 @@
 @extends('templates/default/layout')
 
-@section('imagefb'){{ url('/assets/images/conocenos.jpg') }} @stop
+@section('imagefb')
+{{ url('/assets/images/conocenos.jpg') }}
+@stop
 
-@section('title')Digital Cocktail - Estrategias Digitales de alta calidad pensadas en tu crecimiento empresarial @stop
+@section('title')
+Digital Cocktail - Estrategias Digitales de alta calidad pensadas en tu crecimiento empresarial
+@stop
 
-@section('description')Nos encargamos de encontrar las herramientas ideales para brindarte una solución para hacer crecer tu negocio @stop
+@section('description')
+Nos encargamos de encontrar las herramientas ideales para brindarte una solución para hacer crecer tu negocio
+@stop
 @section("content")
 <!--
 	<div class="buscador-aside-movil bloque-interno">

@@ -1,10 +1,16 @@
 @extends('templates/default/layout')
 
-@section('imagefb'){{ url('/assets/images/bg-destacado.jpg') }} @stop
+@section('imagefb')
+{{ url('/assets/images/bg-destacado.jpg') }}
+@stop
 
-@section('title')Estrategia Digital, Desarrollo web y Redes Sociales - Digital Cocktail @stop
+@section('title')
+Estrategia Digital, Desarrollo web y Redes Sociales - Digital Cocktail
+@stop
 
-@section('description')Nos encargamos de encontrar las herramientas ideales para brindarte una solución para hacer crecer tu negocio @stop
+@section('description')
+Nos encargamos de encontrar las herramientas ideales para brindarte una solución para hacer crecer tu negocio
+@stop
 
 @section("content")
 	<div class="bg-990 visible-sm"></div>
