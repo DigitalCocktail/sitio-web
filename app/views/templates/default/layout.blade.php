@@ -6,6 +6,7 @@
 	{{ HTML::script('assets/js/modernizr.min.js') }}
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="@yield('description')"/>
+	<meta property="og:image" content="@yield('imagefb')"/>
 	{{ HTML::style('assets/css/bootstrap.css', array('media' => 'screen')) }}
 	{{ HTML::style('assets/css/styles.css', array('media' => 'screen')) }}
 	{{ HTML::style('assets/css/animate.css', array('media' => 'screen')) }}

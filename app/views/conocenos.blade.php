@@ -1,4 +1,7 @@
 @extends('templates/default/layout')
+
+@section('imagefb'){{ url('/assets/images/conocenos.jpg') }} @stop
+
 @section('title')Digital Cocktail - Estrategias Digitales de alta calidad pensadas en tu crecimiento empresarial @stop
 
 @section('description')Nos encargamos de encontrar las herramientas ideales para brindarte una solución para hacer crecer tu negocio @stop
