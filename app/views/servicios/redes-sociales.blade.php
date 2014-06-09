@@ -55,7 +55,7 @@
 							<h2>Enviando...</h2>
 							<p class="subtitulo">pronto estarás enterado de nuestras novedades</p>
 						</div>
-						<div id="rs-success" class="oculto">					
+						<div id="rs-success" class="oculto success">					
 							<h2>Envío Exitoso</h2>
 						</div>						
 					</div><!-- Fin del botón de contacto -->

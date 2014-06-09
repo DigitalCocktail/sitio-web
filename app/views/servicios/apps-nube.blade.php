@@ -47,7 +47,7 @@
 								<button class="btn-success" type="submit">Enviar</button>
 							</div>
 						</form>
-						<div id="an-cargando" class="oculto cargando">
+						<div id="an-cargando" class="oculto cargando cargando">
 							<div class="spinner">
 							  <div class="cube1"></div>
 							  <div class="cube2"></div>
@@ -55,7 +55,7 @@
 							<h2>Enviando...</h2>
 							<p class="subtitulo">pronto estarás enterado de nuestras novedades</p>
 						</div>
-						<div id="an-success" class="oculto">					
+						<div id="an-success" class="oculto success">					
 							<h2>Envío Exitoso</h2>
 						</div>						
 					</div><!-- Fin del botón de contacto -->

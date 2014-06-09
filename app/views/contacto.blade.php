@@ -53,7 +53,7 @@
 									<label class="check-box listas"><input type="checkbox" id="promociones" checked>Promociones</label>
 									<label class="check-box listas"><input type="checkbox" id="blog" checked>Últimos artículos del blog</label>
 								</div>
-								<p>Al suscribirte indicas estar de acuerdo con nuestra<a href="{{url("/terminos-y-condiciones")}}" target="_blank">Política de manejo de datos</a></p>
+								<p>Al suscribirte indicas estar de acuerdo con nuestra <a href="{{url("/terminos-y-condiciones")}}" target="_blank">Política de manejo de datos</a></p>
 							</div>
 							<div class="enviar-contacto bloque-interno">
 						<button type="submit" class="btn-success">Enviar</button>
