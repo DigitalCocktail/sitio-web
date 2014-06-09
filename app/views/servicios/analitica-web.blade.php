@@ -12,7 +12,7 @@ Con la medición y análisis web de tu empresa, sacarás el potencial a tus rede
 		<article class="analitica-web centrar-vertical">
 			<div class="row-fluid">
 				<div class="col-sm-5 left-content">
-					<h1 class="bloque">Analítica Web</h1>
+					<h1 class="bloque">Analítica web</h1>
 					<figure class="img-servicios bloque-interno">
 						{{ HTML::image("assets/images/metricas-analitica-digital-cocktail.jpg", "Métricas y analítica web - Digital Cocktail") }}
 					</figure>
@@ -103,14 +103,14 @@ Con la medición y análisis web de tu empresa, sacarás el potencial a tus rede
 	<div class="btn-cerrar"><a href="#">+<span>Servicios</span></a></div>
 	<div class="menu-servicios">
 		<ul>
-			<li><a href="{{url('/servicios/estrategia-digital')}}" class="ed">Estrategia Digital</a></li>
+			<li><a href="{{url('/servicios/estrategia-digital')}}" class="ed">Estrategia digital</a></li>
 			<li><a href="{{url('/servicios/desarrollo-web')}}" class="dw">Desarrollo web</a></li>
 			<li><a href="{{url('/servicios/consultoria-digital')}}" class="cd">Consultoría digital</a></li>
-			<li><a href="{{url('/servicios/email-marketing')}}" class="em">E-mail Marketing</a></li>
+			<li><a href="{{url('/servicios/email-marketing')}}" class="em">E-mail marketing</a></li>
 			<li><a href="{{url('/servicios/contenidos-digitales')}}" class="con">Contenidos</a></li>
-			<li><a href="{{url('/servicios/redes-sociales')}}" class="rs">Redes Sociales</a></li>
+			<li><a href="{{url('/servicios/redes-sociales')}}" class="rs">Redes sociales</a></li>
 			<li><a href="{{url('/servicios/seo')}}" class="se">SEO</a></li>
-			<li><a href="{{url('/servicios/publicidad-online')}}" class="po">Publicidad Online</a></li>
+			<li><a href="{{url('/servicios/publicidad-online')}}" class="po">Publicidad online</a></li>
 			<li><a href="{{url('/servicios/analitica-web')}}" class="aw active">Analítica web</a></li>
 			<li><a href="{{url('/servicios/apps-nube')}}" class="an">Apps en la nube</a></li>
 		</ul>

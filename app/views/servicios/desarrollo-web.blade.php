@@ -102,15 +102,15 @@ Desarrollamos tu sitio con un diseño web impecable, eficaz y organizado; adapta
 	<div class="btn-cerrar"><a href="#">+<span>Servicios</span></a></div>
 	<div class="menu-servicios">
 		<ul>
-			<li><a href="{{url('/servicios/estrategia-digital')}}" class="ed">Estrategia Digital</a></li>
-			<li><a href="{{url('/servicios/desarrollo-web')}}" class="dw active">Desarrollo web</a></li>
+			<li><a href="{{url('/servicios/estrategia-digital')}}" class="ed">Estrategia digital</a></li>
+			<li><a href="{{url('/servicios/desarrollo-web')}}" class="dw">Desarrollo web</a></li>
 			<li><a href="{{url('/servicios/consultoria-digital')}}" class="cd">Consultoría digital</a></li>
-			<li><a href="{{url('/servicios/email-marketing')}}" class="em">E-mail Marketing</a></li>
+			<li><a href="{{url('/servicios/email-marketing')}}" class="em">E-mail marketing</a></li>
 			<li><a href="{{url('/servicios/contenidos-digitales')}}" class="con">Contenidos</a></li>
-			<li><a href="{{url('/servicios/redes-sociales')}}" class="rs">Redes Sociales</a></li>
+			<li><a href="{{url('/servicios/redes-sociales')}}" class="rs">Redes sociales</a></li>
 			<li><a href="{{url('/servicios/seo')}}" class="se">SEO</a></li>
-			<li><a href="{{url('/servicios/publicidad-online')}}" class="po">Publicidad Online</a></li>
-			<li><a href="{{url('/servicios/analitica-web')}}" class="aw">Analítica web</a></li>
+			<li><a href="{{url('/servicios/publicidad-online')}}" class="po">Publicidad online</a></li>
+			<li><a href="{{url('/servicios/analitica-web')}}" class="aw active">Analítica web</a></li>
 			<li><a href="{{url('/servicios/apps-nube')}}" class="an">Apps en la nube</a></li>
 		</ul>
 	</div><!-- fin de menu-servicios -->
