@@ -25,6 +25,10 @@ Route::get('/conocenos', function() {
 	return View::make('conocenos', $data);
 });
 
+Route::get('/servicios', function() {
+	return Redirect::to('/servicios/estrategia-digital');
+});
+
 Route::get('/servicios/estrategia-digital', function() {
 	$data = array(
 		'active' => 3
@@ -105,6 +109,11 @@ Route::get('/contacto', function() {
 Route::post("/contactar/servicio", array(
 	"as" => "contacto/servicios",
 	"uses" => "ContactoController@contactoServicios"
+));
+
+Route::post("/contacto/contactar", array(
+	"as" => "contacto/contactar",
+	"uses" => "ContactoController@contactar"
 ));
 
 Route::post("/contactar/suscribirse", array(

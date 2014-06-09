@@ -1,4 +1,7 @@
 @extends('templates/default/layout')
+@section('title')Contáctanos - Digital Cocktail @stop
+
+@section('description')Nos encargamos de encontrar las herramientas ideales para brindarte una solución para hacer crecer tu negocio @stop
 @section("content")	
 	<section>
 		<div class="container">
@@ -10,10 +13,10 @@
 				<div class="contenedor-escribenos row-fluid">
 					<div class="texto bloque-interno col-md-6">
 						<p>En Digital Cocktail te escuchamos, te respondemos y generamos una conversacion real. ¿Qué nos quieres contar?</p>
-						<p class="contacto-directo">Si deseas, puedes contactarnos directame al 319 247 75 45, o al correo <a href="mailto:encontacto@digitalcocktail.co">encontacto@digitalcocktail.co</a></p>
+						<p class="contacto-directo">Si deseas, puedes contactarnos directame al <strong>319 247 75 45</strong>, o al correo <a href="mailto:encontacto@digitalcocktail.co">encontacto@digitalcocktail.co</a></p>
 					</div>
 					<div class="formulario bloque-interno col-md-6">
-						<form role="Formulario">
+						<form id="frm-contacto" role="Formulario">
 							<div class="nombre-contacto">
 								<label for="nombre-contacto">Nombre <span class="obligatorio">*</span></label>
 								<input type="text" id="nombre-contacto" placeholder="Mucho gusto, tú eres...">
@@ -46,9 +49,9 @@
 								<h3>Suscríbete</h3>
 								<label class="check-box"><input id="chkSuscripcionContacto" type="checkbox" checked>Me gustaría recibir información de Digital Cocktail</label>
 								<div id="listasCorreoContacto" class="listas-correo">
-									<label class="check-box listas"><input type="checkbox" checked>Eventos y actividades</label>
-									<label class="check-box listas"><input type="checkbox" checked>Promociones</label>
-									<label class="check-box listas"><input type="checkbox" checked>Últimos artículos del blog</label>
+									<label class="check-box listas"><input type="checkbox" id="eventos" checked>Eventos y actividades</label>
+									<label class="check-box listas"><input type="checkbox" id="promociones" checked>Promociones</label>
+									<label class="check-box listas"><input type="checkbox" id="blog" checked>Últimos artículos del blog</label>
 								</div>
 								<p>Antes de suscribirte debes estar de acuerdo con nuestra <a href="#" target="_blank">Política de manejo de datos</a></p>
 							</div>
@@ -56,6 +59,17 @@
 						<button type="submit" class="btn-success">Enviar</button>
 					</div>
 						</form>
+						<div id="cargando" class="oculto cargando">
+							<div class="spinner">
+							  <div class="cube1"></div>
+							  <div class="cube2"></div>
+							</div>						
+							<h2>Enviando...</h2>
+							<p class="subtitulo">pronto estarás enterado de nuestras novedades</p>
+						</div>
+						<div id="success" class="oculto">					
+							<h2>Envío Exitoso</h2>
+						</div>						
 					</div>
 				</div>
 			</article><!-- Fin de escribenos -->
@@ -95,10 +109,13 @@
 							<div class="enviar-trabaja bloque-interno">
 								<button type="submit" class="btn-success">Enviar</button>
 							</div>
-						</form>
+						</form>						
 					</div>
 				</div>
 			</article><!-- Fin de Trabaja con nosotros -->
 		</div>
 	</section>
+	<script type="text/javascript">
+	var rutaContactarServicio = "{{ URL::route('contacto/contactar') }}";
+	</script>	
 @stop	

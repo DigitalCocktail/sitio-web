@@ -1,4 +1,7 @@
 @extends('templates/default/layout')
+@section('title')Publicidad Online - Digital Cocktail @stop
+
+@section('description')Nos encargamos de encontrar las herramientas ideales para brindarte una solución para hacer crecer tu negocio @stop
 @section("content")
 	<section class="servicios text-center container">
 		<article class="publicidad-online centrar-vertical">
@@ -109,6 +112,7 @@
 	</div><!-- fin de menu-servicios -->
 	<script type="text/javascript">
 	var h = 'publicidad-online';
+	var cl = 'po';
 	var rutaContactarServicio = "{{ URL::route('contacto/servicios') }}";
 	</script>
 @stop

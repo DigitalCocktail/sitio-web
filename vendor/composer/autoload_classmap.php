@@ -1059,6 +1059,7 @@ return array(
     'SessionHandlerInterface' => $vendorDir . '/symfony/http-foundation/Symfony/Component/HttpFoundation/Resources/stubs/SessionHandlerInterface.php',
     'Stack\\Builder' => $vendorDir . '/stack/builder/src/Stack/Builder.php',
     'Stack\\StackedHttpKernel' => $vendorDir . '/stack/builder/src/Stack/StackedHttpKernel.php',
+    'SuscriptoresTable' => $baseDir . '/app/database/migrations/2014_06_08_030534_suscriptoresTable.php',
     'Symfony\\Component\\BrowserKit\\Client' => $vendorDir . '/symfony/browser-kit/Symfony/Component/BrowserKit/Client.php',
     'Symfony\\Component\\BrowserKit\\Cookie' => $vendorDir . '/symfony/browser-kit/Symfony/Component/BrowserKit/Cookie.php',
     'Symfony\\Component\\BrowserKit\\CookieJar' => $vendorDir . '/symfony/browser-kit/Symfony/Component/BrowserKit/CookieJar.php',

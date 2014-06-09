@@ -1,4 +1,9 @@
 @extends('templates/default/layout')
+
+@section('title')Estrategia Digital, Desarrollo web y Redes Sociales - Digital Cocktail @stop
+
+@section('description')Nos encargamos de encontrar las herramientas ideales para brindarte una solución para hacer crecer tu negocio @stop
+
 @section("content")
 	<div class="bg-990 visible-sm"></div>
 	<video id="video_background" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0"> 
@@ -54,7 +59,7 @@
 				</div>
 			</div>
 			<div class="bloque btn-preparamos">
-				<a href="{{ url('/servicios') }}" class="btn-success text-center">
+				<a id="btnServicios" href="{{ url('/servicios') }}" class="btn-success text-center">
 					<span class="accion">¿Qué te preparamos?</span>
 					<span class="texto-accion">Conoce acá todo lo que podemos hacer por tu negocio</span>
 				</a>

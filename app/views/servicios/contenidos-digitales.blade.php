@@ -1,4 +1,7 @@
 @extends('templates/default/layout')
+@section('title')Contenidos Digitales - Digital Cocktail @stop
+
+@section('description')Nos encargamos de encontrar las herramientas ideales para brindarte una solución para hacer crecer tu negocio @stop
 @section("content")
 	<section class="servicios text-center container">
 		<article class="contenidos centrar-vertical">
@@ -108,7 +111,8 @@
 		</ul>
 	</div><!-- fin de menu-servicios -->
 	<script type="text/javascript">
-	var h = 'contenidos-digitales';
+	var h = 'contenidos';
+	var cl = 'co';
 	var rutaContactarServicio = "{{ URL::route('contacto/servicios') }}";
 	</script>
 @stop

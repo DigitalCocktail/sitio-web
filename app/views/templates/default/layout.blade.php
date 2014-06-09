@@ -2,9 +2,10 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>Digital Cocktail</title>
+	<title>@yield('title')</title>
 	{{ HTML::script('assets/js/modernizr.min.js') }}
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="@yield('description')"/>
 	{{ HTML::style('assets/css/bootstrap.css', array('media' => 'screen')) }}
 	{{ HTML::style('assets/css/styles.css', array('media' => 'screen')) }}
 	{{ HTML::style('assets/css/animate.css', array('media' => 'screen')) }}
@@ -63,9 +64,23 @@
 	    -webkit-transform: rotate(-360deg);
 	  }
 	}
-	</style>
+	</style>	
+	<script type="text/javascript">
+	var trak=trak||[];trak.io=trak.io||{};trak.io.load=function(e){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src=("https:"===document.location.protocol?"https://":"http://")+"d29p64779x43zo.cloudfront.net/v1/trak.io.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);var r=function(e){return function(){trak.push([e].concat(Array.prototype.slice.call(arguments,0)))}},i=["initialize","identify","track","alias","channel","source","host","protocol","page_view"];for(var s=0;s<i.length;s++) trak.io[i[s]]=r(i[s]);trak.io.initialize.apply(trak.io,arguments)};
+	trak.io.load('b6ee014113349372a31f59c76f91c506ec1539c8');	
+	</script>
 </head>
 <body>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-48508126-1', 'digitalcocktail.co');
+	  ga('send', 'pageview');
+
+	</script>
 	<div id="fb-root"></div>
 	<script>(function(d, s, id) {
 	  var js, fjs = d.getElementsByTagName(s)[0];
@@ -79,9 +94,17 @@
 	@include("templates/default/partials/footer")
 	<script src="//code.jquery.com/jquery-2.0.2.min.js"></script>
 	{{ HTML::script('assets/js/bootstrap.min.js') }}
-	{{ HTML::script('assets/js/app.js') }}
 	<script type="text/javascript" src="https://apis.google.com/js/platform.js">
 	  {lang: 'es-419'}
 	</script>	
+	@if($active == 1)
+	{{ HTML::script('assets/js/home.js') }}
+	@endif	
+	@if($active == 3)
+	{{ HTML::script('assets/js/servicios.js') }}
+	@endif
+	@if($active == 5)
+	{{ HTML::script('assets/js/contacto.js') }}
+	@endif	
 </body>
 </html>

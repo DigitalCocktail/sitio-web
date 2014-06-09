@@ -35,7 +35,7 @@ class HomeController extends BaseController {
 	{
 		$posts = $this->posts->active(Config::get('core::wardrobe.per_page'));
 
-		return View::make($this->theme.'.index', compact('posts'))->with(array('active'=>3));
+		return View::make($this->theme.'.index', compact('posts'))->with(array('active'=>4));
 	}
 
 }
