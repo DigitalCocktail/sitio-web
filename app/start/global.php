@@ -67,6 +67,11 @@ App::down(function()
 	return Response::make("Be right back!", 503);
 });
 
+App::missing(function($exception)
+{
+    return Response::view('errors.missing', array('active' => 0), 404);
+});
+
 /*
 |--------------------------------------------------------------------------
 | Require The Filters File

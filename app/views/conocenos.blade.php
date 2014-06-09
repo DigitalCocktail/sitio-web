@@ -1,8 +1,12 @@
 @extends('templates/default/layout')
+
+@section('imagefb'){{ url('/assets/images/conocenos.jpg') }} @stop
+
 @section('title')Digital Cocktail - Estrategias Digitales de alta calidad pensadas en tu crecimiento empresarial @stop
 
 @section('description')Nos encargamos de encontrar las herramientas ideales para brindarte una solución para hacer crecer tu negocio @stop
 @section("content")
+<!--
 	<div class="buscador-aside-movil bloque-interno">
 		{{ Form::open(array('url'=>'archivo','role'=>'formulario', 'method' => 'GET')) }}
 			{{ Form::text('q', NULL, array(
@@ -13,6 +17,7 @@
 			<button class="btn-buscar" type="submit"></button>
 		{{ Form::close() }}
 	</div>
+-->
 	<section class="blog row-fluid">
 		<article class="conocenos col-sm-9 col-sm-push-3 bloque-interno">
 			<h1>Conócenos</h1>
@@ -38,6 +43,7 @@
 			</ul> -->
 		</article>
 		<aside class="aside-blog col-sm-3 col-sm-pull-9">
+		<!--
 			<div class="buscador-aside bloque-interno">
 			{{ Form::open(array('url'=>'archivo','role'=>'formulario', 'method' => 'GET')) }}
 				{{ Form::text('q', NULL, array(
@@ -48,6 +54,7 @@
 				<button class="btn-buscar" type="submit"></button>
 			{{ Form::close() }}
 			</div>
+			-->
 			<div class="suscribete-aside text-left form-dc">
 			<h3>Suscríbete y recibe los últimos artículos en tu correo</h3>
 			<form id="frm-suscribir" role="Formulario">
