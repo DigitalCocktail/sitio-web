@@ -14,8 +14,11 @@ Nos encargamos de encontrar las herramientas ideales para brindarte una solució
 
 @section("content")
 	<div class="bg-990 visible-sm"></div>
-	<video id="video_background" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0"> 
-		<source src="{{url("/")}}/assets/videos/BGHomeDC.mp4" type="video/mp4"> Video not supported 
+	<video id="video_background" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" poster="{{url("/assets/images/bg-poster.jpg")}}"> 
+		<source src="{{url("/assets/videos/BGHomeDC.mp4")}}" type="video/mp4">
+		<source src="{{url("/assets/videos/BGHomeDC.ogv")}}" type="video/ogv">
+		<source src="{{url("/assets/videos/BGHomeDC.webm")}}" type="video/wemb">
+		 Video not supported 
 	</video>
 	<div id="video_pattern"></div>
 	<section class="container home">
