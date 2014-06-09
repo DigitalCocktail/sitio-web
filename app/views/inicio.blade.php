@@ -5,19 +5,19 @@
 @stop
 
 @section('title')
-Estrategia Digital, Desarrollo web y Redes Sociales - Digital Cocktail
+Digital Cocktail, mezclamos lo mejor de la web
 @stop
 
 @section('description')
-Nos encargamos de encontrar las herramientas ideales para brindarte una solución para hacer crecer tu negocio
+Agencia digital que crea estrategias enfocadas al marketing digital, diseño web, redes sociales, email marketing, SEO, publicidad online, contenidos y analíticas web.
 @stop
 
 @section("content")
 	<div class="bg-990 visible-sm"></div>
-	<video id="video_background" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" poster="{{url("/assets/images/bg-poster.jpg")}}"> 
-		<source src="{{url("/assets/videos/BGHomeDC.mp4")}}" type="video/mp4">
-		<source src="{{url("/assets/videos/BGHomeDC.ogv")}}" type="video/ogv">
-		<source src="{{url("/assets/videos/BGHomeDC.webm")}}" type="video/wemb">
+	<video id="video_background" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" poster="{{url('/assets/images/bg-poster.jpg')}}"> 
+		<source src="{{url('/assets/videos/BGHomeDC.mp4')}}" type="video/mp4">
+		<source src="{{url('/assets/videos/BGHomeDC.ogv')}}" type="video/ogv">
+		<source src="{{url('/assets/videos/BGHomeDC.webm')}}" type="video/wemb">
 		 Video not supported 
 	</video>
 	<div id="video_pattern"></div>

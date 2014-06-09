@@ -1,7 +1,11 @@
 @extends('templates/default/layout')
-@section('title')Email Marketing - Digital Cocktail @stop
+@section('title')
+Email marketing - Digital Cocktail
+@stop
 
-@section('description')Nos encargamos de encontrar las herramientas ideales para brindarte una solución para hacer crecer tu negocio @stop
+@section('description')
+Te ayudamos a crear campañas de envío de correos electrónicos masivos a todos tus contactos para que refuerces tus comunicaciones y estrategias de mercadeo digital.
+@stop
 @section("content")
 	<section class="servicios text-center container">
 		<article class="email-marketing centrar-vertical">

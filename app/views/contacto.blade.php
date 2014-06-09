@@ -1,7 +1,12 @@
 @extends('templates/default/layout')
-@section('title')Contáctanos - Digital Cocktail @stop
+@section('title')
+Contáctanos - Digital Cocktail
+@stop
 
-@section('description')Nos encargamos de encontrar las herramientas ideales para brindarte una solución para hacer crecer tu negocio @stop
+@section('description')
+Queremos estar en contacto contigo. Si tienes alguna duda, sugerencia o simplemente nos quieres compartir tus ideas no dudes en contactarnos.
+@stop
+
 @section("content")	
 	<section>
 		<div class="container">

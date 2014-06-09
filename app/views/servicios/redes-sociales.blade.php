@@ -1,7 +1,12 @@
 @extends('templates/default/layout')
-@section('title')Redes Sociales - Digital Cocktail @stop
+@section('title')
+Estrategia en redes sociales - Digital Cocktail
+@stop
 
-@section('description')Nos encargamos de encontrar las herramientas ideales para brindarte una solución para hacer crecer tu negocio @stop
+@section('description')
+Las redes sociales de tu empresa son la vía más efectiva y rápida para interactuar con tu público. Creamos una estrategia que fortalezca tu presencia en Internet.
+@stop
+
 @section("content")
 	<section class="servicios text-center container">
 		<article class="redes-sociales centrar-vertical">

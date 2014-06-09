@@ -1,7 +1,12 @@
 @extends('templates/default/layout')
-@section('title') SEO Posicionamiento en Buscadores - Digital Cocktail @stop
+@section('title')
+SEO (Posicionamiento en Buscadores) - Digital Cocktail
+@stop
 
-@section('description')Nos encargamos de encontrar las herramientas ideales para brindarte una solución para hacer crecer tu negocio @stop
+@section('description')
+Optimizamos los contenidos de tu sitio, para que mejores tu posicionamiento web en buscadores como Google, Yahoo o Bing; tendrás un buen SEO para tu empresa.
+@stop
+
 @section("content")
 	<section class="servicios text-center container">
 		<article class="seo centrar-vertical">

@@ -1,7 +1,11 @@
 @extends('templates/default/layout')
-@section('title')Desarrollo Web - Digital Cocktail @stop
+@section('title')
+Desarrollo web - Digital Cocktail
+@stop
 
-@section('description')Nos encargamos de encontrar las herramientas ideales para brindarte una solución para hacer crecer tu negocio @stop
+@section('description')
+Desarrollamos tu sitio con un diseño web impecable, eficaz y organizado; adaptado para que sea visto desde cualquier dispositivo móvil.
+@stop
 @section("content")
 	<section class="servicios text-center container">
 		<article class="desarrollo-web centrar-vertical">

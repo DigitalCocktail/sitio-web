@@ -42,8 +42,13 @@
                                                         <td valign="top" class="bodyContent" style="border-collapse: collapse;background-color: #FFFFFF;">
                                                             <div mc:edit="std_content00" style="color: #505050;font-family: Arial;font-size: 14px;line-height: 150%;text-align: left;">
                                                                 <h4 class="h4" style="color: #202020;display: block;font-family: Arial;font-size: 22px;font-weight: bold;line-height: 100%;margin-top: 0;margin-right: 0;margin-bottom: 10px;margin-left: 0;text-align: left;"><small>Hola, </small>{{ $nameTo }}</h4>
+                                                                @if($servicio != 'Sólo quiero saludar')
                                                                 Gracias por tu interés en nuestro servicio
-                                                                <strong>{{ $servicio }}</strong>, nuestro equipo de trabajo ya está al tanto y nos comunicaremos contigo lo antes posible.
+                                                                <strong>{{ $servicio }}</strong>, 
+                                                                @else
+                                                                Gracias por contactarnos, 
+                                                                @endif
+                                                                nuestro equipo de trabajo ya está al tanto y nos comunicaremos contigo lo antes posible.
                                                                 <br><br>
                                                                 El mensaje que nos enviaste fue: "{{ $mensaje }}"
                                                                 <br><br>

@@ -1,7 +1,12 @@
 @extends('templates/default/layout')
-@section('title')Contenidos Digitales - Digital Cocktail @stop
+@section('title')
+Contenidos digitales - Digital Cocktail
+@stop
 
-@section('description')Nos encargamos de encontrar las herramientas ideales para brindarte una solución para hacer crecer tu negocio @stop
+@section('description')
+Diseñamos y creamos tus contenidos digitales como videos, fotografías, textos, infografías de alta calidad y pensados para Internet.
+@stop
+
 @section("content")
 	<section class="servicios text-center container">
 		<article class="contenidos centrar-vertical">

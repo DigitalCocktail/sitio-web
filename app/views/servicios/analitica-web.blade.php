@@ -1,7 +1,12 @@
 @extends('templates/default/layout')
-@section('title')Analítica Web - Digital Cocktail @stop
+@section('title')
+Analítica web - Digital Cocktail
+@stop
 
-@section('description')Nos encargamos de encontrar las herramientas ideales para brindarte una solución para hacer crecer tu negocio @stop
+@section('description')
+Con la medición y análisis web de tu empresa, sacarás el potencial a tus redes sociales, sitio web y publicidad online. Hacemos tu estrategia digital efectiva.
+@stop
+
 @section("content")
 	<section class="servicios text-center container">
 		<article class="analitica-web centrar-vertical">

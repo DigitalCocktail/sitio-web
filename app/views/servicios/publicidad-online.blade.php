@@ -1,7 +1,12 @@
 @extends('templates/default/layout')
-@section('title')Publicidad Online - Digital Cocktail @stop
+@section('title')
+Publicidad online - Digital Cocktail
+@stop
 
-@section('description')Nos encargamos de encontrar las herramientas ideales para brindarte una solución para hacer crecer tu negocio @stop
+@section('description')
+Creamos campañas de publicidad en medios digitales que abrirán el camino para que mejores el retorno de inversión de tu empresa.
+@stop
+
 @section("content")
 	<section class="servicios text-center container">
 		<article class="publicidad-online centrar-vertical">

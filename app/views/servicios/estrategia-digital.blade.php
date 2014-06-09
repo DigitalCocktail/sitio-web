@@ -1,7 +1,11 @@
 @extends('templates/default/layout')
-@section('title')Estrategias Digitales - Digital Cocktail @stop
+@section('title')
+Estrategia digital - Digital Cocktail
+@stop
 
-@section('description')Nos encargamos de encontrar las herramientas ideales para brindarte una solución para hacer crecer tu negocio @stop
+@section('description')
+Creamos para tu empresa estrategias de marketing digital, diseño web, redes sociales, email marketing, SEO, publicidad online, contenidos y analíticas web.
+@stop
 @section("content")
 	<section class="servicios text-center container">
 		<article class="estrategia-digital centrar-vertical">

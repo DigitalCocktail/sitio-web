@@ -1,7 +1,12 @@
 @extends('templates/default/layout')
-@section('title')Aplicaciones en la Nube - Digital Cocktail @stop
+@section('title')
+Apps en la nube - Digital Cocktail
+@stop
 
-@section('description')Nos encargamos de encontrar las herramientas ideales para brindarte una solución para hacer crecer tu negocio @stop
+@section('description')
+Te ayudamos a gestionar tus proyectos con servicios en la nube que te facilitarán todo, podrás acceder a ellos desde cualquier lugar a través de Internet. 
+@stop
+
 @section("content")
 	<section class="servicios text-center container">
 		<article class="apps-nube centrar-vertical">

@@ -5,11 +5,11 @@
 @stop
 
 @section('title')
-Digital Cocktail - Estrategias Digitales de alta calidad pensadas en tu crecimiento empresarial
+Digital Cocktail, agencia que ofrece soluciones digitales
 @stop
 
 @section('description')
-Nos encargamos de encontrar las herramientas ideales para brindarte una solución para hacer crecer tu negocio
+Creamos estrategias digitales pensadas para tu crecimiento empresarial, brindamos soluciones web profesionales de alta calidad a precios asequibles.
 @stop
 @section("content")
 <!--

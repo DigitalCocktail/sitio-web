@@ -1,7 +1,11 @@
 @extends('templates/default/layout')
-@section('title')Consultoría Digital - Digital Cocktail @stop
+@section('title')
+Consultoría digital - Digital Cocktail
+@stop
 
-@section('description')Nos encargamos de encontrar las herramientas ideales para brindarte una solución para hacer crecer tu negocio @stop
+@section('description')
+Estudiamos a fondo las necesidades de tu empresa y encontramos soluciones digitales para que incursiones en Internet de manera estratégica.
+@stop
 @section("content")
 	<section class="servicios text-center container">
 		<article class="consultoria-digital centrar-vertical">
