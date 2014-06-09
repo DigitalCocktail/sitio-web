@@ -17,5 +17,5 @@
 				<p>Si definitivamente no encuentras lo que buscas, entonces puedes preguntarnos a través de nuestras redes sociales: <a target="_blank" href="https://twitter.com/dcocktailco" target="_blank" class="tw-icon">Twitter</a>,  <a target="_blank" href="https://www.facebook.com/DigitalCocktail.co" target="_blank" class="fb-icon">Facebook</a> o <a target="_blank" href="https://plus.google.com/116840393490728819745/" target="_blank" class="gp-icon">Google Plus</a></p>
 			</div>
 		</article>
-	</section><!-- Fin del contenedor de los articulos - blog -->
+	</section><!-- Fin del contenedor -->
 @stop

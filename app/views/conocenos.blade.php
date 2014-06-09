@@ -70,7 +70,7 @@ Nos encargamos de encontrar las herramientas ideales para brindarte una solució
 					<label class="check-box listas"><input type="checkbox" id="promociones" checked>Promociones</label>
 					<label class="check-box listas"><input type="checkbox" id="blog" checked>Últimos artículos del blog</label>
 				</div>
-				<p>Al de suscribirte indicas estar de acuerdo con nuestra <a href="#" target="_blank">Política de manejo de datos</a></p>
+				<p>Al suscribirte indicas estar de acuerdo con nuestra <a href="{{url("/terminos-y-condiciones")}}" target="_blank">Política de manejo de datos</a></p>
 				<div class="campo-correo">
 					<input class="ingrese-correo" type="mail" id="mail-suscripcion" placeholder="Ingresa tu correo">
 					<button type="submit" class=""></button>

@@ -17,7 +17,12 @@ Route::get('/', function() {
 	);
 	return View::make('inicio', $data);
 });
-
+Route::get('/terminos-y-condiciones', function() {
+	$data = array(
+		'active' => 0
+	);
+	return View::make('terminos-y-condiciones', $data);
+});
 Route::get('/conocenos', function() {
 	$data = array(
 		'active' => 2
