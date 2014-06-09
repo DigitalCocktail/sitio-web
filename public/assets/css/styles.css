@@ -189,6 +189,9 @@ section .formulario-contacto,section .formulario-trabaja{clear:both}
 section article .contenedor-escribenos,section article .contenedor-trabaja{clear:both;}
 section article .contenedor-escribenos .texto p,section article .contenedor-trabaja .texto p{padding-top:20px;font-size:1.5em;text-align:center;}
 section article .contenedor-escribenos .texto p.contacto-directo,section article .contenedor-trabaja .texto p.contacto-directo{font-size:1em;color:#a4a4a4}
+article{margin-bottom:60px;}
+article.error-404{padding:0 18px;text-align:center;overflow:auto;}
+article.error-404 h1{color:#00afef;margin:40px 0 0 0}
 @media (min-width:768px){.bg-990{background:url("../images/bg-tablet.jpg") no-repeat center top;background-size:cover;-moz-background-size:cover;-webkit-background-size:cover;-o-background-size:cover;width:100%;height:100%;position:absolute;z-index:-10}
 .bloque,.bloque-interno{padding:0}
 .btn-success{width:35%;font-size:1em;padding:.5em 1em;margin-right:0}
@@ -273,6 +276,11 @@ section.blog article.post-completo footer.metadatos .fecha .ano{margin:0 0 0 45p
 section.blog .ver-mas-blog{padding:0}
 section article .formulario{background:#f0f0f0;margin-bottom:30px;}
 section article .formulario h3{margin-top:0}
+.error-404{margin-bottom:60px;}
+.error-404 figure{width:100%;}
+.error-404 figure img{margin:0 auto;width:55%;display:block}
+.error-404 .right-content{margin-top:80px;text-align:left}
+.error-404 .left-content{text-align:left}
 }@media (min-width:992px){html,body{height:100%;width:100%}
 form{margin-bottom:120px;}
 form label{width:32%}
@@ -320,5 +328,7 @@ section.blog .ver-mas-blog{margin:0 0 90px 0}
 section article .contenedor-escribenos,section article .contenedor-trabaja{margin-bottom:60px;}
 section article .contenedor-escribenos .texto,section article .contenedor-trabaja .texto{padding:18px;}
 section article .contenedor-escribenos .texto p,section article .contenedor-trabaja .texto p{text-align:left}
+.error-404 .right-content{margin-top:120px}
+.error-404 .left-content{text-align:center}
 }@media (min-width:1200px){section.blog{width:1170px}
 }
