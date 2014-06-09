@@ -101,6 +101,9 @@
 	@if($active == 1)
 	{{ HTML::script('assets/js/home.js') }}
 	@endif	
+	@if($active == 2)
+	{{ HTML::script('assets/js/conocenos.js') }}
+	@endif	
 	@if($active == 3)
 	{{ HTML::script('assets/js/servicios.js') }}
 	@endif
