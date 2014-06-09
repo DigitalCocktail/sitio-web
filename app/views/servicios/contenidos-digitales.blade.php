@@ -16,7 +16,7 @@
 					<h2 class="bloque-interno"><strong>Tu imagen siempre fresca y vigente</strong></h2>
 					<div class="texto-servicios bloque-interno">
 						<p>Verte atractivo es cuestión de saberte expresar. Lo que dices, lo que muestras, lo que compartes y cómo lo haces, es clave para comunicarte con los otros. Hazles llegar el mensaje que quieres y de la manera más acertada a través de medios digitales. </p>
-						<p>¡Pensamos y creados tus contenidos para la web!</p>
+						<p>¡Diseñamos y creamos tus contenidos digitales!</p>
 					</div>
 					<div class="btn-contacto bloque-interno">
 						<button type="button" class="btn-success btnShow">Me interesa</button>

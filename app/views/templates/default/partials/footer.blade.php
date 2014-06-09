@@ -13,7 +13,7 @@
 			<ul>
 				<li><a href="https://www.facebook.com/DigitalCocktail.co" target="_blank" class="fb-icon">Facebook</a></li>
 				<li><a href="https://twitter.com/dcocktailco" target="_blank" class="tw-icon">Twitter</a></li>
-				<li><a href="https://plus.google.com/116840393490728819745/" target="_blank" class="gp-icon">Google Plus</a></li>
+				<li><a href="https://plus.google.com/116840393490728819745/" rel="publisher" target="_blank" class="gp-icon">Google +</a></li>
 			</ul>
 		</div>
 	</footer>

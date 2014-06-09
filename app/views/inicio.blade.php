@@ -24,7 +24,7 @@ Nos encargamos de encontrar las herramientas ideales para brindarte una solució
 	<section class="container home">
 		<article class="contenido">
 			<div class="destacado">
-				<h1 class="text-center">Nos encargamos de crear mezclas ideales de servicios para brindarte soluciones y herramientas simples en la web para tu empresa a través de:</h1>
+				<h1 class="text-center">Nos encargamos de crear mezclas ideales de servicios para brindarte soluciones y herramientas simples en la web para tu empresa.</h1>
 			</div>
 			<div class="barra-horizontal visible-xs">
 				<div class="verde pull-left"></div>
@@ -38,7 +38,7 @@ Nos encargamos de encontrar las herramientas ideales para brindarte una solució
 						{{ HTML::image("assets/images/investigacion.png", "Intensos procesos de investigación - Digital Cocktail") }}
 					</figure>
 					<p id="textInvestigacion">
-						Nos tomamos el tiempo de conocer tu empresa, tus clientes y tu público para entender a fondo las necesidades que tienes
+						Nos tomamos el tiempo de conocer tu empresa, tus clientes y tu público para entender a fondo las necesidades que tienes.
 					</p>
 				</div>
 				<div class="planeacion bloque text-center col-sm-3">
@@ -47,7 +47,7 @@ Nos encargamos de encontrar las herramientas ideales para brindarte una solució
 						{{ HTML::image("assets/images/planeacion.png", "El factor más importante de nuestros procesos - Digital Cocktail") }}
 					</figure>
 					<p id="textPlaneacion">
-						Creamos y planeamos estrategias digitales basados en el estudio de tus necesidades.
+						Creamos y planeamos estrategias digitales para tu empresa basados en el estudio de tus necesidades.
 					</p>
 				</div>
 				<div class="ejecucion bloque text-center col-sm-3">
@@ -56,7 +56,7 @@ Nos encargamos de encontrar las herramientas ideales para brindarte una solució
 						{{ HTML::image("assets/images/ejecucion.png", "Nos esforzamos por sentirnos orgullosos de todos nuestros trabajos - Digital Cocktail") }}
 					</figure>
 					<p id="textEjecucion">
-						Desarrollamos experiencias de calidad pensadas para tu crecimiento empresarial
+						Desarrollamos experiencias de calidad pensadas para tu crecimiento empresarial.
 					</p>
 				</div>
 				<div class="acompanamiento bloque text-center col-sm-3">
@@ -65,7 +65,7 @@ Nos encargamos de encontrar las herramientas ideales para brindarte una solució
 						{{ HTML::image("assets/images/aconpanamiento.png", "Nos encanta compartir nuestro conocimiento durante el proceso - Digital Cocktail") }}
 					</figure>
 					<p id="textAcompanamiento">
-						Tu proyecto irá de la mano de nuestra experiencia para que nunca te sientas solo
+						Tu proyecto irá de la mano de nuestra experiencia para que nunca te sientas solo. 
 					</p>
 				</div>
 			</div>

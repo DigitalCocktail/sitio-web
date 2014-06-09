@@ -15,7 +15,7 @@
 				<div class="col-sm-7 right-content">
 					<h2 class="bloque-interno"><strong>Tu contenido moldeado para buscadores</strong></h2>
 					<div class="texto-servicios bloque-interno">
-						<p>Serás el más buscado de la fiesta.Tus productos y servicios estarán listos para ser encontrados en la web, mejorarás tu popularidad en buscadores como Google, y cuando alguien necesite algo que tú le puedes ofrecer llegará más fácil a ti.</p>
+						<p>Serás el más buscado de la fiesta.Tus productos y servicios estarán listos para ser encontrados en la web, mejorarás tu posicionamiento web en buscadores como Google, y cuando alguien necesite algo que tú le puedes ofrecer llegará más fácil a ti.</p>
 						<p>¡Más personas te encontrarán! </p>
 					</div>
 					<div class="btn-contacto bloque-interno">

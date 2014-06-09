@@ -15,7 +15,7 @@
 				<div class="col-sm-7 right-content">
 					<h2 class="bloque-interno"><strong>La medida ideal de lo que haces</strong></h2>
 					<div class="texto-servicios bloque-interno">
-						<p>Todo en su justa medida. Saber interpretar las métricas de tu empresa te llevará por el camino que quieres; así, tus estrategias serán efectivas, sacarás el potencial a tus redes sociales, sitio web y publicidad online. Recuerda que es importante tener claro cuál es la medida justa para alcanzar lo que necesitas.</p>
+						<p>Todo en su justa medida. Saber interpretar las métricas web de tu empresa te llevará por el camino que quieres; así, tu estrategia digital será efectiva, sacarás el potencial a tus redes sociales, sitio web y publicidad online. Recuerda que es importante tener claro cuál es la medida justa para alcanzar lo que necesitas.</p>
 						<p>¡Analicemos cuál es el mejor camino!</p>
 					</div>
 					<div class="btn-contacto bloque-interno">

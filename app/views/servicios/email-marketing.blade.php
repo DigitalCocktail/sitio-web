@@ -15,7 +15,7 @@
 				<div class="col-sm-7 right-content">
 					<h2 class="bloque-interno"><strong>Filtra tus clientes para una comunicación efectiva</strong></h2>
 					<div class="texto-servicios bloque-interno">
-						<p>Que se enteren de tus novedades y te visiten. Mantente en contacto con todos, cuéntales tus noticias más recientes, envíales invitaciones a las que no se puedan resistir.</p>
+						<p>Que se enteren de tus novedades y te visiten. Mantente en contacto con todos, cuéntales tus noticias más recientes, envíales correos electrónicos con invitaciones a las que no se puedan resistir.</p>
 						<p>¡Saquemos el mejor beneficio!</p>
 					</div>
 					<div class="btn-contacto bloque-interno">

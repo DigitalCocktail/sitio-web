@@ -15,7 +15,7 @@
 				<div class="col-sm-7 right-content">
 					<h2 class="bloque-interno"><strong>La dosis perfecta en cada red social</strong></h2>
 					<div class="texto-servicios bloque-interno">
-						<p>Te quieren por tu personalidad. Tus redes sociales son la vía más efectiva y rápida para interactuar con tu público, crear lazos con él y alcanzar logros efectivos para tu marca. </p>
+						<p>Te quieren por tu personalidad. Tus redes sociales son la vía más efectiva y rápida para interactuar con tu público, crear lazos con él y alcanzar logros efectivos para tu marca; tendrás una efectiva estrategia para tus redes sociales. </p>
 						<p>¡Nosotros te ayudamos, no los hagas esperar!</p>
 					</div>
 					<div class="btn-contacto bloque-interno">

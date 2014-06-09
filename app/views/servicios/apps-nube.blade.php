@@ -15,7 +15,7 @@
 				<div class="col-sm-7 right-content">
 					<h2 class="bloque-interno"><strong>Una base sólida para gestionar tus proyectos</strong></h2>
 					<div class="texto-servicios bloque-interno">
-						<p>Lo importante no es solo lo que va por fuera. Detrás de una gran estrategia hay un grupo de aplicaciones en la nube que te facilita todo, desde la gestión de tus proyectos hasta el manejo de las relaciones con tus clientes; además, podrás acceder a todo desde cualquier lugar a través de Internet.</p>
+						<p>Lo importante no es solo lo que va por fuera. Detrás de una gran estrategia hay un grupo de servicios en la nube que te facilita todo, desde la gestión de tus proyectos, hasta el manejo de las relaciones con tus clientes; además, podrás acceder a todo desde cualquier lugar a través de Internet.</p>
 						<p>¡Encontremos juntos soluciones a tus necesidades! </p>
 					</div>
 					<div class="btn-contacto bloque-interno">

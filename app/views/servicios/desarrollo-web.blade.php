@@ -15,7 +15,7 @@
 				<div class="col-sm-7 right-content">
 					<h2 class="bloque-interno"><strong>Todos los tamaños de pantalla</strong></h2>
 					<div class="texto-servicios bloque-interno">
-						<p>Un espacio agradable para compartir con tus invitados. Tu sitio web será impecable, eficaz y organizado; crearemos un lugar agradable y útil para tus visitantes y tu empresa.</p>
+						<p>Un espacio agradable para compartir con tus invitados. Tu sitio tendrá un diseño web impecable, eficaz y organizado; crearemos un lugar agradable y útil para tus visitantes y tu empresa.</p>
 						<p>¡Verán bien tu sitio desde cualquier dispositivo!</p>
 					</div>
 					<div class="btn-contacto bloque-interno">
