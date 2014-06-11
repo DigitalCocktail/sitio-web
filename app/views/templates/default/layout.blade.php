@@ -79,6 +79,7 @@
 	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
 	  ga('create', 'UA-48508126-1', 'digitalcocktail.co');
+	  ga('require', 'displayfeatures');
 	  ga('send', 'pageview');
 
 	</script>
