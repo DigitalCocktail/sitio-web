@@ -20,7 +20,7 @@
                                             <td class="headerContent" style="border-collapse: collapse;color: #202020;font-family: Arial;font-size: 34px;font-weight: bold;line-height: 100%;padding: 0;text-align: center;vertical-align: middle;">
                                             
                                             	<!-- // Begin Module: Standard Header Image \\ -->
-                                            	<img src="http://digitalcocktail.co/images/logo-digital-cocktail-horizontal.png" style="max-width: 600px;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;" id="headerImage campaign-icon" mc:label="header_image" mc:edit="header_image" mc:allowdesigner mc:allowtext>
+                                            	<img src="{{ url('/assets/images/logo-digital-cocktail-horizontal.png') }}" style="max-width: 600px;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;" id="headerImage campaign-icon" mc:label="header_image" mc:edit="header_image" mc:allowdesigner mc:allowtext>
                                             	<!-- // End Module: Standard Header Image \\ -->
                                             
                                             </td>
@@ -42,8 +42,13 @@
                                                         <td valign="top" class="bodyContent" style="border-collapse: collapse;background-color: #FFFFFF;">
                                                             <div mc:edit="std_content00" style="color: #505050;font-family: Arial;font-size: 14px;line-height: 150%;text-align: left;">
                                                                 <h4 class="h4" style="color: #202020;display: block;font-family: Arial;font-size: 22px;font-weight: bold;line-height: 100%;margin-top: 0;margin-right: 0;margin-bottom: 10px;margin-left: 0;text-align: left;"><small>Hola, </small>{{ $nameTo }}</h4>
+                                                                @if($servicio != 'Sólo quiero saludar')
                                                                 Gracias por tu interés en nuestro servicio
-                                                                <strong>{{ $servicio }}</strong>, nuestro equipo de trabajo ya está al tanto y nos comunicaremos contigo lo antes posible.
+                                                                <strong>{{ $servicio }}</strong>, 
+                                                                @else
+                                                                Gracias por contactarnos, 
+                                                                @endif
+                                                                nuestro equipo de trabajo ya está al tanto y nos comunicaremos contigo lo antes posible.
                                                                 <br><br>
                                                                 El mensaje que nos enviaste fue: "{{ $mensaje }}"
                                                                 <br><br>

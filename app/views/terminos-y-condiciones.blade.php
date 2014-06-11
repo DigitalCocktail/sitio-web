@@ -67,9 +67,6 @@ Nos encargamos de encontrar las herramientas ideales para brindarte una solució
 			<p>En Digital Cocktail adoptamos medidas tecnológicas necesarias para evitar violación a la seguridad de los datos almacenados y recopilados a través de nuestro sitio web, sin embargo a pesar de esto, ningún sistema está exento de sufrir ataques a la seguridad de los datos y demás contenidos; por eso no podemos hacernos responsables de virus o violaciones a la seguridad que ponga en peligro dicha información. </p>
 			<h2>6. Modificaciones</h2>
 
-			<p>Nos reservamos el derecho de efectuar sin previo aviso las modificaciones que consideremos oportunas en nuestro sitio web, como por ejemplo, cambiar, suprimir o añadir contenidos y servicios; también la forma en la que éstos aparecen y cómo son presentados o localizados en el sitio web. </p>
-			<h2>6. Enlaces</h2>
-
 			<p>En caso de que enlaces o hipervínculos que direccionen a otros sitios de Internet sean posteados en nuestro sitio web, la agencia no podrá ejercer ningún tipo de control sobre dichos sitios y contenidos ajenos, por lo que no asumiremos ninguna responsabilidad ni garantizamos la disponibilidad  técnica, calidad, fiabilidad, exactitud, amplitud, veracidad, validez y constitucionalidad de cualquier material o información contenida en ninguno de dichos hipervínculos u otros sitios de Internet.</p>
 			<h2>7. Enlaces</h2>
 

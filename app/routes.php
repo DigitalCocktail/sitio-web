@@ -123,5 +123,5 @@ Route::post("/contacto/contactar", array(
 
 Route::post("/contactar/suscribirse", array(
 	"as" => "contacto/suscribirse",
-	"uses" => "ContactoController@Suscribirse"
+	"uses" => "ContactoController@suscribe"
 ));

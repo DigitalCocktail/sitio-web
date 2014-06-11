@@ -52,22 +52,6 @@ $(function() {
 			$("#listasCorreoContacto").addClass('animated fadeOutLeft');
 			$("#listasCorreoContacto").hide('slow');
 		}
-	});
-
-	$("#chkSuscripcionContacto").change(function(){
-		if($(this).is(":checked")){
-			$("#eventos").prop('checked', true);
-			$("#promociones").prop('checked', true);
-			$("#blog").prop('checked', true);
-			$("#listasCorreoContacto").show('slow');
-			$("#listasCorreoContacto").removeClass('animated fadeOutLeft');
-			$("#listasCorreoContacto").addClass('animated fadeInLeft');
-		}
-		else{			
-			$("#listasCorreoFrmContacto").removeClass('animated fadeInLeft');
-			$("#listasCorreoFrmContacto").addClass('animated fadeOutLeft');
-			$("#listasCorreoFrmContacto").hide('slow');
-		}
 	});	
 
 	$("#frm-contacto").submit(function(e){

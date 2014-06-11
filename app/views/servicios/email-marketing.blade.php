@@ -1,13 +1,17 @@
 @extends('templates/default/layout')
-@section('title')Email Marketing - Digital Cocktail @stop
+@section('title')
+Email marketing - Digital Cocktail
+@stop
 
-@section('description')Nos encargamos de encontrar las herramientas ideales para brindarte una solución para hacer crecer tu negocio @stop
+@section('description')
+Te ayudamos a crear campañas de envío de correos electrónicos masivos a todos tus contactos para que refuerces tus comunicaciones y estrategias de mercadeo digital.
+@stop
 @section("content")
 	<section class="servicios text-center container">
 		<article class="email-marketing centrar-vertical">
 			<div class="row-fluid">
 				<div class="col-sm-5 left-content">
-					<h1 class="bloque">E-mail Marketing</h1>
+					<h1 class="bloque">E-mail marketing</h1>
 					<figure class="img-servicios bloque-interno">
 						{{ HTML::image("assets/images/email-marketing-digital-cocktail.jpg", "E-mail Marketing - Digital Cocktail") }}
 					</figure>
@@ -98,14 +102,14 @@
 	<div class="btn-cerrar"><a href="#">+<span>Servicios</span></a></div>
 	<div class="menu-servicios">
 		<ul>
-			<li><a href="{{url('/servicios/estrategia-digital')}}" class="ed">Estrategia Digital</a></li>
+			<li><a href="{{url('/servicios/estrategia-digital')}}" class="ed">Estrategia digital</a></li>
 			<li><a href="{{url('/servicios/desarrollo-web')}}" class="dw">Desarrollo web</a></li>
 			<li><a href="{{url('/servicios/consultoria-digital')}}" class="cd">Consultoría digital</a></li>
-			<li><a href="{{url('/servicios/email-marketing')}}" class="em active">E-mail Marketing</a></li>
+			<li><a href="{{url('/servicios/email-marketing')}}" class="em active">E-mail marketing</a></li>
 			<li><a href="{{url('/servicios/contenidos-digitales')}}" class="con">Contenidos</a></li>
-			<li><a href="{{url('/servicios/redes-sociales')}}" class="rs">Redes Sociales</a></li>
+			<li><a href="{{url('/servicios/redes-sociales')}}" class="rs">Redes sociales</a></li>
 			<li><a href="{{url('/servicios/seo')}}" class="se">SEO</a></li>
-			<li><a href="{{url('/servicios/publicidad-online')}}" class="po">Publicidad Online</a></li>
+			<li><a href="{{url('/servicios/publicidad-online')}}" class="po">Publicidad online</a></li>
 			<li><a href="{{url('/servicios/analitica-web')}}" class="aw">Analítica web</a></li>
 			<li><a href="{{url('/servicios/apps-nube')}}" class="an">Apps en la nube</a></li>
 		</ul>

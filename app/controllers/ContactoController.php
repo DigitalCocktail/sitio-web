@@ -26,6 +26,33 @@ class ContactoController extends BaseController {
 		return false;
 	}
 
+	public function suscribe(){
+		$suscribirse = Input::get('suscribirse');
+		$data = array(
+			'nombre' => "",
+			'email' => Input::get('email'),
+			'telefono' => '',
+			'blog' => Input::get('blog'),
+			'eventos' => Input::get('eventos'),
+			'promociones' => Input::get('promociones'),
+		);		
+		$suscrito = true;
+
+		if($suscribirse){
+			$suscrito = $this->suscribirse($data);
+		}	
+		
+		$r = new stdClass;
+		if($suscrito){
+			$r->response = 'success';
+		}
+		else {
+			$r->response = "fail";
+		}
+		
+		return json_encode($r);			
+	}
+
 	public function contactar(){
 		$interes = Input::get('interes-contacto');
 		$suscribirse = Input::get('suscribirse');

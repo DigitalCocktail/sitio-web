@@ -1,7 +1,12 @@
 @extends('templates/default/layout')
-@section('title')Contáctanos - Digital Cocktail @stop
+@section('title')
+Contáctanos - Digital Cocktail
+@stop
 
-@section('description')Nos encargamos de encontrar las herramientas ideales para brindarte una solución para hacer crecer tu negocio @stop
+@section('description')
+Queremos estar en contacto contigo. Si tienes alguna duda, sugerencia o simplemente nos quieres compartir tus ideas no dudes en contactarnos.
+@stop
+
 @section("content")	
 	<section>
 		<div class="container">
@@ -12,8 +17,8 @@
 			<article id="frmContacto" class="container-fluid formulario-contacto">
 				<div class="contenedor-escribenos row-fluid">
 					<div class="texto bloque-interno col-md-6">
-						<p>En Digital Cocktail te escuchamos, te respondemos y generamos una conversacion real. ¿Qué nos quieres contar?</p>
-						<p class="contacto-directo">Si deseas, puedes contactarnos directamente al <strong>319 247 75 45</strong>, o al correo <a href="mailto:encontacto@digitalcocktail.co">encontacto@digitalcocktail.co</a></p>
+						<p>En Digital Cocktail nos encanta estar en contacto contigo. Si tienes alguna duda, sugerencia o simplemente nos quieres compartir tus ideas, no dudes en contactarnos, te responderemos pronto, ¿qué nos quieres contar?</p>
+						<p class="contacto-directo">Si deseas, también puedes contactarnos en los teléfonos <strong>319 2477545</strong> ó <strong>301 2424166</strong>, y en el correo <a href="mailto:encontacto@digitalcocktail.co">encontacto@digitalcocktail.co</a></p>
 					</div>
 					<div class="formulario bloque-interno col-md-6">
 						<form id="frm-contacto" role="Formulario">
@@ -76,7 +81,8 @@
 			<article id="frmTrabaja" class="container-fluid formulario-trabaja">
 				<div class="contenedor-trabaja bloque-interno row-fluid">
 					<div class="texto col-md-6">
-						<p>En Digital Cocktail siempre estamos buscando nuevos miembros talentosos para el equipo. ¿Te gustaría ayudarnos a mezclar lo mejor de la web para nuestros clientes? </p>
+						<p>Estamos constantemente en búsqueda de nuevos talentos para nuestro equipo, ¿te gustaría ayudarnos a mezclar lo mejor de la web para nuestros clientes?</p>
+						<p>Anexa tu hoja de vida y cuéntanos por qué te gustaría trabajar con nosotros.</p>
 					</div>
 					<div class="formulario col-md-6">
 						<form role="Formulario">
