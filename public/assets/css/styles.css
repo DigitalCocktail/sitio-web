@@ -80,7 +80,6 @@ section div a span.texto-accion{font-size:.6em;display:block;color:#ffd3d3}
 .conocenos figure{width:98%;margin:0 auto 20px auto;}
 .conocenos figure img{width:100%}
 section.servicios article{position:relative;z-index:1;}
-section.servicios article.estrategia-digital,section.servicios article.desarrollo-web,section.servicios article.consultoria-digital,section.servicios article.email-marketing,section.servicios article.contenidos,section.servicios article.redes-sociales,section.servicios article.seo,section.servicios article.publicidad-online,section.servicios article.analitica-web,section.servicios article.apps-nube{display:none}
 section.servicios article h1{color:#00afef}
 section.servicios article .btn-contacto{margin-bottom:30px;}
 section.servicios article .btn-contacto button.btn-success{width:70%}
