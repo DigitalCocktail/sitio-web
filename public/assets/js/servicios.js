@@ -1,14 +1,4 @@
 $(function() {
-	$(".estrategia-digital").addClass('mostrar animated fadeInDown');
-	$(".desarrollo-web").addClass('mostrar animated fadeInDown');
-	$(".consultoria-digital").addClass('mostrar animated fadeInDown');
-	$(".email-marketing").addClass('mostrar animated fadeInDown');
-	$(".contenidos").addClass('mostrar animated fadeInDown');
-	$(".redes-sociales").addClass('mostrar animated fadeInDown');
-	$(".seo").addClass('mostrar animated fadeInDown');
-	$(".publicidad-online").addClass('mostrar animated fadeInDown');
-	$(".analitica-web").addClass('mostrar animated fadeInDown');
-	$(".apps-nube").addClass('mostrar animated fadeInDown');
 	
 	$(".btnShow").click(function(){
 		$("#frm-" + h).css('display','block');
