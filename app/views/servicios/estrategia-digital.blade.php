@@ -71,26 +71,26 @@ Creamos para tu empresa estrategias de marketing digital, diseño web, redes soc
 							</li>
 							<li class="twitter visible-xs">
 								<!-- Twitter -->
-								<a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ url('/') }}/servicios#estrategia-digital" data-via="DCocktailco" data-lang="es" data-count="vertical">Twittear</a>
+								<a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ url('/') }}/servicios/estrategia-digital" data-via="DCocktailco" data-lang="es" data-count="vertical">Twittear</a>
 								<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 							</li>
 							<li class="twitter hidden-xs">
-								<a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ url('/') }}/servicios#estrategia-digital" data-via="DCocktailco" data-lang="es">Twittear</a>
+								<a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ url('/') }}/servicios/estrategia-digital" data-via="DCocktailco" data-lang="es">Twittear</a>
 								<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>							
 							</li><!-- Botón de compartir para tabletas y PC -->
 							<li class="facebook visible-xs">
 								<!-- Facebook -->		
-								<div class="fb-like" data-href="{{ url('/') }}/servicios#estrategia-digital" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div>
+								<div class="fb-like" data-href="{{ url('/') }}/servicios/estrategia-digital" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false"></div>
 							</li>
 							<li class="facebook hidden-xs">
-								<div class="fb-share-button" data-href="{{ url('/') }}/servicios#estrategia-digital" data-type="button_count"></div>		
+								<div class="fb-share-button" data-href="{{ url('/') }}/servicios/estrategia-digital" data-type="button_count"></div>		
 							</li><!-- Botón de compartir para tabletas y PC -->
 							<li class="google visible-xs">
 								<!-- Google Plus -->
-								<div class="g-plusone" data-size="tall" data-href="{{ url('/') }}/servicios#estrategia-digital"></div>
+								<div class="g-plusone" data-size="tall" data-href="{{ url('/') }}/servicios/estrategia-digital"></div>
 							</li>
 							<li class="google hidden-xs">
-								<div class="g-plusone" data-size="medium" data-href="{{ url('/') }}/servicios#estrategia-digital"></div>								
+								<div class="g-plusone" data-size="medium" data-href="{{ url('/') }}/servicios/estrategia-digital"></div>								
 							</li><!-- Botón de compartir para tabletas y PC -->
 						</ul>
 					</div><!-- Fin de Compartir -->
