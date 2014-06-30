@@ -79,6 +79,10 @@ section div a span.texto-accion{font-size:.6em;display:block;color:#ffd3d3}
 .conocenos h1{color:#00afef;margin:0 0 20px 0}
 .conocenos figure{width:98%;margin:0 auto 20px auto;}
 .conocenos figure img{width:100%}
+.conocenos .partners{margin-top:60px}
+.conocenos ul{padding:0;}
+.conocenos ul li{list-style:none;}
+.conocenos ul li img{width:40%}
 section.servicios article{position:relative;z-index:1;}
 section.servicios article h1{color:#00afef}
 section.servicios article .btn-contacto{margin-bottom:30px;}
@@ -92,6 +96,10 @@ section.servicios article .compartir ul{margin:0;padding:0;list-style:none;}
 section.servicios article .compartir ul li{display:inline-block;margin:0 15px;vertical-align:top;}
 section.servicios article .compartir ul li.visible-xs{display:inline-block !important}
 section.servicios article .compartir p{margin-bottom:30px}
+section.servicios article .partners{margin-top:60px}
+section.servicios article ul{padding:0;}
+section.servicios article ul li{list-style:none;}
+section.servicios article ul li img{width:40%}
 .capa-opacidad{width:100%;height:100%;background:rgba(0,0,0,0.75);position:fixed;top:0;z-index:11;display:none}
 .btn-cerrar a{background-color:#00afef;text-indent:1.31px;display:inline-block;color:#fff;font-family:Arial;font-size:45px;font-weight:bold;font-style:normal;height:90px;line-height:72px;width:81px;text-decoration:none;text-align:center;position:fixed;left:0;top:60%;z-index:14;}
 .btn-cerrar a span{font-size:.4em;display:block;margin-top:-41px;font-weight:normal}
@@ -242,6 +250,10 @@ section div a.btn-success span.texto-accion{font-size:.8em}
 .conocenos h1{margin:0}
 .conocenos figure{width:50%;margin:0 auto 0 auto}
 .conocenos .btn-preparamos{margin-bottom:100px}
+.conocenos .partners{margin-bottom:15px;overflow:auto;}
+.conocenos .partners ul{margin-top:15px;}
+.conocenos .partners ul li img{width:100%}
+.conocenos .partners{margin-top:30px}
 section.servicios article h1,section.servicios article h2,section.servicios article p{text-align:left}
 section.servicios article .btn-contacto button.btn-success{width:35%}
 section.servicios article figure{margin-right:0;margin-left:0}

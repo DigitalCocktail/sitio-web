@@ -35,12 +35,13 @@ Creamos estrategias digitales pensadas para tu crecimiento empresarial, brindamo
 			<p>En Digital Cocktail mezclamos lo mejor de la web para brindarte soluciones profesionales de alta calidad a precios asequibles. Por medio de la investigación, planeación, ejecución y acompañamiento creamos estrategias digitales pensadas para tu crecimiento empresarial.</p>
 
 			<p>Tenemos muchas cosas para ofrecerte, bienvenido a nuestro espacio.</p>
-			<h2>Somos partners de</h2>
-			<ul class="row-fluid">
-				<li class="col-sm-3">{{ HTML::image("assets/images/google-apps-reseller.jpg", "Conoce a Digital Cocktail") }}</li>
-				<li class="col-sm-3">{{ HTML::image("assets/images/google-apps-reseller.jpg", "Conoce a Digital Cocktail") }}</li>
-				<li class="col-sm-3">{{ HTML::image("assets/images/google-apps-reseller.jpg", "Conoce a Digital Cocktail") }}</li>
-			</ul>
+			<div class="partners">
+				<h2>Somos partners de</h2>
+				<ul class="row-fluid">
+					<li class="col-sm-4"><a href="http://www.google.com/intx/es-419/enterprise/apps/business/" title="Google Apps para negocios" target="_blank">{{ HTML::image("assets/images/google-apps-reseller.jpg", "Conoce a Digital Cocktail") }}</a></li>
+					<li class="col-sm-4"><a href="https://company.podio.com/about" title="Podio" target="_blank">{{ HTML::image("assets/images/podio-partners.jpg", "Conoce a Digital Cocktail") }}</a></li>
+				</ul>
+			</div>
 			<div class="bloque btn-preparamos">
 				<a href="{{ url('/servicios/estrategia-digital') }}" class="btn-success text-center">
 					<span class="accion"> ¿Qué te preparamos?</span>

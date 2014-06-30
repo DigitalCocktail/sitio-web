@@ -23,6 +23,13 @@ Te ayudamos a gestionar tus proyectos con servicios en la nube que te facilitar�
 						<p>Lo importante no es solo lo que va por fuera. Detrás de una gran estrategia hay un grupo de servicios en la nube que te facilita todo, desde la gestión de tus proyectos, hasta el manejo de las relaciones con tus clientes; además, podrás acceder a todo desde cualquier lugar a través de Internet.</p>
 						<p>¡Encontremos juntos soluciones a tus necesidades! </p>
 					</div>
+					<!-- <div class="partners">
+						<h2>Somos partners de</h2>
+						<ul class="row-fluid">
+							<li class="col-sm-4">{{ HTML::image("assets/images/google-apps-reseller.jpg", "Conoce a Digital Cocktail") }}</li>
+							<li class="col-sm-4">{{ HTML::image("assets/images/podio-partners.jpg", "Conoce a Digital Cocktail") }}</li>
+						</ul>
+					</div> -->
 					<div class="btn-contacto bloque-interno">
 						<button type="button" class="btn-success btnShow">Me interesa</button>
 						<form id="frm-apps-nube" role="Formulario">
