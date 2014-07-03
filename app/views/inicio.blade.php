@@ -9,7 +9,7 @@ Digital Cocktail, mezclamos lo mejor de la web
 @stop
 
 @section('description')
-Agencia digital que crea estrategias enfocadas al marketing digital, diseño web, redes sociales, email marketing, SEO, publicidad online, contenidos y analíticas web.
+Nos encargamos de crear mezclas ideales de servicios para brindarte soluciones y herramientas simples en la web para tu empresa.
 @stop
 
 @section("content")
