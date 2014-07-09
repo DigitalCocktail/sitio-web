@@ -214,24 +214,4 @@ class ContactoController extends BaseController {
 		File::append(storage_path() . "/logs/todo.csv", $data['message'] . "\n");
 	}
 
-	public function createItemPodio($data){
-
-		$client_id = 'lista-blog';
-		$client_secret = 'e6DYbhCb22kkcl9FWVmwuQO6rlq4OyK94HM4q2Gb5I6drdqTrdfQ265XqKyPQLOg';
-		// Setup client
-		Podio::setup($client_id, $client_secret);
-
-		Podio::setup($client_id, $client_secret);
-		// Obtain access token
-		$username = 'belmar.santanilla@digitalcocktail.co';
-		$password = 'CNBDGFAA880519$';
-		Podio::authenticate('password', array('username' => $username, 'password' => $password));
-		
-		PodioItem::create(8264446, array('fields' => array(
-			"nombre" => $data['nombre'],
-			"correo-electronico" => "belmar@digitalcocktail.co",
-			"estado" => 1
-		)));		
-	}
-
 }
