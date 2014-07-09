@@ -16,6 +16,11 @@
 	<article class="post-completo col-sm-9 col-sm-push-3">
 		<header class="articulo-header">
 			<h1>{{ $post->title }}</h1>
+			<?php 
+			$str = $post->content; 
+			$str = str_replace ( "![file](", "", $str);
+			$str = str_replace ( ")", "", $str);
+			?>
 		</header>
 		<div class="compartir">
 			<ul>
@@ -118,6 +123,12 @@
 			<div id="success" class="oculto">					
 				<h2>Envío Exitoso</h2>
 			</div>			
+		</div>
+		<div>
+		<?php foreach ($p as $k) {
+			var_dump($k->title);
+		}
+		?>
 		</div>
 	</aside><!-- Fin del aside -->
 	<script type="text/javascript">
