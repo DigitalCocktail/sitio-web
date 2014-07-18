@@ -16,11 +16,6 @@
 	<article class="post-completo col-sm-9 col-sm-push-3">
 		<header class="articulo-header">
 			<h1>{{ $post->title }}</h1>
-			<?php 
-			$str = $post->content; 
-			$str = str_replace ( "![file](", "", $str);
-			$str = str_replace ( ")", "", $str);
-			?>
 		</header>
 		<div class="compartir">
 			<ul>
@@ -125,10 +120,14 @@
 			</div>			
 		</div>
 		<div>
-		<?php foreach ($p as $k) {
-			var_dump($k->title);
-		}
-		?>
+		@foreach ($articulosRelacionados as $articulo)
+			@if($articulo->id != $post->id)
+				<a href="{{ url('blog/'.$post->slug) }}">
+					<img src="{{ Util::get_src_first_image($articulo->parsed_content) }}" class="img-responsive">
+				</a>
+				<h6><a href="{{ url('blog/'.$post->slug) }}">{{ $articulo->title }}</a></h6>
+			@endif
+		@endforeach
 		</div>
 	</aside><!-- Fin del aside -->
 	<script type="text/javascript">

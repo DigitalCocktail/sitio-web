@@ -37,4 +37,16 @@ class Util {
 		}		
 		return $servicio;
 	}
+
+	public static function get_src_first_image($content){
+	    preg_match('/<img.+src=[\'"](?P<src>.+)[\'"].*>/i', $content, $image);
+	    if(empty($image)){
+	        return null;
+	    }
+	    else{
+			preg_match( '@src="([^"]+)"@' , $image[0], $match );
+			$src = array_pop($match);    	
+	        return $src;
+	    }
+	}	
 }

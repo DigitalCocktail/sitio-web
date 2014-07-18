@@ -21,9 +21,7 @@
 		@endforeach
 
 		{{ $posts->links() }}
-		<div class="ver-mas-blog">
-			<a href="#" class="btn-ver-mas-blog btn-info">Ver más articulos</a>
-		</div><!-- Fin botón Ver más artículos -->
+
 	</section>
 	<aside class="aside-blog col-sm-3 col-sm-pull-9">
 		<div class="buscador-aside bloque-interno">

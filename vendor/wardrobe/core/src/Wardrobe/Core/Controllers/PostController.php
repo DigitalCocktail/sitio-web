@@ -80,8 +80,15 @@ class PostController extends BaseController {
 		{
 			return App::abort(404, 'Page not found');
 		}
-
-		return View::make($this->theme.'.post', compact('post'))->with(array('active'=>4,'p'=>$this->posts->activeByTag('Desarrollo Web',2)));
+		$tags = $post->tags;
+		foreach ($tags as $t) {
+			if ($t->tag != ""){
+				$tag = $t->tag;
+				break;
+			}
+		}
+		$articulosRelacionados = $this->posts->activeByTag($tag, 5);
+		return View::make($this->theme.'.post', compact('post'))->with(array('active'=>4, 'articulosRelacionados'=>$articulosRelacionados));
 	}
 
 	/**
