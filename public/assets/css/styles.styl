@@ -615,9 +615,6 @@ section
 							background #0092c7
 							text-decoration none
 				.suscribete-aside
-					padding-bottom: 30px
-					border-bottom: 2px solid #a4a4a4
-					margin 0 0 30px 0
 					form
 						padding 0
 						.campo-correo
@@ -635,17 +632,6 @@ section
 								border: none;
 								background: #00afef url("../images/send-icon.png") no-repeat center;
 								background-size: contain;
-				.relacionados-aside
-					h6
-						font-size: 18px
-				.art-relacionado
-					padding-bottom: 15px;
-					border-bottom: 1px solid #a4a4a4;
-					margin: 0 0 30px 0;
-					&:hover
-						h6
-							a 
-								text-decoration underline
 		article
 			&.entradilla-post
 				header
@@ -706,6 +692,17 @@ section
 				img
 					width 100%
 					margin 15px 0
+				.relacionados-aside
+					h6
+						font-size: 18px
+				.art-relacionado
+					padding-bottom: 15px;
+					border-bottom: 1px solid #a4a4a4;
+					margin: 0 0 30px 0;
+					&:hover
+						h6
+							a 
+								text-decoration underline
 				footer
 					position absolute
 					top 30px
@@ -1122,6 +1119,10 @@ article
 							li
 								&.visible-xs
 									display none !important
+					.art-relacionado
+						border-bottom none
+					.comentarios-post
+						clear both
 								
 					footer
 						&.metadatos

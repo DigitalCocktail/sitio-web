@@ -87,15 +87,18 @@
 			@foreach ($articulosRelacionados as $articulo)
 				@if($articulo->id != $post->id)
 				<div class="art-relacionado col-sm-4">
-					<a href="{{ url('blog/'.$post->slug) }}">
+					<a href="{{ url('blog/'.$articulo->slug) }}">
 						<img src="{{ Util::get_src_first_image($articulo->parsed_content) }}" class="img-responsive">
 					</a>
 					<h6><a href="{{ url('blog/'.$post->slug) }}">{{ $articulo->title }}</a></h6>
 				</div>
 				@endif
 			@endforeach
-		</div>		
-		<div class="fb-comments" data-href="{{ url('/').'/blog/'.$post->slug }}" data-numposts="10" data-colorscheme="light"></div>			
+		</div>
+		<div class="comentarios-post">
+			<h3>¿Cómo te pareció este artículo?</h3>
+			<div class="fb-comments" data-href="{{ url('/').'/blog/'.$post->slug }}" data-numposts="10" data-colorscheme="light"></div>	
+		</div>				
 	</article>
 	<aside class="aside-blog aside-post col-sm-3 col-sm-pull-9">
 		
