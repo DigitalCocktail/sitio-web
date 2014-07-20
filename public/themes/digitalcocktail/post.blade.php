@@ -119,15 +119,18 @@
 				<h2>Envío Exitoso</h2>
 			</div>			
 		</div>
-		<div>
-		@foreach ($articulosRelacionados as $articulo)
-			@if($articulo->id != $post->id)
-				<a href="{{ url('blog/'.$post->slug) }}">
-					<img src="{{ Util::get_src_first_image($articulo->parsed_content) }}" class="img-responsive">
-				</a>
-				<h6><a href="{{ url('blog/'.$post->slug) }}">{{ $articulo->title }}</a></h6>
-			@endif
-		@endforeach
+		<div class="relacionados-aside">
+			<h3>Artítculos relacionados</h3>
+			@foreach ($articulosRelacionados as $articulo)
+				@if($articulo->id != $post->id)
+				<div class="art-relacionado">
+					<a href="{{ url('blog/'.$post->slug) }}">
+						<img src="{{ Util::get_src_first_image($articulo->parsed_content) }}" class="img-responsive">
+					</a>
+					<h6><a href="{{ url('blog/'.$post->slug) }}">{{ $articulo->title }}</a></h6>
+				</div>
+				@endif
+			@endforeach
 		</div>
 	</aside><!-- Fin del aside -->
 	<script type="text/javascript">

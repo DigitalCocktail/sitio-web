@@ -155,13 +155,18 @@ section.blog aside.aside-blog .buscador-aside{display:none}
 section.blog aside.aside-blog .etiquetas-aside{padding-bottom:18px;border-bottom:2px solid #a4a4a4;margin:0 0 30px 0;}
 section.blog aside.aside-blog .etiquetas-aside a.etiqueta{padding:6px 12px;display:inline-block;background:#00afef;color:#fff;margin-right:6px;margin-bottom:12px}
 section.blog aside.aside-blog .etiquetas-aside a:hover{background:#0092c7;text-decoration:none}
+section.blog aside.aside-blog .suscribete-aside{padding-bottom:30px;border-bottom:2px solid #a4a4a4;margin:0 0 30px 0;}
 section.blog aside.aside-blog .suscribete-aside form{padding:0;}
 section.blog aside.aside-blog .suscribete-aside form .campo-correo{margin:18px 0 0 0;}
 section.blog aside.aside-blog .suscribete-aside form .campo-correo input.ingrese-correo{width:80%;border:none;margin:0}
 section.blog aside.aside-blog .suscribete-aside form .campo-correo button{width:17%;height:52px;margin:0 0 0 -5px;vertical-align:top;border:none;background:#00afef url("../images/send-icon.png") no-repeat center;background-size:contain}
+section.blog aside.aside-blog .relacionados-aside h6{font-size:18px}
+section.blog aside.aside-blog .art-relacionado{padding-bottom:15px;border-bottom:1px solid #a4a4a4;margin:0 0 30px 0;}
+section.blog aside.aside-blog .art-relacionado:hover h6 a{text-decoration:underline}
 section.blog article.entradilla-post header h1{line-height:1.3em}
 section.blog article.entradilla-post figure{width:100%}
 section.blog article.entradilla-post p{line-height:1.6em}
+section.blog article.entradilla-post img{width:100%;margin:15px 0}
 section.blog article.entradilla-post footer.metadatos{padding:0;overflow:auto;margin-bottom:60px;color:#767676;}
 section.blog article.entradilla-post footer.metadatos .autor,section.blog article.entradilla-post footer.metadatos .comentarios{display:none}
 section.blog article.entradilla-post footer.metadatos .fecha .dia{font-size:3em;display:block;float:left}
@@ -173,6 +178,7 @@ section.blog article.post-completo{padding:130px 18px 0 18px;position:relative;}
 section.blog article.post-completo header h1{color:#00afef;line-height:1.3em}
 section.blog article.post-completo p{line-height:1.6em;}
 section.blog article.post-completo p:first-of-type{font-size:1.2em;font-style:italic;padding:0 0 0 18px;border-left:#d9d9d9 8px solid;line-height:1.85em}
+section.blog article.post-completo img{width:100%;margin:15px 0}
 section.blog article.post-completo footer{position:absolute;top:30px;width:93%;color:#767676;}
 section.blog article.post-completo footer.metadatos{padding:0;overflow:auto;margin-bottom:60px;}
 section.blog article.post-completo footer.metadatos .leer-mas-articulos,section.blog article.post-completo footer.metadatos .comentarios{display:none}
