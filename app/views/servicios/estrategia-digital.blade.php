@@ -6,6 +6,16 @@ Estrategia digital - Digital Cocktail
 @section('description')
 Creamos para tu empresa estrategias de marketing digital, diseño web, redes sociales, email marketing, SEO, publicidad online, contenidos y analíticas web.
 @stop
+
+@section('twitter-card')
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@dCocktailCo">
+	<meta name="twitter:creator" content="@dCocktailCo">
+	<meta name="twitter:title" content="Estrategia digital - Digital Cocktail">
+	<meta name="twitter:description" content="Creamos para tu empresa estrategias de marketing digital, diseño web, redes sociales, email marketing, SEO, publicidad online, contenidos y analíticas web.">
+	<meta name="twitter:image:src" content="{{url('/assets/images/estrategia-digital-cocktail.jpg')}}">
+@stop
+
 @section("content")
 	<section class="servicios text-center container">
 		<article class="estrategia-digital centrar-vertical">

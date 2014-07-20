@@ -7,6 +7,15 @@ SEO (Posicionamiento en Buscadores) - Digital Cocktail
 Optimizamos los contenidos de tu sitio, para que mejores tu posicionamiento web en buscadores como Google, Yahoo o Bing; tendrás un buen SEO para tu empresa.
 @stop
 
+@section('twitter-card')
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@dCocktailCo">
+	<meta name="twitter:creator" content="@dCocktailCo">
+	<meta name="twitter:title" content="SEO (Posicionamiento en Buscadores) - Digital Cocktail">
+	<meta name="twitter:description" content="Optimizamos los contenidos de tu sitio, para que mejores tu posicionamiento web en buscadores como Google, Yahoo o Bing; tendrás un buen SEO para tu empresa.">
+	<meta name="twitter:image:src" content="{{url('/assets/images/seo-digital-cocktail.jpg')}}">
+@stop
+
 @section("content")
 	<section class="servicios text-center container">
 		<article class="seo centrar-vertical">

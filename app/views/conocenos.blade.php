@@ -11,6 +11,16 @@ Digital Cocktail, agencia que ofrece soluciones digitales
 @section('description')
 Creamos estrategias digitales pensadas para tu crecimiento empresarial, brindamos soluciones web profesionales de alta calidad a precios asequibles.
 @stop
+
+@section('twitter-card')
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@dCocktailCo">
+	<meta name="twitter:creator" content="@dCocktailCo">
+	<meta name="twitter:title" content="Digital Cocktail, agencia que ofrece soluciones digitales">
+	<meta name="twitter:description" content="Creamos estrategias digitales pensadas para tu crecimiento empresarial, brindamos soluciones web profesionales de alta calidad a precios asequibles.">
+	<meta name="twitter:image:src" content="{{url('/assets/images/conocenos.jpg')}}">
+@stop
+
 @section("content")
 <!--
 	<div class="buscador-aside-movil bloque-interno">

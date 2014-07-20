@@ -7,6 +7,15 @@ Apps en la nube - Digital Cocktail
 Te ayudamos a gestionar tus proyectos con servicios en la nube que te facilitarán todo, podrás acceder a ellos desde cualquier lugar a través de Internet. 
 @stop
 
+@section('twitter-card')
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@dCocktailCo">
+	<meta name="twitter:creator" content="@dCocktailCo">
+	<meta name="twitter:title" content="Apps en la nube - Digital Cocktail">
+	<meta name="twitter:description" content="Te ayudamos a gestionar tus proyectos con servicios en la nube que te facilitarán todo, podrás acceder a ellos desde cualquier lugar a través de Internet.">
+	<meta name="twitter:image:src" content="{{url('/assets/images/apps-nube-digital-cocktail.jpg')}}">
+@stop
+
 @section("content")
 	<section class="servicios text-center container">
 		<article class="apps-nube centrar-vertical">

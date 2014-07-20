@@ -7,6 +7,15 @@ Publicidad online - Digital Cocktail
 Creamos campañas de publicidad en medios digitales que abrirán el camino para que mejores el retorno de inversión de tu empresa.
 @stop
 
+@section('twitter-card')
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@dCocktailCo">
+	<meta name="twitter:creator" content="@dCocktailCo">
+	<meta name="twitter:title" content="Publicidad online - Digital Cocktail">
+	<meta name="twitter:description" content="Creamos campañas de publicidad en medios digitales que abrirán el camino para que mejores el retorno de inversión de tu empresa.">
+	<meta name="twitter:image:src" content="{{url('/assets/images/publicidad-online-digital-cocktail.jpg')}}">
+@stop
+
 @section("content")
 	<section class="servicios text-center container">
 		<article class="publicidad-online centrar-vertical">

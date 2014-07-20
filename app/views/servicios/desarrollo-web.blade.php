@@ -6,6 +6,16 @@ Desarrollo web - Digital Cocktail
 @section('description')
 Desarrollamos tu sitio con un diseño web impecable, eficaz y organizado; adaptado para que sea visto desde cualquier dispositivo móvil.
 @stop
+
+@section('twitter-card')
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@dCocktailCo">
+	<meta name="twitter:creator" content="@dCocktailCo">
+	<meta name="twitter:title" content="Desarrollo web - Digital Cocktail">
+	<meta name="twitter:description" content="Desarrollamos tu sitio con un diseño web impecable, eficaz y organizado; adaptado para que sea visto desde cualquier dispositivo móvil.">
+	<meta name="twitter:image:src" content="{{url('/assets/images/desarrollo-web-digital-cocktail.jpg')}}">
+@stop
+
 @section("content")
 	<section class="servicios text-center container">
 		<article class="desarrollo-web centrar-vertical">

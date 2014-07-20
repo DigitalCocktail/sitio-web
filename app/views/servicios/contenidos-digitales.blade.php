@@ -7,6 +7,15 @@ Contenidos digitales - Digital Cocktail
 Diseñamos y creamos tus contenidos digitales como videos, fotografías, textos, infografías de alta calidad y pensados para Internet.
 @stop
 
+@section('twitter-card')
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@dCocktailCo">
+	<meta name="twitter:creator" content="@dCocktailCo">
+	<meta name="twitter:title" content="Contenidos digitales - Digital Cocktail">
+	<meta name="twitter:description" content="Diseñamos y creamos tus contenidos digitales como videos, fotografías, textos, infografías de alta calidad y pensados para Internet.">
+	<meta name="twitter:image:src" content="{{url('/assets/images/contenidos-digital-cocktail.jpg')}}">
+@stop
+
 @section("content")
 	<section class="servicios text-center container">
 		<article class="contenidos centrar-vertical">

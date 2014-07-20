@@ -6,6 +6,16 @@ Email marketing - Digital Cocktail
 @section('description')
 Te ayudamos a crear campañas de envío de correos electrónicos masivos a todos tus contactos para que refuerces tus comunicaciones y estrategias de mercadeo digital.
 @stop
+
+@section('twitter-card')
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@dCocktailCo">
+	<meta name="twitter:creator" content="@dCocktailCo">
+	<meta name="twitter:title" content="Email marketing - Digital Cocktail">
+	<meta name="twitter:description" content="Te ayudamos a crear campañas de envío de correos electrónicos masivos a todos tus contactos para que refuerces tus comunicaciones y estrategias de mercadeo digital.">
+	<meta name="twitter:image:src" content="{{url('/assets/images/email-marketing-digital-cocktail.jpg')}}">
+@stop
+
 @section("content")
 	<section class="servicios text-center container">
 		<article class="email-marketing centrar-vertical">

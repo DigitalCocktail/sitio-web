@@ -8,6 +8,15 @@
 {{ $post->title }}
 @stop
 
+@section('twitter-card')
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@dCocktailCo">
+	<meta name="twitter:creator" content="@dCocktailCo">
+	<meta name="twitter:title" content="{{ $post->title }}">
+	<meta name="twitter:description" content="{{ trim(substr($post->content, 0, 156)) }}">
+	<meta name="twitter:image:src" content="{{ Util::get_src_first_image($post->parsed_content) }}">
+@stop
+
 @section('description')
 {{ trim(substr($post->content, 0, 156)) }}
 @stop

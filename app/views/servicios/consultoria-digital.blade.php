@@ -6,6 +6,16 @@ Consultoría digital - Digital Cocktail
 @section('description')
 Estudiamos a fondo las necesidades de tu empresa y encontramos soluciones digitales para que incursiones en Internet de manera estratégica.
 @stop
+
+@section('twitter-card')
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@dCocktailCo">
+	<meta name="twitter:creator" content="@dCocktailCo">
+	<meta name="twitter:title" content="Consultoría digital - Digital Cocktail">
+	<meta name="twitter:description" content="Estudiamos a fondo las necesidades de tu empresa y encontramos soluciones digitales para que incursiones en Internet de manera estratégica.">
+	<meta name="twitter:image:src" content="{{url('/assets/images/consultoria-digital-cocktail.jpg')}}">
+@stop
+
 @section("content")
 	<section class="servicios text-center container">
 		<article class="consultoria-digital centrar-vertical">

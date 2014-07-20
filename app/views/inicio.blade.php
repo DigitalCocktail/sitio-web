@@ -12,6 +12,15 @@ Digital Cocktail, mezclamos lo mejor de la web
 Nos encargamos de crear mezclas ideales de servicios para brindarte soluciones y herramientas simples en la web para tu empresa.
 @stop
 
+@section('twitter-card')
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@dCocktailCo">
+	<meta name="twitter:creator" content="@dCocktailCo">
+	<meta name="twitter:title" content="Digital Cocktail, mezclamos lo mejor de la web">
+	<meta name="twitter:description" content="Nos encargamos de crear mezclas ideales de servicios para brindarte soluciones y herramientas simples en la web para tu empresa.">
+	<meta name="twitter:image:src" content="{{url('/assets/images/bg-poster.jpg')}}">
+@stop
+
 @section("content")
 	<div class="bg-990 visible-sm"></div>
 	<video id="video_background" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" poster="{{url('/assets/images/bg-poster.jpg')}}"> 

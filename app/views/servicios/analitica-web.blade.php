@@ -7,6 +7,15 @@ Analítica web - Digital Cocktail
 Con la medición y análisis web de tu empresa, sacarás el potencial a tus redes sociales, sitio web y publicidad online. Hacemos tu estrategia digital efectiva.
 @stop
 
+@section('twitter-card')
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@dCocktailCo">
+	<meta name="twitter:creator" content="@dCocktailCo">
+	<meta name="twitter:title" content="Analítica web - Digital Cocktail">
+	<meta name="twitter:description" content="Con la medición y análisis web de tu empresa, sacarás el potencial a tus redes sociales, sitio web y publicidad online. Hacemos tu estrategia digital efectiva.">
+	<meta name="twitter:image:src" content="{{url('/assets/images/metricas-analitica-digital-cocktail.jpg')}}">
+@stop
+
 @section("content")
 	<section class="servicios text-center container">
 		<article class="analitica-web centrar-vertical">

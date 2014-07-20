@@ -7,6 +7,15 @@ Estrategia en redes sociales - Digital Cocktail
 Las redes sociales de tu empresa son la vía más efectiva y rápida para interactuar con tu público. Creamos una estrategia que fortalezca tu presencia en Internet.
 @stop
 
+@section('twitter-card')
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@dCocktailCo">
+	<meta name="twitter:creator" content="@dCocktailCo">
+	<meta name="twitter:title" content="Estrategia en redes sociales - Digital Cocktail">
+	<meta name="twitter:description" content="Las redes sociales de tu empresa son la vía más efectiva y rápida para interactuar con tu público. Creamos una estrategia que fortalezca tu presencia en Internet.">
+	<meta name="twitter:image:src" content="{{url('/assets/images/redes-sociales-digital-cocktail.jpg')}}">
+@stop
+
 @section("content")
 	<section class="servicios text-center container">
 		<article class="redes-sociales centrar-vertical">
