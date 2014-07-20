@@ -87,7 +87,7 @@ class PostController extends BaseController {
 				break;
 			}
 		}
-		$articulosRelacionados = $this->posts->activeByTag($tag, 5);
+		$articulosRelacionados = $this->posts->activeByTag($tag, 3);
 		return View::make($this->theme.'.post', compact('post'))->with(array('active'=>4, 'articulosRelacionados'=>$articulosRelacionados));
 	}
 

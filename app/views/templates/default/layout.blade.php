@@ -72,6 +72,11 @@
 	</script>
 </head>
 <body>
+	<!-- ClickTale Top part -->
+	<script type="text/javascript">
+	var WRInitTime=(new Date()).getTime();
+	</script>
+	<!-- ClickTale end of Top part -->
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -110,6 +115,24 @@
 	@endif
 	@if($active == 5)
 	{{ HTML::script('assets/js/contacto.js') }}
-	@endif	
+	@endif
+  
+<!-- ClickTale Bottom part -->
+
+<script type='text/javascript'>
+// The ClickTale Balkan Tracking Code may be programmatically customized using hooks:
+// 
+//   function ClickTalePreRecordingHook() { /* place your customized code here */  }
+//
+// For details about ClickTale hooks, please consult the wiki page http://wiki.clicktale.com/Article/Customizing_code_version_2
+
+document.write(unescape("%3Cscript%20src='"+
+(document.location.protocol=='https:'?
+"https://cdnssl.clicktale.net/www07/ptc/fd69c414-c7f2-4814-ab27-87643beb79b4.js":
+"http://cdn.clicktale.net/www07/ptc/fd69c414-c7f2-4814-ab27-87643beb79b4.js")+"'%20type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<!-- ClickTale end of Bottom part -->
+
 </body>
 </html>

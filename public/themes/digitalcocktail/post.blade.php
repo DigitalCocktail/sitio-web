@@ -81,9 +81,20 @@
 		<div class="autor col-xs-6">
 			<span>Por {{ $post->user->first_name }} {{ $post->user->last_name }}</span> 
 		</div>
-		<div class="comentarios">5</div>
-		<div class="leer-mas-articulos col-xs-6"><a href="{{ url('blog/'.$post->slug) }}" class="btn-leer-mas">Leer más</a></div>
 		</footer>		
+		<div class="relacionados-aside row-fluid">
+			<h3>Artítculos relacionados</h3>
+			@foreach ($articulosRelacionados as $articulo)
+				@if($articulo->id != $post->id)
+				<div class="art-relacionado col-sm-4">
+					<a href="{{ url('blog/'.$post->slug) }}">
+						<img src="{{ Util::get_src_first_image($articulo->parsed_content) }}" class="img-responsive">
+					</a>
+					<h6><a href="{{ url('blog/'.$post->slug) }}">{{ $articulo->title }}</a></h6>
+				</div>
+				@endif
+			@endforeach
+		</div>		
 		<div class="fb-comments" data-href="{{ url('/').'/blog/'.$post->slug }}" data-numposts="10" data-colorscheme="light"></div>			
 	</article>
 	<aside class="aside-blog aside-post col-sm-3 col-sm-pull-9">
@@ -118,19 +129,6 @@
 			<div id="success" class="oculto">					
 				<h2>Envío Exitoso</h2>
 			</div>			
-		</div>
-		<div class="relacionados-aside">
-			<h3>Artítculos relacionados</h3>
-			@foreach ($articulosRelacionados as $articulo)
-				@if($articulo->id != $post->id)
-				<div class="art-relacionado">
-					<a href="{{ url('blog/'.$post->slug) }}">
-						<img src="{{ Util::get_src_first_image($articulo->parsed_content) }}" class="img-responsive">
-					</a>
-					<h6><a href="{{ url('blog/'.$post->slug) }}">{{ $articulo->title }}</a></h6>
-				</div>
-				@endif
-			@endforeach
 		</div>
 	</aside><!-- Fin del aside -->
 	<script type="text/javascript">
