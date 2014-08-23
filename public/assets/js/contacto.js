@@ -85,6 +85,7 @@ $(function() {
 			$email.removeClass("has-error");
 		}	
 		if(error == 0){
+			ga('send', 'event','Formularios','Enviado','Contacto',1);
 			cargando('#frm-contacto');
 			$.ajax({
 				type: "POST",

@@ -36,6 +36,7 @@
 			$email.removeClass("has-error");
 		}	
 		if(error == 0){
+			ga('send', 'event','Formularios','Enviado','Suscrito al Boletin',1);
 			$.ajax({
 				type: "POST",
 				dataType: 'json',

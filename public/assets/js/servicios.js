@@ -1,4 +1,4 @@
-$(function() {	
+$(function() {		
 	$(".estrategia-digital").addClass('mostrar animated fadeInDown');
 	$(".desarrollo-web").addClass('mostrar animated fadeInDown');
 	$(".consultoria-digital").addClass('mostrar animated fadeInDown');
@@ -14,6 +14,7 @@ $(function() {
 		$("#frm-" + h).css('display','block');
 		$("html, body").animate({ scrollTop: $("#frm-" + h).offset().top }, 1000);
 		$("#frm-" + h).addClass('animated tada');
+		ga('send', 'event','Botones','Click','Interesado en Servicio', 1);
 	});
 
 	$(".chkSuscripcion").change(function(){
@@ -62,6 +63,7 @@ $(function() {
 			$email.removeClass("has-error");
 		}		
 		if(error == 0){
+			ga('send', 'event','Formularios','Enviado','Contacto el Servicio Estrategia Digital',1);
 			cargando('#ed', '#frm-estrategia-digital');
 			$.ajax({
 				type: "POST",
@@ -69,15 +71,7 @@ $(function() {
 				data: datos,
 				url: rutaContactarServicio,
 				success: function(result){
-					success('#ed');
-					trak.io.identify($email.val(), {
-						name: $nombre.val(),
-						email: $email.val(),
-						phone: $telefono.val(),
-						eventos: eventos,
-						promociones: promociones,
-						blog: blog
-					});
+					success('#ed');					
 				}
 			});
 		}
@@ -126,6 +120,7 @@ $(function() {
 			$email.removeClass("has-error");
 		}		
 		if(error == 0){
+			ga('send', 'event','Formularios','Enviado','Contacto el Servicio Desarrollo Web',1);
 			cargando('#dw', '#frm-desarrollo-web');
 			$.ajax({
 				type: "POST",
@@ -190,6 +185,7 @@ $(function() {
 			$email.removeClass("has-error");
 		}		
 		if(error == 0){
+			ga('send', 'event','Formularios','Enviado','Contacto el Servicio Consultoria Digital',1);
 			cargando('#cd', '#frm-consultoria-digital');
 			$.ajax({
 				type: "POST",
@@ -254,6 +250,7 @@ $(function() {
 			$email.removeClass("has-error");
 		}		
 		if(error == 0){
+			ga('send', 'event','Formularios','Enviado','Contacto el Servicio Email Marketing',1);
 			cargando('#em', '#frm-email-marketing');
 			$.ajax({
 				type: "POST",
@@ -318,6 +315,7 @@ $(function() {
 			$email.removeClass("has-error");
 		}		
 		if(error == 0){
+			ga('send', 'event','Formularios','Enviado','Contacto el Servicio Contenidos Digitales',1);
 			cargando('#co', '#frm-contenidos');
 			$.ajax({
 				type: "POST",
@@ -382,6 +380,7 @@ $(function() {
 			$email.removeClass("has-error");
 		}	
 		if(error == 0){
+			ga('send', 'event','Formularios','Enviado','Contacto el Servicio Redes Sociales',1);
 			cargando('#rs', '#frm-redes-sociales');
 			$.ajax({
 				type: "POST",
@@ -446,6 +445,7 @@ $(function() {
 			$email.removeClass("has-error");
 		}	
 		if(error == 0){
+			ga('send', 'event','Formularios','Enviado','Contacto el Servicio SEO',1);
 			cargando('#se', '#frm-seo');
 			$.ajax({
 				type: "POST",
@@ -510,6 +510,7 @@ $(function() {
 			$email.removeClass("has-error");
 		}	
 		if(error == 0){
+			ga('send', 'event','Formularios','Enviado','Contacto el Servicio Publicidad Online',1);
 			cargando('#po', '#frm-publicidad-online');
 			$.ajax({
 				type: "POST",
@@ -574,6 +575,7 @@ $(function() {
 			$email.removeClass("has-error");
 		}	
 		if(error == 0){
+			ga('send', 'event','Formularios','Enviado','Contacto el Servicio Analitica Web',1);
 			cargando('#aw', '#frm-analitica-web');
 			$.ajax({
 				type: "POST",
@@ -638,6 +640,7 @@ $(function() {
 			$email.removeClass("has-error");
 		}	
 		if(error == 0){
+			ga('send', 'event','Formularios','Enviado','Contacto el Servicio Apps en la Nube',1);
 			cargando('#an', '#frm-apps-nube');
 			$.ajax({
 				type: "POST",

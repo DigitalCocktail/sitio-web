@@ -46,10 +46,10 @@
 				</li><!-- Botón de compartir para tabletas y PC -->
 				<li class="google visible-xs">
 					<!-- Google Plus -->
-					<div class="g-plusone" data-size="tall" data-href="{{ url('/') }}/servicios#apps-nube"></div>
+					<div class="g-plusone" data-size="tall" data-href="{{ url('blog/'.$post->slug) }}"></div>
 				</li>
 				<li class="google hidden-xs">
-					<div class="g-plusone" data-size="medium" data-href="{{ url('/') }}/servicios#apps-nube"></div>						
+					<div class="g-plusone" data-size="medium" data-href="{{ url('blog/'.$post->slug) }}"></div>						
 				</li><!-- Botón de compartir para tabletas y PC -->
 			</ul>
 		</div><!-- Fin de Compartir -->		
@@ -74,10 +74,10 @@
 				</li><!-- Botón de compartir para tabletas y PC -->
 				<li class="google visible-xs">
 					<!-- Google Plus -->
-					<div class="g-plusone" data-size="tall" data-href="{{ url('/') }}/servicios#apps-nube"></div>
+					<div class="g-plusone" data-size="tall" data-href="{{ url('blog/'.$post->slug) }}"></div>
 				</li>
 				<li class="google hidden-xs">
-					<div class="g-plusone" data-size="medium" data-href="{{ url('/') }}/servicios#apps-nube"></div>						
+					<div class="g-plusone" data-size="medium" data-href="{{ url('blog/'.$post->slug) }}"></div>						
 				</li><!-- Botón de compartir para tabletas y PC -->
 			</ul>
 		</div><!-- Fin de Compartir -->		

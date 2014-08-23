@@ -66,11 +66,7 @@
 	    -webkit-transform: rotate(-360deg);
 	  }
 	}
-	</style>	
-	<script type="text/javascript">
-	var trak=trak||[];trak.io=trak.io||{};trak.io.load=function(e){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src=("https:"===document.location.protocol?"https://":"http://")+"d29p64779x43zo.cloudfront.net/v1/trak.io.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);var r=function(e){return function(){trak.push([e].concat(Array.prototype.slice.call(arguments,0)))}},i=["initialize","identify","track","alias","channel","source","host","protocol","page_view"];for(var s=0;s<i.length;s++) trak.io[i[s]]=r(i[s]);trak.io.initialize.apply(trak.io,arguments)};
-	trak.io.load('b6ee014113349372a31f59c76f91c506ec1539c8');	
-	</script>
+	</style>
 </head>
 <body>
 	<!-- ClickTale Top part -->
