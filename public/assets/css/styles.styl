@@ -586,6 +586,8 @@ section
 
 section
 	&.blog
+		.title
+			margin 18px
 		.buscador-aside-movil
 			padding 0
 		aside
@@ -729,14 +731,15 @@ section
 							margin-top 23px
 				.compartir
 					margin 18px 0
+					text-align center
 					ul
 						margin 0px
 						padding 0
 						list-style none
 						li
+							margin 0 15px 
 							display inline-block
-							&.facebook
-								margin-right 40px
+							vertical-align top
 							&.visible-xs
 								display inline-block !important
 					p 
@@ -1115,8 +1118,12 @@ article
 					header
 						background: #fff
 					.compartir
+						text-align left
 						ul
 							li
+								vertical-align top
+								&.twitter
+									width 95px
 								&.visible-xs
 									display none !important
 					.art-relacionado
